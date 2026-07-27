@@ -1,0 +1,5702 @@
+{
+  "mawile-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "drifloon-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "dustox-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "corsola-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "plusle-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "eevee-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "ariados-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "volbeat-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "finneon-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "nidorino-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "aipom-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "magby-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "squirtle-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "vibrava-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "beedrill-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "tentacool-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "cubone-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "shedinja-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "remoraid-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "bagon-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "chingling-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "chimchar-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "duskull-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "corphish-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "mime-jr-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "phanpy-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "dratini-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "krabby-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "clamperl-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "buizel-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "gible-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "munchlax-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "burmy-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "kricketot-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "happiny-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "minun-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "magnemite-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "sableye-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "azumarill-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "castform-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "ledian-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "bonsly-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "anorith-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "parasect-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "growlithe-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "houndour-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "oddish-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "skorupi-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "bulbasaur-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "doduo-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "roselia-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "riolu-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "turtwig-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "shinx-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "natu-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "charmander-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "cherubi-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "treecko-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "cacnea-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "kricketune-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "seel-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "torchic-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "haunter-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "glameow-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "pikachu-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "clefairy-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "porygon-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "dunsparce-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "beautifly-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "lileep-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "flaaffy-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "hippopotas-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "illumise-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "shieldon-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "shellos-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "nidorina-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "nuzleaf-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "delibird-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "graveler-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "voltorb-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "geodude-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "machop-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "snubbull-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "grimer-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "cyndaquil-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "piplup-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "venonat-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "luvdisc-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "vulpix-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "bidoof-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "numel-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "budew-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "combee-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "togetic-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "spinda-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "murkrow-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "pachirisu-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "chatot-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "lombre-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "ponyta-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "loudred-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "koffing-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "skiploom-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "snover-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "nosepass-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "staryu-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "snorunt-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "chikorita-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "stunky-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "psyduck-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "spoink-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "drowzee-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "chinchou-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "butterfree-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "wailmer-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "mantyke-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "buneary-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "totodile-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "exeggcute-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "pidgeotto-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "carvanha-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "mudkip-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "weepinbell-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "smoochum-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "shuppet-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "starly-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "gloom-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "onix-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "lickitung-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "bronzor-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "croagunk-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "teddiursa-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "sandshrew-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "cranidos-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "kabuto-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "baltoy-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "swablu-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "yanma-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "delcatty-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "rhyhorn-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "elekid-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "larvitar-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "wobbuffet-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "slowpoke-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "goldeen-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "omanyte-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "staravia-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "farfetchd-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "aron-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "poliwhirl-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
+    "iv": 0
+  },
+  "pelipper-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "mantine-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "cloyster-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "bayleef-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "sandslash-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "ninjask-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "fearow-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "sudowoodo-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "hitmonchan-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "sealeo-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "seaking-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "luxio-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "carnivine-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "dragonair-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "pupitar-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "swellow-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "metang-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "misdreavus-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "magmar-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "primeape-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "seviper-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "furret-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "cherrim-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "kingler-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "qwilfish-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "sunflora-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "torkoal-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "quilava-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "ivysaur-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "zangoose-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "chimecho-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "kadabra-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "chansey-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "clefable-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "venomoth-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "lunatone-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "gorebyss-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "magcargo-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "pidgeot-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "huntail-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "sharpedo-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "piloswine-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "omastar-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "golbat-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "hitmontop-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "hitmonlee-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "arbok-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "noctowl-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "cacturne-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "sneasel-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "persian-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "xatu-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "prinplup-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "jumpluff-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "shelgon-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "banette-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "dusclops-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "charmeleon-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "lumineon-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "wormadam-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "raticate-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "crawdaunt-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "magneton-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "scyther-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "stantler-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "seadra-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "swalot-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "relicanth-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "bellossom-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "octillery-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "dodrio-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "rotom-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "lairon-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "mightyena-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "machoke-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "grotle-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "croconaw-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "wartortle-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "kecleon-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "camerupt-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "gabite-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "tropius-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "grumpig-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "purugly-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "vigoroth-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "electabuzz-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "mothim-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "kabutops-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "marshtomp-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "wigglytuff-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "linoone-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "solrock-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "grovyle-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "gligar-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "girafarig-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "tangela-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "bibarel-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "combusken-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "monferno-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "masquerain-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 2/ IV4/ NFE Set 1",
+    "iv": 4
+  },
+  "magneton-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "gorebyss-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "scyther-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "seadra-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "primeape-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "bellossom-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "crawdaunt-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "xatu-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "relicanth-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "lunatone-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "gabite-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "sealeo-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "cacturne-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "lumineon-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "sneasel-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "lairon-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "torkoal-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "seviper-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "zangoose-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "masquerain-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "croconaw-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "hitmonchan-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "mightyena-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "golbat-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "marshtomp-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "shelgon-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "grovyle-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "quilava-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "bibarel-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "combusken-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "dusclops-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "raticate-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "kabutops-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "dodrio-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "fearow-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "swalot-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "cloyster-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "sharpedo-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "piloswine-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "metang-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "tropius-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "qwilfish-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "kingler-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "grumpig-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "hitmonlee-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "tangela-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "jumpluff-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "noctowl-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "clefable-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "wormadam-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "machoke-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "sudowoodo-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "banette-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "cherrim-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "monferno-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "prinplup-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "luxio-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "dragonair-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "sunflora-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "kecleon-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "charmeleon-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "electabuzz-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "mantine-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "swellow-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "furret-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "venomoth-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "sandslash-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "misdreavus-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "pidgeot-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "huntail-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "ninjask-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "solrock-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "stantler-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "mothim-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "seaking-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "hitmontop-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "linoone-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "arbok-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "octillery-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "wigglytuff-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "girafarig-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "grotle-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "bayleef-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "rotom-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "pelipper-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "omastar-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "gligar-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "camerupt-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "kadabra-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "purugly-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "pupitar-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "chimecho-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "magcargo-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "ivysaur-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "carnivine-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "chansey-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "magmar-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "wartortle-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "vigoroth-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "persian-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 3/ IV8/ NFE Set 1",
+    "iv": 8
+  },
+  "garchomp-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "starmie-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kingdra-3": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heatran-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "garchomp-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cresselia-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "espeon-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weavile-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heracross-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "moltres-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "houndoom-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lucario-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "marowak-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blaziken-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lickilicky-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weavile-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "donphan-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glaceon-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magmortar-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lopunny-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golem-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "moltres-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "staraptor-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blissey-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mr-mime-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vileplume-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ampharos-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cradily-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weezing-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lanturn-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rampardos-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electrode-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "absol-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lapras-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drifblim-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tauros-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "swampert-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aerodactyl-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raikou-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "charizard-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gyarados-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "alakazam-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lickilicky-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "arcanine-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kangaskhan-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regigigas-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regirock-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jolteon-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ninetales-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golduck-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ninetales-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "alakazam-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ampharos-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gengar-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dusknoir-4": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "probopass-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flareon-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bastiodon-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "probopass-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "meganium-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skuntank-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rampardos-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "umbreon-3": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vespiquen-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glalie-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "walrein-3": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoking-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shuckle-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lopunny-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "garchomp-1": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latias-3": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gengar-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mamoswine-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gliscor-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bronzong-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mismagius-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vaporeon-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ursaring-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "charizard-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tentacruel-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "whiscash-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hariyama-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hippowdon-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "claydol-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electivire-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "donphan-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lickilicky-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "wailord-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "forretress-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "granbull-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exploud-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electrode-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dusknoir-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhydon-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "victreebel-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lopunny-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raichu-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vespiquen-4": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bastiodon-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hypno-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vespiquen-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dugtrio-3": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "wailord-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shuckle-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slaking-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tyranitar-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electivire-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vaporeon-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "starmie-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blaziken-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tyranitar-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latias-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "entei-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latias-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jynx-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glaceon-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ninetales-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "steelix-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "luxray-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glaceon-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mismagius-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "victreebel-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lopunny-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoqueen-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exploud-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "roserade-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magmortar-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rampardos-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shiftry-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vespiquen-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "manectric-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "medicham-3": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dugtrio-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dusknoir-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "marowak-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latios-3": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cresselia-3": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flygon-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "moltres-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vaporeon-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "suicune-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "espeon-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weavile-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blastoise-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regice-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tentacruel-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gliscor-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "marowak-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tangrowth-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "armaldo-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "floatzel-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "espeon-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aggron-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ninetales-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "walrein-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flareon-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dewgong-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "manectric-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "politoed-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "breloom-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vileplume-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cradily-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raichu-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dusknoir-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "probopass-1": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dewgong-3": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shuckle-3": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cresselia-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heatran-3": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gliscor-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "starmie-3": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "torterra-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "metagross-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lanturn-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regirock-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dragonite-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heracross-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gardevoir-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gyarados-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "donphan-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "typhlosion-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jolteon-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "empoleon-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magmortar-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shiftry-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "granbull-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mr-mime-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vileplume-4": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "yanmega-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ambipom-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hariyama-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "meganium-4": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "altaria-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mismagius-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ampharos-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "abomasnow-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "forretress-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "salamence-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latios-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "togekiss-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magnezone-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mamoswine-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "medicham-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tauros-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "alakazam-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "quagsire-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ludicolo-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tentacruel-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "miltank-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gardevoir-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kangaskhan-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gastrodon-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "empoleon-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kangaskhan-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "toxicroak-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dewgong-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowbro-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drapion-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "togekiss-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bastiodon-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "leafeon-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blaziken-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cradily-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "altaria-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "armaldo-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "metagross-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gyarados-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latias-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "machamp-3": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "swampert-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "entei-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "infernape-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "manectric-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "registeel-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "breloom-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tyranitar-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "arcanine-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "luxray-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "registeel-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "alakazam-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "crobat-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heracross-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ludicolo-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exeggutor-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regice-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "steelix-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "claydol-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shuckle-4": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "froslass-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "manectric-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tentacruel-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "victreebel-2": {
+    "tier": "F",
+    "tierRank": 9,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "zapdos-4": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cresselia-2": {
+    "tier": "X",
+    "tierRank": 0,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "swampert-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "garchomp-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regice-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kingdra-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flygon-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "arcanine-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "whiscash-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tyranitar-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latios-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "leafeon-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "quagsire-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magmortar-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "steelix-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "arcanine-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowking-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "miltank-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "muk-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hariyama-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golduck-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aggron-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "granbull-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golem-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jolteon-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mr-mime-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "staraptor-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slaking-3": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon2-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "salamence-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "articuno-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "venusaur-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "scizor-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regice-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "breloom-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gengar-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "whiscash-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gastrodon-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "infernape-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "entei-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ambipom-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "meganium-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flareon-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "roserade-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhyperior-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowking-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "crobat-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "typhlosion-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drifblim-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jynx-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "milotic-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "infernape-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bronzong-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "metagross-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "metagross-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "leafeon-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "registeel-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "pinsir-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gengar-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blissey-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "snorlax-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "miltank-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "abomasnow-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoqueen-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "froslass-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hariyama-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rapidash-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hypno-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glalie-4": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magnezone-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skarmory-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aggron-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hippowdon-3": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon-z-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bronzong-3": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lucario-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "starmie-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "milotic-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tauros-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drapion-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vaporeon-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "sceptile-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "espeon-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "honchkrow-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drapion-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rapidash-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gardevoir-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "luxray-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowbro-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhydon-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "probopass-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "typhlosion-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aerodactyl-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weavile-2": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mismagius-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "togekiss-3": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "salamence-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "snorlax-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "medicham-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "venusaur-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "pinsir-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoking-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon-z-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golduck-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "whiscash-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "charizard-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "articuno-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lapras-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regigigas-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skarmory-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exploud-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "absol-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "breloom-3": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "absol-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heatran-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raikou-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "machamp-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heatran-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ludicolo-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rampardos-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "feraligatr-2": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mamoswine-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electivire-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "zapdos-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magnezone-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "miltank-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slaking-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "zapdos-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "yanmega-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glalie-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rapidash-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowking-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "empoleon-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dugtrio-1": {
+    "tier": "E",
+    "tierRank": 8,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "heracross-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kingdra-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gallade-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "feraligatr-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon2-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "steelix-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skuntank-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "typhlosion-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "staraptor-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lapras-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "sceptile-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "abomasnow-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kingdra-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skarmory-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tangrowth-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "claydol-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blissey-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "yanmega-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "swampert-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gyarados-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flygon-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "pinsir-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "walrein-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "registeel-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "snorlax-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aerodactyl-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "medicham-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "quagsire-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "crobat-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoqueen-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "infernape-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "kangaskhan-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "honchkrow-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exploud-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "altaria-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flygon-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raikou-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "milotic-1": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lucario-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lucario-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "empoleon-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon-z-3": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoking-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "latios-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowbro-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "roserade-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "scizor-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "poliwrath-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exeggutor-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "articuno-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shiftry-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "cradily-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "vileplume-1": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "suicune-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "suicune-3": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "zapdos-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoking-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "scizor-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "torterra-1": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hippowdon-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aggron-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "absol-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golem-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gallade-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "floatzel-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hypno-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "victreebel-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ursaring-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ludicolo-2": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skarmory-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "feraligatr-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "salamence-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "yanmega-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golduck-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glaceon-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lanturn-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weezing-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "claydol-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "walrein-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "wailord-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "feraligatr-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "forretress-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dewgong-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "honchkrow-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dugtrio-4": {
+    "tier": "D-",
+    "tierRank": 7,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mamoswine-2": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hippowdon-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dragonite-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drapion-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lapras-4": {
+    "tier": "A-",
+    "tierRank": 3,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhyperior-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowbro-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regirock-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "abomasnow-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "politoed-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "mr-mime-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regigigas-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electivire-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blissey-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon-z-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gliscor-2": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blastoise-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dragonite-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "snorlax-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon2-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tangrowth-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skuntank-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ambipom-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "umbreon-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "honchkrow-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "muk-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "moltres-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "articuno-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "porygon2-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "politoed-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drifblim-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "skuntank-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "houndoom-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electrode-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raichu-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "granbull-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "altaria-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "dragonite-4": {
+    "tier": "S",
+    "tierRank": 1,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lanturn-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "leafeon-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "poliwrath-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weezing-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ursaring-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "venusaur-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tauros-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "weezing-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "roserade-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "umbreon-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jolteon-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "electrode-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhydon-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blaziken-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bronzong-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gardevoir-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "marowak-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ampharos-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raichu-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "umbreon-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "toxicroak-4": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "floatzel-3": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regirock-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "muk-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slowking-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rapidash-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "meganium-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "nidoqueen-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "shiftry-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "scizor-1": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "machamp-1": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "suicune-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "bastiodon-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gallade-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "entei-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "drifblim-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "torterra-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "toxicroak-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "froslass-3": {
+    "tier": "A+",
+    "tierRank": 2,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "donphan-4": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "togekiss-2": {
+    "tier": "B",
+    "tierRank": 4,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "charizard-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "poliwrath-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "luxray-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "muk-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "flareon-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ambipom-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exeggutor-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "poliwrath-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "golem-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "torterra-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "tangrowth-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "forretress-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "quagsire-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "regigigas-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "sceptile-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhyperior-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "politoed-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "toxicroak-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gallade-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "ursaring-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "pinsir-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "sceptile-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "froslass-4": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "exeggutor-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "machamp-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blastoise-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "wailord-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "staraptor-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "hypno-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gastrodon-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhydon-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "magnezone-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "floatzel-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jynx-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "lickilicky-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "armaldo-3": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "jynx-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "glalie-3": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "gastrodon-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "armaldo-1": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "milotic-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "crobat-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "venusaur-4": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "blastoise-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "rhyperior-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "houndoom-2": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "slaking-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "aerodactyl-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "houndoom-1": {
+    "tier": "D+",
+    "tierRank": 6,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  },
+  "raikou-2": {
+    "tier": "C",
+    "tierRank": 5,
+    "tierGroup": "Tier 4+",
+    "iv": null
+  }
+}

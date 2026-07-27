@@ -1,0 +1,194 @@
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { Facets, Filters, PokeSet, StatKey } from "./types";
+import { STAT_LABELS } from "./types";
+import { fetchFacets, fetchSearch } from "./api";
+import { FilterPanel } from "./components/FilterPanel";
+import { SetCard } from "./components/SetCard";
+
+const DEFAULT_FILTERS: Filters = {
+  q: "",
+  move: "",
+  item: "",
+  nature: "",
+  ability: "",
+  type: "",
+  tier: "",
+  setIndex: null,
+  statKey: "",
+  statMin: "",
+  sort: "dexNum",
+  order: "asc",
+  iv: 31,
+};
+
+const SORT_OPTIONS: { value: string; label: string }[] = [
+  { value: "dexNum", label: "Dex number" },
+  { value: "species", label: "Name" },
+  { value: "tier", label: "Factory tier" },
+  { value: "setIndex", label: "Set index" },
+  ...(["hp", "atk", "def", "spa", "spd", "spe"] as StatKey[]).map((k) => ({
+    value: k,
+    label: STAT_LABELS[k],
+  })),
+];
+
+function useTheme(): [string, () => void] {
+  const [theme, setTheme] = useState<string>(() => {
+    const stored = localStorage.getItem("theme");
+    if (stored) return stored;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  });
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+  return [theme, () => setTheme((t) => (t === "dark" ? "light" : "dark"))];
+}
+
+export default function App() {
+  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
+  const [facets, setFacets] = useState<Facets | null>(null);
+  const [results, setResults] = useState<PokeSet[]>([]);
+  const [count, setCount] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [theme, toggleTheme] = useTheme();
+  const abortRef = useRef<AbortController | null>(null);
+
+  const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
+  const reset = () => setFilters(DEFAULT_FILTERS);
+
+  useEffect(() => {
+    fetchFacets().then(setFacets).catch((e) => setError(String(e)));
+  }, []);
+
+  // Debounced search whenever filters change.
+  useEffect(() => {
+    const handle = setTimeout(() => {
+      abortRef.current?.abort();
+      const ctrl = new AbortController();
+      abortRef.current = ctrl;
+      setLoading(true);
+      fetchSearch(filters, ctrl.signal)
+        .then((r) => {
+          setResults(r.results);
+          setCount(r.count);
+          setError(null);
+        })
+        .catch((e) => {
+          if (e.name !== "AbortError") setError(String(e));
+        })
+        .finally(() => setLoading(false));
+    }, 220);
+    return () => clearTimeout(handle);
+  }, [filters]);
+
+  const activeFilterCount = useMemo(() => {
+    let n = 0;
+    if (filters.move) n++;
+    if (filters.item) n++;
+    if (filters.nature) n++;
+    if (filters.ability) n++;
+    if (filters.type) n++;
+    if (filters.tier) n++;
+    if (filters.setIndex != null) n++;
+    if (filters.statKey && filters.statMin) n++;
+    return n;
+  }, [filters]);
+
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="topbar__brand">
+          <span className="logo">▲</span>
+          <div>
+            <h1>Gen 4 Battle Frontier Sets</h1>
+            <p className="subtitle">Platinum · HeartGold / SoulSilver — {facets?.total ?? "…"} sets</p>
+          </div>
+        </div>
+
+        <div className="topbar__search">
+          <input
+            className="search"
+            type="search"
+            value={filters.q}
+            placeholder="Search a Pokémon…"
+            onChange={(e) => update({ q: e.target.value })}
+            autoFocus
+          />
+        </div>
+
+        <div className="topbar__controls">
+          <label className="iv-control" title="IVs used to compute final stats (Frontier IVs vary by set)">
+            IV
+            <input
+              type="number"
+              min={0}
+              max={31}
+              value={filters.iv}
+              onChange={(e) =>
+                update({ iv: Math.max(0, Math.min(31, Number(e.target.value) || 0)) })
+              }
+            />
+          </label>
+          <button className="icon-btn" onClick={toggleTheme} title="Toggle theme">
+            {theme === "dark" ? "☀" : "☾"}
+          </button>
+        </div>
+      </header>
+
+      <div className="layout">
+        <FilterPanel filters={filters} facets={facets} update={update} reset={reset} />
+
+        <main className="results">
+          <div className="results__bar">
+            <span className="results__count">
+              {loading ? "Searching…" : `${count} set${count === 1 ? "" : "s"}`}
+              {activeFilterCount > 0 && !loading && (
+                <span className="results__filters"> · {activeFilterCount} filter{activeFilterCount === 1 ? "" : "s"}</span>
+              )}
+            </span>
+            <label className="sort">
+              Sort
+              <select value={filters.sort} onChange={(e) => update({ sort: e.target.value })}>
+                {SORT_OPTIONS.map((o) => (
+                  <option key={o.value} value={o.value}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+              <button
+                className="icon-btn"
+                title="Toggle order"
+                onClick={() => update({ order: filters.order === "asc" ? "desc" : "asc" })}
+              >
+                {filters.order === "asc" ? "↑" : "↓"}
+              </button>
+            </label>
+          </div>
+
+          {error && <div className="error">{error}</div>}
+
+          {!error && count === 0 && !loading && (
+            <div className="empty">No sets match these filters.</div>
+          )}
+
+          <div className={`grid ${loading ? "grid--loading" : ""}`}>
+            {results.map((set) => (
+              <SetCard key={set.id} set={set} />
+            ))}
+          </div>
+        </main>
+      </div>
+
+      <footer className="footer">
+        Data from{" "}
+        <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Battle_Frontier_Pok%C3%A9mon_in_Generation_IV/Group_1" target="_blank" rel="noreferrer">
+          Bulbapedia
+        </a>{" "}
+        & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Abilities are
+        possible options; final stats are computed at Lv 50 (IV {filters.iv}).
+      </footer>
+    </div>
+  );
+}

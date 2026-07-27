@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.local
+*.tsbuildinfo
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Data caches (regenerable). Committed dataset outputs are NOT ignored.
+data/raw/
