@@ -5,6 +5,10 @@ import { fetchFacets, fetchSearch } from "./api";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
 
+// Infinite scroll: render this many cards at a time and append more (with their
+// sprites) as the user scrolls, so we never mount ~950 cards/images at once.
+const BATCH_SIZE = 36;
+
 const DEFAULT_FILTERS: Filters = {
   q: "",
   move: "",
@@ -52,8 +56,10 @@ export default function App() {
   const [count, setCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
   const [theme, toggleTheme] = useTheme();
   const abortRef = useRef<AbortController | null>(null);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
   const reset = () => setFilters(DEFAULT_FILTERS);
@@ -73,6 +79,7 @@ export default function App() {
         .then((r) => {
           setResults(r.results);
           setCount(r.count);
+          setVisibleCount(BATCH_SIZE); // reset infinite-scroll window on new results
           setError(null);
         })
         .catch((e) => {
@@ -82,6 +89,24 @@ export default function App() {
     }, 220);
     return () => clearTimeout(handle);
   }, [filters]);
+
+  // Grow the visible window when the sentinel scrolls into view.
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el || visibleCount >= results.length) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((c) => Math.min(c + BATCH_SIZE, results.length));
+        }
+      },
+      { rootMargin: "800px 0px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [results.length, visibleCount]);
+
+  const visible = useMemo(() => results.slice(0, visibleCount), [results, visibleCount]);
 
   const activeFilterCount = useMemo(() => {
     let n = 0;
@@ -178,10 +203,16 @@ export default function App() {
           )}
 
           <div className={`grid ${loading ? "grid--loading" : ""}`}>
-            {results.map((set) => (
+            {visible.map((set) => (
               <SetCard key={set.id} set={set} />
             ))}
           </div>
+
+          {visibleCount < count && (
+            <div ref={sentinelRef} className="sentinel">
+              Loading more… ({visibleCount} of {count})
+            </div>
+          )}
         </main>
       </div>
 
