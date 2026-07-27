@@ -1,8 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Facets, Filters, PokeSet, StatKey } from "./types";
-import { STAT_LABELS, TIER4_IVS } from "./types";
+import { STAT_LABELS } from "./types";
 import { facets as fetchFacets, search as fetchSearch } from "./dataClient";
-import { computeSet } from "./engine/stats";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
 
@@ -85,14 +84,10 @@ export default function App() {
         : [...prev, set],
     );
 
-  // Persist pins and keep pinned stats in sync with the current Tier 4+ IV.
+  // Persist pins. Each pinned card computes its own stats (per-set IV).
   useEffect(() => {
     localStorage.setItem(PIN_KEY, JSON.stringify(pinned));
   }, [pinned]);
-  const pinnedComputed = useMemo(
-    () => pinned.map((s) => computeSet(s, filters.tier4Iv)),
-    [pinned, filters.tier4Iv],
-  );
 
   useEffect(() => {
     fetchFacets().then(setFacets).catch((e) => setError(String(e)));
@@ -180,22 +175,6 @@ export default function App() {
         </div>
 
         <div className="topbar__controls">
-          <label
-            className="iv-control"
-            title="IVs are fixed by tier (Tier 1=0, 2=4, 3=8). This picks the IV for Tier 4+ sets, which are used across rounds 8+ with 12/16/20/24/31 IVs."
-          >
-            Tier 4+ IV
-            <select
-              value={filters.tier4Iv}
-              onChange={(e) => update({ tier4Iv: Number(e.target.value) })}
-            >
-              {TIER4_IVS.map((v) => (
-                <option key={v} value={v}>
-                  {v}
-                </option>
-              ))}
-            </select>
-          </label>
           <button className="icon-btn" onClick={toggleTheme} title="Toggle theme">
             {theme === "dark" ? "☀" : "☾"}
           </button>
@@ -234,16 +213,16 @@ export default function App() {
 
           {error && <div className="error">{error}</div>}
 
-          {pinnedComputed.length > 0 && (
+          {pinned.length > 0 && (
             <section className="pinned">
               <div className="pinned__head">
-                <h2>📌 Pinned · {pinnedComputed.length}</h2>
+                <h2>📌 Pinned · {pinned.length}</h2>
                 <button className="btn-link" onClick={() => setPinned([])}>
                   Clear all
                 </button>
               </div>
               <div className="grid">
-                {pinnedComputed.map((set) => (
+                {pinned.map((set) => (
                   <SetCard key={set.id} set={set} pinned onTogglePin={() => togglePin(set)} />
                 ))}
               </div>
@@ -280,7 +259,7 @@ export default function App() {
         </a>{" "}
         & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Abilities are
         possible options; final stats are computed at Lv 50 with tier-based IVs (Tier 1/2/3 =
-        0/4/8, Tier 4+ = {filters.tier4Iv}).
+        0/4/8; Tier 4+ selectable per set, default 31).
       </footer>
     </div>
   );

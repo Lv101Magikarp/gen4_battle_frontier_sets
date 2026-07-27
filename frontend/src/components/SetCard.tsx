@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import type { SyntheticEvent } from "react";
 import type { PokeSet, StatKey } from "../types";
 import { STAT_LABELS } from "../types";
 import { spriteUrl, tierColor, TIER_LABELS, typeColor } from "../theme";
 import { NATURE_EFFECT } from "../natures";
+import { computeStats, TIER4_IVS } from "../engine/stats";
 
 const STAT_ORDER: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
 const MAX_STAT = 255; // for bar scaling
@@ -16,6 +18,16 @@ interface SetCardProps {
 export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
   const [imgOk, setImgOk] = useState(true);
   const effect = NATURE_EFFECT[set.nature];
+
+  // IVs are fixed for Tier 1/2/3 (tierIv 0/4/8); Tier 4+ sets (tierIv null) can be
+  // previewed per-set at any round IV. Stats are computed client-side from the IV.
+  const isTier4 = set.tierIv == null;
+  const [iv, setIv] = useState(set.iv);
+  const stats = useMemo(
+    () => computeStats(set.baseStats, set.evs, set.nature, iv),
+    [set.baseStats, set.evs, set.nature, iv],
+  );
+  const stop = (e: SyntheticEvent) => e.stopPropagation();
 
   return (
     <article
@@ -112,9 +124,21 @@ export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
       <div className="stats">
         <div className="stats__caption">
           <span>Final stats · Lv 50</span>
-          <span className="stats__iv" title="IVs used for this set (fixed by its tier)">
-            {set.iv} IVs
-          </span>
+          {isTier4 ? (
+            <label className="stats__iv-select" title="Preview this set's stats at a round-8+ IV" onClick={stop}>
+              <select value={iv} onChange={(e) => setIv(Number(e.target.value))} onClick={stop}>
+                {TIER4_IVS.map((v) => (
+                  <option key={v} value={v}>
+                    {v} IVs
+                  </option>
+                ))}
+              </select>
+            </label>
+          ) : (
+            <span className="stats__iv" title="IVs fixed by this set's tier">
+              {iv} IVs
+            </span>
+          )}
         </div>
         {STAT_ORDER.map((k) => {
           const boosted = effect?.up === k;
@@ -125,10 +149,10 @@ export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
               <div className="stat__bar">
                 <div
                   className="stat__fill"
-                  style={{ width: `${Math.min(100, (set.stats[k] / MAX_STAT) * 100)}%` }}
+                  style={{ width: `${Math.min(100, (stats[k] / MAX_STAT) * 100)}%` }}
                 />
               </div>
-              <span className="stat__val">{set.stats[k]}</span>
+              <span className="stat__val">{stats[k]}</span>
               {set.evs[k] > 0 && <span className="stat__ev" title="EVs">{set.evs[k]}</span>}
             </div>
           );

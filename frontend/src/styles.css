@@ -679,6 +679,27 @@ input, select, button {
   padding: 1px 7px;
   border-radius: 999px;
 }
+.stats__iv-select {
+  display: inline-flex;
+}
+.stats__iv-select select {
+  font: inherit;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 35%, transparent);
+  border-radius: 999px;
+  padding: 1px 4px 1px 8px;
+  cursor: pointer;
+  outline: none;
+}
+.stats__iv-select select option {
+  background: var(--bg-elev);
+  color: var(--text);
+  letter-spacing: normal;
+}
 .stat {
   display: grid;
   grid-template-columns: 30px 1fr 34px 30px;
