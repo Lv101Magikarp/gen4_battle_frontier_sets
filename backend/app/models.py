@@ -32,6 +32,7 @@ class SetOut(BaseModel):
     abilities: list[str]
     baseStats: dict[str, int]
     stats: dict[str, int]
+    iv: int
     tier: str | None = None
     tierRank: int | None = None
     tierGroup: str | None = None
@@ -40,7 +41,8 @@ class SetOut(BaseModel):
 
 class SearchResponse(BaseModel):
     count: int
-    iv: int
+    tier4Iv: int
+    tier4Ivs: list[int]
     results: list[SetOut]
 
 

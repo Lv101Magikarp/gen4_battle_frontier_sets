@@ -93,6 +93,12 @@ export function SetCard({ set }: { set: PokeSet }) {
       </ul>
 
       <div className="stats">
+        <div className="stats__caption">
+          <span>Final stats · Lv 50</span>
+          <span className="stats__iv" title="IVs used for this set (fixed by its tier)">
+            {set.iv} IVs
+          </span>
+        </div>
         {STAT_ORDER.map((k) => {
           const boosted = effect?.up === k;
           const hindered = effect?.down === k;

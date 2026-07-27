@@ -4,8 +4,20 @@ from __future__ import annotations
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-from .search import facets, load_sets, search, with_computed_stats
+from .search import (
+    DEFAULT_TIER4_IV,
+    TIER4_IVS,
+    facets,
+    load_sets,
+    search,
+    with_computed_stats,
+)
 from .stats import STAT_KEYS
+
+
+def _clamp_tier4_iv(value: int) -> int:
+    """Snap the requested Tier 4+ IV to the nearest allowed value."""
+    return min(TIER4_IVS, key=lambda v: abs(v - value))
 
 app = FastAPI(
     title="Gen 4 Battle Frontier Sets API",
@@ -64,23 +76,25 @@ def api_search(
     type: str | None = None,
     tier: str | None = None,
     setIndex: int | None = None,
-    iv: int = Query(31, ge=0, le=31),
+    tier4Iv: int = Query(DEFAULT_TIER4_IV, ge=0, le=31),
     sort: str = "dexNum",
     order: str = Query("asc", pattern="^(asc|desc)$"),
 ):
+    tier4_iv = _clamp_tier4_iv(tier4Iv)
     ev_min, stat_min, stat_max = _parse_stat_filters(request)
     results = search(
         q=q, move=move, item=item, nature=nature, ability=ability, type=type,
         tier=tier, set_index=setIndex, ev_min=ev_min, stat_min=stat_min,
-        stat_max=stat_max, iv=iv, sort=sort, order=order,
+        stat_max=stat_max, tier4_iv=tier4_iv, sort=sort, order=order,
     )
-    return {"count": len(results), "iv": iv, "results": results}
+    return {"count": len(results), "tier4Iv": tier4_iv, "tier4Ivs": TIER4_IVS, "results": results}
 
 
 @app.get("/api/sets")
-def api_sets(iv: int = Query(31, ge=0, le=31)):
-    results = with_computed_stats(load_sets(), iv)
-    return {"count": len(results), "iv": iv, "results": results}
+def api_sets(tier4Iv: int = Query(DEFAULT_TIER4_IV, ge=0, le=31)):
+    tier4_iv = _clamp_tier4_iv(tier4Iv)
+    results = with_computed_stats(load_sets(), tier4_iv)
+    return {"count": len(results), "tier4Iv": tier4_iv, "tier4Ivs": TIER4_IVS, "results": results}
 
 
 @app.get("/api/facets")

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Facets, Filters, PokeSet, StatKey } from "./types";
-import { STAT_LABELS } from "./types";
+import { STAT_LABELS, TIER4_IVS } from "./types";
 import { fetchFacets, fetchSearch } from "./api";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
@@ -18,7 +18,7 @@ const DEFAULT_FILTERS: Filters = {
   statMin: "",
   sort: "dexNum",
   order: "asc",
-  iv: 31,
+  tier4Iv: 31,
 };
 
 const SORT_OPTIONS: { value: string; label: string }[] = [
@@ -119,17 +119,21 @@ export default function App() {
         </div>
 
         <div className="topbar__controls">
-          <label className="iv-control" title="IVs used to compute final stats (Frontier IVs vary by set)">
-            IV
-            <input
-              type="number"
-              min={0}
-              max={31}
-              value={filters.iv}
-              onChange={(e) =>
-                update({ iv: Math.max(0, Math.min(31, Number(e.target.value) || 0)) })
-              }
-            />
+          <label
+            className="iv-control"
+            title="IVs are fixed by tier (Tier 1=0, 2=4, 3=8). This picks the IV for Tier 4+ sets, which are used across rounds 8+ with 12/16/20/24/31 IVs."
+          >
+            Tier 4+ IV
+            <select
+              value={filters.tier4Iv}
+              onChange={(e) => update({ tier4Iv: Number(e.target.value) })}
+            >
+              {TIER4_IVS.map((v) => (
+                <option key={v} value={v}>
+                  {v}
+                </option>
+              ))}
+            </select>
           </label>
           <button className="icon-btn" onClick={toggleTheme} title="Toggle theme">
             {theme === "dark" ? "☀" : "☾"}
@@ -187,7 +191,8 @@ export default function App() {
           Bulbapedia
         </a>{" "}
         & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Abilities are
-        possible options; final stats are computed at Lv 50 (IV {filters.iv}).
+        possible options; final stats are computed at Lv 50 with tier-based IVs (Tier 1/2/3 =
+        0/4/8, Tier 4+ = {filters.tier4Iv}).
       </footer>
     </div>
   );

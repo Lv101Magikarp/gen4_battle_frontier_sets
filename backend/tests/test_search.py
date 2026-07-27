@@ -44,13 +44,34 @@ def test_filter_by_set_index():
 
 
 def test_computed_stat_filter_speed():
-    res = search(stat_min={"spe": 150}, iv=31)
+    res = search(stat_min={"spe": 150}, tier4_iv=31)
     assert res
     assert all(s["stats"]["spe"] >= 150 for s in res)
     # Sorting by speed descending puts the fastest first.
     ordered = search(sort="spe", order="desc")
     speeds = [s["stats"]["spe"] for s in ordered]
     assert speeds == sorted(speeds, reverse=True)
+
+
+def test_iv_is_fixed_by_tier():
+    from app.search import with_computed_stats
+
+    sets = with_computed_stats(load_sets(), tier4_iv=31)
+    by_id = {s["id"]: s for s in sets}
+    # Tier 1 -> 0, Tier 2 -> 4, Tier 3 -> 8 IVs (from the set's tierIv).
+    for s in sets:
+        if s["tierGroup"] and s["tierGroup"].startswith("Tier 1"):
+            assert s["iv"] == 0
+        elif s["tierGroup"] and s["tierGroup"].startswith("Tier 2"):
+            assert s["iv"] == 4
+        elif s["tierGroup"] and s["tierGroup"].startswith("Tier 3"):
+            assert s["iv"] == 8
+    # Tier 4+ (garchomp) follows the tier4_iv argument.
+    assert by_id["garchomp-1"]["iv"] == 31
+    g12 = {s["id"]: s for s in with_computed_stats(load_sets(), tier4_iv=12)}
+    assert g12["garchomp-1"]["iv"] == 12
+    # A fixed-tier set ignores tier4_iv.
+    assert g12["bulbasaur-1"]["iv"] == 0
 
 
 def test_ev_filter():

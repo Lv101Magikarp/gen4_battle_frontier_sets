@@ -141,14 +141,20 @@ input, select, button {
   border-radius: 999px;
   background: var(--bg-sunken);
 }
-.iv-control input {
-  width: 44px;
+.iv-control input,
+.iv-control select {
+  width: 48px;
   border: none;
   background: transparent;
   text-align: center;
   font-weight: 700;
   color: var(--text);
   outline: none;
+  cursor: pointer;
+}
+.iv-control select option {
+  background: var(--bg-elev);
+  color: var(--text);
 }
 
 .icon-btn {
@@ -172,9 +178,9 @@ input, select, button {
 /* ---------- Layout ---------- */
 .layout {
   display: grid;
-  grid-template-columns: 268px 1fr;
+  grid-template-columns: 256px 1fr;
   gap: 24px;
-  max-width: 1440px;
+  max-width: 1680px;
   margin: 0 auto;
   padding: 24px;
   align-items: start;
@@ -384,7 +390,7 @@ input, select, button {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 18px;
   transition: opacity 0.15s ease;
 }
@@ -591,6 +597,23 @@ input, select, button {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.stats__caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+.stats__iv {
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  padding: 1px 7px;
+  border-radius: 999px;
 }
 .stat {
   display: grid;

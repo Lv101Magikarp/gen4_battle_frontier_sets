@@ -11,7 +11,7 @@ export function buildQuery(f: Filters): string {
   if (f.tier) p.set("tier", f.tier);
   if (f.setIndex != null) p.set("setIndex", String(f.setIndex));
   if (f.statKey && f.statMin) p.set(`${f.statKey}Min`, f.statMin);
-  p.set("iv", String(f.iv));
+  p.set("tier4Iv", String(f.tier4Iv));
   p.set("sort", f.sort);
   p.set("order", f.order);
   return p.toString();

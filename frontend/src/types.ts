@@ -20,6 +20,7 @@ export interface PokeSet {
   abilities: string[];
   baseStats: StatMap;
   stats: StatMap;
+  iv: number;
   tier: string | null;
   tierRank: number | null;
   tierGroup: string | null;
@@ -57,8 +58,11 @@ export interface Filters {
   statMin: string;
   sort: string;
   order: "asc" | "desc";
-  iv: number;
+  tier4Iv: number;
 }
+
+// Tier 4+ sets are used across rounds 8+ with these increasing IVs.
+export const TIER4_IVS = [12, 16, 20, 24, 31];
 
 export const STAT_LABELS: Record<StatKey, string> = {
   hp: "HP",

@@ -13,6 +13,17 @@ SETS_PATH = DATA_DIR / "sets.json"
 # Quality tiers, best to worst (Battle Factory tier list).
 TIER_ORDER = ["X", "S", "A+", "A-", "B", "C", "D+", "D-", "E", "F"]
 
+# IVs are fixed by Factory tier group: Tier 1 -> 0, Tier 2 -> 4, Tier 3 -> 8
+# (stored per-set as `tierIv`). Tier 4+ sets (tierIv == None) are used across
+# rounds 8+ with these increasing IVs; the caller picks which one to preview.
+TIER4_IVS = [12, 16, 20, 24, 31]
+DEFAULT_TIER4_IV = 31
+
+
+def iv_for_set(s: dict, tier4_iv: int) -> int:
+    tier_iv = s.get("tierIv")
+    return tier_iv if tier_iv is not None else tier4_iv
+
 
 @lru_cache(maxsize=1)
 def load_sets() -> list[dict]:
@@ -23,11 +34,16 @@ def load_sets() -> list[dict]:
     return json.loads(SETS_PATH.read_text(encoding="utf-8"))
 
 
-def with_computed_stats(sets: list[dict], iv: int) -> list[dict]:
-    """Return copies of each set with a `stats` dict computed at the given IV."""
+def with_computed_stats(sets: list[dict], tier4_iv: int = DEFAULT_TIER4_IV) -> list[dict]:
+    """Return copies of each set with a `stats` dict and the `iv` used to compute it.
+
+    Each set's IV is fixed by its tier (0/4/8); Tier 4+ sets use `tier4_iv`.
+    """
     out = []
     for s in sets:
+        iv = iv_for_set(s, tier4_iv)
         item = dict(s)
+        item["iv"] = iv
         item["stats"] = compute_stats(s["baseStats"], s["evs"], s["nature"], iv=iv)
         out.append(item)
     return out
@@ -46,11 +62,11 @@ def search(
     ev_min: dict[str, int] | None = None,
     stat_min: dict[str, int] | None = None,
     stat_max: dict[str, int] | None = None,
-    iv: int = 31,
+    tier4_iv: int = DEFAULT_TIER4_IV,
     sort: str = "dexNum",
     order: str = "asc",
 ) -> list[dict]:
-    results = with_computed_stats(load_sets(), iv)
+    results = with_computed_stats(load_sets(), tier4_iv)
 
     if q:
         ql = q.lower()
