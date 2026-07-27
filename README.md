@@ -1,6 +1,6 @@
 # Gen 4 Battle Frontier Sets
 
-A webapp to search the **Generation IV (Diamond/Pearl/Platinum + HeartGold/SoulSilver)
+A vibecoded webapp to search the **Generation IV (Diamond/Pearl/Platinum + HeartGold/SoulSilver)
 Battle Frontier** Pokémon sets — the movesets used by NPC opponents at the Frontier facilities.
 
 - **Backend:** FastAPI (Python) REST API that loads a static JSON dataset into memory.
