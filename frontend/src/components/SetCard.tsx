@@ -7,12 +7,29 @@ import { NATURE_EFFECT } from "../natures";
 const STAT_ORDER: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
 const MAX_STAT = 255; // for bar scaling
 
-export function SetCard({ set }: { set: PokeSet }) {
+interface SetCardProps {
+  set: PokeSet;
+  pinned?: boolean;
+  onTogglePin?: () => void;
+}
+
+export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
   const [imgOk, setImgOk] = useState(true);
   const effect = NATURE_EFFECT[set.nature];
 
   return (
-    <article className="card">
+    <article
+      className={`card ${pinned ? "card--pinned" : ""} ${onTogglePin ? "card--clickable" : ""}`}
+      onClick={onTogglePin}
+      role={onTogglePin ? "button" : undefined}
+      aria-pressed={onTogglePin ? pinned : undefined}
+      title={onTogglePin ? (pinned ? "Click to unpin" : "Click to pin") : undefined}
+    >
+      {onTogglePin && (
+        <span className={`pin-badge ${pinned ? "pin-badge--on" : ""}`} aria-hidden="true">
+          📌
+        </span>
+      )}
       {set.tier && (
         <span
           className="tier-badge"

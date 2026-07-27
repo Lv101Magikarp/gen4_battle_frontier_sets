@@ -1,9 +1,21 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Facets, Filters, PokeSet, StatKey } from "./types";
 import { STAT_LABELS, TIER4_IVS } from "./types";
-import { fetchFacets, fetchSearch } from "./api";
+import { facets as fetchFacets, search as fetchSearch } from "./dataClient";
+import { computeSet } from "./engine/stats";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
+
+const PIN_KEY = "pinnedSets";
+
+function loadPinned(): PokeSet[] {
+  try {
+    const raw = localStorage.getItem(PIN_KEY);
+    return raw ? (JSON.parse(raw) as PokeSet[]) : [];
+  } catch {
+    return [];
+  }
+}
 
 // Infinite scroll: render this many cards at a time and append more (with their
 // sprites) as the user scrolls, so we never mount ~950 cards/images at once.
@@ -28,7 +40,7 @@ const DEFAULT_FILTERS: Filters = {
 const SORT_OPTIONS: { value: string; label: string }[] = [
   { value: "dexNum", label: "Dex number" },
   { value: "species", label: "Name" },
-  { value: "tier", label: "Factory tier" },
+  { value: "tier", label: "Magpie tier" },
   { value: "setIndex", label: "Set index" },
   ...(["hp", "atk", "def", "spa", "spd", "spe"] as StatKey[]).map((k) => ({
     value: k,
@@ -57,12 +69,30 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
+  const [pinned, setPinned] = useState<PokeSet[]>(loadPinned);
   const [theme, toggleTheme] = useTheme();
   const abortRef = useRef<AbortController | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
   const reset = () => setFilters(DEFAULT_FILTERS);
+
+  const pinnedIds = useMemo(() => new Set(pinned.map((s) => s.id)), [pinned]);
+  const togglePin = (set: PokeSet) =>
+    setPinned((prev) =>
+      prev.some((s) => s.id === set.id)
+        ? prev.filter((s) => s.id !== set.id)
+        : [...prev, set],
+    );
+
+  // Persist pins and keep pinned stats in sync with the current Tier 4+ IV.
+  useEffect(() => {
+    localStorage.setItem(PIN_KEY, JSON.stringify(pinned));
+  }, [pinned]);
+  const pinnedComputed = useMemo(
+    () => pinned.map((s) => computeSet(s, filters.tier4Iv)),
+    [pinned, filters.tier4Iv],
+  );
 
   useEffect(() => {
     fetchFacets().then(setFacets).catch((e) => setError(String(e)));
@@ -90,23 +120,29 @@ export default function App() {
     return () => clearTimeout(handle);
   }, [filters]);
 
+  // Pinned sets are shown in their own tray, not duplicated in the results grid.
+  const unpinned = useMemo(
+    () => results.filter((s) => !pinnedIds.has(s.id)),
+    [results, pinnedIds],
+  );
+
   // Grow the visible window when the sentinel scrolls into view.
   useEffect(() => {
     const el = sentinelRef.current;
-    if (!el || visibleCount >= results.length) return;
+    if (!el || visibleCount >= unpinned.length) return;
     const io = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          setVisibleCount((c) => Math.min(c + BATCH_SIZE, results.length));
+          setVisibleCount((c) => Math.min(c + BATCH_SIZE, unpinned.length));
         }
       },
       { rootMargin: "800px 0px" },
     );
     io.observe(el);
     return () => io.disconnect();
-  }, [results.length, visibleCount]);
+  }, [unpinned.length, visibleCount]);
 
-  const visible = useMemo(() => results.slice(0, visibleCount), [results, visibleCount]);
+  const visible = useMemo(() => unpinned.slice(0, visibleCount), [unpinned, visibleCount]);
 
   const activeFilterCount = useMemo(() => {
     let n = 0;
@@ -198,19 +234,40 @@ export default function App() {
 
           {error && <div className="error">{error}</div>}
 
+          {pinnedComputed.length > 0 && (
+            <section className="pinned">
+              <div className="pinned__head">
+                <h2>📌 Pinned · {pinnedComputed.length}</h2>
+                <button className="btn-link" onClick={() => setPinned([])}>
+                  Clear all
+                </button>
+              </div>
+              <div className="grid">
+                {pinnedComputed.map((set) => (
+                  <SetCard key={set.id} set={set} pinned onTogglePin={() => togglePin(set)} />
+                ))}
+              </div>
+            </section>
+          )}
+
           {!error && count === 0 && !loading && (
             <div className="empty">No sets match these filters.</div>
           )}
 
           <div className={`grid ${loading ? "grid--loading" : ""}`}>
             {visible.map((set) => (
-              <SetCard key={set.id} set={set} />
+              <SetCard
+                key={set.id}
+                set={set}
+                pinned={pinnedIds.has(set.id)}
+                onTogglePin={() => togglePin(set)}
+              />
             ))}
           </div>
 
-          {visibleCount < count && (
+          {visibleCount < unpinned.length && (
             <div ref={sentinelRef} className="sentinel">
-              Loading more… ({visibleCount} of {count})
+              Loading more… ({visibleCount} of {unpinned.length})
             </div>
           )}
         </main>

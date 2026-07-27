@@ -81,7 +81,7 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
       </div>
 
       <div className="field">
-        <span>Factory tier</span>
+        <span>Magpie tier</span>
         <div className="tier-chips">
           <button
             className={`tier-pill ${!filters.tier ? "tier-pill--on" : ""}`}

@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "copy-data": "mkdir -p public && cp ../data/sets.json public/sets.json",
+    "build:static": "npm run copy-data && tsc -b && VITE_DATA_MODE=static vite build",
     "preview": "vite preview"
   },
   "dependencies": {

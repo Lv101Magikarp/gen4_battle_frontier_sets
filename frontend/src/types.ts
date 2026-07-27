@@ -29,7 +29,8 @@ export interface PokeSet {
 
 export interface SearchResponse {
   count: number;
-  iv: number;
+  tier4Iv: number;
+  tier4Ivs: number[];
   results: PokeSet[];
 }
 

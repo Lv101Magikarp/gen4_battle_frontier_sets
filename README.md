@@ -19,21 +19,30 @@ Search & filter sets by:
 - EV spread
 - **Ability** — derived from Pokédex data (the source lists *possible* abilities for the
   species, not the exact one the in-game set uses)
-- **Computed final stat** (e.g. Speed > 100) — stats are computed at **Level 50** with a
-  user-adjustable **IV** input (default 31). Real Frontier IVs vary by set difficulty, so
-  treat these as an approximation.
+- **Computed final stat** (e.g. Speed > 100) — stats are computed at **Level 50** using the
+  IV fixed by each set's tier (Tier 1/2/3 = 0/4/8 IVs). Tier 4+ sets are used across rounds 8+
+  with 12/16/20/24/31 IVs; a selector picks which to preview (default 31).
 - **Set index (1–4)** — a species may have 1, 2, or 4 sets; the index is the order the set
   appears in the source table.
-- **Battle Factory tier (X → F)** — each set's community quality ranking (Godly X … Atrocious F)
-  from a Battle Factory tier-list spreadsheet, plus the Factory round/IV group it belongs to.
+- **Magpie tier (X → F)** — each set's community quality ranking (Godly X … Atrocious F) from a
+  Battle Factory tier-list spreadsheet, plus the round/IV group it belongs to.
+
+Other UX:
+
+- **Pin sets** — click any card to pin it; pinned sets stay in a tray at the top across every
+  search and persist between visits (stored in `localStorage`).
+- **Infinite scroll** — results (and their sprites) load in batches as you scroll.
 
 ## Project layout
 
 ```
-data/          raw/ (cached wikitext), pokedex.json, sets.json (committed dataset)
-scripts/       parse_sets.py, build_pokedex.py, scrape.py
+data/          raw/ (cached sources), pokedex.json, tiers.json, sets.json (committed dataset)
+scripts/       parse_sets.py, build_pokedex.py, build_tiers.py, scrape.py
 backend/       FastAPI app + tests
 frontend/      Vite React + TS app
+  src/engine/  client-side stats + search (static mode)
+  src/dataClient.ts   API vs static data-source switch
+.github/workflows/deploy-pages.yml   GitHub Pages deploy
 ```
 
 ## Setup
@@ -65,6 +74,36 @@ cd frontend
 npm install
 npm run dev          # http://localhost:5173 (proxies /api to :8000)
 ```
+
+## Static build (GitHub Pages) — no backend required
+
+The frontend can run entirely in the browser: it loads `data/sets.json` and runs the same
+filter/sort/stat logic client-side (`src/engine/`). The FastAPI backend stays for local dev, but
+the hosted site is pure static files. The data source is selected at build time:
+
+- `npm run dev` / `npm run build` → **API mode** (talks to FastAPI at `/api`).
+- `npm run build:static` → **static mode** (bundles `sets.json`, runs the engine in-browser).
+
+Local preview of the static build:
+
+```bash
+cd frontend
+VITE_BASE=/ npm run build:static
+npm run preview      # serves dist/ (server-less)
+```
+
+### Deploying to GitHub Pages
+
+1. Push this repo to GitHub with the default branch `main`.
+2. In **Settings → Pages**, set **Source = GitHub Actions**.
+3. The workflow at [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml)
+   runs on every push to `main`: it installs deps, runs `npm run build:static`, and publishes
+   `frontend/dist`. It sets `VITE_BASE=/<repo-name>/` automatically so asset/dataset URLs
+   resolve under `https://<user>.github.io/<repo>/`.
+4. No Python runs in CI — the committed `data/sets.json` is copied into the build.
+
+> For a **user/organization site** (`<user>.github.io`) or a **custom domain**, the site is at
+> the root, so set `VITE_BASE=/` (edit the workflow's `env`).
 
 ## Data source & attribution
 
