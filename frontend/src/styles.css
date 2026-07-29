@@ -673,12 +673,6 @@ input, select, button {
   color: var(--text-muted);
   margin-bottom: 2px;
 }
-.stats__iv {
-  color: var(--accent-2);
-  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
-  padding: 1px 7px;
-  border-radius: 999px;
-}
 .stats__iv-select {
   display: inline-flex;
 }

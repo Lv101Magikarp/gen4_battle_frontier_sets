@@ -9,6 +9,10 @@ export const STAT_KEYS: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
 export const TIER4_IVS = [12, 16, 20, 24, 31];
 export const DEFAULT_TIER4_IV = 31;
 
+// Tier 1/2/3 sets have a fixed game-accurate IV (0/4/8, stored as tierIv) used as
+// the default, but can be previewed across the full round progression like Tier 4+.
+export const LOWER_TIER_IVS = [0, 4, 8, 12, 16, 20, 24, 31];
+
 // A raw dataset record (sets.json) has everything except the computed fields.
 export type RawSet = Omit<PokeSet, "stats" | "iv">;
 
