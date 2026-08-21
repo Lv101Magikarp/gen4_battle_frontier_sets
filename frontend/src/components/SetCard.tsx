@@ -13,9 +13,12 @@ interface SetCardProps {
   set: PokeSet;
   pinned?: boolean;
   onTogglePin?: () => void;
+  // When set (trainer roster context), the IV is fixed by the trainer: show it as
+  // a static label instead of the round-progression dropdown.
+  fixedIv?: number;
 }
 
-export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
+export function SetCard({ set, pinned = false, onTogglePin, fixedIv }: SetCardProps) {
   const [imgOk, setImgOk] = useState(true);
   const effect = NATURE_EFFECT[set.nature];
 
@@ -24,7 +27,8 @@ export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
   // Stats are computed client-side from the selected IV.
   const isTier4 = set.tierIv == null;
   const ivOptions = isTier4 ? TIER4_IVS : LOWER_TIER_IVS;
-  const [iv, setIv] = useState(set.iv);
+  const [ivState, setIv] = useState(set.iv);
+  const iv = fixedIv ?? ivState;
   const stats = useMemo(
     () => computeStats(set.baseStats, set.evs, set.nature, iv),
     [set.baseStats, set.evs, set.nature, iv],
@@ -130,23 +134,29 @@ export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
       <div className="stats">
         <div className="stats__caption">
           <span>Final stats · Lv 50</span>
-          <label
-            className="stats__iv-select"
-            title={
-              isTier4
-                ? "Preview this set's stats at a round-8+ IV"
-                : "Preview this set's stats at any IV (defaults to its tier's fixed IV)"
-            }
-            onClick={stop}
-          >
-            <select value={iv} onChange={(e) => setIv(Number(e.target.value))} onClick={stop}>
-              {ivOptions.map((v) => (
-                <option key={v} value={v}>
-                  {v} IVs
-                </option>
-              ))}
-            </select>
-          </label>
+          {fixedIv != null ? (
+            <span className="stats__iv-fixed" title="IV is fixed by this trainer">
+              {fixedIv} IVs
+            </span>
+          ) : (
+            <label
+              className="stats__iv-select"
+              title={
+                isTier4
+                  ? "Preview this set's stats at a round-8+ IV"
+                  : "Preview this set's stats at any IV (defaults to its tier's fixed IV)"
+              }
+              onClick={stop}
+            >
+              <select value={iv} onChange={(e) => setIv(Number(e.target.value))} onClick={stop}>
+                {ivOptions.map((v) => (
+                  <option key={v} value={v}>
+                    {v} IVs
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
         </div>
         {STAT_ORDER.map((k) => {
           const boosted = effect?.up === k;

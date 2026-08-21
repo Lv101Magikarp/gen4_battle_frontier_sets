@@ -746,6 +746,168 @@ input, select, button {
   color: var(--text-muted);
 }
 
+/* Fixed IV label on roster cards (trainer view) mirrors the IV select's look. */
+.stats__iv-fixed {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 35%, transparent);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+
+/* ---------- View nav (Sets / Trainers) ---------- */
+.viewnav {
+  display: inline-flex;
+  background: var(--bg-sunken);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 3px;
+}
+.viewnav__btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--text-muted);
+  transition: background 0.14s ease, color 0.14s ease;
+}
+.viewnav__btn--on {
+  background: var(--accent-2);
+  color: #fff;
+}
+
+.filters__note {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin: 4px 0 0;
+}
+
+/* ---------- Trainer list ---------- */
+.trainer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.trainer-row {
+  display: grid;
+  grid-template-columns: 52px 1fr auto auto auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 10px 14px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: border-color 0.14s ease, transform 0.1s ease;
+}
+.trainer-row:hover {
+  border-color: var(--accent-2);
+  transform: translateY(-1px);
+}
+.trainer-row--open {
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-2) 30%, transparent);
+}
+.trainer-row__idx {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.trainer-row__name {
+  font-weight: 700;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trainer-row__cls {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.trainer-row__tier {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: #fff;
+}
+.trainer-row__iv {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  min-width: 44px;
+  text-align: right;
+}
+/* Tier colour ramp: low tiers cool, high tiers hot. */
+.trainer-row__tier.tier-1 { background: #6b7385; }
+.trainer-row__tier.tier-2 { background: #4a90c2; }
+.trainer-row__tier.tier-3 { background: #2f8f6b; }
+.trainer-row__tier.tier-4 { background: #6aa02c; }
+.trainer-row__tier.tier-5 { background: #c2952c; }
+.trainer-row__tier.tier-6 { background: #d8783a; }
+.trainer-row__tier.tier-7 { background: #d8564b; }
+.trainer-row__tier.tier-8 { background: #b1372f; }
+
+.round-chips {
+  display: inline-flex;
+  gap: 3px;
+}
+.round-chip {
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--bg-sunken);
+  color: transparent; /* number hidden unless active, keeps a compact 8-cell strip */
+  border: 1px solid var(--border);
+}
+.round-chip--yes {
+  background: color-mix(in srgb, var(--accent-2) 22%, transparent);
+  color: var(--accent-2);
+  border-color: color-mix(in srgb, var(--accent-2) 40%, transparent);
+}
+.round-chip--boss {
+  background: color-mix(in srgb, var(--ev) 26%, transparent);
+  color: var(--ev);
+  border-color: color-mix(in srgb, var(--ev) 55%, transparent);
+}
+
+/* ---------- Selected trainer roster (expands inline under its row) ---------- */
+.roster {
+  margin: 8px 0 16px;
+  padding: 14px;
+  background: color-mix(in srgb, var(--accent-2) 5%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent);
+  border-radius: var(--radius);
+}
+.roster__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.roster__head h3 {
+  font-size: 16px;
+}
+.roster__meta {
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .layout {
@@ -760,5 +922,12 @@ input, select, button {
   .topbar__search {
     order: 3;
     width: 100%;
+  }
+  .trainer-row {
+    grid-template-columns: 40px 1fr auto;
+    row-gap: 8px;
+  }
+  .round-chips {
+    grid-column: 1 / -1;
   }
 }

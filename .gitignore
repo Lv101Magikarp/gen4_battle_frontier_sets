@@ -21,5 +21,6 @@ dist/
 # Data caches (regenerable). Committed dataset outputs are NOT ignored.
 data/raw/
 
-# Generated copy of the dataset for the static build (source of truth is data/sets.json)
+# Generated copies of the datasets for the static build (source of truth is data/*.json)
 frontend/public/sets.json
+frontend/public/trainers.json

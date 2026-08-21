@@ -36,8 +36,8 @@ Other UX:
 ## Project layout
 
 ```
-data/          raw/ (cached sources), pokedex.json, tiers.json, sets.json (committed dataset)
-scripts/       parse_sets.py, build_pokedex.py, build_tiers.py, scrape.py
+data/          raw/ (cached sources), pokedex.json, tiers.json, sets.json, trainers.json (committed datasets)
+scripts/       parse_sets.py, build_pokedex.py, build_tiers.py, scrape.py, build_trainers.py
 backend/       FastAPI app + tests
 frontend/      Vite React + TS app
   src/engine/  client-side stats + search (static mode)
@@ -55,7 +55,12 @@ pip install -r backend/requirements.txt
 python scripts/build_pokedex.py   # fetches base stats/types/abilities from PokéAPI -> data/pokedex.json
 python scripts/build_tiers.py     # fetches the Battle Factory tier-list sheet -> data/tiers.json
 python scripts/scrape.py          # fetches Bulbapedia + joins pokedex/tiers -> data/sets.json
+python scripts/build_trainers.py  # fetches Bulbapedia trainer roster -> data/trainers.json
 ```
+
+The **Trainers** view (opponent database) is powered by `data/trainers.json`: 300 Battle
+Frontier trainers with their per-round appearances, index-derived Battle Factory IV, and
+Pokémon roster (deduplicated set table). It renders entirely client-side.
 
 ### 2. Backend
 

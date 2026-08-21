@@ -4,6 +4,16 @@ import { STAT_LABELS } from "./types";
 import { facets as fetchFacets, search as fetchSearch } from "./dataClient";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
+import { TrainersView } from "./components/TrainersView";
+
+type View = "sets" | "trainers";
+
+// Deep links: "#trainers" opens the Trainers tab, "#trainers/150" also opens that
+// trainer's roster. Returned trainer index (if any) is read by TrainersView.
+function parseHash(): { view: View; trainer: number | null } {
+  const [v, id] = window.location.hash.replace(/^#/, "").split("/");
+  return { view: v === "trainers" ? "trainers" : "sets", trainer: id ? Number(id) : null };
+}
 
 const PIN_KEY = "pinnedSets";
 
@@ -69,7 +79,14 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
   const [pinned, setPinned] = useState<PokeSet[]>(loadPinned);
+  const [view, setView] = useState<View>(() => parseHash().view);
   const [theme, toggleTheme] = useTheme();
+
+  const initialTrainer = useMemo(() => parseHash().trainer, []);
+  const goto = (v: View) => {
+    setView(v);
+    window.location.hash = v === "trainers" ? "trainers" : "";
+  };
   const abortRef = useRef<AbortController | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
@@ -164,23 +181,46 @@ export default function App() {
         </div>
 
         <div className="topbar__search">
-          <input
-            className="search"
-            type="search"
-            value={filters.q}
-            placeholder="Search a Pokémon…"
-            onChange={(e) => update({ q: e.target.value })}
-            autoFocus
-          />
+          {view === "sets" && (
+            <input
+              className="search"
+              type="search"
+              value={filters.q}
+              placeholder="Search a Pokémon…"
+              onChange={(e) => update({ q: e.target.value })}
+              autoFocus
+            />
+          )}
         </div>
 
         <div className="topbar__controls">
+          <div className="viewnav" role="tablist">
+            <button
+              className={`viewnav__btn ${view === "sets" ? "viewnav__btn--on" : ""}`}
+              onClick={() => goto("sets")}
+              role="tab"
+              aria-selected={view === "sets"}
+            >
+              Sets
+            </button>
+            <button
+              className={`viewnav__btn ${view === "trainers" ? "viewnav__btn--on" : ""}`}
+              onClick={() => goto("trainers")}
+              role="tab"
+              aria-selected={view === "trainers"}
+            >
+              Trainers
+            </button>
+          </div>
           <button className="icon-btn" onClick={toggleTheme} title="Toggle theme">
             {theme === "dark" ? "☀" : "☾"}
           </button>
         </div>
       </header>
 
+      {view === "trainers" ? (
+        <TrainersView initialTrainer={initialTrainer} />
+      ) : (
       <div className="layout">
         <FilterPanel filters={filters} facets={facets} update={update} reset={reset} />
 
@@ -251,6 +291,7 @@ export default function App() {
           )}
         </main>
       </div>
+      )}
 
       <footer className="footer">
         Data from{" "}
