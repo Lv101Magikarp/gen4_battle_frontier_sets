@@ -131,6 +131,19 @@ def main() -> None:
         sys.exit("data/pokedex.json missing — run build_pokedex.py first.")
     pokedex = json.loads(pokedex_path.read_text(encoding="utf-8"))
 
+    # sets.json gives each roster set its set number (setIndex 1-4) and how many
+    # sets its species has (setCount) — used to label roster Pokémon (e.g. the
+    # community name "Venusaur3"). Keyed by (dex, item, nature, move names).
+    sets_path = DATA / "sets.json"
+    sets = json.loads(sets_path.read_text(encoding="utf-8")) if sets_path.exists() else []
+
+    def match_key(s: dict) -> tuple:
+        return (s["dexNum"], s["item"].lower(), s["nature"].lower(),
+                tuple(m["name"].lower() for m in s["moves"]))
+
+    setindex_by_key = {match_key(s): s["setIndex"] for s in sets}
+    setcount_by_species = {s["species"]: s["setCount"] for s in sets}
+
     trainers = parse_main(fetch_raw("trainers-main", MAIN_TITLE))
     print(f"parsed {len(trainers)} trainers", file=sys.stderr)
 
@@ -174,6 +187,10 @@ def main() -> None:
                         "types": entry["types"],
                         "abilities": entry["abilities"],
                         "baseStats": entry["baseStats"],
+                        # Set number 1-4 (None for trainer-exclusive variants not in
+                        # sets.json) and the species' total set count.
+                        "setIndex": setindex_by_key.get(match_key(r)),
+                        "setCount": setcount_by_species.get(r["species"], 1),
                     })
                 ref.append(idx)
             groups[gid] = ref

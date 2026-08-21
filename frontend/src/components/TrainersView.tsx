@@ -1,7 +1,13 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Trainer, TrainerData, TrainerFilters } from "../types";
 import type { Facility } from "../facilities";
-import { filterTrainers, loadTrainerData, rosterAsSets, trainerClasses } from "../engine/trainers";
+import {
+  filterTrainers,
+  loadTrainerData,
+  rosterAsSets,
+  setNumberLabel,
+  trainerClasses,
+} from "../engine/trainers";
 import { SetCard } from "./SetCard";
 
 const ROUNDS = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -33,9 +39,20 @@ export function TrainersView({
     window.location.hash = idx != null ? `trainers/${idx}` : "trainers";
   };
 
+  const selectedRef = useRef<HTMLDivElement | null>(null);
+  const didScroll = useRef(false);
+
   useEffect(() => {
     loadTrainerData().then(setData).catch((e) => setError(String(e)));
   }, []);
+
+  // On a deep link (#trainers/<index>), scroll the opened trainer into view once.
+  useEffect(() => {
+    if (data && initialTrainer != null && !didScroll.current && selectedRef.current) {
+      didScroll.current = true;
+      selectedRef.current.scrollIntoView({ block: "start" });
+    }
+  }, [data, initialTrainer]);
 
   const set = (patch: Partial<TrainerFilters>) => setFilters((f) => ({ ...f, ...patch }));
 
@@ -130,7 +147,11 @@ export function TrainersView({
 
         <div className="trainer-list">
           {matches.map((t) => (
-            <div key={t.index} className="trainer-item">
+            <div
+              key={t.index}
+              className="trainer-item"
+              ref={selected === t.index ? selectedRef : undefined}
+            >
               <TrainerRow
                 t={t}
                 iv={ivFor(facility, t)}
@@ -143,7 +164,7 @@ export function TrainersView({
                   <div className="roster__head">
                     <h3>
                       {selectedTrainer.class} {selectedTrainer.name}
-                      <span className="roster__meta"> · roster ({roster.length}) · {selectedIv} IVs · picks 3</span>
+                      <span className="roster__meta"> · roster ({roster.length}) · {selectedIv} IVs · {setNumberLabel(selectedTrainer.tier).toLowerCase()} · picks 3</span>
                     </h3>
                     <button className="btn-link" onClick={() => setSelected(null)}>Close</button>
                   </div>
@@ -180,6 +201,12 @@ function TrainerRow({
       </span>
       <span className={`trainer-row__tier tier-${t.tier}`} title={`Tier ${t.tier} · ${iv} IVs`}>
         T{t.tier}
+      </span>
+      <span
+        className="trainer-row__setnum"
+        title="Set number(s) this trainer's Pokémon use (fully-evolved species have 4 sets)"
+      >
+        {setNumberLabel(t.tier)}
       </span>
       <span className="trainer-row__iv">{iv} IV</span>
       <span className="round-chips">

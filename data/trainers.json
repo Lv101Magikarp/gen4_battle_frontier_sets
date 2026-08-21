@@ -66,7 +66,9 @@
         "spa": 130,
         "spd": 75,
         "spe": 110
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "ampharos-1",
@@ -113,7 +115,9 @@
         "spa": 115,
         "spd": 90,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "politoed-2",
@@ -161,7 +165,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "pinsir-3",
@@ -209,7 +215,9 @@
         "spa": 55,
         "spd": 70,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "scizor-4",
@@ -258,7 +266,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "heracross-5",
@@ -307,7 +317,9 @@
         "spa": 40,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "ursaring-6",
@@ -355,7 +367,9 @@
         "spa": 75,
         "spd": 75,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "houndoom-7",
@@ -404,7 +418,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "donphan-8",
@@ -451,7 +467,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "wailord-9",
@@ -499,7 +517,9 @@
         "spa": 90,
         "spd": 45,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "claydol-10",
@@ -547,7 +567,9 @@
         "spa": 70,
         "spd": 120,
         "spe": 75
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "rampardos-11",
@@ -594,7 +616,9 @@
         "spa": 65,
         "spd": 50,
         "spe": 58
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "bronzong-12",
@@ -643,7 +667,9 @@
         "spa": 79,
         "spd": 116,
         "spe": 33
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "drapion-13",
@@ -692,7 +718,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "luxray-14",
@@ -740,7 +768,9 @@
         "spa": 95,
         "spd": 79,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "ninetales-15",
@@ -787,7 +817,9 @@
         "spa": 81,
         "spd": 100,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "machamp-16",
@@ -835,7 +867,9 @@
         "spa": 65,
         "spd": 85,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "shuckle-17",
@@ -884,7 +918,9 @@
         "spa": 10,
         "spd": 230,
         "spe": 5
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "roserade-18",
@@ -933,7 +969,9 @@
         "spa": 125,
         "spd": 105,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "honchkrow-19",
@@ -982,7 +1020,9 @@
         "spa": 105,
         "spd": 52,
         "spe": 71
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "steelix-20",
@@ -1031,7 +1071,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "weavile-21",
@@ -1079,7 +1121,9 @@
         "spa": 45,
         "spd": 85,
         "spe": 125
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "gliscor-22",
@@ -1128,7 +1172,9 @@
         "spa": 45,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "tentacruel-23",
@@ -1177,7 +1223,9 @@
         "spa": 80,
         "spd": 120,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "aerodactyl-24",
@@ -1226,7 +1274,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 130
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "porygon2-25",
@@ -1274,7 +1324,9 @@
         "spa": 105,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "lickilicky-26",
@@ -1322,7 +1374,9 @@
         "spa": 80,
         "spd": 95,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "yanmega-27",
@@ -1371,7 +1425,9 @@
         "spa": 116,
         "spd": 56,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "gardevoir-28",
@@ -1419,7 +1475,9 @@
         "spa": 125,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "gallade-29",
@@ -1468,7 +1526,9 @@
         "spa": 65,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "exeggutor-30",
@@ -1516,7 +1576,9 @@
         "spa": 125,
         "spd": 65,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "starmie-31",
@@ -1565,7 +1627,9 @@
         "spa": 100,
         "spd": 85,
         "spe": 115
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "flygon-32",
@@ -1613,7 +1677,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "vaporeon-33",
@@ -1660,7 +1726,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "jolteon-34",
@@ -1707,7 +1775,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 130
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "flareon-35",
@@ -1754,7 +1824,9 @@
         "spa": 95,
         "spd": 110,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "espeon-36",
@@ -1801,7 +1873,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 110
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "umbreon-37",
@@ -1848,7 +1922,9 @@
         "spa": 60,
         "spd": 130,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "leafeon-38",
@@ -1895,7 +1971,9 @@
         "spa": 60,
         "spd": 65,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "glaceon-39",
@@ -1942,7 +2020,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "lucario-40",
@@ -1991,7 +2071,9 @@
         "spa": 115,
         "spd": 70,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "hippowdon-41",
@@ -2038,7 +2120,9 @@
         "spa": 68,
         "spd": 72,
         "spe": 47
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "probopass-42",
@@ -2087,7 +2171,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "dusknoir-43",
@@ -2134,7 +2220,9 @@
         "spa": 65,
         "spd": 135,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "aggron-44",
@@ -2183,7 +2271,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "walrein-45",
@@ -2232,7 +2322,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "mamoswine-46",
@@ -2281,7 +2373,9 @@
         "spa": 70,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "lapras-47",
@@ -2330,7 +2424,9 @@
         "spa": 85,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "crobat-48",
@@ -2378,7 +2474,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 130
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "magnezone-49",
@@ -2427,7 +2525,9 @@
         "spa": 130,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "rhyperior-50",
@@ -2476,7 +2576,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "tangrowth-51",
@@ -2524,7 +2626,9 @@
         "spa": 110,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "porygon-z-52",
@@ -2572,7 +2676,9 @@
         "spa": 135,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "gyarados-53",
@@ -2620,7 +2726,9 @@
         "spa": 60,
         "spd": 100,
         "spe": 81
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "snorlax-54",
@@ -2668,7 +2776,9 @@
         "spa": 65,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "kingdra-55",
@@ -2717,7 +2827,9 @@
         "spa": 95,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "blissey-56",
@@ -2765,7 +2877,9 @@
         "spa": 75,
         "spd": 135,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "milotic-57",
@@ -2813,7 +2927,9 @@
         "spa": 100,
         "spd": 125,
         "spe": 81
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "electivire-58",
@@ -2860,7 +2976,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "magmortar-59",
@@ -2907,7 +3025,9 @@
         "spa": 125,
         "spd": 95,
         "spe": 83
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "togekiss-60",
@@ -2956,7 +3076,9 @@
         "spa": 120,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "arcanine-61",
@@ -3004,7 +3126,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "dragonite-62",
@@ -3052,7 +3176,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "tyranitar-63",
@@ -3100,7 +3226,9 @@
         "spa": 95,
         "spd": 100,
         "spe": 61
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "salamence-64",
@@ -3148,7 +3276,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "metagross-65",
@@ -3196,7 +3326,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "garchomp-66",
@@ -3244,7 +3376,9 @@
         "spa": 80,
         "spd": 85,
         "spe": 102
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "slaking-67",
@@ -3291,7 +3425,9 @@
         "spa": 95,
         "spd": 65,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "blastoise-68",
@@ -3338,7 +3474,9 @@
         "spa": 85,
         "spd": 105,
         "spe": 78
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "feraligatr-69",
@@ -3385,7 +3523,9 @@
         "spa": 79,
         "spd": 83,
         "spe": 78
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "swampert-70",
@@ -3433,7 +3573,9 @@
         "spa": 85,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "empoleon-71",
@@ -3481,7 +3623,9 @@
         "spa": 111,
         "spd": 101,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "quagsire-72",
@@ -3530,7 +3674,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "granbull-73",
@@ -3578,7 +3724,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "jynx-74",
@@ -3627,7 +3775,9 @@
         "spa": 115,
         "spd": 95,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "dewgong-75",
@@ -3676,7 +3826,9 @@
         "spa": 70,
         "spd": 95,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "staraptor-76",
@@ -3724,7 +3876,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "gastrodon-77",
@@ -3773,7 +3927,9 @@
         "spa": 92,
         "spd": 82,
         "spe": 39
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "ludicolo-78",
@@ -3822,7 +3978,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "exploud-79",
@@ -3869,7 +4027,9 @@
         "spa": 91,
         "spd": 63,
         "spe": 68
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "glalie-80",
@@ -3917,7 +4077,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "lopunny-81",
@@ -3965,7 +4127,9 @@
         "spa": 54,
         "spd": 96,
         "spe": 105
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "froslass-82",
@@ -4013,7 +4177,9 @@
         "spa": 80,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "ambipom-83",
@@ -4061,7 +4227,9 @@
         "spa": 60,
         "spd": 66,
         "spe": 115
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "slowbro-84",
@@ -4110,7 +4278,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "kangaskhan-85",
@@ -4158,7 +4328,9 @@
         "spa": 40,
         "spd": 80,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "tauros-86",
@@ -4206,7 +4378,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "slowking-87",
@@ -4255,7 +4429,9 @@
         "spa": 100,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "miltank-88",
@@ -4303,7 +4479,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "abomasnow-89",
@@ -4351,7 +4529,9 @@
         "spa": 92,
         "spd": 85,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "floatzel-90",
@@ -4398,7 +4578,9 @@
         "spa": 85,
         "spd": 50,
         "spe": 115
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "golduck-91",
@@ -4446,7 +4628,9 @@
         "spa": 95,
         "spd": 80,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "poliwrath-92",
@@ -4495,7 +4679,9 @@
         "spa": 70,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "articuno-93",
@@ -4543,7 +4729,9 @@
         "spa": 95,
         "spd": 125,
         "spe": 85
-      }
+      },
+      "setIndex": null,
+      "setCount": 4
     },
     {
       "id": "zapdos-94",
@@ -4591,7 +4779,9 @@
         "spa": 125,
         "spd": 90,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "moltres-95",
@@ -4639,7 +4829,9 @@
         "spa": 125,
         "spd": 85,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "raikou-96",
@@ -4686,7 +4878,9 @@
         "spa": 115,
         "spd": 100,
         "spe": 115
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "entei-97",
@@ -4733,7 +4927,9 @@
         "spa": 90,
         "spd": 75,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "suicune-98",
@@ -4780,7 +4976,9 @@
         "spa": 90,
         "spd": 115,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "regirock-99",
@@ -4827,7 +5025,9 @@
         "spa": 50,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "regice-100",
@@ -4874,7 +5074,9 @@
         "spa": 100,
         "spd": 200,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "registeel-101",
@@ -4921,7 +5123,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "latias-102",
@@ -4969,7 +5173,9 @@
         "spa": 110,
         "spd": 130,
         "spe": 110
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "latios-103",
@@ -5017,7 +5223,9 @@
         "spa": 130,
         "spd": 110,
         "spe": 110
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "heatran-104",
@@ -5065,7 +5273,9 @@
         "spa": 130,
         "spd": 106,
         "spe": 77
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "cresselia-105",
@@ -5112,7 +5322,9 @@
         "spa": 75,
         "spd": 130,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "regigigas-106",
@@ -5159,7 +5371,9 @@
         "spa": 80,
         "spd": 110,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "articuno-107",
@@ -5207,7 +5421,9 @@
         "spa": 95,
         "spd": 125,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "zapdos-108",
@@ -5255,7 +5471,9 @@
         "spa": 125,
         "spd": 90,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "moltres-109",
@@ -5303,7 +5521,9 @@
         "spa": 125,
         "spd": 85,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "raikou-110",
@@ -5350,7 +5570,9 @@
         "spa": 115,
         "spd": 100,
         "spe": 115
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "entei-111",
@@ -5397,7 +5619,9 @@
         "spa": 90,
         "spd": 75,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "suicune-112",
@@ -5444,7 +5668,9 @@
         "spa": 90,
         "spd": 115,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "regirock-113",
@@ -5491,7 +5717,9 @@
         "spa": 50,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "regice-114",
@@ -5538,7 +5766,9 @@
         "spa": 100,
         "spd": 200,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "registeel-115",
@@ -5585,7 +5815,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "latias-116",
@@ -5633,7 +5865,9 @@
         "spa": 110,
         "spd": 130,
         "spe": 110
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "latios-117",
@@ -5681,7 +5915,9 @@
         "spa": 130,
         "spd": 110,
         "spe": 110
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "heatran-118",
@@ -5729,7 +5965,9 @@
         "spa": 130,
         "spd": 106,
         "spe": 77
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "cresselia-119",
@@ -5776,7 +6014,9 @@
         "spa": 75,
         "spd": 130,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "regigigas-120",
@@ -5823,7 +6063,9 @@
         "spa": 80,
         "spd": 110,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "articuno-121",
@@ -5871,7 +6113,9 @@
         "spa": 95,
         "spd": 125,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "zapdos-122",
@@ -5919,7 +6163,9 @@
         "spa": 125,
         "spd": 90,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "moltres-123",
@@ -5967,7 +6213,9 @@
         "spa": 125,
         "spd": 85,
         "spe": 90
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "raikou-124",
@@ -6014,7 +6262,9 @@
         "spa": 115,
         "spd": 100,
         "spe": 115
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "entei-125",
@@ -6061,7 +6311,9 @@
         "spa": 90,
         "spd": 75,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "suicune-126",
@@ -6108,7 +6360,9 @@
         "spa": 90,
         "spd": 115,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "regirock-127",
@@ -6155,7 +6409,9 @@
         "spa": 50,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "regice-128",
@@ -6202,7 +6458,9 @@
         "spa": 100,
         "spd": 200,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "registeel-129",
@@ -6249,7 +6507,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "latias-130",
@@ -6297,7 +6557,9 @@
         "spa": 110,
         "spd": 130,
         "spe": 110
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "latios-131",
@@ -6345,7 +6607,9 @@
         "spa": 130,
         "spd": 110,
         "spe": 110
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "heatran-132",
@@ -6393,7 +6657,9 @@
         "spa": 130,
         "spd": 106,
         "spe": 77
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "cresselia-133",
@@ -6440,7 +6706,9 @@
         "spa": 75,
         "spd": 130,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "regigigas-134",
@@ -6487,7 +6755,9 @@
         "spa": 80,
         "spd": 110,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "articuno-135",
@@ -6535,7 +6805,9 @@
         "spa": 95,
         "spd": 125,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "zapdos-136",
@@ -6583,7 +6855,9 @@
         "spa": 125,
         "spd": 90,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "moltres-137",
@@ -6631,7 +6905,9 @@
         "spa": 125,
         "spd": 85,
         "spe": 90
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "raikou-138",
@@ -6678,7 +6954,9 @@
         "spa": 115,
         "spd": 100,
         "spe": 115
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "entei-139",
@@ -6725,7 +7003,9 @@
         "spa": 90,
         "spd": 75,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "suicune-140",
@@ -6772,7 +7052,9 @@
         "spa": 90,
         "spd": 115,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "regirock-141",
@@ -6819,7 +7101,9 @@
         "spa": 50,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "regice-142",
@@ -6866,7 +7150,9 @@
         "spa": 100,
         "spd": 200,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "registeel-143",
@@ -6913,7 +7199,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "latias-144",
@@ -6961,7 +7249,9 @@
         "spa": 110,
         "spd": 130,
         "spe": 110
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "latios-145",
@@ -7009,7 +7299,9 @@
         "spa": 130,
         "spd": 110,
         "spe": 110
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "heatran-146",
@@ -7057,7 +7349,9 @@
         "spa": 130,
         "spd": 106,
         "spe": 77
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "cresselia-147",
@@ -7104,7 +7398,9 @@
         "spa": 75,
         "spd": 130,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "regigigas-148",
@@ -7151,7 +7447,9 @@
         "spa": 80,
         "spd": 110,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "gengar-149",
@@ -7199,7 +7497,9 @@
         "spa": 130,
         "spd": 75,
         "spe": 110
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "ampharos-150",
@@ -7246,7 +7546,9 @@
         "spa": 115,
         "spd": 90,
         "spe": 55
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "politoed-151",
@@ -7294,7 +7596,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "pinsir-152",
@@ -7342,7 +7646,9 @@
         "spa": 55,
         "spd": 70,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "scizor-153",
@@ -7391,7 +7697,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 65
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "heracross-154",
@@ -7440,7 +7748,9 @@
         "spa": 40,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "ursaring-155",
@@ -7488,7 +7798,9 @@
         "spa": 75,
         "spd": 75,
         "spe": 55
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "houndoom-156",
@@ -7537,7 +7849,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "donphan-157",
@@ -7584,7 +7898,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "wailord-158",
@@ -7632,7 +7948,9 @@
         "spa": 90,
         "spd": 45,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "claydol-159",
@@ -7680,7 +7998,9 @@
         "spa": 70,
         "spd": 120,
         "spe": 75
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "rampardos-160",
@@ -7727,7 +8047,9 @@
         "spa": 65,
         "spd": 50,
         "spe": 58
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "bronzong-161",
@@ -7776,7 +8098,9 @@
         "spa": 79,
         "spd": 116,
         "spe": 33
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "drapion-162",
@@ -7825,7 +8149,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "luxray-163",
@@ -7873,7 +8199,9 @@
         "spa": 95,
         "spd": 79,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "ninetales-164",
@@ -7920,7 +8248,9 @@
         "spa": 81,
         "spd": 100,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "machamp-165",
@@ -7968,7 +8298,9 @@
         "spa": 65,
         "spd": 85,
         "spe": 55
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "shuckle-166",
@@ -8017,7 +8349,9 @@
         "spa": 10,
         "spd": 230,
         "spe": 5
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "roserade-167",
@@ -8066,7 +8400,9 @@
         "spa": 125,
         "spd": 105,
         "spe": 90
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "honchkrow-168",
@@ -8115,7 +8451,9 @@
         "spa": 105,
         "spd": 52,
         "spe": 71
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "steelix-169",
@@ -8164,7 +8502,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "weavile-170",
@@ -8212,7 +8552,9 @@
         "spa": 45,
         "spd": 85,
         "spe": 125
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "gliscor-171",
@@ -8261,7 +8603,9 @@
         "spa": 45,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "tentacruel-172",
@@ -8310,7 +8654,9 @@
         "spa": 80,
         "spd": 120,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "aerodactyl-173",
@@ -8359,7 +8705,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 130
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "porygon2-174",
@@ -8407,7 +8755,9 @@
         "spa": 105,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "lickilicky-175",
@@ -8455,7 +8805,9 @@
         "spa": 80,
         "spd": 95,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "yanmega-176",
@@ -8504,7 +8856,9 @@
         "spa": 116,
         "spd": 56,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "gardevoir-177",
@@ -8552,7 +8906,9 @@
         "spa": 125,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "gallade-178",
@@ -8601,7 +8957,9 @@
         "spa": 65,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "exeggutor-179",
@@ -8649,7 +9007,9 @@
         "spa": 125,
         "spd": 65,
         "spe": 55
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "starmie-180",
@@ -8698,7 +9058,9 @@
         "spa": 100,
         "spd": 85,
         "spe": 115
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "flygon-181",
@@ -8746,7 +9108,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "vaporeon-182",
@@ -8793,7 +9157,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "jolteon-183",
@@ -8840,7 +9206,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 130
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "flareon-184",
@@ -8887,7 +9255,9 @@
         "spa": 95,
         "spd": 110,
         "spe": 65
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "espeon-185",
@@ -8934,7 +9304,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 110
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "umbreon-186",
@@ -8981,7 +9353,9 @@
         "spa": 60,
         "spd": 130,
         "spe": 65
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "leafeon-187",
@@ -9028,7 +9402,9 @@
         "spa": 60,
         "spd": 65,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "glaceon-188",
@@ -9075,7 +9451,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "lucario-189",
@@ -9124,7 +9502,9 @@
         "spa": 115,
         "spd": 70,
         "spe": 90
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "hippowdon-190",
@@ -9171,7 +9551,9 @@
         "spa": 68,
         "spd": 72,
         "spe": 47
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "probopass-191",
@@ -9220,7 +9602,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 40
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "dusknoir-192",
@@ -9267,7 +9651,9 @@
         "spa": 65,
         "spd": 135,
         "spe": 45
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "aggron-193",
@@ -9316,7 +9702,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "walrein-194",
@@ -9365,7 +9753,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 65
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "mamoswine-195",
@@ -9414,7 +9804,9 @@
         "spa": 70,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "lapras-196",
@@ -9463,7 +9855,9 @@
         "spa": 85,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "crobat-197",
@@ -9511,7 +9905,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 130
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "magnezone-198",
@@ -9560,7 +9956,9 @@
         "spa": 130,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "rhyperior-199",
@@ -9609,7 +10007,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 40
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "tangrowth-200",
@@ -9657,7 +10057,9 @@
         "spa": 110,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "porygon-z-201",
@@ -9705,7 +10107,9 @@
         "spa": 135,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "gyarados-202",
@@ -9753,7 +10157,9 @@
         "spa": 60,
         "spd": 100,
         "spe": 81
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "snorlax-203",
@@ -9801,7 +10207,9 @@
         "spa": 65,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "kingdra-204",
@@ -9850,7 +10258,9 @@
         "spa": 95,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "blissey-205",
@@ -9898,7 +10308,9 @@
         "spa": 75,
         "spd": 135,
         "spe": 55
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "milotic-206",
@@ -9946,7 +10358,9 @@
         "spa": 100,
         "spd": 125,
         "spe": 81
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "electivire-207",
@@ -9993,7 +10407,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "magmortar-208",
@@ -10040,7 +10456,9 @@
         "spa": 125,
         "spd": 95,
         "spe": 83
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "togekiss-209",
@@ -10089,7 +10507,9 @@
         "spa": 120,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "arcanine-210",
@@ -10137,7 +10557,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "dragonite-211",
@@ -10185,7 +10607,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "tyranitar-212",
@@ -10233,7 +10657,9 @@
         "spa": 95,
         "spd": 100,
         "spe": 61
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "salamence-213",
@@ -10281,7 +10707,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "metagross-214",
@@ -10329,7 +10757,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "garchomp-215",
@@ -10377,7 +10807,9 @@
         "spa": 80,
         "spd": 85,
         "spe": 102
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "slaking-216",
@@ -10424,7 +10856,9 @@
         "spa": 95,
         "spd": 65,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "jynx-217",
@@ -10473,7 +10907,9 @@
         "spa": 115,
         "spd": 95,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "dewgong-218",
@@ -10522,7 +10958,9 @@
         "spa": 70,
         "spd": 95,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "glalie-219",
@@ -10570,7 +11008,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "froslass-220",
@@ -10618,7 +11058,9 @@
         "spa": 80,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "abomasnow-221",
@@ -10666,7 +11108,9 @@
         "spa": 92,
         "spd": 85,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "weavile-222",
@@ -10714,7 +11158,9 @@
         "spa": 45,
         "spd": 85,
         "spe": 125
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "glaceon-223",
@@ -10761,7 +11207,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "walrein-224",
@@ -10810,7 +11258,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "mamoswine-225",
@@ -10859,7 +11309,9 @@
         "spa": 70,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "lapras-226",
@@ -10908,7 +11360,9 @@
         "spa": 85,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "jynx-227",
@@ -10957,7 +11411,9 @@
         "spa": 115,
         "spd": 95,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "dewgong-228",
@@ -11006,7 +11462,9 @@
         "spa": 70,
         "spd": 95,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "glalie-229",
@@ -11054,7 +11512,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "froslass-230",
@@ -11102,7 +11562,9 @@
         "spa": 80,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "abomasnow-231",
@@ -11150,7 +11612,9 @@
         "spa": 92,
         "spd": 85,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "weavile-232",
@@ -11198,7 +11662,9 @@
         "spa": 45,
         "spd": 85,
         "spe": 125
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "glaceon-233",
@@ -11245,7 +11711,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "walrein-234",
@@ -11294,7 +11762,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 65
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "mamoswine-235",
@@ -11343,7 +11813,9 @@
         "spa": 70,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "lapras-236",
@@ -11392,7 +11864,9 @@
         "spa": 85,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "jynx-237",
@@ -11441,7 +11915,9 @@
         "spa": 115,
         "spd": 95,
         "spe": 95
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "dewgong-238",
@@ -11490,7 +11966,9 @@
         "spa": 70,
         "spd": 95,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "glalie-239",
@@ -11538,7 +12016,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "froslass-240",
@@ -11586,7 +12066,9 @@
         "spa": 80,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "abomasnow-241",
@@ -11634,7 +12116,9 @@
         "spa": 92,
         "spd": 85,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "bulbasaur-242",
@@ -11682,7 +12166,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "chikorita-243",
@@ -11729,7 +12215,9 @@
         "spa": 49,
         "spd": 65,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "treecko-244",
@@ -11776,7 +12264,9 @@
         "spa": 65,
         "spd": 55,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "turtwig-245",
@@ -11823,7 +12313,9 @@
         "spa": 45,
         "spd": 55,
         "spe": 31
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "happiny-246",
@@ -11871,7 +12363,9 @@
         "spa": 15,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "starly-247",
@@ -11919,7 +12413,9 @@
         "spa": 30,
         "spd": 30,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "bidoof-248",
@@ -11967,7 +12463,9 @@
         "spa": 35,
         "spd": 40,
         "spe": 31
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "cherubi-249",
@@ -12014,7 +12512,9 @@
         "spa": 62,
         "spd": 53,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "budew-250",
@@ -12063,7 +12563,9 @@
         "spa": 50,
         "spd": 70,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "snubbull-251",
@@ -12111,7 +12613,9 @@
         "spa": 40,
         "spd": 40,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "doduo-252",
@@ -12160,7 +12664,9 @@
         "spa": 35,
         "spd": 35,
         "spe": 75
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "swablu-253",
@@ -12208,7 +12714,9 @@
         "spa": 40,
         "spd": 75,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "glameow-254",
@@ -12256,7 +12764,9 @@
         "spa": 42,
         "spd": 37,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "oddish-255",
@@ -12304,7 +12814,9 @@
         "spa": 75,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "clefairy-256",
@@ -12352,7 +12864,9 @@
         "spa": 60,
         "spd": 65,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "exeggcute-257",
@@ -12400,7 +12914,9 @@
         "spa": 60,
         "spd": 45,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "eevee-258",
@@ -12448,7 +12964,9 @@
         "spa": 45,
         "spd": 65,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "teddiursa-259",
@@ -12496,7 +13014,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "snover-260",
@@ -12544,7 +13064,9 @@
         "spa": 62,
         "spd": 60,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "cacnea-261",
@@ -12591,7 +13113,9 @@
         "spa": 85,
         "spd": 40,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "skiploom-262",
@@ -12640,7 +13164,9 @@
         "spa": 45,
         "spd": 65,
         "spe": 80
-      }
+      },
+      "setIndex": null,
+      "setCount": 1
     },
     {
       "id": "lombre-263",
@@ -12689,7 +13215,9 @@
         "spa": 60,
         "spd": 70,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "nuzleaf-264",
@@ -12738,7 +13266,9 @@
         "spa": 60,
         "spd": 40,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "staravia-265",
@@ -12786,7 +13316,9 @@
         "spa": 40,
         "spd": 40,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "pidgeotto-266",
@@ -12835,7 +13367,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 71
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "buneary-267",
@@ -12883,7 +13417,9 @@
         "spa": 44,
         "spd": 56,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "farfetchd-268",
@@ -12932,7 +13468,9 @@
         "spa": 58,
         "spd": 62,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "lileep-269",
@@ -12980,7 +13518,9 @@
         "spa": 61,
         "spd": 87,
         "spe": 23
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "aipom-270",
@@ -13028,7 +13568,9 @@
         "spa": 40,
         "spd": 55,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "loudred-271",
@@ -13075,7 +13617,9 @@
         "spa": 71,
         "spd": 43,
         "spe": 48
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "spinda-272",
@@ -13123,7 +13667,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "dunsparce-273",
@@ -13171,7 +13717,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "delcatty-274",
@@ -13219,7 +13767,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "lickitung-275",
@@ -13267,7 +13817,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "weepinbell-276",
@@ -13315,7 +13867,9 @@
         "spa": 85,
         "spd": 45,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "munchlax-277",
@@ -13363,7 +13917,9 @@
         "spa": 40,
         "spd": 85,
         "spe": 5
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "gloom-278",
@@ -13411,7 +13967,9 @@
         "spa": 85,
         "spd": 75,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "porygon-279",
@@ -13459,7 +14017,9 @@
         "spa": 85,
         "spd": 75,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "roselia-280",
@@ -13508,7 +14068,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "parasect-281",
@@ -13557,7 +14119,9 @@
         "spa": 60,
         "spd": 80,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "togetic-282",
@@ -13606,7 +14170,9 @@
         "spa": 80,
         "spd": 105,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "venusaur-283",
@@ -13654,7 +14220,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "meganium-284",
@@ -13701,7 +14269,9 @@
         "spa": 83,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "sceptile-285",
@@ -13748,7 +14318,9 @@
         "spa": 105,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "torterra-286",
@@ -13796,7 +14368,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 56
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "breloom-287",
@@ -13845,7 +14419,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "vileplume-288",
@@ -13893,7 +14469,9 @@
         "spa": 100,
         "spd": 90,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "victreebel-289",
@@ -13941,7 +14519,9 @@
         "spa": 100,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "ludicolo-290",
@@ -13990,7 +14570,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "shiftry-291",
@@ -14039,7 +14621,9 @@
         "spa": 90,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "cradily-292",
@@ -14087,7 +14671,9 @@
         "spa": 81,
         "spd": 107,
         "spe": 43
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "roserade-293",
@@ -14136,7 +14722,9 @@
         "spa": 125,
         "spd": 105,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "exeggutor-294",
@@ -14184,7 +14772,9 @@
         "spa": 125,
         "spd": 65,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "leafeon-295",
@@ -14231,7 +14821,9 @@
         "spa": 60,
         "spd": 65,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "tangrowth-296",
@@ -14279,7 +14871,9 @@
         "spa": 110,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "venusaur-297",
@@ -14327,7 +14921,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "meganium-298",
@@ -14374,7 +14970,9 @@
         "spa": 83,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "sceptile-299",
@@ -14421,7 +15019,9 @@
         "spa": 105,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "torterra-300",
@@ -14469,7 +15069,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 56
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "breloom-301",
@@ -14518,7 +15120,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "vileplume-302",
@@ -14566,7 +15170,9 @@
         "spa": 100,
         "spd": 90,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "victreebel-303",
@@ -14614,7 +15220,9 @@
         "spa": 100,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "ludicolo-304",
@@ -14663,7 +15271,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "shiftry-305",
@@ -14712,7 +15322,9 @@
         "spa": 90,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "cradily-306",
@@ -14760,7 +15372,9 @@
         "spa": 81,
         "spd": 107,
         "spe": 43
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "roserade-307",
@@ -14809,7 +15423,9 @@
         "spa": 125,
         "spd": 105,
         "spe": 90
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "exeggutor-308",
@@ -14857,7 +15473,9 @@
         "spa": 125,
         "spd": 65,
         "spe": 55
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "leafeon-309",
@@ -14904,7 +15522,9 @@
         "spa": 60,
         "spd": 65,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "tangrowth-310",
@@ -14952,7 +15572,9 @@
         "spa": 110,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "venusaur-311",
@@ -15000,7 +15622,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "meganium-312",
@@ -15047,7 +15671,9 @@
         "spa": 83,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "sceptile-313",
@@ -15094,7 +15720,9 @@
         "spa": 105,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "torterra-314",
@@ -15142,7 +15770,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 56
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "breloom-315",
@@ -15191,7 +15821,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "vileplume-316",
@@ -15239,7 +15871,9 @@
         "spa": 100,
         "spd": 90,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "victreebel-317",
@@ -15287,7 +15921,9 @@
         "spa": 100,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "ludicolo-318",
@@ -15336,7 +15972,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "shiftry-319",
@@ -15385,7 +16023,9 @@
         "spa": 90,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "cradily-320",
@@ -15433,7 +16073,9 @@
         "spa": 81,
         "spd": 107,
         "spe": 43
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "charmeleon-321",
@@ -15480,7 +16122,9 @@
         "spa": 80,
         "spd": 65,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "wartortle-322",
@@ -15527,7 +16171,9 @@
         "spa": 65,
         "spd": 80,
         "spe": 58
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "quilava-323",
@@ -15574,7 +16220,9 @@
         "spa": 80,
         "spd": 65,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "croconaw-324",
@@ -15621,7 +16269,9 @@
         "spa": 59,
         "spd": 63,
         "spe": 58
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "combusken-325",
@@ -15669,7 +16319,9 @@
         "spa": 85,
         "spd": 60,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "marshtomp-326",
@@ -15717,7 +16369,9 @@
         "spa": 60,
         "spd": 70,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "monferno-327",
@@ -15765,7 +16419,9 @@
         "spa": 78,
         "spd": 52,
         "spe": 81
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "prinplup-328",
@@ -15812,7 +16468,9 @@
         "spa": 81,
         "spd": 76,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "sudowoodo-329",
@@ -15860,7 +16518,9 @@
         "spa": 30,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "magcargo-330",
@@ -15909,7 +16569,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "pupitar-331",
@@ -15957,7 +16619,9 @@
         "spa": 65,
         "spd": 70,
         "spe": 51
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "bibarel-332",
@@ -16006,7 +16670,9 @@
         "spa": 55,
         "spd": 60,
         "spe": 71
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "gabite-333",
@@ -16054,7 +16720,9 @@
         "spa": 50,
         "spd": 55,
         "spe": 82
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "machoke-334",
@@ -16102,7 +16770,9 @@
         "spa": 50,
         "spd": 60,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "raticate-335",
@@ -16150,7 +16820,9 @@
         "spa": 50,
         "spd": 70,
         "spe": 97
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "furret-336",
@@ -16198,7 +16870,9 @@
         "spa": 45,
         "spd": 55,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "luxio-337",
@@ -16246,7 +16920,9 @@
         "spa": 60,
         "spd": 49,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "linoone-338",
@@ -16294,7 +16970,9 @@
         "spa": 50,
         "spd": 61,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "metang-339",
@@ -16342,7 +17020,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 50
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "gligar-340",
@@ -16391,7 +17071,9 @@
         "spa": 35,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "lairon-341",
@@ -16440,7 +17122,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "persian-342",
@@ -16488,7 +17172,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 115
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "vigoroth-343",
@@ -16535,7 +17221,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "lunatone-344",
@@ -16583,7 +17271,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "solrock-345",
@@ -16631,7 +17321,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "kecleon-346",
@@ -16678,7 +17370,9 @@
         "spa": 60,
         "spd": 120,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "sandslash-347",
@@ -16725,7 +17419,9 @@
         "spa": 45,
         "spd": 55,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "chansey-348",
@@ -16773,7 +17469,9 @@
         "spa": 35,
         "spd": 105,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "piloswine-349",
@@ -16822,7 +17520,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "purugly-350",
@@ -16870,7 +17570,9 @@
         "spa": 64,
         "spd": 59,
         "spe": 112
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "primeape-351",
@@ -16918,7 +17620,9 @@
         "spa": 60,
         "spd": 70,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "hitmonlee-352",
@@ -16966,7 +17670,9 @@
         "spa": 35,
         "spd": 110,
         "spe": 87
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "hitmonchan-353",
@@ -17014,7 +17720,9 @@
         "spa": 35,
         "spd": 110,
         "spe": 76
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "hitmontop-354",
@@ -17062,7 +17770,9 @@
         "spa": 35,
         "spd": 110,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "zangoose-355",
@@ -17109,7 +17819,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "camerupt-356",
@@ -17158,7 +17870,9 @@
         "spa": 105,
         "spd": 75,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "magneton-357",
@@ -17207,7 +17921,9 @@
         "spa": 120,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "stantler-358",
@@ -17255,7 +17971,9 @@
         "spa": 85,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "crawdaunt-359",
@@ -17304,7 +18022,9 @@
         "spa": 90,
         "spd": 55,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "torkoal-360",
@@ -17352,7 +18072,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 20
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "kingler-361",
@@ -17400,7 +18122,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 75
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "octillery-362",
@@ -17448,7 +18172,9 @@
         "spa": 105,
         "spd": 75,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "relicanth-363",
@@ -17497,7 +18223,9 @@
         "spa": 45,
         "spd": 65,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "electabuzz-364",
@@ -17544,7 +18272,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 105
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "magmar-365",
@@ -17591,7 +18321,9 @@
         "spa": 100,
         "spd": 85,
         "spe": 93
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "omastar-366",
@@ -17640,7 +18372,9 @@
         "spa": 115,
         "spd": 70,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "kabutops-367",
@@ -17689,7 +18423,9 @@
         "spa": 65,
         "spd": 70,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "cloyster-368",
@@ -17738,7 +18474,9 @@
         "spa": 85,
         "spd": 45,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "primeape-369",
@@ -17786,7 +18524,9 @@
         "spa": 60,
         "spd": 70,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "hitmonlee-370",
@@ -17834,7 +18574,9 @@
         "spa": 35,
         "spd": 110,
         "spe": 87
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "hitmonchan-371",
@@ -17882,7 +18624,9 @@
         "spa": 35,
         "spd": 110,
         "spe": 76
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "hitmontop-372",
@@ -17930,7 +18674,9 @@
         "spa": 35,
         "spd": 110,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "charizard-373",
@@ -17978,7 +18724,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "typhlosion-374",
@@ -18025,7 +18773,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "blaziken-375",
@@ -18073,7 +18823,9 @@
         "spa": 110,
         "spd": 70,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "infernape-376",
@@ -18121,7 +18873,9 @@
         "spa": 104,
         "spd": 71,
         "spe": 108
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "medicham-377",
@@ -18169,7 +18923,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "hariyama-378",
@@ -18217,7 +18973,9 @@
         "spa": 40,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "toxicroak-379",
@@ -18266,7 +19024,9 @@
         "spa": 86,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "poliwrath-380",
@@ -18315,7 +19075,9 @@
         "spa": 70,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "rapidash-381",
@@ -18363,7 +19125,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 105
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "heracross-382",
@@ -18412,7 +19176,9 @@
         "spa": 40,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "houndoom-383",
@@ -18461,7 +19227,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "ninetales-384",
@@ -18508,7 +19276,9 @@
         "spa": 81,
         "spd": 100,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "machamp-385",
@@ -18556,7 +19326,9 @@
         "spa": 65,
         "spd": 85,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "gallade-386",
@@ -18605,7 +19377,9 @@
         "spa": 65,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "flareon-387",
@@ -18652,7 +19426,9 @@
         "spa": 95,
         "spd": 110,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "lucario-388",
@@ -18701,7 +19477,9 @@
         "spa": 115,
         "spd": 70,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "magmortar-389",
@@ -18748,7 +19526,9 @@
         "spa": 125,
         "spd": 95,
         "spe": 83
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "arcanine-390",
@@ -18796,7 +19576,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "charizard-391",
@@ -18844,7 +19626,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "typhlosion-392",
@@ -18891,7 +19675,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "blaziken-393",
@@ -18939,7 +19725,9 @@
         "spa": 110,
         "spd": 70,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "infernape-394",
@@ -18987,7 +19775,9 @@
         "spa": 104,
         "spd": 71,
         "spe": 108
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "medicham-395",
@@ -19035,7 +19825,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "hariyama-396",
@@ -19083,7 +19875,9 @@
         "spa": 40,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "toxicroak-397",
@@ -19132,7 +19926,9 @@
         "spa": 86,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "poliwrath-398",
@@ -19181,7 +19977,9 @@
         "spa": 70,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "rapidash-399",
@@ -19229,7 +20027,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 105
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "heracross-400",
@@ -19278,7 +20078,9 @@
         "spa": 40,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "houndoom-401",
@@ -19327,7 +20129,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "ninetales-402",
@@ -19374,7 +20178,9 @@
         "spa": 81,
         "spd": 100,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "machamp-403",
@@ -19422,7 +20228,9 @@
         "spa": 65,
         "spd": 85,
         "spe": 55
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "gallade-404",
@@ -19471,7 +20279,9 @@
         "spa": 65,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "flareon-405",
@@ -19518,7 +20328,9 @@
         "spa": 95,
         "spd": 110,
         "spe": 65
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "lucario-406",
@@ -19567,7 +20379,9 @@
         "spa": 115,
         "spd": 70,
         "spe": 90
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "magmortar-407",
@@ -19614,7 +20428,9 @@
         "spa": 125,
         "spd": 95,
         "spe": 83
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "arcanine-408",
@@ -19662,7 +20478,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "charizard-409",
@@ -19710,7 +20528,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "typhlosion-410",
@@ -19757,7 +20577,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "blaziken-411",
@@ -19805,7 +20627,9 @@
         "spa": 110,
         "spd": 70,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "infernape-412",
@@ -19853,7 +20677,9 @@
         "spa": 104,
         "spd": 71,
         "spe": 108
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "medicham-413",
@@ -19901,7 +20727,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "hariyama-414",
@@ -19949,7 +20777,9 @@
         "spa": 40,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "toxicroak-415",
@@ -19998,7 +20828,9 @@
         "spa": 86,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "poliwrath-416",
@@ -20047,7 +20879,9 @@
         "spa": 70,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "rapidash-417",
@@ -20095,7 +20929,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 105
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "omanyte-418",
@@ -20144,7 +20980,9 @@
         "spa": 90,
         "spd": 55,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "kabuto-419",
@@ -20193,7 +21031,9 @@
         "spa": 55,
         "spd": 45,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "anorith-420",
@@ -20241,7 +21081,9 @@
         "spa": 40,
         "spd": 50,
         "spe": 75
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "elekid-421",
@@ -20288,7 +21130,9 @@
         "spa": 65,
         "spd": 55,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "nidorina-422",
@@ -20336,7 +21180,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 56
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "nidorino-423",
@@ -20384,7 +21230,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "flaaffy-424",
@@ -20431,7 +21279,9 @@
         "spa": 80,
         "spd": 60,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "magby-425",
@@ -20478,7 +21328,9 @@
         "spa": 70,
         "spd": 55,
         "spe": 83
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "nosepass-426",
@@ -20526,7 +21378,9 @@
         "spa": 45,
         "spd": 90,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "corsola-427",
@@ -20575,7 +21429,9 @@
         "spa": 65,
         "spd": 85,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "sableye-428",
@@ -20624,7 +21480,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "mawile-429",
@@ -20672,7 +21530,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "kricketune-430",
@@ -20719,7 +21579,9 @@
         "spa": 55,
         "spd": 51,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "butterfree-431",
@@ -20767,7 +21629,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "beedrill-432",
@@ -20815,7 +21679,9 @@
         "spa": 45,
         "spd": 80,
         "spe": 75
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "poliwhirl-433",
@@ -20863,7 +21729,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 90
-      }
+      },
+      "setIndex": null,
+      "setCount": 1
     },
     {
       "id": "onix-434",
@@ -20912,7 +21780,9 @@
         "spa": 30,
         "spd": 45,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "beautifly-435",
@@ -20960,7 +21830,9 @@
         "spa": 90,
         "spd": 50,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "dustox-436",
@@ -21008,7 +21880,9 @@
         "spa": 50,
         "spd": 90,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "graveler-437",
@@ -21057,7 +21931,9 @@
         "spa": 45,
         "spd": 45,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "ledian-438",
@@ -21106,7 +21982,9 @@
         "spa": 55,
         "spd": 110,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "ariados-439",
@@ -21155,7 +22033,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "yanma-440",
@@ -21204,7 +22084,9 @@
         "spa": 75,
         "spd": 45,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "castform-441",
@@ -21251,7 +22133,9 @@
         "spa": 70,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "volbeat-442",
@@ -21299,7 +22183,9 @@
         "spa": 47,
         "spd": 75,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "illumise-443",
@@ -21347,7 +22233,9 @@
         "spa": 73,
         "spd": 75,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "wailmer-444",
@@ -21395,7 +22283,9 @@
         "spa": 70,
         "spd": 35,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "chatot-445",
@@ -21444,7 +22334,9 @@
         "spa": 92,
         "spd": 42,
         "spe": 91
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "haunter-446",
@@ -21492,7 +22384,9 @@
         "spa": 115,
         "spd": 55,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "murkrow-447",
@@ -21541,7 +22435,9 @@
         "spa": 85,
         "spd": 42,
         "spe": 91
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "wobbuffet-448",
@@ -21588,7 +22484,9 @@
         "spa": 33,
         "spd": 58,
         "spe": 33
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "plusle-449",
@@ -21635,7 +22533,9 @@
         "spa": 85,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "minun-450",
@@ -21682,7 +22582,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "pachirisu-451",
@@ -21730,7 +22632,9 @@
         "spa": 45,
         "spd": 90,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "ponyta-452",
@@ -21778,7 +22682,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "azumarill-453",
@@ -21826,7 +22732,9 @@
         "spa": 50,
         "spd": 80,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "ivysaur-454",
@@ -21874,7 +22782,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "charmeleon-455",
@@ -21921,7 +22831,9 @@
         "spa": 80,
         "spd": 65,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "wartortle-456",
@@ -21968,7 +22880,9 @@
         "spa": 65,
         "spd": 80,
         "spe": 58
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "bayleef-457",
@@ -22015,7 +22929,9 @@
         "spa": 63,
         "spd": 80,
         "spe": 60
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "quilava-458",
@@ -22062,7 +22978,9 @@
         "spa": 80,
         "spd": 65,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "croconaw-459",
@@ -22109,7 +23027,9 @@
         "spa": 59,
         "spd": 63,
         "spe": 58
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "grovyle-460",
@@ -22156,7 +23076,9 @@
         "spa": 85,
         "spd": 65,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "combusken-461",
@@ -22204,7 +23126,9 @@
         "spa": 85,
         "spd": 60,
         "spe": 55
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "marshtomp-462",
@@ -22252,7 +23176,9 @@
         "spa": 60,
         "spd": 70,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "grotle-463",
@@ -22299,7 +23225,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 36
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "monferno-464",
@@ -22347,7 +23275,9 @@
         "spa": 78,
         "spd": 52,
         "spe": 81
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "prinplup-465",
@@ -22394,7 +23324,9 @@
         "spa": 81,
         "spd": 76,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "sudowoodo-466",
@@ -22442,7 +23374,9 @@
         "spa": 30,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "magcargo-467",
@@ -22491,7 +23425,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "pupitar-468",
@@ -22539,7 +23475,9 @@
         "spa": 65,
         "spd": 70,
         "spe": 51
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "sealeo-469",
@@ -22588,7 +23526,9 @@
         "spa": 75,
         "spd": 70,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "bibarel-470",
@@ -22637,7 +23577,9 @@
         "spa": 55,
         "spd": 60,
         "spe": 71
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "gabite-471",
@@ -22685,7 +23627,9 @@
         "spa": 50,
         "spd": 55,
         "spe": 82
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "machoke-472",
@@ -22733,7 +23677,9 @@
         "spa": 50,
         "spd": 60,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "raticate-473",
@@ -22781,7 +23727,9 @@
         "spa": 50,
         "spd": 70,
         "spe": 97
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "masquerain-474",
@@ -22829,7 +23777,9 @@
         "spa": 80,
         "spd": 82,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "furret-475",
@@ -22877,7 +23827,9 @@
         "spa": 45,
         "spd": 55,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "luxio-476",
@@ -22925,7 +23877,9 @@
         "spa": 60,
         "spd": 49,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "cherrim-477",
@@ -22972,7 +23926,9 @@
         "spa": 87,
         "spd": 78,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "dragonair-478",
@@ -23019,7 +23975,9 @@
         "spa": 70,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "mightyena-479",
@@ -23067,7 +24025,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "linoone-480",
@@ -23115,7 +24075,9 @@
         "spa": 50,
         "spd": 61,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "kadabra-481",
@@ -23163,7 +24125,9 @@
         "spa": 120,
         "spd": 70,
         "spe": 105
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "shelgon-482",
@@ -23210,7 +24174,9 @@
         "spa": 60,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "metang-483",
@@ -23258,7 +24224,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "wormadam-484",
@@ -23306,7 +24274,9 @@
         "spa": 79,
         "spd": 105,
         "spe": 36
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "mothim-485",
@@ -23354,7 +24324,9 @@
         "spa": 94,
         "spd": 50,
         "spe": 66
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "wigglytuff-486",
@@ -23402,7 +24374,9 @@
         "spa": 75,
         "spd": 50,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "sunflora-487",
@@ -23450,7 +24424,9 @@
         "spa": 105,
         "spd": 85,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "chimecho-488",
@@ -23497,7 +24473,9 @@
         "spa": 95,
         "spd": 80,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "gligar-489",
@@ -23546,7 +24524,9 @@
         "spa": 35,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "qwilfish-490",
@@ -23595,7 +24575,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "sneasel-491",
@@ -23644,7 +24626,9 @@
         "spa": 35,
         "spd": 75,
         "spe": 115
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "swellow-492",
@@ -23692,7 +24676,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 125
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "pelipper-493",
@@ -23741,7 +24727,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "lairon-494",
@@ -23790,7 +24778,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "tangela-495",
@@ -23838,7 +24828,9 @@
         "spa": 100,
         "spd": 40,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "misdreavus-496",
@@ -23885,7 +24877,9 @@
         "spa": 85,
         "spd": 85,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "arbok-497",
@@ -23933,7 +24927,9 @@
         "spa": 65,
         "spd": 79,
         "spe": 80
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "persian-498",
@@ -23981,7 +24977,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 115
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "seadra-499",
@@ -24029,7 +25027,9 @@
         "spa": 95,
         "spd": 45,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "vigoroth-500",
@@ -24076,7 +25076,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "lunatone-501",
@@ -24124,7 +25126,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "solrock-502",
@@ -24172,7 +25176,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "kecleon-503",
@@ -24219,7 +25225,9 @@
         "spa": 60,
         "spd": 120,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "rotom-504",
@@ -24267,7 +25275,9 @@
         "spa": 95,
         "spd": 77,
         "spe": 91
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "fearow-505",
@@ -24315,7 +25325,9 @@
         "spa": 61,
         "spd": 61,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "noctowl-506",
@@ -24364,7 +25376,9 @@
         "spa": 76,
         "spd": 96,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "sandslash-507",
@@ -24411,7 +25425,9 @@
         "spa": 45,
         "spd": 55,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "venomoth-508",
@@ -24460,7 +25476,9 @@
         "spa": 90,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "chansey-509",
@@ -24508,7 +25526,9 @@
         "spa": 35,
         "spd": 105,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "seaking-510",
@@ -24556,7 +25576,9 @@
         "spa": 65,
         "spd": 80,
         "spe": 68
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "jumpluff-511",
@@ -24605,7 +25627,9 @@
         "spa": 55,
         "spd": 85,
         "spe": 110
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "piloswine-512",
@@ -24654,7 +25678,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "purugly-513",
@@ -24702,7 +25728,9 @@
         "spa": 64,
         "spd": 59,
         "spe": 112
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "carnivine-514",
@@ -24749,7 +25777,9 @@
         "spa": 90,
         "spd": 72,
         "spe": 46
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "golbat-515",
@@ -24797,7 +25827,9 @@
         "spa": 65,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "girafarig-516",
@@ -24846,7 +25878,9 @@
         "spa": 90,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "banette-517",
@@ -24894,7 +25928,9 @@
         "spa": 83,
         "spd": 63,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "dusclops-518",
@@ -24941,7 +25977,9 @@
         "spa": 60,
         "spd": 130,
         "spe": 25
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "ninjask-519",
@@ -24989,7 +26027,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 160
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "zangoose-520",
@@ -25036,7 +26076,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "seviper-521",
@@ -25083,7 +26125,9 @@
         "spa": 100,
         "spd": 60,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "dodrio-522",
@@ -25132,7 +26176,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "sharpedo-523",
@@ -25180,7 +26226,9 @@
         "spa": 95,
         "spd": 40,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "camerupt-524",
@@ -25229,7 +26277,9 @@
         "spa": 105,
         "spd": 75,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "tropius-525",
@@ -25278,7 +26328,9 @@
         "spa": 72,
         "spd": 87,
         "spe": 51
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "lumineon-526",
@@ -25326,7 +26378,9 @@
         "spa": 69,
         "spd": 86,
         "spe": 91
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "magneton-527",
@@ -25375,7 +26429,9 @@
         "spa": 120,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "mantine-528",
@@ -25424,7 +26480,9 @@
         "spa": 80,
         "spd": 140,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "stantler-529",
@@ -25472,7 +26530,9 @@
         "spa": 85,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "swalot-530",
@@ -25520,7 +26580,9 @@
         "spa": 73,
         "spd": 83,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "crawdaunt-531",
@@ -25569,7 +26631,9 @@
         "spa": 90,
         "spd": 55,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "pidgeot-532",
@@ -25618,7 +26682,9 @@
         "spa": 70,
         "spd": 70,
         "spe": 91
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "xatu-533",
@@ -25667,7 +26733,9 @@
         "spa": 95,
         "spd": 70,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "torkoal-534",
@@ -25715,7 +26783,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 20
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "grumpig-535",
@@ -25763,7 +26833,9 @@
         "spa": 90,
         "spd": 110,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "clefable-536",
@@ -25811,7 +26883,9 @@
         "spa": 85,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "kingler-537",
@@ -25859,7 +26933,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 75
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "cacturne-538",
@@ -25907,7 +26983,9 @@
         "spa": 115,
         "spd": 60,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "bellossom-539",
@@ -25954,7 +27032,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "octillery-540",
@@ -26002,7 +27082,9 @@
         "spa": 105,
         "spd": 75,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "huntail-541",
@@ -26049,7 +27131,9 @@
         "spa": 94,
         "spd": 75,
         "spe": 52
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "gorebyss-542",
@@ -26096,7 +27180,9 @@
         "spa": 114,
         "spd": 75,
         "spe": 52
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "relicanth-543",
@@ -26145,7 +27231,9 @@
         "spa": 45,
         "spd": 65,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "electabuzz-544",
@@ -26192,7 +27280,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 105
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "magmar-545",
@@ -26239,7 +27329,9 @@
         "spa": 100,
         "spd": 85,
         "spe": 93
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "omastar-546",
@@ -26288,7 +27380,9 @@
         "spa": 115,
         "spd": 70,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "kabutops-547",
@@ -26337,7 +27431,9 @@
         "spa": 65,
         "spd": 70,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "scyther-548",
@@ -26386,7 +27482,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 105
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "cloyster-549",
@@ -26435,7 +27533,9 @@
         "spa": 85,
         "spd": 45,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 2
     },
     {
       "id": "venusaur-550",
@@ -26483,7 +27583,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "blastoise-551",
@@ -26530,7 +27632,9 @@
         "spa": 85,
         "spd": 105,
         "spe": 78
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "feraligatr-552",
@@ -26577,7 +27681,9 @@
         "spa": 79,
         "spd": 83,
         "spe": 78
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "swampert-553",
@@ -26625,7 +27731,9 @@
         "spa": 85,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "empoleon-554",
@@ -26673,7 +27781,9 @@
         "spa": 111,
         "spd": 101,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "dugtrio-555",
@@ -26721,7 +27831,9 @@
         "spa": 50,
         "spd": 70,
         "spe": 120
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "marowak-556",
@@ -26769,7 +27881,9 @@
         "spa": 50,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "quagsire-557",
@@ -26818,7 +27932,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 35
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "granbull-558",
@@ -26866,7 +27982,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 45
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "mr-mime-559",
@@ -26914,7 +28032,9 @@
         "spa": 100,
         "spd": 120,
         "spe": 90
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "lanturn-560",
@@ -26963,7 +28083,9 @@
         "spa": 76,
         "spd": 76,
         "spe": 67
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "forretress-561",
@@ -27011,7 +28133,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 40
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "skarmory-562",
@@ -27060,7 +28184,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "absol-563",
@@ -27108,7 +28234,9 @@
         "spa": 75,
         "spd": 60,
         "spe": 75
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "whiscash-564",
@@ -27157,7 +28285,9 @@
         "spa": 76,
         "spd": 71,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "vespiquen-565",
@@ -27205,7 +28335,9 @@
         "spa": 80,
         "spd": 102,
         "spe": 40
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "raichu-566",
@@ -27252,7 +28384,9 @@
         "spa": 90,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "manectric-567",
@@ -27300,7 +28434,9 @@
         "spa": 105,
         "spd": 60,
         "spe": 105
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "staraptor-568",
@@ -27348,7 +28484,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "gastrodon-569",
@@ -27397,7 +28535,9 @@
         "spa": 92,
         "spd": 82,
         "spe": 39
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "skuntank-570",
@@ -27446,7 +28586,9 @@
         "spa": 71,
         "spd": 61,
         "spe": 84
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "electrode-571",
@@ -27494,7 +28636,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 140
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "exploud-572",
@@ -27541,7 +28685,9 @@
         "spa": 91,
         "spd": 63,
         "spe": 68
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "lopunny-573",
@@ -27589,7 +28735,9 @@
         "spa": 54,
         "spd": 96,
         "spe": 105
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "ambipom-574",
@@ -27637,7 +28785,9 @@
         "spa": 60,
         "spd": 66,
         "spe": 115
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "hypno-575",
@@ -27685,7 +28835,9 @@
         "spa": 73,
         "spd": 115,
         "spe": 67
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "golem-576",
@@ -27734,7 +28886,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 45
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "rhydon-577",
@@ -27783,7 +28937,9 @@
         "spa": 45,
         "spd": 45,
         "spe": 40
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "slowbro-578",
@@ -27832,7 +28988,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 30
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "weezing-579",
@@ -27880,7 +29038,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "kangaskhan-580",
@@ -27928,7 +29088,9 @@
         "spa": 40,
         "spd": 80,
         "spe": 90
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "tauros-581",
@@ -27976,7 +29138,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "alakazam-582",
@@ -28024,7 +29188,9 @@
         "spa": 135,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "slowking-583",
@@ -28073,7 +29239,9 @@
         "spa": 100,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "miltank-584",
@@ -28121,7 +29289,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "altaria-585",
@@ -28169,7 +29339,9 @@
         "spa": 70,
         "spd": 105,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "nidoqueen-586",
@@ -28218,7 +29390,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 76
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "nidoking-587",
@@ -28267,7 +29441,9 @@
         "spa": 85,
         "spd": 75,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "armaldo-588",
@@ -28315,7 +29491,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "bastiodon-589",
@@ -28363,7 +29541,9 @@
         "spa": 47,
         "spd": 138,
         "spe": 30
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "floatzel-590",
@@ -28410,7 +29590,9 @@
         "spa": 85,
         "spd": 50,
         "spe": 115
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "mismagius-591",
@@ -28457,7 +29639,9 @@
         "spa": 105,
         "spd": 105,
         "spe": 105
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "drifblim-592",
@@ -28506,7 +29690,9 @@
         "spa": 90,
         "spd": 54,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "golduck-593",
@@ -28554,7 +29740,9 @@
         "spa": 95,
         "spd": 80,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "muk-594",
@@ -28602,7 +29790,9 @@
         "spa": 65,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "combee-595",
@@ -28650,7 +29840,9 @@
         "spa": 30,
         "spd": 42,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "natu-596",
@@ -28699,7 +29891,9 @@
         "spa": 70,
         "spd": 45,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "delibird-597",
@@ -28748,7 +29942,9 @@
         "spa": 65,
         "spd": 45,
         "spe": 75
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "mantyke-598",
@@ -28797,7 +29993,9 @@
         "spa": 60,
         "spd": 120,
         "spe": 50
-      }
+      },
+      "setIndex": null,
+      "setCount": 1
     },
     {
       "id": "drifloon-599",
@@ -28846,7 +30044,9 @@
         "spa": 60,
         "spd": 44,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "honchkrow-600",
@@ -28895,7 +30095,9 @@
         "spa": 105,
         "spd": 52,
         "spe": 71
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "gliscor-601",
@@ -28944,7 +30146,9 @@
         "spa": 45,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "aerodactyl-602",
@@ -28993,7 +30197,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 130
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "porygon2-603",
@@ -29041,7 +30247,9 @@
         "spa": 105,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "yanmega-604",
@@ -29090,7 +30298,9 @@
         "spa": 116,
         "spd": 56,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "flygon-605",
@@ -29138,7 +30348,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "crobat-606",
@@ -29186,7 +30398,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 130
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "porygon-z-607",
@@ -29234,7 +30448,9 @@
         "spa": 135,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "gyarados-608",
@@ -29282,7 +30498,9 @@
         "spa": 60,
         "spd": 100,
         "spe": 81
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "togekiss-609",
@@ -29331,7 +30549,9 @@
         "spa": 120,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "dragonite-610",
@@ -29379,7 +30599,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "salamence-611",
@@ -29427,7 +30649,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "charizard-612",
@@ -29475,7 +30699,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "skarmory-613",
@@ -29524,7 +30750,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "vespiquen-614",
@@ -29572,7 +30800,9 @@
         "spa": 80,
         "spd": 102,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "altaria-615",
@@ -29620,7 +30850,9 @@
         "spa": 70,
         "spd": 105,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "drifblim-616",
@@ -29669,7 +30901,9 @@
         "spa": 90,
         "spd": 54,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "skarmory-617",
@@ -29718,7 +30952,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "vespiquen-618",
@@ -29766,7 +31002,9 @@
         "spa": 80,
         "spd": 102,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "staraptor-619",
@@ -29814,7 +31052,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "altaria-620",
@@ -29862,7 +31102,9 @@
         "spa": 70,
         "spd": 105,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "drifblim-621",
@@ -29911,7 +31153,9 @@
         "spa": 90,
         "spd": 54,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "honchkrow-622",
@@ -29960,7 +31204,9 @@
         "spa": 105,
         "spd": 52,
         "spe": 71
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "gliscor-623",
@@ -30009,7 +31255,9 @@
         "spa": 45,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "aerodactyl-624",
@@ -30058,7 +31306,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 130
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "yanmega-625",
@@ -30107,7 +31357,9 @@
         "spa": 116,
         "spd": 56,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "crobat-626",
@@ -30155,7 +31407,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 130
-      }
+      },
+      "setIndex": null,
+      "setCount": 4
     },
     {
       "id": "gyarados-627",
@@ -30203,7 +31457,9 @@
         "spa": 60,
         "spd": 100,
         "spe": 81
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "togekiss-628",
@@ -30252,7 +31508,9 @@
         "spa": 120,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "dragonite-629",
@@ -30300,7 +31558,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "salamence-630",
@@ -30348,7 +31608,9 @@
         "spa": 110,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "skarmory-631",
@@ -30397,7 +31659,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "vespiquen-632",
@@ -30445,7 +31709,9 @@
         "spa": 80,
         "spd": 102,
         "spe": 40
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "staraptor-633",
@@ -30493,7 +31759,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "altaria-634",
@@ -30541,7 +31809,9 @@
         "spa": 70,
         "spd": 105,
         "spe": 80
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "drifblim-635",
@@ -30590,7 +31860,9 @@
         "spa": 90,
         "spd": 54,
         "spe": 80
-      }
+      },
+      "setIndex": null,
+      "setCount": 4
     },
     {
       "id": "kricketot-636",
@@ -30637,7 +31909,9 @@
         "spa": 25,
         "spd": 41,
         "spe": 25
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "burmy-637",
@@ -30684,7 +31958,9 @@
         "spa": 29,
         "spd": 45,
         "spe": 36
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "shedinja-638",
@@ -30732,7 +32008,9 @@
         "spa": 30,
         "spd": 30,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "venonat-639",
@@ -30781,7 +32059,9 @@
         "spa": 40,
         "spd": 55,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "skorupi-640",
@@ -30830,7 +32110,9 @@
         "spa": 30,
         "spd": 55,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "forretress-641",
@@ -30878,7 +32160,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "armaldo-642",
@@ -30926,7 +32210,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "pinsir-643",
@@ -30974,7 +32260,9 @@
         "spa": 55,
         "spd": 70,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "scizor-644",
@@ -31023,7 +32311,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "shuckle-645",
@@ -31072,7 +32362,9 @@
         "spa": 10,
         "spd": 230,
         "spe": 5
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "leafeon-646",
@@ -31119,7 +32411,9 @@
         "spa": 60,
         "spd": 65,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "charmander-647",
@@ -31166,7 +32460,9 @@
         "spa": 60,
         "spd": 50,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "squirtle-648",
@@ -31213,7 +32509,9 @@
         "spa": 50,
         "spd": 64,
         "spe": 43
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "cyndaquil-649",
@@ -31260,7 +32558,9 @@
         "spa": 60,
         "spd": 50,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "totodile-650",
@@ -31307,7 +32607,9 @@
         "spa": 44,
         "spd": 48,
         "spe": 43
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "torchic-651",
@@ -31354,7 +32656,9 @@
         "spa": 70,
         "spd": 50,
         "spe": 45
-      }
+      },
+      "setIndex": null,
+      "setCount": 1
     },
     {
       "id": "mudkip-652",
@@ -31401,7 +32705,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "chimchar-653",
@@ -31448,7 +32754,9 @@
         "spa": 58,
         "spd": 44,
         "spe": 61
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "piplup-654",
@@ -31495,7 +32803,9 @@
         "spa": 61,
         "spd": 56,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "shinx-655",
@@ -31543,7 +32853,9 @@
         "spa": 40,
         "spd": 34,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "chingling-656",
@@ -31590,7 +32902,9 @@
         "spa": 65,
         "spd": 50,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "riolu-657",
@@ -31638,7 +32952,9 @@
         "spa": 35,
         "spd": 40,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "bonsly-658",
@@ -31686,7 +33002,9 @@
         "spa": 10,
         "spd": 45,
         "spe": 10
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "shuppet-659",
@@ -31734,7 +33052,9 @@
         "spa": 63,
         "spd": 33,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "duskull-660",
@@ -31781,7 +33101,9 @@
         "spa": 30,
         "spd": 90,
         "spe": 25
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "vulpix-661",
@@ -31828,7 +33150,9 @@
         "spa": 50,
         "spd": 65,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "pikachu-662",
@@ -31875,7 +33199,9 @@
         "spa": 50,
         "spd": 40,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "sandshrew-663",
@@ -31922,7 +33248,9 @@
         "spa": 20,
         "spd": 30,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "geodude-664",
@@ -31971,7 +33299,9 @@
         "spa": 30,
         "spd": 30,
         "spe": 20
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "dratini-665",
@@ -32018,7 +33348,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "remoraid-666",
@@ -32066,7 +33398,9 @@
         "spa": 65,
         "spd": 35,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "larvitar-667",
@@ -32114,7 +33448,9 @@
         "spa": 45,
         "spd": 50,
         "spe": 41
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "baltoy-668",
@@ -32162,7 +33498,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "snorunt-669",
@@ -32210,7 +33548,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "bagon-670",
@@ -32257,7 +33597,9 @@
         "spa": 40,
         "spd": 30,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "bronzor-671",
@@ -32306,7 +33648,9 @@
         "spa": 24,
         "spd": 86,
         "spe": 23
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "gible-672",
@@ -32354,7 +33698,9 @@
         "spa": 40,
         "spd": 45,
         "spe": 42
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "croagunk-673",
@@ -32403,7 +33749,9 @@
         "spa": 61,
         "spd": 40,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "machop-674",
@@ -32451,7 +33799,9 @@
         "spa": 35,
         "spd": 35,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "smoochum-675",
@@ -32500,7 +33850,9 @@
         "spa": 85,
         "spd": 65,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "carvanha-676",
@@ -32548,7 +33900,9 @@
         "spa": 65,
         "spd": 20,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "numel-677",
@@ -32597,7 +33951,9 @@
         "spa": 65,
         "spd": 45,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "corphish-678",
@@ -32645,7 +34001,9 @@
         "spa": 50,
         "spd": 35,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "mime-jr-679",
@@ -32693,7 +34051,9 @@
         "spa": 70,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "slowpoke-680",
@@ -32742,7 +34102,9 @@
         "spa": 40,
         "spd": 40,
         "spe": 15
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "psyduck-681",
@@ -32790,7 +34152,9 @@
         "spa": 65,
         "spd": 50,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "cubone-682",
@@ -32838,7 +34202,9 @@
         "spa": 40,
         "spd": 50,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "goldeen-683",
@@ -32886,7 +34252,9 @@
         "spa": 35,
         "spd": 50,
         "spe": 63
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "magnemite-684",
@@ -32935,7 +34303,9 @@
         "spa": 95,
         "spd": 55,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "seel-685",
@@ -32983,7 +34353,9 @@
         "spa": 45,
         "spd": 70,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "grimer-686",
@@ -33031,7 +34403,9 @@
         "spa": 40,
         "spd": 50,
         "spe": 25
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "krabby-687",
@@ -33079,7 +34453,9 @@
         "spa": 25,
         "spd": 25,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "shellos-688",
@@ -33127,7 +34503,9 @@
         "spa": 57,
         "spd": 62,
         "spe": 34
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "drowzee-689",
@@ -33175,7 +34553,9 @@
         "spa": 43,
         "spd": 90,
         "spe": 42
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "stunky-690",
@@ -33224,7 +34604,9 @@
         "spa": 41,
         "spd": 41,
         "spe": 74
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "voltorb-691",
@@ -33272,7 +34654,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "chinchou-692",
@@ -33321,7 +34705,9 @@
         "spa": 56,
         "spd": 56,
         "spe": 67
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "houndour-693",
@@ -33370,7 +34756,9 @@
         "spa": 80,
         "spd": 50,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "phanpy-694",
@@ -33417,7 +34805,9 @@
         "spa": 40,
         "spd": 40,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "aron-695",
@@ -33466,7 +34856,9 @@
         "spa": 40,
         "spd": 40,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "spoink-696",
@@ -33514,7 +34906,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "luvdisc-697",
@@ -33561,7 +34955,9 @@
         "spa": 40,
         "spd": 65,
         "spe": 97
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "buizel-698",
@@ -33608,7 +35004,9 @@
         "spa": 60,
         "spd": 30,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "hippopotas-699",
@@ -33655,7 +35053,9 @@
         "spa": 38,
         "spd": 42,
         "spe": 32
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "finneon-700",
@@ -33703,7 +35103,9 @@
         "spa": 49,
         "spd": 61,
         "spe": 66
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "tentacool-701",
@@ -33752,7 +35154,9 @@
         "spa": 50,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "koffing-702",
@@ -33800,7 +35204,9 @@
         "spa": 60,
         "spd": 45,
         "spe": 35
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "staryu-703",
@@ -33848,7 +35254,9 @@
         "spa": 70,
         "spd": 55,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "vibrava-704",
@@ -33896,7 +35304,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "rhyhorn-705",
@@ -33945,7 +35355,9 @@
         "spa": 30,
         "spd": 30,
         "spe": 25
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "clamperl-706",
@@ -33992,7 +35404,9 @@
         "spa": 74,
         "spd": 55,
         "spe": 32
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "growlithe-707",
@@ -34040,7 +35454,9 @@
         "spa": 70,
         "spd": 50,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "cranidos-708",
@@ -34087,7 +35503,9 @@
         "spa": 30,
         "spd": 30,
         "spe": 58
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "shieldon-709",
@@ -34135,7 +35553,9 @@
         "spa": 42,
         "spd": 88,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 1
     },
     {
       "id": "medicham-710",
@@ -34183,7 +35603,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "mr-mime-711",
@@ -34231,7 +35653,9 @@
         "spa": 100,
         "spd": 120,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "lanturn-712",
@@ -34280,7 +35704,9 @@
         "spa": 76,
         "spd": 76,
         "spe": 67
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "raichu-713",
@@ -34327,7 +35753,9 @@
         "spa": 90,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "manectric-714",
@@ -34375,7 +35803,9 @@
         "spa": 105,
         "spd": 60,
         "spe": 105
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "electrode-715",
@@ -34423,7 +35853,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 140
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "hypno-716",
@@ -34471,7 +35903,9 @@
         "spa": 73,
         "spd": 115,
         "spe": 67
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "alakazam-717",
@@ -34519,7 +35953,9 @@
         "spa": 135,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "mr-mime-718",
@@ -34567,7 +36003,9 @@
         "spa": 100,
         "spd": 120,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "lanturn-719",
@@ -34616,7 +36054,9 @@
         "spa": 76,
         "spd": 76,
         "spe": 67
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "raichu-720",
@@ -34663,7 +36103,9 @@
         "spa": 90,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "manectric-721",
@@ -34711,7 +36153,9 @@
         "spa": 105,
         "spd": 60,
         "spe": 105
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "electrode-722",
@@ -34759,7 +36203,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 140
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "hypno-723",
@@ -34807,7 +36253,9 @@
         "spa": 73,
         "spd": 115,
         "spe": 67
-      }
+      },
+      "setIndex": null,
+      "setCount": 4
     },
     {
       "id": "slowbro-724",
@@ -34856,7 +36304,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "alakazam-725",
@@ -34904,7 +36354,9 @@
         "spa": 135,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "slowking-726",
@@ -34953,7 +36405,9 @@
         "spa": 100,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "ampharos-727",
@@ -35000,7 +36454,9 @@
         "spa": 115,
         "spd": 90,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "claydol-728",
@@ -35048,7 +36504,9 @@
         "spa": 70,
         "spd": 120,
         "spe": 75
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "bronzong-729",
@@ -35097,7 +36555,9 @@
         "spa": 79,
         "spd": 116,
         "spe": 33
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "luxray-730",
@@ -35145,7 +36605,9 @@
         "spa": 95,
         "spd": 79,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "gardevoir-731",
@@ -35193,7 +36655,9 @@
         "spa": 125,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "starmie-732",
@@ -35242,7 +36706,9 @@
         "spa": 100,
         "spd": 85,
         "spe": 115
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "jolteon-733",
@@ -35289,7 +36755,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 130
-      }
+      },
+      "setIndex": null,
+      "setCount": 4
     },
     {
       "id": "espeon-734",
@@ -35336,7 +36804,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 110
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "magnezone-735",
@@ -35385,7 +36855,9 @@
         "spa": 130,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "electivire-736",
@@ -35432,7 +36904,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 95
-      }
+      },
+      "setIndex": null,
+      "setCount": 4
     },
     {
       "id": "metagross-737",
@@ -35480,7 +36954,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "ampharos-738",
@@ -35527,7 +37003,9 @@
         "spa": 115,
         "spd": 90,
         "spe": 55
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "claydol-739",
@@ -35575,7 +37053,9 @@
         "spa": 70,
         "spd": 120,
         "spe": 75
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "bronzong-740",
@@ -35624,7 +37104,9 @@
         "spa": 79,
         "spd": 116,
         "spe": 33
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "luxray-741",
@@ -35672,7 +37154,9 @@
         "spa": 95,
         "spd": 79,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "gardevoir-742",
@@ -35720,7 +37204,9 @@
         "spa": 125,
         "spd": 115,
         "spe": 80
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "starmie-743",
@@ -35769,7 +37255,9 @@
         "spa": 100,
         "spd": 85,
         "spe": 115
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "jolteon-744",
@@ -35816,7 +37304,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 130
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "espeon-745",
@@ -35863,7 +37353,9 @@
         "spa": 130,
         "spd": 95,
         "spe": 110
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "magnezone-746",
@@ -35912,7 +37404,9 @@
         "spa": 130,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "electivire-747",
@@ -35959,7 +37453,9 @@
         "spa": 95,
         "spd": 85,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "metagross-748",
@@ -36007,7 +37503,9 @@
         "spa": 95,
         "spd": 90,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "mr-mime-749",
@@ -36055,7 +37553,9 @@
         "spa": 100,
         "spd": 120,
         "spe": 90
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "lanturn-750",
@@ -36104,7 +37604,9 @@
         "spa": 76,
         "spd": 76,
         "spe": 67
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "raichu-751",
@@ -36151,7 +37653,9 @@
         "spa": 90,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "manectric-752",
@@ -36199,7 +37703,9 @@
         "spa": 105,
         "spd": 60,
         "spe": 105
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "electrode-753",
@@ -36247,7 +37753,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 140
-      }
+      },
+      "setIndex": null,
+      "setCount": 4
     },
     {
       "id": "hypno-754",
@@ -36295,7 +37803,9 @@
         "spa": 73,
         "spd": 115,
         "spe": 67
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "slowbro-755",
@@ -36344,7 +37854,9 @@
         "spa": 100,
         "spd": 80,
         "spe": 30
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "alakazam-756",
@@ -36392,7 +37904,9 @@
         "spa": 135,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "slowking-757",
@@ -36441,7 +37955,9 @@
         "spa": 100,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "umbreon-758",
@@ -36488,7 +38004,9 @@
         "spa": 60,
         "spd": 130,
         "spe": 65
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "mismagius-759",
@@ -36535,7 +38053,9 @@
         "spa": 105,
         "spd": 105,
         "spe": 105
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "mismagius-760",
@@ -36582,7 +38102,9 @@
         "spa": 105,
         "spd": 105,
         "spe": 105
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "gengar-761",
@@ -36630,7 +38152,9 @@
         "spa": 130,
         "spd": 75,
         "spe": 110
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "dusknoir-762",
@@ -36677,7 +38201,9 @@
         "spa": 65,
         "spd": 135,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "gengar-763",
@@ -36725,7 +38251,9 @@
         "spa": 130,
         "spd": 75,
         "spe": 110
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "dusknoir-764",
@@ -36772,7 +38300,9 @@
         "spa": 65,
         "spd": 135,
         "spe": 45
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "mismagius-765",
@@ -36819,7 +38349,9 @@
         "spa": 105,
         "spd": 105,
         "spe": 105
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "politoed-766",
@@ -36867,7 +38399,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "pinsir-767",
@@ -36915,7 +38449,9 @@
         "spa": 55,
         "spd": 70,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "scizor-768",
@@ -36964,7 +38500,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 65
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "ursaring-769",
@@ -37012,7 +38550,9 @@
         "spa": 75,
         "spd": 75,
         "spe": 55
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "donphan-770",
@@ -37059,7 +38599,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "wailord-771",
@@ -37107,7 +38649,9 @@
         "spa": 90,
         "spd": 45,
         "spe": 60
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "rampardos-772",
@@ -37154,7 +38698,9 @@
         "spa": 65,
         "spd": 50,
         "spe": 58
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "drapion-773",
@@ -37203,7 +38749,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "shuckle-774",
@@ -37252,7 +38800,9 @@
         "spa": 10,
         "spd": 230,
         "spe": 5
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "steelix-775",
@@ -37301,7 +38851,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "tentacruel-776",
@@ -37350,7 +38902,9 @@
         "spa": 80,
         "spd": 120,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "lickilicky-777",
@@ -37398,7 +38952,9 @@
         "spa": 80,
         "spd": 95,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "vaporeon-778",
@@ -37445,7 +39001,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "umbreon-779",
@@ -37492,7 +39050,9 @@
         "spa": 60,
         "spd": 130,
         "spe": 65
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "hippowdon-780",
@@ -37539,7 +39099,9 @@
         "spa": 68,
         "spd": 72,
         "spe": 47
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "probopass-781",
@@ -37588,7 +39150,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 40
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "aggron-782",
@@ -37637,7 +39201,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "rhyperior-783",
@@ -37686,7 +39252,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 40
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "snorlax-784",
@@ -37734,7 +39302,9 @@
         "spa": 65,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "kingdra-785",
@@ -37783,7 +39353,9 @@
         "spa": 95,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "blissey-786",
@@ -37831,7 +39403,9 @@
         "spa": 75,
         "spd": 135,
         "spe": 55
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "milotic-787",
@@ -37879,7 +39453,9 @@
         "spa": 100,
         "spd": 125,
         "spe": 81
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "tyranitar-788",
@@ -37927,7 +39503,9 @@
         "spa": 95,
         "spd": 100,
         "spe": 61
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "garchomp-789",
@@ -37975,7 +39553,9 @@
         "spa": 80,
         "spd": 85,
         "spe": 102
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "slaking-790",
@@ -38022,7 +39602,9 @@
         "spa": 95,
         "spd": 65,
         "spe": 100
-      }
+      },
+      "setIndex": 3,
+      "setCount": 4
     },
     {
       "id": "venusaur-791",
@@ -38070,7 +39652,9 @@
         "spa": 100,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "meganium-792",
@@ -38117,7 +39701,9 @@
         "spa": 83,
         "spd": 100,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "typhlosion-793",
@@ -38164,7 +39750,9 @@
         "spa": 109,
         "spd": 85,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "sceptile-794",
@@ -38211,7 +39799,9 @@
         "spa": 105,
         "spd": 85,
         "spe": 120
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "blaziken-795",
@@ -38259,7 +39849,9 @@
         "spa": 110,
         "spd": 70,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "torterra-796",
@@ -38307,7 +39899,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 56
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "infernape-797",
@@ -38355,7 +39949,9 @@
         "spa": 104,
         "spd": 71,
         "spe": 108
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "dugtrio-798",
@@ -38403,7 +39999,9 @@
         "spa": 50,
         "spd": 70,
         "spe": 120
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "marowak-799",
@@ -38451,7 +40049,9 @@
         "spa": 50,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "breloom-800",
@@ -38500,7 +40100,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "forretress-801",
@@ -38548,7 +40150,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "absol-802",
@@ -38596,7 +40200,9 @@
         "spa": 75,
         "spd": 60,
         "spe": 75
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "whiscash-803",
@@ -38645,7 +40251,9 @@
         "spa": 76,
         "spd": 71,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "hariyama-804",
@@ -38693,7 +40301,9 @@
         "spa": 40,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "skuntank-805",
@@ -38742,7 +40352,9 @@
         "spa": 71,
         "spd": 61,
         "spe": 84
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "vileplume-806",
@@ -38790,7 +40402,9 @@
         "spa": 100,
         "spd": 90,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "victreebel-807",
@@ -38838,7 +40452,9 @@
         "spa": 100,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "shiftry-808",
@@ -38887,7 +40503,9 @@
         "spa": 90,
         "spd": 60,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "golem-809",
@@ -38936,7 +40554,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "rhydon-810",
@@ -38985,7 +40605,9 @@
         "spa": 45,
         "spd": 45,
         "spe": 40
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "weezing-811",
@@ -39033,7 +40655,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "toxicroak-812",
@@ -39082,7 +40706,9 @@
         "spa": 86,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "nidoqueen-813",
@@ -39131,7 +40757,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 76
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "nidoking-814",
@@ -39180,7 +40808,9 @@
         "spa": 85,
         "spd": 75,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "cradily-815",
@@ -39228,7 +40858,9 @@
         "spa": 81,
         "spd": 107,
         "spe": 43
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "armaldo-816",
@@ -39276,7 +40908,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "bastiodon-817",
@@ -39324,7 +40958,9 @@
         "spa": 47,
         "spd": 138,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "rapidash-818",
@@ -39372,7 +41008,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 105
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "muk-819",
@@ -39420,7 +41058,9 @@
         "spa": 65,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 4
     },
     {
       "id": "blastoise-820",
@@ -39467,7 +41107,9 @@
         "spa": 85,
         "spd": 105,
         "spe": 78
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "feraligatr-821",
@@ -39514,7 +41156,9 @@
         "spa": 79,
         "spd": 83,
         "spe": 78
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "swampert-822",
@@ -39562,7 +41206,9 @@
         "spa": 85,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "empoleon-823",
@@ -39610,7 +41256,9 @@
         "spa": 111,
         "spd": 101,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "dugtrio-824",
@@ -39658,7 +41306,9 @@
         "spa": 50,
         "spd": 70,
         "spe": 120
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "marowak-825",
@@ -39706,7 +41356,9 @@
         "spa": 50,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "quagsire-826",
@@ -39755,7 +41407,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 35
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "granbull-827",
@@ -39803,7 +41457,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 45
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "forretress-828",
@@ -39851,7 +41507,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 40
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "absol-829",
@@ -39899,7 +41557,9 @@
         "spa": 75,
         "spd": 60,
         "spe": 75
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "whiscash-830",
@@ -39948,7 +41608,9 @@
         "spa": 76,
         "spd": 71,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "gastrodon-831",
@@ -39997,7 +41659,9 @@
         "spa": 92,
         "spd": 82,
         "spe": 39
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "skuntank-832",
@@ -40046,7 +41710,9 @@
         "spa": 71,
         "spd": 61,
         "spe": 84
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "exploud-833",
@@ -40093,7 +41759,9 @@
         "spa": 91,
         "spd": 63,
         "spe": 68
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "lopunny-834",
@@ -40141,7 +41809,9 @@
         "spa": 54,
         "spd": 96,
         "spe": 105
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "ambipom-835",
@@ -40189,7 +41859,9 @@
         "spa": 60,
         "spd": 66,
         "spe": 115
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "golem-836",
@@ -40238,7 +41910,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 45
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "rhydon-837",
@@ -40287,7 +41961,9 @@
         "spa": 45,
         "spd": 45,
         "spe": 40
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "weezing-838",
@@ -40335,7 +42011,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 60
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "kangaskhan-839",
@@ -40383,7 +42061,9 @@
         "spa": 40,
         "spd": 80,
         "spe": 90
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "tauros-840",
@@ -40431,7 +42111,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "miltank-841",
@@ -40479,7 +42161,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 100
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "nidoqueen-842",
@@ -40528,7 +42212,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 76
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "nidoking-843",
@@ -40577,7 +42263,9 @@
         "spa": 85,
         "spd": 75,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "armaldo-844",
@@ -40625,7 +42313,9 @@
         "spa": 70,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "bastiodon-845",
@@ -40673,7 +42363,9 @@
         "spa": 47,
         "spd": 138,
         "spe": 30
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "floatzel-846",
@@ -40720,7 +42412,9 @@
         "spa": 85,
         "spd": 50,
         "spe": 115
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "golduck-847",
@@ -40768,7 +42462,9 @@
         "spa": 95,
         "spd": 80,
         "spe": 85
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "muk-848",
@@ -40816,7 +42512,9 @@
         "spa": 65,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 4,
+      "setCount": 4
     },
     {
       "id": "ivysaur-849",
@@ -40864,7 +42562,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "bayleef-850",
@@ -40911,7 +42611,9 @@
         "spa": 63,
         "spd": 80,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "grovyle-851",
@@ -40958,7 +42660,9 @@
         "spa": 85,
         "spd": 65,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "grotle-852",
@@ -41005,7 +42709,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 36
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "sealeo-853",
@@ -41054,7 +42760,9 @@
         "spa": 75,
         "spd": 70,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "masquerain-854",
@@ -41102,7 +42810,9 @@
         "spa": 80,
         "spd": 82,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "cherrim-855",
@@ -41149,7 +42859,9 @@
         "spa": 87,
         "spd": 78,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "dragonair-856",
@@ -41196,7 +42908,9 @@
         "spa": 70,
         "spd": 70,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "mightyena-857",
@@ -41244,7 +42958,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "kadabra-858",
@@ -41292,7 +43008,9 @@
         "spa": 120,
         "spd": 70,
         "spe": 105
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "shelgon-859",
@@ -41339,7 +43057,9 @@
         "spa": 60,
         "spd": 50,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "wormadam-860",
@@ -41387,7 +43107,9 @@
         "spa": 79,
         "spd": 105,
         "spe": 36
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "mothim-861",
@@ -41435,7 +43157,9 @@
         "spa": 94,
         "spd": 50,
         "spe": 66
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "wigglytuff-862",
@@ -41483,7 +43207,9 @@
         "spa": 75,
         "spd": 50,
         "spe": 45
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "sunflora-863",
@@ -41531,7 +43257,9 @@
         "spa": 105,
         "spd": 85,
         "spe": 30
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "chimecho-864",
@@ -41578,7 +43306,9 @@
         "spa": 95,
         "spd": 80,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "qwilfish-865",
@@ -41627,7 +43357,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "sneasel-866",
@@ -41676,7 +43408,9 @@
         "spa": 35,
         "spd": 75,
         "spe": 115
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "swellow-867",
@@ -41724,7 +43458,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 125
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "pelipper-868",
@@ -41773,7 +43509,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "tangela-869",
@@ -41821,7 +43559,9 @@
         "spa": 100,
         "spd": 40,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "misdreavus-870",
@@ -41868,7 +43608,9 @@
         "spa": 85,
         "spd": 85,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "arbok-871",
@@ -41916,7 +43658,9 @@
         "spa": 65,
         "spd": 79,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "seadra-872",
@@ -41964,7 +43708,9 @@
         "spa": 95,
         "spd": 45,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "feraligatr-873",
@@ -42011,7 +43757,9 @@
         "spa": 79,
         "spd": 83,
         "spe": 78
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "rhydon-874",
@@ -42060,7 +43808,9 @@
         "spa": 45,
         "spd": 45,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "kangaskhan-875",
@@ -42108,7 +43858,9 @@
         "spa": 40,
         "spd": 80,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "bastiodon-876",
@@ -42156,7 +43908,9 @@
         "spa": 47,
         "spd": 138,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "rampardos-877",
@@ -42203,7 +43957,9 @@
         "spa": 65,
         "spd": 50,
         "spe": 58
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "steelix-878",
@@ -42252,7 +44008,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "flygon-879",
@@ -42300,7 +44058,9 @@
         "spa": 80,
         "spd": 80,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "aggron-880",
@@ -42349,7 +44109,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "rhyperior-881",
@@ -42398,7 +44160,9 @@
         "spa": 55,
         "spd": 55,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "kingdra-882",
@@ -42447,7 +44211,9 @@
         "spa": 95,
         "spd": 95,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "milotic-883",
@@ -42495,7 +44261,9 @@
         "spa": 100,
         "spd": 125,
         "spe": 81
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "tyranitar-884",
@@ -42543,7 +44311,9 @@
         "spa": 95,
         "spd": 100,
         "spe": 61
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "garchomp-885",
@@ -42591,7 +44361,9 @@
         "spa": 80,
         "spd": 85,
         "spe": 102
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "quagsire-886",
@@ -42640,7 +44412,9 @@
         "spa": 65,
         "spd": 65,
         "spe": 35
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "whiscash-887",
@@ -42689,7 +44463,9 @@
         "spa": 76,
         "spd": 71,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "gastrodon-888",
@@ -42738,7 +44514,9 @@
         "spa": 92,
         "spd": 82,
         "spe": 39
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "floatzel-889",
@@ -42785,7 +44563,9 @@
         "spa": 85,
         "spd": 50,
         "spe": 115
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "golduck-890",
@@ -42833,7 +44613,9 @@
         "spa": 95,
         "spd": 80,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "politoed-891",
@@ -42881,7 +44663,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 70
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "wailord-892",
@@ -42929,7 +44713,9 @@
         "spa": 90,
         "spd": 45,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "tentacruel-893",
@@ -42978,7 +44764,9 @@
         "spa": 80,
         "spd": 120,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "dugtrio-894",
@@ -43026,7 +44814,9 @@
         "spa": 50,
         "spd": 70,
         "spe": 120
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "marowak-895",
@@ -43074,7 +44864,9 @@
         "spa": 50,
         "spd": 80,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "golem-896",
@@ -43123,7 +44915,9 @@
         "spa": 55,
         "spd": 65,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "nidoqueen-897",
@@ -43172,7 +44966,9 @@
         "spa": 75,
         "spd": 85,
         "spe": 76
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "nidoking-898",
@@ -43221,7 +45017,9 @@
         "spa": 85,
         "spd": 75,
         "spe": 85
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "donphan-899",
@@ -43268,7 +45066,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "hippowdon-900",
@@ -43315,7 +45115,9 @@
         "spa": 68,
         "spd": 72,
         "spe": 47
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "probopass-901",
@@ -43364,7 +45166,9 @@
         "spa": 75,
         "spd": 150,
         "spe": 40
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "granbull-902",
@@ -43412,7 +45216,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 45
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "exploud-903",
@@ -43459,7 +45265,9 @@
         "spa": 91,
         "spd": 63,
         "spe": 68
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "lopunny-904",
@@ -43507,7 +45315,9 @@
         "spa": 54,
         "spd": 96,
         "spe": 105
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "ambipom-905",
@@ -43555,7 +45365,9 @@
         "spa": 60,
         "spd": 66,
         "spe": 115
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "tauros-906",
@@ -43603,7 +45415,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 110
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "miltank-907",
@@ -43651,7 +45465,9 @@
         "spa": 40,
         "spd": 70,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "ursaring-908",
@@ -43699,7 +45515,9 @@
         "spa": 75,
         "spd": 75,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "porygon2-909",
@@ -43747,7 +45565,9 @@
         "spa": 105,
         "spd": 95,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "lickilicky-910",
@@ -43795,7 +45615,9 @@
         "spa": 80,
         "spd": 95,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "porygon-z-911",
@@ -43843,7 +45665,9 @@
         "spa": 135,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "snorlax-912",
@@ -43891,7 +45715,9 @@
         "spa": 65,
         "spd": 110,
         "spe": 30
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "blissey-913",
@@ -43939,7 +45765,9 @@
         "spa": 75,
         "spd": 135,
         "spe": 55
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "slaking-914",
@@ -43986,7 +45814,9 @@
         "spa": 95,
         "spd": 65,
         "spe": 100
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "blastoise-915",
@@ -44033,7 +45863,9 @@
         "spa": 85,
         "spd": 105,
         "spe": 78
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "swampert-916",
@@ -44081,7 +45913,9 @@
         "spa": 85,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "empoleon-917",
@@ -44129,7 +45963,9 @@
         "spa": 111,
         "spd": 101,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "vaporeon-918",
@@ -44176,7 +46012,9 @@
         "spa": 110,
         "spd": 95,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "umbreon-919",
@@ -44223,7 +46061,9 @@
         "spa": 60,
         "spd": 130,
         "spe": 65
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "muk-920",
@@ -44271,7 +46111,9 @@
         "spa": 65,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "drapion-921",
@@ -44320,7 +46162,9 @@
         "spa": 60,
         "spd": 75,
         "spe": 95
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "absol-922",
@@ -44368,7 +46212,9 @@
         "spa": 75,
         "spd": 60,
         "spe": 75
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "skuntank-923",
@@ -44417,7 +46263,9 @@
         "spa": 71,
         "spd": 61,
         "spe": 84
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "weezing-924",
@@ -44465,7 +46313,9 @@
         "spa": 85,
         "spd": 70,
         "spe": 60
-      }
+      },
+      "setIndex": 2,
+      "setCount": 4
     },
     {
       "id": "rotom-925",
@@ -44513,7 +46363,9 @@
         "spa": 95,
         "spd": 77,
         "spe": 91
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "fearow-926",
@@ -44561,7 +46413,9 @@
         "spa": 61,
         "spd": 61,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "noctowl-927",
@@ -44610,7 +46464,9 @@
         "spa": 76,
         "spd": 96,
         "spe": 70
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "venomoth-928",
@@ -44659,7 +46515,9 @@
         "spa": 90,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "seaking-929",
@@ -44707,7 +46565,9 @@
         "spa": 65,
         "spd": 80,
         "spe": 68
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "jumpluff-930",
@@ -44756,7 +46616,9 @@
         "spa": 55,
         "spd": 85,
         "spe": 110
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "carnivine-931",
@@ -44803,7 +46665,9 @@
         "spa": 90,
         "spd": 72,
         "spe": 46
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "golbat-932",
@@ -44851,7 +46715,9 @@
         "spa": 65,
         "spd": 75,
         "spe": 90
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "girafarig-933",
@@ -44900,7 +46766,9 @@
         "spa": 90,
         "spd": 65,
         "spe": 85
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "banette-934",
@@ -44948,7 +46816,9 @@
         "spa": 83,
         "spd": 63,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "dusclops-935",
@@ -44995,7 +46865,9 @@
         "spa": 60,
         "spd": 130,
         "spe": 25
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "ninjask-936",
@@ -45043,7 +46915,9 @@
         "spa": 50,
         "spd": 50,
         "spe": 160
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "seviper-937",
@@ -45090,7 +46964,9 @@
         "spa": 100,
         "spd": 60,
         "spe": 65
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "dodrio-938",
@@ -45139,7 +47015,9 @@
         "spa": 60,
         "spd": 60,
         "spe": 100
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "sharpedo-939",
@@ -45187,7 +47065,9 @@
         "spa": 95,
         "spd": 40,
         "spe": 95
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "tropius-940",
@@ -45236,7 +47116,9 @@
         "spa": 72,
         "spd": 87,
         "spe": 51
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "lumineon-941",
@@ -45284,7 +47166,9 @@
         "spa": 69,
         "spd": 86,
         "spe": 91
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "mantine-942",
@@ -45333,7 +47217,9 @@
         "spa": 80,
         "spd": 140,
         "spe": 70
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "swalot-943",
@@ -45381,7 +47267,9 @@
         "spa": 73,
         "spd": 83,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "pidgeot-944",
@@ -45430,7 +47318,9 @@
         "spa": 70,
         "spd": 70,
         "spe": 91
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "xatu-945",
@@ -45479,7 +47369,9 @@
         "spa": 95,
         "spd": 70,
         "spe": 95
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "grumpig-946",
@@ -45527,7 +47419,9 @@
         "spa": 90,
         "spd": 110,
         "spe": 80
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "clefable-947",
@@ -45575,7 +47469,9 @@
         "spa": 85,
         "spd": 90,
         "spe": 60
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "cacturne-948",
@@ -45623,7 +47519,9 @@
         "spa": 115,
         "spd": 60,
         "spe": 55
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "bellossom-949",
@@ -45670,7 +47568,9 @@
         "spa": 90,
         "spd": 100,
         "spe": 50
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "huntail-950",
@@ -45717,7 +47617,9 @@
         "spa": 94,
         "spd": 75,
         "spe": 52
-      }
+      },
+      "setIndex": null,
+      "setCount": 2
     },
     {
       "id": "gorebyss-951",
@@ -45764,7 +47666,9 @@
         "spa": 114,
         "spd": 75,
         "spe": 52
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     },
     {
       "id": "scyther-952",
@@ -45813,7 +47717,9 @@
         "spa": 55,
         "spd": 80,
         "spe": 105
-      }
+      },
+      "setIndex": 1,
+      "setCount": 2
     }
   ],
   "groups": {

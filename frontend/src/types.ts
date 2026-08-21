@@ -80,6 +80,8 @@ export interface RosterSet {
   types: string[];
   abilities: string[];
   baseStats: StatMap;
+  setIndex: number | null; // set number 1-4 (null for trainer-exclusive variants)
+  setCount: number; // how many sets the species has
 }
 
 export type RoundState = "no" | "yes" | "boss";
