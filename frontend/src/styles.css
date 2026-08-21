@@ -790,6 +790,68 @@ input, select, button {
   margin: 4px 0 0;
 }
 
+/* ---------- Facility selector + active-facility label ---------- */
+.subtitle__facility {
+  color: var(--accent);
+  font-weight: 700;
+}
+.facility-select select {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 7px 12px;
+  cursor: pointer;
+  outline: none;
+}
+.facility-select select:focus {
+  border-color: var(--accent-2);
+}
+
+/* Placeholder for a facility that has no data behind it yet. */
+.facility-stub {
+  display: flex;
+  justify-content: center;
+  padding: 60px 24px;
+}
+.facility-stub__card {
+  max-width: 520px;
+  text-align: center;
+  padding: 32px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.facility-stub__card h2 {
+  font-size: 22px;
+}
+.facility-stub__card p {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 10px 0 0;
+}
+.facility-stub__soon {
+  display: inline-block;
+  margin-top: 10px !important;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ev);
+  background: color-mix(in srgb, var(--ev) 18%, transparent);
+}
+.facility-stub__ivs {
+  font-weight: 600;
+  color: var(--text) !important;
+}
+.facility-stub__hint {
+  font-size: 13px;
+}
+
 /* ---------- Trainer list ---------- */
 .trainer-list {
   display: flex;

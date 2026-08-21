@@ -34,11 +34,11 @@ export function filterTrainers(data: TrainerData, f: TrainerFilters): Trainer[] 
   return ts;
 }
 
-// Build a PokeSet from a roster set + the trainer's fixed IV, so the existing
-// SetCard can render it (with the tier/round-IV machinery left inert).
-export function rosterAsSets(data: TrainerData, trainer: Trainer): PokeSet[] {
+// Build a PokeSet from a roster set + the IV the active facility assigns this
+// trainer, so the existing SetCard can render it (tier/round-IV machinery inert).
+export function rosterAsSets(data: TrainerData, trainer: Trainer, iv: number): PokeSet[] {
   const idxs = data.groups[trainer.groupId] ?? [];
-  return idxs.map((i) => toPokeSet(data.sets[i], trainer.iv));
+  return idxs.map((i) => toPokeSet(data.sets[i], iv));
 }
 
 function toPokeSet(s: RosterSet, iv: number): PokeSet {

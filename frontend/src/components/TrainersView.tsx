@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Trainer, TrainerData, TrainerFilters } from "../types";
+import type { Facility } from "../facilities";
 import { filterTrainers, loadTrainerData, rosterAsSets, trainerClasses } from "../engine/trainers";
 import { SetCard } from "./SetCard";
 
@@ -8,7 +9,19 @@ const TIERS = [1, 2, 3, 4, 5, 6, 7, 8];
 
 const DEFAULT: TrainerFilters = { q: "", trainerClass: "", round: null, tier: null };
 
-export function TrainersView({ initialTrainer = null }: { initialTrainer?: number | null }) {
+// IV a trainer uses under the active facility (falls back to the value baked into
+// the dataset, which is the Battle Factory distribution).
+function ivFor(facility: Facility, t: Trainer): number {
+  return facility.ivByTier?.[t.tier] ?? t.iv;
+}
+
+export function TrainersView({
+  initialTrainer = null,
+  facility,
+}: {
+  initialTrainer?: number | null;
+  facility: Facility;
+}) {
   const [data, setData] = useState<TrainerData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [filters, setFilters] = useState<TrainerFilters>(DEFAULT);
@@ -33,9 +46,10 @@ export function TrainersView({ initialTrainer = null }: { initialTrainer?: numbe
     () => (data && selected != null ? data.trainers.find((t) => t.index === selected) ?? null : null),
     [data, selected],
   );
+  const selectedIv = selectedTrainer ? ivFor(facility, selectedTrainer) : 0;
   const roster = useMemo(
-    () => (data && selectedTrainer ? rosterAsSets(data, selectedTrainer) : []),
-    [data, selectedTrainer],
+    () => (data && selectedTrainer ? rosterAsSets(data, selectedTrainer, selectedIv) : []),
+    [data, selectedTrainer, selectedIv],
   );
 
   if (error) return <div className="layout"><div className="error">{error}</div></div>;
@@ -83,7 +97,7 @@ export function TrainersView({ initialTrainer = null }: { initialTrainer?: numbe
               <button
                 key={t}
                 className={`tier-pill ${filters.tier === t ? "tier-pill--on" : ""}`}
-                title={data ? `${data.ivByTier[String(t)]} IVs` : undefined}
+                title={facility.ivByTier ? `${facility.ivByTier[t]} IVs` : undefined}
                 onClick={() => set({ tier: filters.tier === t ? null : t })}
               >
                 {t}
@@ -119,6 +133,7 @@ export function TrainersView({ initialTrainer = null }: { initialTrainer?: numbe
             <div key={t.index} className="trainer-item">
               <TrainerRow
                 t={t}
+                iv={ivFor(facility, t)}
                 roundLabels={data!.roundLabels}
                 open={selected === t.index}
                 onToggle={() => setSelected(selected === t.index ? null : t.index)}
@@ -128,13 +143,13 @@ export function TrainersView({ initialTrainer = null }: { initialTrainer?: numbe
                   <div className="roster__head">
                     <h3>
                       {selectedTrainer.class} {selectedTrainer.name}
-                      <span className="roster__meta"> · roster ({roster.length}) · {selectedTrainer.iv} IVs · picks 3</span>
+                      <span className="roster__meta"> · roster ({roster.length}) · {selectedIv} IVs · picks 3</span>
                     </h3>
                     <button className="btn-link" onClick={() => setSelected(null)}>Close</button>
                   </div>
                   <div className="grid">
                     {roster.map((s) => (
-                      <SetCard key={s.id} set={s} fixedIv={selectedTrainer.iv} />
+                      <SetCard key={s.id} set={s} fixedIv={selectedIv} />
                     ))}
                   </div>
                 </section>
@@ -149,9 +164,10 @@ export function TrainersView({ initialTrainer = null }: { initialTrainer?: numbe
 }
 
 function TrainerRow({
-  t, roundLabels, open, onToggle,
+  t, iv, roundLabels, open, onToggle,
 }: {
   t: Trainer;
+  iv: number;
   roundLabels: string[];
   open: boolean;
   onToggle: () => void;
@@ -162,10 +178,10 @@ function TrainerRow({
       <span className="trainer-row__name">
         <span className="trainer-row__cls">{t.class}</span> {t.name}
       </span>
-      <span className={`trainer-row__tier tier-${t.tier}`} title={`Tier ${t.tier} · ${t.iv} IVs`}>
+      <span className={`trainer-row__tier tier-${t.tier}`} title={`Tier ${t.tier} · ${iv} IVs`}>
         T{t.tier}
       </span>
-      <span className="trainer-row__iv">{t.iv} IV</span>
+      <span className="trainer-row__iv">{iv} IV</span>
       <span className="round-chips">
         {t.rounds.map((r, i) => (
           <span

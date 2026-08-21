@@ -5,8 +5,12 @@ import { facets as fetchFacets, search as fetchSearch } from "./dataClient";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
 import { TrainersView } from "./components/TrainersView";
+import { FACILITIES, getFacility } from "./facilities";
+import type { Facility, FacilityId } from "./facilities";
 
 type View = "sets" | "trainers";
+
+const FACILITY_KEY = "facility";
 
 // Deep links: "#trainers" opens the Trainers tab, "#trainers/150" also opens that
 // trainer's roster. Returned trainer index (if any) is read by TrainersView.
@@ -80,7 +84,15 @@ export default function App() {
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
   const [pinned, setPinned] = useState<PokeSet[]>(loadPinned);
   const [view, setView] = useState<View>(() => parseHash().view);
+  const [facilityId, setFacilityId] = useState<FacilityId>(
+    () => getFacility(localStorage.getItem(FACILITY_KEY)).id,
+  );
   const [theme, toggleTheme] = useTheme();
+
+  const facility = getFacility(facilityId);
+  useEffect(() => {
+    localStorage.setItem(FACILITY_KEY, facilityId);
+  }, [facilityId]);
 
   const initialTrainer = useMemo(() => parseHash().trainer, []);
   const goto = (v: View) => {
@@ -176,7 +188,9 @@ export default function App() {
           <span className="logo">▲</span>
           <div>
             <h1>Gen 4 Battle Frontier Sets</h1>
-            <p className="subtitle">Platinum · HeartGold / SoulSilver — {facets?.total ?? "…"} sets</p>
+            <p className="subtitle">
+              Platinum · HG / SS · <span className="subtitle__facility">{facility.name}</span>
+            </p>
           </div>
         </div>
 
@@ -194,6 +208,19 @@ export default function App() {
         </div>
 
         <div className="topbar__controls">
+          <label className="facility-select" title="Battle Frontier facility">
+            <select
+              value={facilityId}
+              onChange={(e) => setFacilityId(e.target.value as FacilityId)}
+            >
+              {FACILITIES.map((f) => (
+                <option key={f.id} value={f.id}>
+                  {f.name}
+                  {f.implemented ? "" : " · soon"}
+                </option>
+              ))}
+            </select>
+          </label>
           <div className="viewnav" role="tablist">
             <button
               className={`viewnav__btn ${view === "sets" ? "viewnav__btn--on" : ""}`}
@@ -218,8 +245,10 @@ export default function App() {
         </div>
       </header>
 
-      {view === "trainers" ? (
-        <TrainersView initialTrainer={initialTrainer} />
+      {!facility.implemented ? (
+        <FacilityPlaceholder facility={facility} />
+      ) : view === "trainers" ? (
+        <TrainersView initialTrainer={initialTrainer} facility={facility} />
       ) : (
       <div className="layout">
         <FilterPanel filters={filters} facets={facets} update={update} reset={reset} />
@@ -298,10 +327,35 @@ export default function App() {
         <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Battle_Frontier_Pok%C3%A9mon_in_Generation_IV/Group_1" target="_blank" rel="noreferrer">
           Bulbapedia
         </a>{" "}
-        & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Abilities are
-        possible options; final stats are computed at Lv 50 with tier-based IVs (Tier 1/2/3 =
-        0/4/8; Tier 4+ selectable per set, default 31).
+        & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Currently
+        showing <strong>Battle Factory</strong> data — abilities are possible options; final stats
+        are computed at Lv 50 with the facility's tier-based IVs. Other Frontier facilities are
+        planned.
       </footer>
+    </div>
+  );
+}
+
+// Shown when a not-yet-implemented facility is selected: keeps the mode toggle
+// honest about what has data behind it.
+function FacilityPlaceholder({ facility }: { facility: Facility }) {
+  return (
+    <div className="facility-stub">
+      <div className="facility-stub__card">
+        <h2>{facility.name}</h2>
+        <p className="facility-stub__soon">Not implemented yet</p>
+        <p>{facility.blurb}</p>
+        {facility.ivByTier ? (
+          <p className="facility-stub__ivs">
+            Planned IVs by tier: {[1, 2, 3, 4, 5, 6, 7, 8].map((t) => facility.ivByTier![t]).join(" / ")}
+          </p>
+        ) : (
+          <p className="facility-stub__ivs">IVs scale with Rank (rank-based), not the battle round.</p>
+        )}
+        <p className="facility-stub__hint">
+          Switch back to <strong>Battle Factory</strong> for the implemented Sets &amp; Trainers views.
+        </p>
+      </div>
     </div>
   );
 }
