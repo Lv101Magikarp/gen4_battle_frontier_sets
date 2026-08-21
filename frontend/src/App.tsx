@@ -53,7 +53,7 @@ const DEFAULT_FILTERS: Filters = {
 const SORT_OPTIONS: { value: string; label: string }[] = [
   { value: "dexNum", label: "Dex number" },
   { value: "species", label: "Name" },
-  { value: "tier", label: "Magpie tier" },
+  { value: "tier", label: "Magpie rating" },
   { value: "setIndex", label: "Set index" },
   ...(["hp", "atk", "def", "spa", "spd", "spe"] as StatKey[]).map((k) => ({
     value: k,

@@ -52,7 +52,7 @@ export function SetCard({ set, pinned = false, onTogglePin, fixedIv }: SetCardPr
         <span
           className="tier-badge"
           style={{ background: tierColor(set.tier) }}
-          title={`${TIER_LABELS[set.tier] ?? ""} tier${set.tierGroup ? ` · ${set.tierGroup}` : ""}`}
+          title={`${TIER_LABELS[set.tier] ?? ""} rating${set.tierGroup ? ` · ${set.tierGroup}` : ""}`}
         >
           {set.tier}
         </span>

@@ -81,7 +81,7 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
       </div>
 
       <div className="field">
-        <span>Magpie tier</span>
+        <span>Magpie rating</span>
         <div className="tier-chips">
           <button
             className={`tier-pill ${!filters.tier ? "tier-pill--on" : ""}`}
@@ -98,7 +98,7 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
                   ? { background: tierColor(t), borderColor: tierColor(t), color: "#fff" }
                   : { color: tierColor(t), borderColor: tierColor(t) }
               }
-              title={`${TIER_LABELS[t] ?? ""} tier`}
+              title={`${TIER_LABELS[t] ?? ""} rating`}
               onClick={() => update({ tier: filters.tier === t ? "" : t })}
             >
               {t}

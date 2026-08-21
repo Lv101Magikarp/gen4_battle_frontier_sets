@@ -24,7 +24,7 @@ export function typeColor(type: string): string {
   return TYPE_COLORS[type] ?? "#9099a1";
 }
 
-// Battle Factory quality tiers, best -> worst.
+// Battle Factory quality ratings (Magpie rating), best -> worst.
 export const TIER_COLORS: Record<string, string> = {
   X: "#c0392b",
   S: "#e8511f",

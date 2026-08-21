@@ -24,8 +24,8 @@ Search & filter sets by:
   with 12/16/20/24/31 IVs; a selector picks which to preview (default 31).
 - **Set index (1–4)** — a species may have 1, 2, or 4 sets; the index is the order the set
   appears in the source table.
-- **Magpie tier (X → F)** — each set's community quality ranking (Godly X … Atrocious F) from a
-  Battle Factory tier-list spreadsheet, plus the round/IV group it belongs to.
+- **Magpie rating (X → F)** — each set's community quality ranking (Godly X … Atrocious F) from a
+  Battle Factory tier-list spreadsheet, plus the round/IV tier it belongs to.
 
 Other UX:
 
