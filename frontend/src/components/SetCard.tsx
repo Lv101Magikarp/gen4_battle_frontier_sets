@@ -68,12 +68,16 @@ export function SetCard({ set, pinned = false, onTogglePin }: SetCardProps) {
         </div>
         <div className="card__title">
           <div className="card__name-row">
-            <h3>{set.species}</h3>
-            {set.setCount > 1 && (
-              <span className="badge badge--set" title="Set index (order in the source table)">
-                Set {set.setIndex}/{set.setCount}
-              </span>
-            )}
+            <h3
+              title={
+                set.setCount > 1
+                  ? `Set ${set.setIndex} of ${set.setCount} (community name: ${set.species}${set.setIndex})`
+                  : undefined
+              }
+            >
+              {set.species}
+              {set.setCount > 1 && <span className="card__setnum">{set.setIndex}</span>}
+            </h3>
           </div>
           <div className="card__types">
             {set.types.map((t) => (
