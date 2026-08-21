@@ -52,6 +52,60 @@ GEN_ORDER = {
     "generation-ix": 9,
 }
 
+# PokéAPI reports CURRENT base stats and has no historical equivalent of
+# `past_types`. Many species were rebalanced after Gen IV (the big Gen VI batch,
+# a few in Gen VII, and Cresselia was nerfed in Gen IX), so their PokéAPI stats
+# are wrong for a Gen IV app. This table holds the Generation IV base stats for
+# every affected species in the set list; it overrides the fetched values.
+# Derived from Pokémon Showdown's gen4→gen8 mod pokedex diffs (pre-Gen VI stats
+# == Gen IV stats, since Gen V introduced no base-stat changes).
+GEN4_BASE_STATS: dict[str, dict[str, int]] = {
+    "Alakazam": {"hp": 55, "atk": 50, "def": 45, "spa": 135, "spd": 85, "spe": 120},
+    "Ampharos": {"hp": 90, "atk": 75, "def": 75, "spa": 115, "spd": 90, "spe": 55},
+    "Arbok": {"hp": 60, "atk": 85, "def": 69, "spa": 65, "spd": 79, "spe": 80},
+    "Ariados": {"hp": 70, "atk": 90, "def": 70, "spa": 60, "spd": 60, "spe": 40},
+    "Azumarill": {"hp": 100, "atk": 50, "def": 80, "spa": 50, "spd": 80, "spe": 50},
+    "Beautifly": {"hp": 60, "atk": 70, "def": 50, "spa": 90, "spd": 50, "spe": 65},
+    "Beedrill": {"hp": 65, "atk": 80, "def": 40, "spa": 45, "spd": 80, "spe": 75},
+    "Bellossom": {"hp": 75, "atk": 80, "def": 85, "spa": 90, "spd": 100, "spe": 50},
+    "Butterfree": {"hp": 60, "atk": 45, "def": 50, "spa": 80, "spd": 80, "spe": 70},
+    "Chimecho": {"hp": 65, "atk": 50, "def": 70, "spa": 95, "spd": 80, "spe": 65},
+    "Clefable": {"hp": 95, "atk": 70, "def": 73, "spa": 85, "spd": 90, "spe": 60},
+    "Corsola": {"hp": 55, "atk": 55, "def": 85, "spa": 65, "spd": 85, "spe": 35},
+    "Cresselia": {"hp": 120, "atk": 70, "def": 120, "spa": 75, "spd": 130, "spe": 85},
+    "Delcatty": {"hp": 70, "atk": 65, "def": 65, "spa": 55, "spd": 55, "spe": 70},
+    "Dodrio": {"hp": 60, "atk": 110, "def": 70, "spa": 60, "spd": 60, "spe": 100},
+    "Dugtrio": {"hp": 35, "atk": 80, "def": 50, "spa": 50, "spd": 70, "spe": 120},
+    "Electrode": {"hp": 60, "atk": 50, "def": 70, "spa": 80, "spd": 80, "spe": 140},
+    "Exeggutor": {"hp": 95, "atk": 95, "def": 85, "spa": 125, "spd": 65, "spe": 55},
+    "Exploud": {"hp": 104, "atk": 91, "def": 63, "spa": 91, "spd": 63, "spe": 68},
+    "Farfetch'd": {"hp": 52, "atk": 65, "def": 55, "spa": 58, "spd": 62, "spe": 60},
+    "Golem": {"hp": 80, "atk": 110, "def": 130, "spa": 55, "spd": 65, "spe": 45},
+    "Illumise": {"hp": 65, "atk": 47, "def": 55, "spa": 73, "spd": 75, "spe": 85},
+    "Jumpluff": {"hp": 75, "atk": 55, "def": 70, "spa": 55, "spd": 85, "spe": 110},
+    "Lunatone": {"hp": 70, "atk": 55, "def": 65, "spa": 95, "spd": 85, "spe": 70},
+    "Magcargo": {"hp": 50, "atk": 50, "def": 120, "spa": 80, "spd": 80, "spe": 30},
+    "Mantine": {"hp": 65, "atk": 40, "def": 70, "spa": 80, "spd": 140, "spe": 70},
+    "Masquerain": {"hp": 70, "atk": 60, "def": 62, "spa": 80, "spd": 82, "spe": 60},
+    "Nidoking": {"hp": 81, "atk": 92, "def": 77, "spa": 85, "spd": 75, "spe": 85},
+    "Nidoqueen": {"hp": 90, "atk": 82, "def": 87, "spa": 75, "spd": 85, "spe": 76},
+    "Noctowl": {"hp": 100, "atk": 50, "def": 50, "spa": 76, "spd": 96, "spe": 70},
+    "Pelipper": {"hp": 60, "atk": 50, "def": 100, "spa": 85, "spd": 70, "spe": 65},
+    "Pidgeot": {"hp": 83, "atk": 80, "def": 75, "spa": 70, "spd": 70, "spe": 91},
+    "Pikachu": {"hp": 35, "atk": 55, "def": 30, "spa": 50, "spd": 40, "spe": 90},
+    "Poliwrath": {"hp": 90, "atk": 85, "def": 95, "spa": 70, "spd": 90, "spe": 70},
+    "Qwilfish": {"hp": 65, "atk": 95, "def": 75, "spa": 55, "spd": 55, "spe": 85},
+    "Raichu": {"hp": 60, "atk": 90, "def": 55, "spa": 90, "spd": 80, "spe": 100},
+    "Roserade": {"hp": 60, "atk": 70, "def": 55, "spa": 125, "spd": 105, "spe": 90},
+    "Solrock": {"hp": 70, "atk": 95, "def": 85, "spa": 55, "spd": 65, "spe": 70},
+    "Staraptor": {"hp": 85, "atk": 120, "def": 70, "spa": 50, "spd": 50, "spe": 100},
+    "Swellow": {"hp": 60, "atk": 85, "def": 60, "spa": 50, "spd": 50, "spe": 125},
+    "Victreebel": {"hp": 80, "atk": 105, "def": 65, "spa": 100, "spd": 60, "spe": 70},
+    "Vileplume": {"hp": 75, "atk": 80, "def": 85, "spa": 100, "spd": 90, "spe": 50},
+    "Volbeat": {"hp": 65, "atk": 73, "def": 55, "spa": 47, "spd": 75, "spe": 85},
+    "Wigglytuff": {"hp": 140, "atk": 70, "def": 45, "spa": 75, "spd": 50, "spe": 45},
+}
+
 
 def gen4_types(data: dict) -> list[str]:
     """Return the Pokémon's typing as it was in Generation IV.
@@ -82,6 +136,7 @@ def fetch_species(species: str) -> tuple[str, dict | None]:
         return species, None
 
     base = {STAT_MAP[s["stat"]["name"]]: s["base_stat"] for s in data["stats"]}
+    base = GEN4_BASE_STATS.get(species, base)  # roll back post-Gen IV rebalances
     types = gen4_types(data)
     abilities = [
         titleize_ability(a["ability"]["name"])
