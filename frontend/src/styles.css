@@ -672,14 +672,14 @@ input, select, button {
 }
 .stats__iv-select select {
   font: inherit;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.04em;
   color: var(--accent-2);
   background: color-mix(in srgb, var(--accent-2) 14%, transparent);
   border: 1px solid color-mix(in srgb, var(--accent-2) 35%, transparent);
   border-radius: 999px;
-  padding: 1px 4px 1px 8px;
+  padding: 3px 7px 3px 11px;
   cursor: pointer;
   outline: none;
 }

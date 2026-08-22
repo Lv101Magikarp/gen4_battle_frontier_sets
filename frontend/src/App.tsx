@@ -105,7 +105,8 @@ export default function App() {
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
-  const reset = () => setFilters(DEFAULT_FILTERS);
+  // Reset clears the filter panel but keeps the Pokémon search box intact.
+  const reset = () => setFilters((f) => ({ ...DEFAULT_FILTERS, q: f.q }));
 
   const pinnedIds = useMemo(() => new Set(pinned.map((s) => s.id)), [pinned]);
   const togglePin = (set: PokeSet) =>
