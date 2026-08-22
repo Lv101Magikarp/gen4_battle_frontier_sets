@@ -31,11 +31,17 @@ function computeStat(base: number, ev: number, iv: number, mod: number, isHp: bo
   return isHp ? core + level + 10 : Math.floor((core + 5) * mod);
 }
 
-export function computeStats(baseStats: StatMap, evs: StatMap, nature: string, iv: number): StatMap {
+export function computeStats(
+  baseStats: StatMap,
+  evs: StatMap,
+  nature: string,
+  iv: number,
+  level = 50,
+): StatMap {
   const mods = natureMods(nature);
   const out = {} as StatMap;
   for (const k of STAT_KEYS) {
-    out[k] = computeStat(baseStats[k], evs[k] ?? 0, iv, mods[k], k === "hp");
+    out[k] = computeStat(baseStats[k], evs[k] ?? 0, iv, mods[k], k === "hp", level);
   }
   return out;
 }
@@ -46,7 +52,7 @@ export function ivForSet(s: RawSet | PokeSet, tier4Iv: number): number {
   return s.tierIv ?? tier4Iv;
 }
 
-export function computeSet(s: RawSet | PokeSet, tier4Iv: number): PokeSet {
+export function computeSet(s: RawSet | PokeSet, tier4Iv: number, level = 50): PokeSet {
   const iv = ivForSet(s, tier4Iv);
-  return { ...s, iv, stats: computeStats(s.baseStats, s.evs, s.nature, iv) };
+  return { ...s, iv, stats: computeStats(s.baseStats, s.evs, s.nature, iv, level) };
 }

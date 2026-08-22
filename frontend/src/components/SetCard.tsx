@@ -16,9 +16,11 @@ interface SetCardProps {
   // When set (trainer roster context), the IV is fixed by the trainer: show it as
   // a static label instead of the round-progression dropdown.
   fixedIv?: number;
+  // Battle level for the stat computation (Factory Lv 50 / Open Level 100).
+  level?: number;
 }
 
-export function SetCard({ set, pinned = false, onTogglePin, fixedIv }: SetCardProps) {
+export function SetCard({ set, pinned = false, onTogglePin, fixedIv, level = 50 }: SetCardProps) {
   const [imgOk, setImgOk] = useState(true);
   const effect = NATURE_EFFECT[set.nature];
 
@@ -30,8 +32,8 @@ export function SetCard({ set, pinned = false, onTogglePin, fixedIv }: SetCardPr
   const [ivState, setIv] = useState(set.iv);
   const iv = fixedIv ?? ivState;
   const stats = useMemo(
-    () => computeStats(set.baseStats, set.evs, set.nature, iv),
-    [set.baseStats, set.evs, set.nature, iv],
+    () => computeStats(set.baseStats, set.evs, set.nature, iv, level),
+    [set.baseStats, set.evs, set.nature, iv, level],
   );
   const stop = (e: SyntheticEvent) => e.stopPropagation();
 
@@ -133,7 +135,7 @@ export function SetCard({ set, pinned = false, onTogglePin, fixedIv }: SetCardPr
 
       <div className="stats">
         <div className="stats__caption">
-          <span>Final stats · Lv 50</span>
+          <span>Final stats · Lv {level}</span>
           {fixedIv != null ? (
             <span className="stats__iv-fixed" title="IV is fixed by this trainer">
               {fixedIv} IVs

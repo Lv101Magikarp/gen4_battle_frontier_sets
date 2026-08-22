@@ -24,9 +24,11 @@ function ivFor(facility: Facility, t: Trainer): number {
 export function TrainersView({
   initialTrainer = null,
   facility,
+  level = 50,
 }: {
   initialTrainer?: number | null;
   facility: Facility;
+  level?: number;
 }) {
   const [data, setData] = useState<TrainerData | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -65,8 +67,8 @@ export function TrainersView({
   );
   const selectedIv = selectedTrainer ? ivFor(facility, selectedTrainer) : 0;
   const roster = useMemo(
-    () => (data && selectedTrainer ? rosterAsSets(data, selectedTrainer, selectedIv) : []),
-    [data, selectedTrainer, selectedIv],
+    () => (data && selectedTrainer ? rosterAsSets(data, selectedTrainer, selectedIv, level) : []),
+    [data, selectedTrainer, selectedIv, level],
   );
 
   if (error) return <div className="layout"><div className="error">{error}</div></div>;
@@ -170,7 +172,7 @@ export function TrainersView({
                   </div>
                   <div className="grid">
                     {roster.map((s) => (
-                      <SetCard key={s.id} set={s} fixedIv={selectedIv} />
+                      <SetCard key={s.id} set={s} fixedIv={selectedIv} level={level} />
                     ))}
                   </div>
                 </section>

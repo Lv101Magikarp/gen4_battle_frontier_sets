@@ -36,12 +36,12 @@ export function filterTrainers(data: TrainerData, f: TrainerFilters): Trainer[] 
 
 // Build a PokeSet from a roster set + the IV the active facility assigns this
 // trainer, so the existing SetCard can render it (tier/round-IV machinery inert).
-export function rosterAsSets(data: TrainerData, trainer: Trainer, iv: number): PokeSet[] {
+export function rosterAsSets(data: TrainerData, trainer: Trainer, iv: number, level = 50): PokeSet[] {
   const idxs = data.groups[trainer.groupId] ?? [];
-  return idxs.map((i) => toPokeSet(data.sets[i], iv));
+  return idxs.map((i) => toPokeSet(data.sets[i], iv, level));
 }
 
-function toPokeSet(s: RosterSet, iv: number): PokeSet {
+function toPokeSet(s: RosterSet, iv: number, level: number): PokeSet {
   // Show the set-number suffix (e.g. "Venusaur3") only when we know the real set
   // number; otherwise present as a single set so SetCard omits the suffix.
   const known = s.setIndex != null;
@@ -54,7 +54,7 @@ function toPokeSet(s: RosterSet, iv: number): PokeSet {
     tierGroup: null,
     tierIv: null,
     iv,
-    stats: computeStats(s.baseStats, s.evs, s.nature, iv),
+    stats: computeStats(s.baseStats, s.evs, s.nature, iv, level),
   };
 }
 

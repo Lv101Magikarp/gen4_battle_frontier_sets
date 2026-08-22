@@ -34,7 +34,7 @@ function effLabel(eff: number): { text: string; cls: string } {
   return { text: "Neutral", cls: "calc-eff--neutral" };
 }
 
-export function DamageCalcView() {
+export function DamageCalcView({ level = 50 }: { level?: number }) {
   const [sets, setSets] = useState<PokeSet[] | null>(null);
   const [dex, setDex] = useState<MoveDex | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -57,13 +57,13 @@ export function DamageCalcView() {
   const [defSpdStage, setDefSpdStage] = useState(0);
 
   useEffect(() => {
-    Promise.all([loadCalcSets(), loadMoveDex()])
+    Promise.all([loadCalcSets(level), loadMoveDex()])
       .then(([s, d]) => {
         setSets(s);
         setDex(d);
       })
       .catch((e) => setError(String(e)));
-  }, []);
+  }, [level]);
 
   const speciesList = useMemo(
     () => (sets ? Array.from(new Set(sets.map((s) => s.species))).sort() : []),
@@ -125,14 +125,14 @@ export function DamageCalcView() {
       burned: false,
       pinch: false,
     };
-    const field: Field = { weather, reflect, lightScreen, crit };
+    const field: Field = { weather, reflect, lightScreen, crit, level };
     return atkSet.moves.map((mv) => {
       const move = resolveMove(dex, mv.name, mv.type);
       const dmg = calcDamage(attacker, defender, move, field);
       return { move, dmg, ko: koChance(dmg, defender.stats.hp) };
     });
   }, [
-    atkSet, defSet, dex, atk, def, weather, reflect, lightScreen, crit,
+    atkSet, defSet, dex, atk, def, weather, reflect, lightScreen, crit, level,
     atkBurned, atkPinch, defStatus, atkAtkStage, atkSpaStage, defDefStage, defSpdStage,
   ]);
 
@@ -250,7 +250,7 @@ export function DamageCalcView() {
       </section>
 
       <p className="calc-note">
-        Stats are the set's Lv 50 values (Tier 4+ use the round-8 IV of 31). Return/Frustration assume
+        Stats are the set's Lv {level} values (Tier 4+ use the round-8 IV of 31). Return/Frustration assume
         102 BP; a few weight- and HP-based moves (Low Kick, Flail, …) show “—”. KO chance is damage-only
         (no Leftovers / weather residual).
       </p>

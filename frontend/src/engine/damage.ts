@@ -17,8 +17,6 @@ import {
   defenderImmune, filterMult, technicianMult, tintedMult, type DefenderAbilityCtx,
 } from "./abilities";
 
-const LEVEL = 50;
-
 // @smogon applies the two defender types in this precedence order, which matters
 // because each type multiplier is floored separately.
 const TYPE_PRECEDENCE = [
@@ -37,7 +35,7 @@ export interface MoveData {
 export interface Combatant {
   species: string;
   types: string[];
-  stats: StatMap;              // computed Lv-50 final stats
+  stats: StatMap;              // computed final stats at the battle level
   item: string;
   ability: string;
   boosts: Record<StatKey, number>; // stat stages -6..+6
@@ -53,6 +51,7 @@ export interface Field {
   reflect: boolean;
   lightScreen: boolean;
   crit: boolean;
+  level: number; // battle level (50 or 100)
 }
 
 export interface DamageResult {
@@ -101,9 +100,9 @@ function specialPower(move: MoveData, attacker: Combatant, defender: Combatant):
   }
 }
 
-const FIXED_DAMAGE: Record<string, () => number> = {
-  "Night Shade": () => LEVEL,
-  "Seismic Toss": () => LEVEL,
+const FIXED_DAMAGE: Record<string, (level: number) => number> = {
+  "Night Shade": (level) => level,
+  "Seismic Toss": (level) => level,
   "Dragon Rage": () => 40,
   "Sonic Boom": () => 20,
 };
@@ -139,9 +138,9 @@ export function calcDamage(
   }
 
   // Fixed-damage moves (Night Shade, Seismic Toss, Dragon Rage, Sonic Boom).
-  const fixed = FIXED_DAMAGE[move.name];
-  if (fixed) {
-    const dmg = fixed();
+  const fixedFn = FIXED_DAMAGE[move.name];
+  if (fixedFn) {
+    const dmg = fixedFn(field.level);
     return {
       rolls: [dmg], min: dmg, max: dmg,
       percentMin: (dmg / hp) * 100, percentMax: (dmg / hp) * 100,
@@ -193,7 +192,7 @@ export function calcDamage(
   D = Math.max(1, D);
 
   // --- Base damage ---
-  const levelFactor = Math.floor((2 * LEVEL) / 5 + 2); // 22
+  const levelFactor = Math.floor((2 * field.level) / 5 + 2); // 22 at Lv50, 42 at Lv100
   let base = Math.floor(Math.floor((levelFactor * power * A) / 50) / D);
 
   // --- burn -> screens -> weather -> +2 -> crit -> Life Orb ---

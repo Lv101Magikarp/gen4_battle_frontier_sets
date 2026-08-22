@@ -19,6 +19,14 @@ def _clamp_tier4_iv(value: int) -> int:
     """Snap the requested Tier 4+ IV to the nearest allowed value."""
     return min(TIER4_IVS, key=lambda v: abs(v - value))
 
+
+# Battle Factory levels: Lv 50 and Open Level (100). Anything else snaps to 50.
+LEVELS = [50, 100]
+
+
+def _clamp_level(value: int) -> int:
+    return 100 if value == 100 else 50
+
 app = FastAPI(
     title="Gen 4 Battle Frontier Sets API",
     description="Search the Generation IV Battle Frontier Pokémon sets.",
@@ -77,24 +85,32 @@ def api_search(
     tier: str | None = None,
     setIndex: int | None = None,
     tier4Iv: int = Query(DEFAULT_TIER4_IV, ge=0, le=31),
+    level: int = Query(50, ge=50, le=100),
     sort: str = "dexNum",
     order: str = Query("asc", pattern="^(asc|desc)$"),
 ):
     tier4_iv = _clamp_tier4_iv(tier4Iv)
+    lvl = _clamp_level(level)
     ev_min, stat_min, stat_max = _parse_stat_filters(request)
     results = search(
         q=q, move=move, item=item, nature=nature, ability=ability, type=type,
         tier=tier, set_index=setIndex, ev_min=ev_min, stat_min=stat_min,
-        stat_max=stat_max, tier4_iv=tier4_iv, sort=sort, order=order,
+        stat_max=stat_max, tier4_iv=tier4_iv, level=lvl, sort=sort, order=order,
     )
-    return {"count": len(results), "tier4Iv": tier4_iv, "tier4Ivs": TIER4_IVS, "results": results}
+    return {"count": len(results), "tier4Iv": tier4_iv, "tier4Ivs": TIER4_IVS,
+            "level": lvl, "results": results}
 
 
 @app.get("/api/sets")
-def api_sets(tier4Iv: int = Query(DEFAULT_TIER4_IV, ge=0, le=31)):
+def api_sets(
+    tier4Iv: int = Query(DEFAULT_TIER4_IV, ge=0, le=31),
+    level: int = Query(50, ge=50, le=100),
+):
     tier4_iv = _clamp_tier4_iv(tier4Iv)
-    results = with_computed_stats(load_sets(), tier4_iv)
-    return {"count": len(results), "tier4Iv": tier4_iv, "tier4Ivs": TIER4_IVS, "results": results}
+    lvl = _clamp_level(level)
+    results = with_computed_stats(load_sets(), tier4_iv, lvl)
+    return {"count": len(results), "tier4Iv": tier4_iv, "tier4Ivs": TIER4_IVS,
+            "level": lvl, "results": results}
 
 
 @app.get("/api/facets")

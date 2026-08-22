@@ -34,17 +34,20 @@ def load_sets() -> list[dict]:
     return json.loads(SETS_PATH.read_text(encoding="utf-8"))
 
 
-def with_computed_stats(sets: list[dict], tier4_iv: int = DEFAULT_TIER4_IV) -> list[dict]:
+def with_computed_stats(
+    sets: list[dict], tier4_iv: int = DEFAULT_TIER4_IV, level: int = 50
+) -> list[dict]:
     """Return copies of each set with a `stats` dict and the `iv` used to compute it.
 
-    Each set's IV is fixed by its tier (0/4/8); Tier 4+ sets use `tier4_iv`.
+    Each set's IV is fixed by its tier (0/4/8); Tier 4+ sets use `tier4_iv`. Stats
+    are computed at `level` (Factory Lv 50 or Open Level 100).
     """
     out = []
     for s in sets:
         iv = iv_for_set(s, tier4_iv)
         item = dict(s)
         item["iv"] = iv
-        item["stats"] = compute_stats(s["baseStats"], s["evs"], s["nature"], iv=iv)
+        item["stats"] = compute_stats(s["baseStats"], s["evs"], s["nature"], iv=iv, level=level)
         out.append(item)
     return out
 
@@ -63,10 +66,11 @@ def search(
     stat_min: dict[str, int] | None = None,
     stat_max: dict[str, int] | None = None,
     tier4_iv: int = DEFAULT_TIER4_IV,
+    level: int = 50,
     sort: str = "dexNum",
     order: str = "asc",
 ) -> list[dict]:
-    results = with_computed_stats(load_sets(), tier4_iv)
+    results = with_computed_stats(load_sets(), tier4_iv, level)
 
     if q:
         ql = q.lower()

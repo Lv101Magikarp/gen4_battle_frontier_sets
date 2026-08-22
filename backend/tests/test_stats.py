@@ -23,6 +23,24 @@ def test_neutral_nature_no_change():
     assert nature_mods("Hardy") == {k: 1.0 for k in ["hp", "atk", "def", "spa", "spd", "spe"]}
 
 
+def test_hp_formula_snorlax_lv100():
+    # Snorlax base HP 160, 252 HP EV, 31 IV, Lv100 -> 524 (Open Level).
+    assert compute_stat(base=160, ev=252, iv=31, nature_mod=1.0, is_hp=True, level=100) == 524
+
+
+def test_speed_garchomp_jolly_lv100():
+    # Garchomp base Spe 102, 252 EV, IV31, Jolly (+spe) at Lv100 -> 333.
+    mods = nature_mods("Jolly")
+    spe = compute_stat(base=102, ev=252, iv=31, nature_mod=mods["spe"], is_hp=False, level=100)
+    assert spe == 333
+
+
+def test_compute_stats_level_100():
+    base = {"hp": 108, "atk": 130, "def": 95, "spa": 80, "spd": 85, "spe": 102}
+    evs = {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}
+    assert compute_stats(base, evs, "Jolly", iv=31, level=100)["spe"] == 333
+
+
 def test_compute_stats_shape():
     base = {"hp": 108, "atk": 130, "def": 95, "spa": 80, "spd": 85, "spe": 102}
     evs = {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}

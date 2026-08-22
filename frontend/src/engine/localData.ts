@@ -51,7 +51,8 @@ function sortResults(results: PokeSet[], sort: string, order: "asc" | "desc"): P
 export async function searchLocal(f: Filters): Promise<SearchResponse> {
   const raw = await loadRaw();
   const tier4Iv = f.tier4Iv ?? DEFAULT_TIER4_IV;
-  let results = raw.map((s) => computeSet(s, tier4Iv));
+  const level = f.level ?? 50;
+  let results = raw.map((s) => computeSet(s, tier4Iv, level));
 
   if (f.q) {
     const q = f.q.toLowerCase();

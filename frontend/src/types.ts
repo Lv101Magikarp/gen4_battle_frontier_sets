@@ -60,6 +60,7 @@ export interface Filters {
   sort: string;
   order: "asc" | "desc";
   tier4Iv: number;
+  level: number; // battle level (50 or 100); transport for level-aware sort/filter
 }
 
 // Tier 4+ sets are used across rounds 8+ with these increasing IVs.

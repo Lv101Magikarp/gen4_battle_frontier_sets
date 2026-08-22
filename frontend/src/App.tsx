@@ -12,6 +12,7 @@ import type { Facility, FacilityId } from "./facilities";
 type View = "sets" | "trainers" | "calc";
 
 const FACILITY_KEY = "facility";
+const LEVEL_KEY = "level";
 
 // Deep links: "#trainers" opens the Trainers tab, "#trainers/150" also opens that
 // trainer's roster (index read by TrainersView); "#calc" opens the calculator.
@@ -50,6 +51,7 @@ const DEFAULT_FILTERS: Filters = {
   sort: "dexNum",
   order: "asc",
   tier4Iv: 31,
+  level: 50,
 };
 
 const SORT_OPTIONS: { value: string; label: string }[] = [
@@ -76,6 +78,19 @@ function useTheme(): [string, () => void] {
   return [theme, () => setTheme((t) => (t === "dark" ? "light" : "dark"))];
 }
 
+// Battle level (Lv 50 vs Open Level 100). A persisted global setting like the
+// facility/theme — unaffected by the filter Reset.
+function useLevel(): [number, (n: number) => void] {
+  const [level, setLevel] = useState<number>(() => {
+    const stored = Number(localStorage.getItem(LEVEL_KEY));
+    return stored === 100 ? 100 : 50;
+  });
+  useEffect(() => {
+    localStorage.setItem(LEVEL_KEY, String(level));
+  }, [level]);
+  return [level, setLevel];
+}
+
 export default function App() {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [facets, setFacets] = useState<Facets | null>(null);
@@ -90,8 +105,11 @@ export default function App() {
     () => getFacility(localStorage.getItem(FACILITY_KEY)).id,
   );
   const [theme, toggleTheme] = useTheme();
+  const [level, setLevel] = useLevel();
 
   const facility = getFacility(facilityId);
+  const levelOptions = facility.levels ?? [];
+  const showLevelToggle = levelOptions.length > 1;
   useEffect(() => {
     localStorage.setItem(FACILITY_KEY, facilityId);
   }, [facilityId]);
@@ -125,14 +143,15 @@ export default function App() {
     fetchFacets().then(setFacets).catch((e) => setError(String(e)));
   }, []);
 
-  // Debounced search whenever filters change.
+  // Debounced search whenever filters (or the battle level) change. The level is
+  // a top-level setting, not a filter, so it's injected here for level-aware sort/filter.
   useEffect(() => {
     const handle = setTimeout(() => {
       abortRef.current?.abort();
       const ctrl = new AbortController();
       abortRef.current = ctrl;
       setLoading(true);
-      fetchSearch(filters, ctrl.signal)
+      fetchSearch({ ...filters, level }, ctrl.signal)
         .then((r) => {
           setResults(r.results);
           setCount(r.count);
@@ -145,7 +164,7 @@ export default function App() {
         .finally(() => setLoading(false));
     }, 220);
     return () => clearTimeout(handle);
-  }, [filters]);
+  }, [filters, level]);
 
   // Pinned sets are shown in their own tray, not duplicated in the results grid.
   const unpinned = useMemo(
@@ -224,6 +243,21 @@ export default function App() {
               ))}
             </select>
           </label>
+          {showLevelToggle && (
+            <div className="viewnav level-toggle" role="group" aria-label="Battle level">
+              {levelOptions.map((lv) => (
+                <button
+                  key={lv}
+                  className={`viewnav__btn ${level === lv ? "viewnav__btn--on" : ""}`}
+                  onClick={() => setLevel(lv)}
+                  aria-pressed={level === lv}
+                  title={lv === 100 ? "Open Level (Lv 100)" : "Lv 50"}
+                >
+                  Lv {lv}
+                </button>
+              ))}
+            </div>
+          )}
           <div className="viewnav" role="tablist">
             <button
               className={`viewnav__btn ${view === "sets" ? "viewnav__btn--on" : ""}`}
@@ -259,9 +293,9 @@ export default function App() {
       {!facility.implemented ? (
         <FacilityPlaceholder facility={facility} />
       ) : view === "trainers" ? (
-        <TrainersView initialTrainer={initialTrainer} facility={facility} />
+        <TrainersView initialTrainer={initialTrainer} facility={facility} level={level} />
       ) : view === "calc" ? (
-        <DamageCalcView />
+        <DamageCalcView level={level} />
       ) : (
       <div className="layout">
         <FilterPanel filters={filters} facets={facets} update={update} reset={reset} />
@@ -305,7 +339,7 @@ export default function App() {
               </div>
               <div className="grid">
                 {pinned.map((set) => (
-                  <SetCard key={set.id} set={set} pinned onTogglePin={() => togglePin(set)} />
+                  <SetCard key={set.id} set={set} pinned level={level} onTogglePin={() => togglePin(set)} />
                 ))}
               </div>
             </section>
@@ -321,6 +355,7 @@ export default function App() {
                 key={set.id}
                 set={set}
                 pinned={pinnedIds.has(set.id)}
+                level={level}
                 onTogglePin={() => togglePin(set)}
               />
             ))}
@@ -342,8 +377,8 @@ export default function App() {
         </a>{" "}
         & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Currently
         showing <strong>Battle Factory</strong> data — abilities are possible options; final stats
-        are computed at Lv 50 with the facility's tier-based IVs. Other Frontier facilities are
-        planned.
+        are computed at <strong>Lv {level}</strong> with the facility's tier-based IVs. Other Frontier
+        facilities are planned.
       </footer>
     </div>
   );

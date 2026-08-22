@@ -16,20 +16,28 @@ function url(file: string): string {
   return `${import.meta.env.BASE_URL}${file}`;
 }
 
-let setsCache: Promise<PokeSet[]> | null = null;
+let rawCache: Promise<RawSet[]> | null = null;
+const setsByLevel = new Map<number, Promise<PokeSet[]>>();
 let movesCache: Promise<MoveDex> | null = null;
 
-export function loadCalcSets(): Promise<PokeSet[]> {
-  if (!setsCache) {
-    setsCache = fetch(url("sets.json"))
-      .then((r) => {
-        if (!r.ok) throw new Error(`Failed to load sets: ${r.status}`);
-        return r.json() as Promise<RawSet[]>;
-      })
-      // Tier 4+ sets use the max round IV (31); lower tiers use their fixed IV.
-      .then((raw) => raw.map((s) => computeSet(s, DEFAULT_TIER4_IV)));
+function loadRaw(): Promise<RawSet[]> {
+  if (!rawCache) {
+    rawCache = fetch(url("sets.json")).then((r) => {
+      if (!r.ok) throw new Error(`Failed to load sets: ${r.status}`);
+      return r.json() as Promise<RawSet[]>;
+    });
   }
-  return setsCache;
+  return rawCache;
+}
+
+export function loadCalcSets(level = 50): Promise<PokeSet[]> {
+  let cached = setsByLevel.get(level);
+  if (!cached) {
+    // Tier 4+ sets use the max round IV (31); lower tiers use their fixed IV.
+    cached = loadRaw().then((raw) => raw.map((s) => computeSet(s, DEFAULT_TIER4_IV, level)));
+    setsByLevel.set(level, cached);
+  }
+  return cached;
 }
 
 export function loadMoveDex(): Promise<MoveDex> {

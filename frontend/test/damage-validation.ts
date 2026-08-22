@@ -107,21 +107,21 @@ function makeScenario(): Scenario {
   };
 }
 
-function ourRolls(s: Scenario): number[] | null {
+function ourRolls(s: Scenario, level: number): number[] | null {
   const aSp = gen.species.get(toID(s.aSpec)), dSp = gen.species.get(toID(s.dSpec));
   const mv = gen.moves.get(toID(s.move.t));
   if (!aSp || !dSp || !mv || !mv.basePower) return null;
   const toMap = (bs: any): StatMap => ({ hp: bs.hp, atk: bs.atk, def: bs.def, spa: bs.spa, spd: bs.spd, spe: bs.spe });
   const attacker: Combatant = {
     species: s.aSpec, types: aSp.types,
-    stats: computeStats(toMap(aSp.baseStats), s.aEvs, s.aNat, 31),
+    stats: computeStats(toMap(aSp.baseStats), s.aEvs, s.aNat, 31, level),
     item: s.aItem.o, ability: s.aAbil || BENIGN,
     boosts: { ...NO_BOOST, atk: s.aAtkB, spa: s.aSpaB },
     status: s.burn, burned: s.burn, pinch: false,
   };
   const defender: Combatant = {
     species: s.dSpec, types: dSp.types,
-    stats: computeStats(toMap(dSp.baseStats), s.dEvs, s.dNat, 31),
+    stats: computeStats(toMap(dSp.baseStats), s.dEvs, s.dNat, 31, level),
     item: s.dItem.o, ability: s.dAbil || BENIGN,
     boosts: { ...NO_BOOST, def: s.dDefB, spd: s.dSpdB },
     status: s.dStatus, burned: false, pinch: false,
@@ -131,20 +131,20 @@ function ourRolls(s: Scenario): number[] | null {
     category: mv.category as "Physical" | "Special" | "Status",
     basePower: mv.basePower, accuracy: mv.accuracy === true ? null : mv.accuracy,
   };
-  const field: Field = { weather: s.weather.o, reflect: s.reflect, lightScreen: s.lightScreen, crit: s.crit };
+  const field: Field = { weather: s.weather.o, reflect: s.reflect, lightScreen: s.lightScreen, crit: s.crit, level };
   return calcDamage(attacker, defender, move, field).rolls;
 }
 
-function theirRolls(s: Scenario): number[] | null {
+function theirRolls(s: Scenario, level: number): number[] | null {
   try {
     const ivs = { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 };
     const attacker = new Pokemon(gen, s.aSpec, {
-      level: 50, item: s.aItem.t || undefined, ability: s.aAbil || BENIGN,
+      level, item: s.aItem.t || undefined, ability: s.aAbil || BENIGN,
       nature: s.aNat, evs: s.aEvs, ivs, boosts: { atk: s.aAtkB, spa: s.aSpaB },
       status: s.burn ? "brn" : "",
     });
     const defender = new Pokemon(gen, s.dSpec, {
-      level: 50, item: s.dItem.t || undefined, ability: s.dAbil || BENIGN,
+      level, item: s.dItem.t || undefined, ability: s.dAbil || BENIGN,
       nature: s.dNat, evs: s.dEvs, ivs, boosts: { def: s.dDefB, spd: s.dSpdB },
       status: s.dStatus ? "psn" : "",
     });
@@ -175,26 +175,31 @@ function describe(s: Scenario): string {
 }
 
 const N = Number(process.argv[2] ?? 6000);
-let ok = 0, mismatch = 0, skipped = 0;
-const examples: string[] = [];
-for (let i = 0; i < N; i++) {
-  const s = makeScenario();
-  const ours = ourRolls(s), theirs = theirRolls(s);
-  if (!ours || !theirs) { skipped++; continue; }
-  if (eq(ours, theirs)) ok++;
-  else {
-    mismatch++;
-    if (examples.length < 10) {
-      examples.push(`  ${describe(s)}\n    ours:   ${ours.length ? `${ours[0]}-${ours[ours.length - 1]}` : "0"}` +
-        `\n    theirs: ${theirs[0]}-${theirs[theirs.length - 1]}`);
+const LEVELS = [50, 100]; // Factory Lv 50 and Open Level (100)
+let failed = 0;
+for (const level of LEVELS) {
+  let ok = 0, mismatch = 0, skipped = 0;
+  const examples: string[] = [];
+  for (let i = 0; i < N; i++) {
+    const s = makeScenario();
+    const ours = ourRolls(s, level), theirs = theirRolls(s, level);
+    if (!ours || !theirs) { skipped++; continue; }
+    if (eq(ours, theirs)) ok++;
+    else {
+      mismatch++;
+      if (examples.length < 10) {
+        examples.push(`  Lv${level} ${describe(s)}\n    ours:   ${ours.length ? `${ours[0]}-${ours[ours.length - 1]}` : "0"}` +
+          `\n    theirs: ${theirs[0]}-${theirs[theirs.length - 1]}`);
+      }
     }
+  }
+  console.log(`Lv ${level}: ${ok}/${ok + mismatch} exact ` +
+    `(${((ok / (ok + mismatch)) * 100).toFixed(2)}%), skipped ${skipped}`);
+  if (mismatch > 0) {
+    failed += mismatch;
+    console.error(`\nFAIL @ Lv${level}: ${mismatch} mismatch(es):\n${examples.join("\n")}`);
   }
 }
 
-console.log(`@smogon/calc gen 4 cross-validation: ${ok}/${ok + mismatch} exact ` +
-  `(${((ok / (ok + mismatch)) * 100).toFixed(2)}%), skipped ${skipped}`);
-if (mismatch > 0) {
-  console.error(`\nFAIL: ${mismatch} mismatch(es):\n${examples.join("\n")}`);
-  process.exit(1);
-}
-console.log("PASS");
+if (failed > 0) process.exit(1);
+console.log("PASS (@smogon/calc gen 4, Lv 50 + Lv 100)");
