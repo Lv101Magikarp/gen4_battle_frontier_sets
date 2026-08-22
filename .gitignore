@@ -24,3 +24,4 @@ data/raw/
 # Generated copies of the datasets for the static build (source of truth is data/*.json)
 frontend/public/sets.json
 frontend/public/trainers.json
+frontend/public/moves.json

@@ -5,18 +5,20 @@ import { facets as fetchFacets, search as fetchSearch } from "./dataClient";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
 import { TrainersView } from "./components/TrainersView";
+import { DamageCalcView } from "./components/DamageCalcView";
 import { FACILITIES, getFacility } from "./facilities";
 import type { Facility, FacilityId } from "./facilities";
 
-type View = "sets" | "trainers";
+type View = "sets" | "trainers" | "calc";
 
 const FACILITY_KEY = "facility";
 
 // Deep links: "#trainers" opens the Trainers tab, "#trainers/150" also opens that
-// trainer's roster. Returned trainer index (if any) is read by TrainersView.
+// trainer's roster (index read by TrainersView); "#calc" opens the calculator.
 function parseHash(): { view: View; trainer: number | null } {
   const [v, id] = window.location.hash.replace(/^#/, "").split("/");
-  return { view: v === "trainers" ? "trainers" : "sets", trainer: id ? Number(id) : null };
+  const view: View = v === "trainers" ? "trainers" : v === "calc" ? "calc" : "sets";
+  return { view, trainer: id ? Number(id) : null };
 }
 
 const PIN_KEY = "pinnedSets";
@@ -97,7 +99,7 @@ export default function App() {
   const initialTrainer = useMemo(() => parseHash().trainer, []);
   const goto = (v: View) => {
     setView(v);
-    window.location.hash = v === "trainers" ? "trainers" : "";
+    window.location.hash = v === "sets" ? "" : v;
   };
   const abortRef = useRef<AbortController | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
@@ -238,6 +240,14 @@ export default function App() {
             >
               Trainers
             </button>
+            <button
+              className={`viewnav__btn ${view === "calc" ? "viewnav__btn--on" : ""}`}
+              onClick={() => goto("calc")}
+              role="tab"
+              aria-selected={view === "calc"}
+            >
+              Calculator
+            </button>
           </div>
           <button className="icon-btn" onClick={toggleTheme} title="Toggle theme">
             {theme === "dark" ? "☀" : "☾"}
@@ -249,6 +259,8 @@ export default function App() {
         <FacilityPlaceholder facility={facility} />
       ) : view === "trainers" ? (
         <TrainersView initialTrainer={initialTrainer} facility={facility} />
+      ) : view === "calc" ? (
+        <DamageCalcView />
       ) : (
       <div className="layout">
         <FilterPanel filters={filters} facets={facets} update={update} reset={reset} />
