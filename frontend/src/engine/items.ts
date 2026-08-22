@@ -1,8 +1,7 @@
-// Damage-relevant held-item effects for the Gen 4 calculator. Only items that
-// change a damage roll are modelled; every other held item (Leftovers, Focus
-// Sash, Choice Scarf, incense with no type match, …) is identity (×1) via the
-// `?? 1` / default-false fallbacks below, so the ~84 items in the data don't all
-// need entries here.
+// Damage-relevant held-item effects for the Gen 4 calculator, matching the order
+// and per-step flooring of @smogon/calc's DPP mechanics. Only items that change a
+// damage roll are modelled; every other held item is identity (×1) via the
+// fallbacks below, so the ~84 items in the data don't all need entries.
 import type { StatKey } from "../types";
 
 // Type-enhancing items: ×1.2 to moves of the matching type (Gen 4 value).
@@ -54,11 +53,13 @@ const SPECIES_STAT_ITEM: Record<string, { species: string[]; stat: StatKey; mult
   DeepSeaScale: { species: ["Clamperl"], stat: "spd", mult: 2 },
 };
 
-// Base-power multiplier from the attacker's item (applied at the power step).
+// Base-power multiplier from the attacker's item: Muscle Band / Wise Glasses take
+// precedence over type-enhancing items (they are mutually exclusive in @smogon's
+// else-if chain, but items are unique so order is moot).
 export function itemPowerMult(item: string, moveType: string, category: string): number {
-  if (TYPE_BOOST[item] === moveType) return 1.2;
   if (item === "Muscle Band" && category === "Physical") return 1.1;
   if (item === "Wise Glasses" && category === "Special") return 1.1;
+  if (TYPE_BOOST[item] === moveType) return 1.2;
   return 1;
 }
 
@@ -78,21 +79,17 @@ export function itemDefenseMult(item: string, stat: StatKey, species: string): n
   return 1;
 }
 
-// Life Orb (Mod2, ×1.3 to all damaging moves).
+// Life Orb (×1.3, applied after crit in the final-mods step).
 export function itemMod2Mult(item: string): number {
   return item === "Life Orb" ? 1.3 : 1;
 }
 
-// Final (Mod3) multiplier: Expert Belt on a super-effective hit, and resist
-// berries that halve a super-effective hit of their type.
-export function itemMod3Mult(
-  attackerItem: string,
-  defenderItem: string,
-  moveType: string,
-  effectiveness: number,
-): number {
-  let m = 1;
-  if (attackerItem === "Expert Belt" && effectiveness > 1) m *= 1.2;
-  if (effectiveness > 1 && RESIST_BERRY[defenderItem] === moveType) m *= 0.5;
-  return m;
+// Expert Belt: ×1.2 on a super-effective hit (its own floored step in the roll).
+export function expertBeltMult(item: string, effectiveness: number): number {
+  return item === "Expert Belt" && effectiveness > 1 ? 1.2 : 1;
+}
+
+// Resist berry: ×0.5 on a super-effective hit of the matching type.
+export function berryMult(defItem: string, moveType: string, effectiveness: number): number {
+  return effectiveness > 1 && RESIST_BERRY[defItem] === moveType ? 0.5 : 1;
 }

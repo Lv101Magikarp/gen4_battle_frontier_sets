@@ -1,19 +1,30 @@
-// Generation IV damage calculator. Follows the Gen 4 formula and flooring order
-// used by @smogon/calc: base -> Mod1 (burn/screens/weather) -> +2 -> crit ->
-// Mod2 (Life Orb) -> random roll -> STAB -> per-type effectiveness -> Mod3
-// (Expert Belt / Tinted Lens / Filter / resist berries / Thick Fat …).
+// Generation IV damage calculator. Mirrors @smogon/calc's DPP mechanics
+// (step order and per-step flooring) so results match the reference calculator:
+//   base power:  Technician -> item -> Iron Fist/Reckless/pinch -> Thick Fat…
+//   attack:      stage -> ability (Pure Power / Solar Power / Guts…) -> item
+//   defense:     stage -> Marvel Scale -> item -> sand+Rock SpD
+//   base dmg:    floor(floor(LF*power*A / 50) / D)
+//   then:        burn -> screen -> weather -> +2 -> crit -> Life Orb
+//   per roll:    random -> STAB -> type1 -> type2 -> Filter -> Expert Belt
+//                -> Tinted Lens -> resist berry
 import type { StatKey, StatMap } from "../types";
-import { typeEffect, typeMultiplier } from "./typechart";
+import { typeEffect } from "./typechart";
 import {
-  itemAttackMult, itemDefenseMult, itemMod2Mult, itemMod3Mult, itemPowerMult,
+  berryMult, expertBeltMult, itemAttackMult, itemDefenseMult, itemMod2Mult, itemPowerMult,
 } from "./items";
 import {
-  abilityAttackMult, abilityAttackerMod3, abilityPowerMult, abilityStab,
-  defenderAbilityDefMult, defenderAbilityMult, defenderImmune,
-  type AttackerAbilityCtx, type DefenderAbilityCtx,
+  abilityAttackMult, abilityStab, attackerBpMult, defenderBpMult, defenderDefMult,
+  defenderImmune, filterMult, technicianMult, tintedMult, type DefenderAbilityCtx,
 } from "./abilities";
 
 const LEVEL = 50;
+
+// @smogon applies the two defender types in this precedence order, which matters
+// because each type multiplier is floored separately.
+const TYPE_PRECEDENCE = [
+  "Normal", "Fire", "Water", "Electric", "Grass", "Ice", "Fighting", "Poison",
+  "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel",
+];
 
 export interface MoveData {
   name: string;
@@ -51,7 +62,7 @@ export interface DamageResult {
   percentMin: number;         // % of defender max HP
   percentMax: number;
   effectiveness: number;      // total type multiplier (0 / .25 / .5 / 1 / 2 / 4)
-  note?: string;              // "immune", "variable — approximate", "OHKO move", …
+  note?: string;              // "immune", "variable — not supported", "fixed damage"
   unsupported?: boolean;      // true => rolls can't be computed (HP/weight-based)
 }
 
@@ -59,8 +70,16 @@ function stageMult(stage: number): number {
   return stage >= 0 ? (2 + stage) / 2 : 2 / (2 - stage);
 }
 
-// Moves whose base power is not a constant. Handled here; the rest of the
-// null-power damaging moves are reported as unsupported ("variable").
+// Defender types ordered by @smogon's type-effectiveness precedence.
+function orderedTypes(types: string[]): string[] {
+  if (types.length < 2 || types[0] === types[1]) return types;
+  return TYPE_PRECEDENCE.indexOf(types[0]) > TYPE_PRECEDENCE.indexOf(types[1])
+    ? [types[1], types[0]]
+    : types;
+}
+
+// Moves whose base power is not a constant. The common computable ones are
+// handled; the rest of the null-power damaging moves are reported as unsupported.
 function specialPower(move: MoveData, attacker: Combatant, defender: Combatant): number | "unsupported" | null {
   switch (move.name) {
     case "Return":
@@ -75,14 +94,14 @@ function specialPower(move: MoveData, attacker: Combatant, defender: Combatant):
       const userSpe = Math.floor(attacker.stats.spe * stageMult(attacker.boosts.spe));
       const tgtSpe = Math.floor(defender.stats.spe * stageMult(defender.boosts.spe));
       if (userSpe <= 0) return 1;
-      return Math.min(150, Math.floor((25 * tgtSpe) / userSpe) + 1);
+      return Math.min(150, Math.floor((25 * tgtSpe) / userSpe));
     }
     default:
       return "unsupported";
   }
 }
 
-const FIXED_DAMAGE: Record<string, (a: Combatant) => number> = {
+const FIXED_DAMAGE: Record<string, () => number> = {
   "Night Shade": () => LEVEL,
   "Seismic Toss": () => LEVEL,
   "Dragon Rage": () => 40,
@@ -96,8 +115,13 @@ export function calcDamage(
   field: Field,
 ): DamageResult {
   const hp = defender.stats.hp;
-  const eff = typeMultiplier(move.type, defender.types);
   const empty = { rolls: [], min: 0, max: 0, percentMin: 0, percentMax: 0 };
+
+  // Effectiveness, applied per type in @smogon's precedence order.
+  const dTypes = orderedTypes(defender.types);
+  const eff1 = typeEffect(move.type, dTypes[0]);
+  const eff2 = dTypes[1] ? typeEffect(move.type, dTypes[1]) : 1;
+  const eff = eff1 * eff2;
 
   if (move.category === "Status") {
     return { ...empty, effectiveness: eff, note: "status move", unsupported: true };
@@ -117,7 +141,7 @@ export function calcDamage(
   // Fixed-damage moves (Night Shade, Seismic Toss, Dragon Rage, Sonic Boom).
   const fixed = FIXED_DAMAGE[move.name];
   if (fixed) {
-    const dmg = fixed(attacker);
+    const dmg = fixed();
     return {
       rolls: [dmg], min: dmg, max: dmg,
       percentMin: (dmg / hp) * 100, percentMax: (dmg / hp) * 100,
@@ -138,71 +162,67 @@ export function calcDamage(
     return { ...empty, effectiveness: eff, note: "variable — not supported", unsupported: true };
   }
 
-  const atkCtx: AttackerAbilityCtx = {
-    ability: attacker.ability, moveName: move.name, moveType: move.type,
-    category: move.category, basePower, species: attacker.species,
-    statused: attacker.status, pinch: attacker.pinch, sun: field.weather === "sun",
-  };
-
-  // --- Power ---
-  let power = basePower;
-  power = Math.floor(power * itemPowerMult(attacker.item, move.type, move.category));
-  power = Math.floor(power * abilityPowerMult(atkCtx));
-  power = Math.max(1, power);
-
-  // --- Attack / Defense stats (with stat stages, item & ability multipliers) ---
   const isPhysical = move.category === "Physical";
+
+  // --- Base power mods (order per @smogon calculateBPModsDPP) ---
+  let power = basePower;
+  power = Math.floor(power * technicianMult(attacker.ability, power));
+  power = Math.floor(power * itemPowerMult(attacker.item, move.type, move.category));
+  power = Math.floor(power * attackerBpMult(attacker.ability, move.name, move.type, attacker.pinch));
+  power = Math.floor(power * defenderBpMult(defender.ability, move.type, moldBreaker));
+
+  // --- Attack stat: stage -> ability -> item ---
   const atkKey: StatKey = isPhysical ? "atk" : "spa";
-  const defKey: StatKey = isPhysical ? "def" : "spd";
-  // Crits ignore the attacker's negative offensive boosts and the defender's
-  // positive defensive boosts.
   const atkStage = field.crit ? Math.max(attacker.boosts[atkKey], 0) : attacker.boosts[atkKey];
-  const defStage = field.crit ? Math.min(defender.boosts[defKey], 0) : defender.boosts[defKey];
-
   let A = Math.floor(attacker.stats[atkKey] * stageMult(atkStage));
-  A = Math.floor(A * abilityAttackMult(atkCtx));
+  A = Math.floor(A * abilityAttackMult({
+    ability: attacker.ability, category: move.category,
+    statused: attacker.status, sun: field.weather === "sun",
+  }));
   A = Math.floor(A * itemAttackMult(attacker.item, move.category, attacker.species));
-  A = Math.max(1, A);
 
+  // --- Defense stat: stage -> Marvel Scale -> item -> sand+Rock SpD ---
+  const defKey: StatKey = isPhysical ? "def" : "spd";
+  const defStage = field.crit ? Math.min(defender.boosts[defKey], 0) : defender.boosts[defKey];
   let D = Math.floor(defender.stats[defKey] * stageMult(defStage));
-  D = Math.floor(D * defenderAbilityDefMult(defender.ability, move.category, defender.status));
+  D = Math.floor(D * defenderDefMult(defender.ability, move.category, defender.status, moldBreaker));
   D = Math.floor(D * itemDefenseMult(defender.item, defKey, defender.species));
+  if (field.weather === "sand" && !isPhysical && defender.types.includes("Rock")) {
+    D = Math.floor(D * 1.5);
+  }
   D = Math.max(1, D);
 
   // --- Base damage ---
   const levelFactor = Math.floor((2 * LEVEL) / 5 + 2); // 22
-  let base = Math.floor(Math.floor((levelFactor * power * A) / D) / 50);
+  let base = Math.floor(Math.floor((levelFactor * power * A) / 50) / D);
 
-  // --- Mod1: burn, screens, weather ---
-  let mod1 = 1;
-  if (attacker.burned && isPhysical && attacker.ability !== "Guts") mod1 *= 0.5;
+  // --- burn -> screens -> weather -> +2 -> crit -> Life Orb ---
+  if (attacker.burned && isPhysical && attacker.ability !== "Guts") base = Math.floor(base * 0.5);
   const screen = isPhysical ? field.reflect : field.lightScreen;
-  if (screen && !field.crit) mod1 *= 0.5;
-  mod1 *= weatherMod(move, field.weather);
-  base = Math.floor(base * mod1);
-
+  if (screen && !field.crit) base = Math.floor(base * 0.5);
+  base = Math.floor(base * weatherMod(move, field.weather));
   base += 2;
-
-  // --- CH (critical) ---
   if (field.crit) base = Math.floor(base * 2);
-
-  // --- Mod2: Life Orb ---
   base = Math.floor(base * itemMod2Mult(attacker.item));
 
-  // --- Per-roll: random -> STAB -> per-type effectiveness -> Mod3 ---
+  // --- Per-roll: random -> STAB -> type1 -> type2 -> Filter -> E.Belt -> Tinted -> berry ---
   const hasStab = attacker.types.includes(move.type);
   const stab = hasStab ? abilityStab(attacker.ability) : 1;
-  const mod3 =
-    itemMod3Mult(attacker.item, defender.item, move.type, eff) *
-    abilityAttackerMod3(attacker.ability, eff) *
-    defenderAbilityMult(defCtx);
+  const fMod = filterMult(defender.ability, eff, moldBreaker);
+  const ebMod = expertBeltMult(attacker.item, eff);
+  const tMod = tintedMult(attacker.ability, eff);
+  const bMod = berryMult(defender.item, move.type, eff);
 
   const rolls: number[] = [];
   for (let r = 85; r <= 100; r++) {
     let dmg = Math.floor((base * r) / 100);
     if (hasStab) dmg = Math.floor(dmg * stab);
-    for (const t of defender.types) dmg = Math.floor(dmg * typeEffect(move.type, t));
-    dmg = Math.floor(dmg * mod3);
+    dmg = Math.floor(dmg * eff1);
+    if (dTypes[1]) dmg = Math.floor(dmg * eff2);
+    dmg = Math.floor(dmg * fMod);
+    dmg = Math.floor(dmg * ebMod);
+    dmg = Math.floor(dmg * tMod);
+    dmg = Math.floor(dmg * bMod);
     rolls.push(Math.max(1, dmg)); // a connecting, non-immune hit deals >=1
   }
 
@@ -219,15 +239,16 @@ export function calcDamage(
 }
 
 function weatherMod(move: MoveData, weather: Weather): number {
-  if (weather === "sun") {
-    if (move.type === "Fire") return 1.5;
-    if (move.type === "Water") return 0.5;
-  } else if (weather === "rain") {
-    if (move.type === "Water") return 1.5;
-    if (move.type === "Fire") return 0.5;
+  if ((weather === "sun" && move.type === "Fire") || (weather === "rain" && move.type === "Water")) {
+    return 1.5;
   }
-  // SolarBeam is halved in any non-clear, non-sun weather.
-  if (move.name === "SolarBeam" && weather !== "none" && weather !== "sun") return 0.5;
+  if ((weather === "sun" && move.type === "Water") || (weather === "rain" && move.type === "Fire")) {
+    return 0.5;
+  }
+  // SolarBeam is halved in rain, sandstorm, and hail.
+  if (move.name === "SolarBeam" && (weather === "rain" || weather === "sand" || weather === "hail")) {
+    return 0.5;
+  }
   return 1;
 }
 
@@ -266,7 +287,7 @@ function koProbability(rolls: number[], hp: number, hits: number): number {
 export function koChance(result: DamageResult, hp: number): KoResult | null {
   const { rolls, min, max } = result;
   if (rolls.length === 0 || max <= 0) return null;
-  if (result.rolls.length === 1) {
+  if (rolls.length === 1) {
     // fixed-damage move
     const hits = Math.ceil(hp / min);
     return { summary: `Guaranteed ${ordinalKO(hits)}` };
