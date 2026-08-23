@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import type { PokeSet, StatKey } from "../types";
 import { STAT_LABELS } from "../types";
 import { spriteUrl, typeColor } from "../theme";
-import { loadCalcSets, loadMoveDex, resolveMove, type MoveDex } from "../engine/calcData";
+import { loadCalcSets, loadMoveDex, resolveMove, DEFAULT_TIER4_IV, type MoveDex } from "../engine/calcData";
+import { computeStats, LOWER_TIER_IVS } from "../engine/stats";
 import {
   calcDamage, koChance, type Combatant, type Field, type Weather,
 } from "../engine/damage";
@@ -17,14 +18,105 @@ const WEATHERS: { id: Weather; label: string }[] = [
   { id: "hail", label: "Hail" },
 ];
 
-// Per-combatant selection + overrides. Item/ability start from the chosen set but
-// can be changed so the item/ability modifiers are exercisable (set-driven, with
-// per-field overrides, per the plan).
+type StatusKind = "none" | "burn" | "other";
+const STATUSES: { id: StatusKind; label: string }[] = [
+  { id: "none", label: "Healthy" },
+  { id: "burn", label: "Burned" },
+  { id: "other", label: "Statused" },
+];
+
+// The two combatants are symmetric: each is both an attacker (its own moves) and a
+// defender (takes the other's moves) so we can show the mirror. Conditions therefore
+// belong to the Pokémon, not to a fixed "attacker"/"defender" role: status/pinch/crit
+// and offensive stages apply when it attacks; screens and defensive stages apply when
+// it defends. Item/ability start from the chosen set but are overridable.
 interface Side {
   species: string;
   setIndex: number;
   item: string;
   ability: string;
+  iv: number;
+  status: StatusKind;
+  pinch: boolean;
+  crit: boolean;
+  reflect: boolean;
+  lightScreen: boolean;
+  atkStage: number;
+  spaStage: number;
+  defStage: number;
+  spdStage: number;
+}
+
+const DEFAULT_COND = {
+  status: "none" as StatusKind,
+  pinch: false,
+  crit: false,
+  reflect: false,
+  lightScreen: false,
+  atkStage: 0,
+  spaStage: 0,
+  defStage: 0,
+  spdStage: 0,
+};
+
+function makeSide(s: PokeSet): Side {
+  return {
+    species: s.species,
+    setIndex: s.setIndex,
+    item: s.item,
+    ability: s.abilities[0] ?? "",
+    iv: DEFAULT_TIER4_IV,
+    ...DEFAULT_COND,
+  };
+}
+
+// Recompute a set's Lv-level stats from the side's chosen IV. The IV applies to
+// every set here (like the Sets view's per-card IV preview), so each side can be
+// set to its own tier's IV independently.
+function withIv(base: PokeSet, iv: number, level: number): PokeSet {
+  return { ...base, iv, stats: computeStats(base.baseStats, base.evs, base.nature, iv, level) };
+}
+
+function toCombatant(set: PokeSet, side: Side): Combatant {
+  return {
+    species: set.species,
+    types: set.types,
+    stats: set.stats,
+    item: side.item,
+    ability: side.ability,
+    boosts: { ...NO_BOOST, atk: side.atkStage, spa: side.spaStage, def: side.defStage, spd: side.spdStage },
+    status: side.status !== "none",
+    burned: side.status === "burn",
+    pinch: side.pinch,
+  };
+}
+
+interface MoveResult {
+  move: ReturnType<typeof resolveMove>;
+  dmg: ReturnType<typeof calcDamage>;
+  ko: ReturnType<typeof koChance>;
+}
+
+// One direction of the matchup: `atk`'s moves hitting `def`. Crit/status/pinch come
+// from the attacker; screens come from the defender.
+function directionResults(
+  atkSet: PokeSet, atkSide: Side, defSet: PokeSet, defSide: Side,
+  dex: MoveDex, weather: Weather, level: number,
+): MoveResult[] {
+  const attacker = toCombatant(atkSet, atkSide);
+  const defender = toCombatant(defSet, defSide);
+  const field: Field = {
+    weather,
+    reflect: defSide.reflect,
+    lightScreen: defSide.lightScreen,
+    crit: atkSide.crit,
+    level,
+  };
+  return atkSet.moves.map((mv) => {
+    const move = resolveMove(dex, mv.name, mv.type);
+    const dmg = calcDamage(attacker, defender, move, field);
+    return { move, dmg, ko: koChance(dmg, defender.stats.hp) };
+  });
 }
 
 function effLabel(eff: number): { text: string; cls: string } {
@@ -39,24 +131,13 @@ export function DamageCalcView({ level = 50 }: { level?: number }) {
   const [dex, setDex] = useState<MoveDex | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const [atk, setAtk] = useState<Side | null>(null);
-  const [def, setDef] = useState<Side | null>(null);
-  const [moveIdx, setMoveIdx] = useState(0);
-
-  // Field / state.
+  const [a, setA] = useState<Side | null>(null);
+  const [b, setB] = useState<Side | null>(null);
   const [weather, setWeather] = useState<Weather>("none");
-  const [reflect, setReflect] = useState(false);
-  const [lightScreen, setLightScreen] = useState(false);
-  const [crit, setCrit] = useState(false);
-  const [atkBurned, setAtkBurned] = useState(false);
-  const [atkPinch, setAtkPinch] = useState(false);
-  const [defStatus, setDefStatus] = useState(false);
-  const [atkAtkStage, setAtkAtkStage] = useState(0);
-  const [atkSpaStage, setAtkSpaStage] = useState(0);
-  const [defDefStage, setDefDefStage] = useState(0);
-  const [defSpdStage, setDefSpdStage] = useState(0);
 
   useEffect(() => {
+    // Sets load once (species/set/item lists + raw base stats); each side then
+    // recomputes its stats from its own IV via withIv, so the load IV is moot.
     Promise.all([loadCalcSets(level), loadMoveDex()])
       .then(([s, d]) => {
         setSets(s);
@@ -76,7 +157,7 @@ export function DamageCalcView({ level = 50 }: { level?: number }) {
       arr.push(s);
       m.set(s.species, arr);
     }
-    for (const arr of m.values()) arr.sort((a, b) => a.setIndex - b.setIndex);
+    for (const arr of m.values()) arr.sort((x, y) => x.setIndex - y.setIndex);
     return m;
   }, [sets]);
   const allItems = useMemo(
@@ -86,88 +167,57 @@ export function DamageCalcView({ level = 50 }: { level?: number }) {
 
   // Initialise the two sides once data is loaded.
   useEffect(() => {
-    if (!sets || atk) return;
+    if (!sets || a) return;
     const first = sets.find((s) => s.species === "Salamence") ?? sets[0];
     const second = sets.find((s) => s.species === "Snorlax") ?? sets[1] ?? sets[0];
-    setAtk({ species: first.species, setIndex: first.setIndex, item: first.item, ability: first.abilities[0] ?? "" });
-    setDef({ species: second.species, setIndex: second.setIndex, item: second.item, ability: second.abilities[0] ?? "" });
-  }, [sets, atk]);
+    setA(makeSide(first));
+    setB(makeSide(second));
+  }, [sets, a]);
 
   const findSet = (side: Side | null): PokeSet | null => {
     if (!side) return null;
     const arr = setsBySpecies.get(side.species);
     return arr?.find((s) => s.setIndex === side.setIndex) ?? arr?.[0] ?? null;
   };
-  const atkSet = findSet(atk);
-  const defSet = findSet(def);
+  const aBase = findSet(a);
+  const bBase = findSet(b);
+  const aSet = aBase && a ? withIv(aBase, a.iv, level) : null;
+  const bSet = bBase && b ? withIv(bBase, b.iv, level) : null;
 
-  const results = useMemo(() => {
-    if (!atkSet || !defSet || !dex || !atk || !def) return null;
-    const attacker: Combatant = {
-      species: atkSet.species,
-      types: atkSet.types,
-      stats: atkSet.stats,
-      item: atk.item,
-      ability: atk.ability,
-      boosts: { ...NO_BOOST, atk: atkAtkStage, spa: atkSpaStage },
-      status: atkBurned,
-      burned: atkBurned,
-      pinch: atkPinch,
-    };
-    const defender: Combatant = {
-      species: defSet.species,
-      types: defSet.types,
-      stats: defSet.stats,
-      item: def.item,
-      ability: def.ability,
-      boosts: { ...NO_BOOST, def: defDefStage, spd: defSpdStage },
-      status: defStatus,
-      burned: false,
-      pinch: false,
-    };
-    const field: Field = { weather, reflect, lightScreen, crit, level };
-    return atkSet.moves.map((mv) => {
-      const move = resolveMove(dex, mv.name, mv.type);
-      const dmg = calcDamage(attacker, defender, move, field);
-      return { move, dmg, ko: koChance(dmg, defender.stats.hp) };
-    });
-  }, [
-    atkSet, defSet, dex, atk, def, weather, reflect, lightScreen, crit, level,
-    atkBurned, atkPinch, defStatus, atkAtkStage, atkSpaStage, defDefStage, defSpdStage,
-  ]);
-
-  // Keep the selected move index in range when the attacker changes.
-  useEffect(() => {
-    setMoveIdx((i) => (atkSet && i < atkSet.moves.length ? i : 0));
-  }, [atkSet]);
+  const aToB = useMemo(() => {
+    if (!aSet || !bSet || !dex || !a || !b) return null;
+    return directionResults(aSet, a, bSet, b, dex, weather, level);
+  }, [aSet, bSet, dex, a, b, weather, level]);
+  const bToA = useMemo(() => {
+    if (!aSet || !bSet || !dex || !a || !b) return null;
+    return directionResults(bSet, b, aSet, a, dex, weather, level);
+  }, [aSet, bSet, dex, a, b, weather, level]);
 
   if (error) return <div className="error">{error}</div>;
-  if (!sets || !dex || !atk || !def || !atkSet || !defSet || !results) {
+  if (!sets || !dex || !a || !b || !aSet || !bSet || !aToB || !bToA) {
     return <div className="calc-loading">Loading calculator…</div>;
   }
-
-  const selected = results[moveIdx] ?? results[0];
 
   return (
     <div className="calc">
       <div className="calc__grid">
         <SidePanel
-          role="Attacker"
-          side={atk}
-          set={atkSet}
+          role="Pokémon A"
+          side={a}
+          set={aSet}
           speciesList={speciesList}
           setsBySpecies={setsBySpecies}
           allItems={allItems}
-          onChange={setAtk}
+          onChange={setA}
         />
         <SidePanel
-          role="Defender"
-          side={def}
-          set={defSet}
+          role="Pokémon B"
+          side={b}
+          set={bSet}
           speciesList={speciesList}
           setsBySpecies={setsBySpecies}
           allItems={allItems}
-          onChange={setDef}
+          onChange={setB}
         />
       </div>
 
@@ -180,81 +230,104 @@ export function DamageCalcView({ level = 50 }: { level?: number }) {
             ))}
           </select>
         </label>
-        <Toggle label="Critical hit" checked={crit} onChange={setCrit} />
-        <Toggle label="Reflect" checked={reflect} onChange={setReflect} />
-        <Toggle label="Light Screen" checked={lightScreen} onChange={setLightScreen} />
-        <Toggle label="Attacker burned" checked={atkBurned} onChange={setAtkBurned} />
-        <Toggle label="Attacker ≤⅓ HP (pinch)" checked={atkPinch} onChange={setAtkPinch} />
-        <Toggle label="Defender statused" checked={defStatus} onChange={setDefStatus} />
-        <Stepper label="Atk stage" value={atkAtkStage} onChange={setAtkAtkStage} />
-        <Stepper label="SpA stage" value={atkSpaStage} onChange={setAtkSpaStage} />
-        <Stepper label="Def stage" value={defDefStage} onChange={setDefDefStage} />
-        <Stepper label="SpD stage" value={defSpdStage} onChange={setDefSpdStage} />
       </section>
 
-      <section className="calc-result">
-        <div className="calc-moves">
-          {results.map((r, i) => (
-            <button
-              key={i}
-              className={`calc-move ${i === moveIdx ? "calc-move--on" : ""}`}
-              style={{ borderLeftColor: typeColor(r.move.type) }}
-              onClick={() => setMoveIdx(i)}
-            >
-              <span className="calc-move__name">{r.move.name}</span>
-              <span className="calc-move__pct">
-                {r.dmg.unsupported ? "—" : `${r.dmg.percentMax.toFixed(0)}%`}
-              </span>
-            </button>
-          ))}
-        </div>
-
-        <div className="calc-readout">
-          <div className="calc-readout__move" style={{ color: typeColor(selected.move.type) }}>
-            {selected.move.name}
-            <span className="calc-readout__meta">
-              {selected.move.type} · {selected.move.category}
-              {selected.move.basePower ? ` · ${selected.move.basePower} BP` : ""}
-            </span>
-          </div>
-
-          {selected.dmg.unsupported ? (
-            <div className="calc-readout__unsupported">{selected.dmg.note ?? "Not supported"}</div>
-          ) : (
-            <>
-              <div className="calc-readout__numbers">
-                <strong>{selected.dmg.min}–{selected.dmg.max}</strong> dmg
-                <span className="calc-readout__pct">
-                  {selected.dmg.percentMin.toFixed(1)}% – {selected.dmg.percentMax.toFixed(1)}%
-                </span>
-              </div>
-              <div className="calc-readout__row">
-                <span className={`calc-eff ${effLabel(selected.dmg.effectiveness).cls}`}>
-                  {effLabel(selected.dmg.effectiveness).text}
-                </span>
-                {selected.ko && (
-                  <span className="calc-ko">
-                    {selected.ko.summary}
-                    {selected.ko.chanceText && <span className="calc-ko__chance"> · {selected.ko.chanceText}</span>}
-                  </span>
-                )}
-                {selected.dmg.note && <span className="calc-readout__note">{selected.dmg.note}</span>}
-              </div>
-              <div className="calc-readout__vs">
-                vs {defSet.species}
-                {defSet.setCount > 1 ? ` (Set ${defSet.setIndex})` : ""} · {defSet.stats.hp} HP
-              </div>
-            </>
-          )}
-        </div>
-      </section>
+      <div className="calc-matchups">
+        <DirectionBlock
+          key={`${a.species}:${a.setIndex}`}
+          label={`${aSet.species} → ${bSet.species}`}
+          results={aToB}
+          defenderSet={bSet}
+        />
+        <DirectionBlock
+          key={`${b.species}:${b.setIndex}`}
+          label={`${bSet.species} → ${aSet.species}`}
+          results={bToA}
+          defenderSet={aSet}
+        />
+      </div>
 
       <p className="calc-note">
-        Stats are the set's Lv {level} values (Tier 4+ use the round-8 IV of 31). Return/Frustration assume
-        102 BP; a few weight- and HP-based moves (Low Kick, Flail, …) show “—”. KO chance is damage-only
-        (no Leftovers / weather residual).
+        Both directions are shown: each Pokémon attacks with its own moves. Status / crit / offensive
+        stages apply when a Pokémon attacks; screens and defensive stages apply when it defends. Stats
+        are Lv {level} values; each side has its own <strong>IV</strong> selector, so you can set your
+        rental's tier IV independently from the opponent's. Return/Frustration assume 102 BP; a few weight- and HP-based moves
+        (Low Kick, Flail, …) show “—”. KO chance is damage-only (no Leftovers / weather residual).
       </p>
     </div>
+  );
+}
+
+function DirectionBlock({
+  label, results, defenderSet,
+}: {
+  label: string;
+  results: MoveResult[];
+  defenderSet: PokeSet;
+}) {
+  const [moveIdx, setMoveIdx] = useState(0);
+  const idx = moveIdx < results.length ? moveIdx : 0;
+  const selected = results[idx] ?? results[0];
+  if (!selected) return null;
+
+  return (
+    <section className="calc-result calc-result--matchup">
+      <div className="calc-matchup__title">{label}</div>
+      <div className="calc-moves">
+        {results.map((r, i) => (
+          <button
+            key={i}
+            className={`calc-move ${i === idx ? "calc-move--on" : ""}`}
+            style={{ borderLeftColor: typeColor(r.move.type) }}
+            onClick={() => setMoveIdx(i)}
+          >
+            <span className="calc-move__name">{r.move.name}</span>
+            <span className="calc-move__pct">
+              {r.dmg.unsupported ? "—" : `${r.dmg.percentMax.toFixed(0)}%`}
+            </span>
+          </button>
+        ))}
+      </div>
+
+      <div className="calc-readout">
+        <div className="calc-readout__move" style={{ color: typeColor(selected.move.type) }}>
+          {selected.move.name}
+          <span className="calc-readout__meta">
+            {selected.move.type} · {selected.move.category}
+            {selected.move.basePower ? ` · ${selected.move.basePower} BP` : ""}
+          </span>
+        </div>
+
+        {selected.dmg.unsupported ? (
+          <div className="calc-readout__unsupported">{selected.dmg.note ?? "Not supported"}</div>
+        ) : (
+          <>
+            <div className="calc-readout__numbers">
+              <strong>{selected.dmg.min}–{selected.dmg.max}</strong> dmg
+              <span className="calc-readout__pct">
+                {selected.dmg.percentMin.toFixed(1)}% – {selected.dmg.percentMax.toFixed(1)}%
+              </span>
+            </div>
+            <div className="calc-readout__row">
+              <span className={`calc-eff ${effLabel(selected.dmg.effectiveness).cls}`}>
+                {effLabel(selected.dmg.effectiveness).text}
+              </span>
+              {selected.ko && (
+                <span className="calc-ko">
+                  {selected.ko.summary}
+                  {selected.ko.chanceText && <span className="calc-ko__chance"> · {selected.ko.chanceText}</span>}
+                </span>
+              )}
+              {selected.dmg.note && <span className="calc-readout__note">{selected.dmg.note}</span>}
+            </div>
+            <div className="calc-readout__vs">
+              vs {defenderSet.species}
+              {defenderSet.setCount > 1 ? ` (Set ${defenderSet.setIndex})` : ""} · {defenderSet.stats.hp} HP
+            </div>
+          </>
+        )}
+      </div>
+    </section>
   );
 }
 
@@ -273,15 +346,20 @@ function SidePanel({
   const [imgOk, setImgOk] = useState(true);
   useEffect(() => setImgOk(true), [set.dexNum]);
 
+  const cond = { status: side.status, pinch: side.pinch, crit: side.crit,
+    reflect: side.reflect, lightScreen: side.lightScreen,
+    atkStage: side.atkStage, spaStage: side.spaStage, defStage: side.defStage, spdStage: side.spdStage };
+
   const pickSpecies = (species: string) => {
     const first = (setsBySpecies.get(species) ?? [])[0];
     if (!first) return;
-    onChange({ species, setIndex: first.setIndex, item: first.item, ability: first.abilities[0] ?? "" });
+    // Keep the side's conditions; only swap the set-driven fields.
+    onChange({ ...side, species, setIndex: first.setIndex, item: first.item, ability: first.abilities[0] ?? "" });
   };
   const pickSet = (setIndex: number) => {
     const s = setsForSpecies.find((x) => x.setIndex === setIndex);
     if (!s) return;
-    onChange({ species: side.species, setIndex, item: s.item, ability: s.abilities[0] ?? "" });
+    onChange({ ...side, setIndex, item: s.item, ability: s.abilities[0] ?? "" });
   };
 
   return (
@@ -341,6 +419,15 @@ function SidePanel({
         </select>
       </label>
 
+      <label className="calc-field__item">
+        IV (all stats)
+        <select value={side.iv} onChange={(e) => onChange({ ...side, iv: Number(e.target.value) })}>
+          {LOWER_TIER_IVS.map((v) => (
+            <option key={v} value={v}>{v}{v === 31 ? " (max)" : ""}</option>
+          ))}
+        </select>
+      </label>
+
       <div className="calc-side__stats">
         {(["hp", "atk", "def", "spa", "spd", "spe"] as StatKey[]).map((k) => (
           <span key={k} className="calc-stat">
@@ -350,6 +437,29 @@ function SidePanel({
         ))}
       </div>
       <div className="calc-side__nature">{set.nature} nature</div>
+
+      <div className="calc-side__cond">
+        <label className="calc-field__item calc-field__item--stage">
+          Status
+          <select value={cond.status} onChange={(e) => onChange({ ...side, status: e.target.value as StatusKind })}>
+            {STATUSES.map((s) => (
+              <option key={s.id} value={s.id}>{s.label}</option>
+            ))}
+          </select>
+        </label>
+        <div className="calc-side__toggles">
+          <Toggle label="≤⅓ HP (pinch)" checked={cond.pinch} onChange={(v) => onChange({ ...side, pinch: v })} />
+          <Toggle label="Crits" checked={cond.crit} onChange={(v) => onChange({ ...side, crit: v })} />
+          <Toggle label="Reflect" checked={cond.reflect} onChange={(v) => onChange({ ...side, reflect: v })} />
+          <Toggle label="Light Screen" checked={cond.lightScreen} onChange={(v) => onChange({ ...side, lightScreen: v })} />
+        </div>
+        <div className="calc-side__stages">
+          <Stepper label="Atk" value={cond.atkStage} onChange={(v) => onChange({ ...side, atkStage: v })} />
+          <Stepper label="Def" value={cond.defStage} onChange={(v) => onChange({ ...side, defStage: v })} />
+          <Stepper label="SpA" value={cond.spaStage} onChange={(v) => onChange({ ...side, spaStage: v })} />
+          <Stepper label="SpD" value={cond.spdStage} onChange={(v) => onChange({ ...side, spdStage: v })} />
+        </div>
+      </div>
     </div>
   );
 }

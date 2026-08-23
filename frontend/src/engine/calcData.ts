@@ -5,6 +5,7 @@
 import type { PokeSet } from "../types";
 import type { RawSet } from "./stats";
 import { computeSet, DEFAULT_TIER4_IV } from "./stats";
+export { DEFAULT_TIER4_IV } from "./stats";
 import type { MoveData } from "./damage";
 
 export type MoveDex = Record<
@@ -17,7 +18,9 @@ function url(file: string): string {
 }
 
 let rawCache: Promise<RawSet[]> | null = null;
-const setsByLevel = new Map<number, Promise<PokeSet[]>>();
+// Keyed by "level:iv" — Tier 4+ sets recompute their stats from the chosen IV,
+// so the calculator can preview any round's IV. Lower tiers keep their fixed IV.
+const setsByLevel = new Map<string, Promise<PokeSet[]>>();
 let movesCache: Promise<MoveDex> | null = null;
 
 function loadRaw(): Promise<RawSet[]> {
@@ -30,12 +33,13 @@ function loadRaw(): Promise<RawSet[]> {
   return rawCache;
 }
 
-export function loadCalcSets(level = 50): Promise<PokeSet[]> {
-  let cached = setsByLevel.get(level);
+export function loadCalcSets(level = 50, tier4Iv = DEFAULT_TIER4_IV): Promise<PokeSet[]> {
+  const key = `${level}:${tier4Iv}`;
+  let cached = setsByLevel.get(key);
   if (!cached) {
-    // Tier 4+ sets use the max round IV (31); lower tiers use their fixed IV.
-    cached = loadRaw().then((raw) => raw.map((s) => computeSet(s, DEFAULT_TIER4_IV, level)));
-    setsByLevel.set(level, cached);
+    // Tier 4+ sets use the chosen IV (default 31); lower tiers use their fixed IV.
+    cached = loadRaw().then((raw) => raw.map((s) => computeSet(s, tier4Iv, level)));
+    setsByLevel.set(key, cached);
   }
   return cached;
 }
