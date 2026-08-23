@@ -361,6 +361,23 @@ input, select, button {
   color: var(--text-muted);
   font-weight: 500;
 }
+.results__tools {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.iv-toggle {
+  align-items: center;
+  gap: 2px;
+}
+.iv-toggle__label {
+  padding: 0 8px 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
 .sort {
   display: inline-flex;
   align-items: center;

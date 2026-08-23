@@ -8,11 +8,13 @@ import { TrainersView } from "./components/TrainersView";
 import { DamageCalcView } from "./components/DamageCalcView";
 import { FACILITIES, getFacility } from "./facilities";
 import type { Facility, FacilityId } from "./facilities";
+import type { IvMode } from "./engine/stats";
 
 type View = "sets" | "trainers" | "calc";
 
 const FACILITY_KEY = "facility";
 const LEVEL_KEY = "level";
+const IV_MODE_KEY = "ivMode";
 
 // Deep links: "#trainers" opens the Trainers tab, "#trainers/150" also opens that
 // trainer's roster (index read by TrainersView); "#calc" opens the calculator.
@@ -91,6 +93,19 @@ function useLevel(): [number, (n: number) => void] {
   return [level, setLevel];
 }
 
+// Default-IV mode for Tier 4+ set cards (flat 31 vs per set-slot round IV). A
+// persisted global setting like the level/theme; the per-card dropdown still lets
+// you override any single card.
+function useIvMode(): [IvMode, (m: IvMode) => void] {
+  const [mode, setMode] = useState<IvMode>(() =>
+    localStorage.getItem(IV_MODE_KEY) === "rank" ? "rank" : "max",
+  );
+  useEffect(() => {
+    localStorage.setItem(IV_MODE_KEY, mode);
+  }, [mode]);
+  return [mode, setMode];
+}
+
 export default function App() {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [facets, setFacets] = useState<Facets | null>(null);
@@ -106,6 +121,7 @@ export default function App() {
   );
   const [theme, toggleTheme] = useTheme();
   const [level, setLevel] = useLevel();
+  const [ivMode, setIvMode] = useIvMode();
 
   const facility = getFacility(facilityId);
   const levelOptions = facility.levels ?? [];
@@ -308,23 +324,47 @@ export default function App() {
                 <span className="results__filters"> · {activeFilterCount} filter{activeFilterCount === 1 ? "" : "s"}</span>
               )}
             </span>
-            <label className="sort">
-              Sort
-              <select value={filters.sort} onChange={(e) => update({ sort: e.target.value })}>
-                {SORT_OPTIONS.map((o) => (
-                  <option key={o.value} value={o.value}>
-                    {o.label}
-                  </option>
-                ))}
-              </select>
-              <button
-                className="icon-btn"
-                title="Toggle order"
-                onClick={() => update({ order: filters.order === "asc" ? "desc" : "asc" })}
+            <div className="results__tools">
+              <div
+                className="viewnav iv-toggle"
+                role="group"
+                aria-label="Default IVs for Tier 4+ sets"
+                title="Default IVs for Tier 4+ set cards. Rank uses each set slot's round IV (set 1→12, 2→16, 3→20, 4→24); the per-card dropdown still overrides any single card."
               >
-                {filters.order === "asc" ? "↑" : "↓"}
-              </button>
-            </label>
+                <span className="iv-toggle__label">Default IVs</span>
+                <button
+                  className={`viewnav__btn ${ivMode === "max" ? "viewnav__btn--on" : ""}`}
+                  onClick={() => setIvMode("max")}
+                  aria-pressed={ivMode === "max"}
+                >
+                  31
+                </button>
+                <button
+                  className={`viewnav__btn ${ivMode === "rank" ? "viewnav__btn--on" : ""}`}
+                  onClick={() => setIvMode("rank")}
+                  aria-pressed={ivMode === "rank"}
+                >
+                  Rank
+                </button>
+              </div>
+              <label className="sort">
+                Sort
+                <select value={filters.sort} onChange={(e) => update({ sort: e.target.value })}>
+                  {SORT_OPTIONS.map((o) => (
+                    <option key={o.value} value={o.value}>
+                      {o.label}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  className="icon-btn"
+                  title="Toggle order"
+                  onClick={() => update({ order: filters.order === "asc" ? "desc" : "asc" })}
+                >
+                  {filters.order === "asc" ? "↑" : "↓"}
+                </button>
+              </label>
+            </div>
           </div>
 
           {error && <div className="error">{error}</div>}
@@ -339,7 +379,7 @@ export default function App() {
               </div>
               <div className="grid">
                 {pinned.map((set) => (
-                  <SetCard key={set.id} set={set} pinned level={level} onTogglePin={() => togglePin(set)} />
+                  <SetCard key={set.id} set={set} pinned level={level} ivMode={ivMode} onTogglePin={() => togglePin(set)} />
                 ))}
               </div>
             </section>
@@ -356,6 +396,7 @@ export default function App() {
                 set={set}
                 pinned={pinnedIds.has(set.id)}
                 level={level}
+                ivMode={ivMode}
                 onTogglePin={() => togglePin(set)}
               />
             ))}

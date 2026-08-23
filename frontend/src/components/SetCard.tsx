@@ -1,10 +1,11 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { SyntheticEvent } from "react";
 import type { PokeSet, StatKey } from "../types";
 import { STAT_LABELS } from "../types";
 import { spriteUrl, tierColor, TIER_LABELS, typeColor } from "../theme";
 import { NATURE_EFFECT } from "../natures";
-import { computeStats, TIER4_IVS, LOWER_TIER_IVS } from "../engine/stats";
+import { computeStats, TIER4_IVS, LOWER_TIER_IVS, RANK_IV_BY_SET_INDEX } from "../engine/stats";
+import type { IvMode } from "../engine/stats";
 
 const STAT_ORDER: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
 const MAX_STAT = 255; // for bar scaling
@@ -18,9 +19,11 @@ interface SetCardProps {
   fixedIv?: number;
   // Battle level for the stat computation (Factory Lv 50 / Open Level 100).
   level?: number;
+  // Default-IV mode for Tier 4+ sets: "max" -> 31, "rank" -> per set-slot round IV.
+  ivMode?: IvMode;
 }
 
-export function SetCard({ set, pinned = false, onTogglePin, fixedIv, level = 50 }: SetCardProps) {
+export function SetCard({ set, pinned = false, onTogglePin, fixedIv, level = 50, ivMode = "max" }: SetCardProps) {
   const [imgOk, setImgOk] = useState(true);
   const effect = NATURE_EFFECT[set.nature];
 
@@ -29,7 +32,14 @@ export function SetCard({ set, pinned = false, onTogglePin, fixedIv, level = 50 
   // Stats are computed client-side from the selected IV.
   const isTier4 = set.tierIv == null;
   const ivOptions = isTier4 ? TIER4_IVS : LOWER_TIER_IVS;
-  const [ivState, setIv] = useState(set.iv);
+  // Card default IV: the set's own default (31 for Tier 4+ / tierIv for lower),
+  // except a Tier 4+ set in "rank" mode defaults to its set-slot's round IV.
+  const defaultIv =
+    isTier4 && ivMode === "rank" ? RANK_IV_BY_SET_INDEX[set.setIndex] ?? set.iv : set.iv;
+  const [ivState, setIv] = useState(defaultIv);
+  // Follow the global default when the mode (or set) changes; a manual pick in the
+  // dropdown sticks until then.
+  useEffect(() => setIv(defaultIv), [defaultIv]);
   const iv = fixedIv ?? ivState;
   const stats = useMemo(
     () => computeStats(set.baseStats, set.evs, set.nature, iv, level),

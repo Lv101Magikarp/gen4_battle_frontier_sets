@@ -9,6 +9,12 @@ export const STAT_KEYS: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
 export const TIER4_IVS = [12, 16, 20, 24, 31];
 export const DEFAULT_TIER4_IV = 31;
 
+// Default-IV mode for Tier 4+ sets: "max" uses a flat 31; "rank" instead defaults
+// each of the four set slots to its Factory round-4..7 IV (set 1 -> 12 / rank 4,
+// set 2 -> 16 / rank 5, set 3 -> 20 / rank 6, set 4 -> 24 / rank 7).
+export type IvMode = "max" | "rank";
+export const RANK_IV_BY_SET_INDEX: Record<number, number> = { 1: 12, 2: 16, 3: 20, 4: 24 };
+
 // Tier 1/2/3 sets have a fixed game-accurate IV (0/4/8, stored as tierIv) used as
 // the default, but can be previewed across the full round progression like Tier 4+.
 export const LOWER_TIER_IVS = [0, 4, 8, 12, 16, 20, 24, 31];
