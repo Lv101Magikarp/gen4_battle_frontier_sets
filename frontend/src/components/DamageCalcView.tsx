@@ -30,7 +30,7 @@ const STATUSES: { id: StatusKind; label: string }[] = [
 // belong to the Pokémon, not to a fixed "attacker"/"defender" role: status/pinch/crit
 // and offensive stages apply when it attacks; screens and defensive stages apply when
 // it defends. Item/ability start from the chosen set but are overridable.
-interface Side {
+export interface Side {
   species: string;
   setIndex: number;
   item: string;
@@ -126,14 +126,22 @@ function effLabel(eff: number): { text: string; cls: string } {
   return { text: "Neutral", cls: "calc-eff--neutral" };
 }
 
-export function DamageCalcView({ level = 50 }: { level?: number }) {
+// State for the two sides and the weather is owned by the parent (App) so it
+// survives tab switches — this view unmounts when you leave the Calculator tab.
+export function DamageCalcView({
+  level = 50, a, b, weather, setA, setB, setWeather,
+}: {
+  level?: number;
+  a: Side | null;
+  b: Side | null;
+  weather: Weather;
+  setA: (s: Side | null) => void;
+  setB: (s: Side | null) => void;
+  setWeather: (w: Weather) => void;
+}) {
   const [sets, setSets] = useState<PokeSet[] | null>(null);
   const [dex, setDex] = useState<MoveDex | null>(null);
   const [error, setError] = useState<string | null>(null);
-
-  const [a, setA] = useState<Side | null>(null);
-  const [b, setB] = useState<Side | null>(null);
-  const [weather, setWeather] = useState<Weather>("none");
 
   useEffect(() => {
     // Sets load once (species/set/item lists + raw base stats); each side then
@@ -203,6 +211,7 @@ export function DamageCalcView({ level = 50 }: { level?: number }) {
       <div className="calc__grid">
         <SidePanel
           role="Pokémon A"
+          listId="calc-species-a"
           side={a}
           set={aSet}
           speciesList={speciesList}
@@ -212,6 +221,7 @@ export function DamageCalcView({ level = 50 }: { level?: number }) {
         />
         <SidePanel
           role="Pokémon B"
+          listId="calc-species-b"
           side={b}
           set={bSet}
           speciesList={speciesList}
@@ -332,9 +342,10 @@ function DirectionBlock({
 }
 
 function SidePanel({
-  role, side, set, speciesList, setsBySpecies, allItems, onChange,
+  role, listId, side, set, speciesList, setsBySpecies, allItems, onChange,
 }: {
   role: string;
+  listId: string;
   side: Side;
   set: PokeSet;
   speciesList: string[];
@@ -382,11 +393,12 @@ function SidePanel({
 
       <label className="calc-field__item">
         Pokémon
-        <select value={side.species} onChange={(e) => pickSpecies(e.target.value)}>
-          {speciesList.map((sp) => (
-            <option key={sp} value={sp}>{sp}</option>
-          ))}
-        </select>
+        <SpeciesInput
+          value={side.species}
+          options={speciesList}
+          listId={listId}
+          onPick={pickSpecies}
+        />
       </label>
 
       {setsForSpecies.length > 1 && (
@@ -461,6 +473,52 @@ function SidePanel({
         </div>
       </div>
     </div>
+  );
+}
+
+// Text-searchable species picker. A native <datalist> gives the type-to-filter
+// dropdown for free; we keep the raw text locally and only commit when it matches
+// a real species (choosing a suggestion or typing a full name commits; an
+// unrecognised entry reverts on blur).
+function SpeciesInput({
+  value, options, listId, onPick,
+}: {
+  value: string;
+  options: string[];
+  listId: string;
+  onPick: (species: string) => void;
+}) {
+  const [text, setText] = useState(value);
+  // Re-sync when the species changes from outside (initial load, tab return).
+  useEffect(() => setText(value), [value]);
+
+  const match = (raw: string) => options.find((o) => o.toLowerCase() === raw.trim().toLowerCase());
+
+  return (
+    <>
+      <input
+        type="text"
+        list={listId}
+        value={text}
+        placeholder="Type a Pokémon…"
+        autoComplete="off"
+        onChange={(e) => {
+          setText(e.target.value);
+          const m = match(e.target.value);
+          if (m) onPick(m);
+        }}
+        onBlur={(e) => {
+          const m = match(e.target.value);
+          if (m) onPick(m);
+          else setText(value); // discard unrecognised text
+        }}
+      />
+      <datalist id={listId}>
+        {options.map((o) => (
+          <option key={o} value={o} />
+        ))}
+      </datalist>
+    </>
   );
 }
 

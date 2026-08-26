@@ -1081,13 +1081,24 @@ input, select, button {
   color: var(--text-muted);
   font-weight: 600;
 }
-.calc-field__item select {
+.calc-field__item select,
+.calc-field__item input {
   padding: 6px 8px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-strong);
   background: var(--bg-sunken);
   color: var(--text);
   font-size: 13px;
+}
+.calc-field__item input {
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+.calc-field__item input:focus {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 16%, transparent);
 }
 .calc-side__stats {
   display: grid;

@@ -5,10 +5,11 @@ import { facets as fetchFacets, search as fetchSearch } from "./dataClient";
 import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
 import { TrainersView } from "./components/TrainersView";
-import { DamageCalcView } from "./components/DamageCalcView";
+import { DamageCalcView, type Side as CalcSide } from "./components/DamageCalcView";
 import { FACILITIES, getFacility } from "./facilities";
 import type { Facility, FacilityId } from "./facilities";
 import type { IvMode } from "./engine/stats";
+import type { Weather } from "./engine/damage";
 
 type View = "sets" | "trainers" | "calc";
 
@@ -122,6 +123,11 @@ export default function App() {
   const [theme, toggleTheme] = useTheme();
   const [level, setLevel] = useLevel();
   const [ivMode, setIvMode] = useIvMode();
+  // Calculator state lives here (not inside DamageCalcView) so the two sides and
+  // weather survive switching away from and back to the Calculator tab.
+  const [calcA, setCalcA] = useState<CalcSide | null>(null);
+  const [calcB, setCalcB] = useState<CalcSide | null>(null);
+  const [calcWeather, setCalcWeather] = useState<Weather>("none");
 
   const facility = getFacility(facilityId);
   const levelOptions = facility.levels ?? [];
@@ -311,7 +317,15 @@ export default function App() {
       ) : view === "trainers" ? (
         <TrainersView initialTrainer={initialTrainer} facility={facility} level={level} />
       ) : view === "calc" ? (
-        <DamageCalcView level={level} />
+        <DamageCalcView
+          level={level}
+          a={calcA}
+          b={calcB}
+          weather={calcWeather}
+          setA={setCalcA}
+          setB={setCalcB}
+          setWeather={setCalcWeather}
+        />
       ) : (
       <div className="layout">
         <FilterPanel filters={filters} facets={facets} update={update} reset={reset} />
