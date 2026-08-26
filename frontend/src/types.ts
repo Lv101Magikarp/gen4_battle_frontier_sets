@@ -54,6 +54,7 @@ export interface Filters {
   ability: string;
   type: string;
   tier: string;
+  pokeTier: number | null; // Battle Factory tier 1-8 (IV bracket); tier 8 = all Tier 4+ sets
   setIndex: number | null;
   statKey: StatKey | "";
   statMin: string;

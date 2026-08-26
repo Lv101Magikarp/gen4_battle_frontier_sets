@@ -48,6 +48,7 @@ const DEFAULT_FILTERS: Filters = {
   ability: "",
   type: "",
   tier: "",
+  pokeTier: null,
   setIndex: null,
   statKey: "",
   statMin: "",
@@ -220,6 +221,7 @@ export default function App() {
     if (filters.ability) n++;
     if (filters.type) n++;
     if (filters.tier) n++;
+    if (filters.pokeTier != null) n++;
     if (filters.setIndex != null) n++;
     if (filters.statKey && filters.statMin) n++;
     return n;
@@ -343,7 +345,7 @@ export default function App() {
                 className="viewnav iv-toggle"
                 role="group"
                 aria-label="Default IVs for Tier 4+ sets"
-                title="Default IVs for Tier 4+ set cards. Rank uses each set slot's round IV (set 1→12, 2→16, 3→20, 4→24); the per-card dropdown still overrides any single card."
+                title="Default IVs for Tier 4+ set cards. Tier uses each set slot's Battle Factory tier IV (set 1→12, 2→16, 3→20, 4→24); the per-card dropdown still overrides any single card."
               >
                 <span className="iv-toggle__label">Default IVs</span>
                 <button
@@ -358,7 +360,7 @@ export default function App() {
                   onClick={() => setIvMode("rank")}
                   aria-pressed={ivMode === "rank"}
                 >
-                  Rank
+                  Tier
                 </button>
               </div>
               <label className="sort">

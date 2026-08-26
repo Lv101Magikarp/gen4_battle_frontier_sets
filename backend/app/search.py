@@ -25,6 +25,27 @@ def iv_for_set(s: dict, tier4_iv: int) -> int:
     return tier_iv if tier_iv is not None else tier4_iv
 
 
+def set_matches_poke_tier(s: dict, tier: int) -> bool:
+    """Battle Factory tier 1-8 = the IV bracket a set is drawn at.
+
+    Tiers 1/2/3 are the fixed-IV groups (tierIv 0/4/8); tiers 4-7 are the four
+    Tier 4+ set slots (set 1->tier 4 ... set 4->tier 7); tier 8 is the round-50+
+    pool where all four Tier 4+ sets appear (at IV 31).
+    """
+    tier_iv = s.get("tierIv")
+    if tier == 1:
+        return tier_iv == 0
+    if tier == 2:
+        return tier_iv == 4
+    if tier == 3:
+        return tier_iv == 8
+    if tier in (4, 5, 6, 7):
+        return tier_iv is None and s["setIndex"] == tier - 3
+    if tier == 8:
+        return tier_iv is None
+    return True
+
+
 @lru_cache(maxsize=1)
 def load_sets() -> list[dict]:
     if not SETS_PATH.exists():
@@ -61,6 +82,7 @@ def search(
     ability: str | None = None,
     type: str | None = None,
     tier: str | None = None,
+    poke_tier: int | None = None,
     set_index: int | None = None,
     ev_min: dict[str, int] | None = None,
     stat_min: dict[str, int] | None = None,
@@ -92,6 +114,8 @@ def search(
         results = [s for s in results if any(tl == t.lower() for t in s["types"])]
     if tier:
         results = [s for s in results if s.get("tier") == tier]
+    if poke_tier is not None:
+        results = [s for s in results if set_matches_poke_tier(s, poke_tier)]
     if set_index is not None:
         results = [s for s in results if s["setIndex"] == set_index]
 

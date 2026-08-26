@@ -83,6 +83,7 @@ def api_search(
     ability: str | None = None,
     type: str | None = None,
     tier: str | None = None,
+    pokeTier: int | None = Query(None, ge=1, le=8),
     setIndex: int | None = None,
     tier4Iv: int = Query(DEFAULT_TIER4_IV, ge=0, le=31),
     level: int = Query(50, ge=50, le=100),
@@ -94,7 +95,7 @@ def api_search(
     ev_min, stat_min, stat_max = _parse_stat_filters(request)
     results = search(
         q=q, move=move, item=item, nature=nature, ability=ability, type=type,
-        tier=tier, set_index=setIndex, ev_min=ev_min, stat_min=stat_min,
+        tier=tier, poke_tier=pokeTier, set_index=setIndex, ev_min=ev_min, stat_min=stat_min,
         stat_max=stat_max, tier4_iv=tier4_iv, level=lvl, sort=sort, order=order,
     )
     return {"count": len(results), "tier4Iv": tier4_iv, "tier4Ivs": TIER4_IVS,

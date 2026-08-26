@@ -11,6 +11,19 @@ interface Props {
 
 const STAT_KEYS: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
 
+// Battle Factory tier 1-8 = the IV bracket a set is drawn at (see setMatchesPokeTier).
+const POKE_TIERS = [1, 2, 3, 4, 5, 6, 7, 8];
+const POKE_TIER_TITLES: Record<number, string> = {
+  1: "Tier 1 · IV 0 · Very Weak pool",
+  2: "Tier 2 · IV 4 · NFE set 1",
+  3: "Tier 3 · IV 8 · NFE set 2",
+  4: "Tier 4 · IV 12 · Tier 4+ set 1",
+  5: "Tier 5 · IV 16 · Tier 4+ set 2",
+  6: "Tier 6 · IV 20 · Tier 4+ set 3",
+  7: "Tier 7 · IV 24 · Tier 4+ set 4",
+  8: "Tier 8 · IV 31 · Tier 4+, all sets 1-4",
+};
+
 export function FilterPanel({ filters, facets, update, reset }: Props) {
   return (
     <aside className="filters">
@@ -100,6 +113,28 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
               }
               title={`${TIER_LABELS[t] ?? ""} rating`}
               onClick={() => update({ tier: filters.tier === t ? "" : t })}
+            >
+              {t}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="field">
+        <span>Pokémon tier</span>
+        <div className="chips-row">
+          <button
+            className={`pill ${filters.pokeTier == null ? "pill--on" : ""}`}
+            onClick={() => update({ pokeTier: null })}
+          >
+            All
+          </button>
+          {POKE_TIERS.map((t) => (
+            <button
+              key={t}
+              className={`pill ${filters.pokeTier === t ? "pill--on" : ""}`}
+              title={POKE_TIER_TITLES[t]}
+              onClick={() => update({ pokeTier: filters.pokeTier === t ? null : t })}
             >
               {t}
             </button>

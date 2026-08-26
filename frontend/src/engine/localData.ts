@@ -7,6 +7,30 @@ import { computeSet, DEFAULT_TIER4_IV, STAT_KEYS, TIER4_IVS } from "./stats";
 
 const TIER_ORDER = ["X", "S", "A+", "A-", "B", "C", "D+", "D-", "E", "F"];
 
+// Battle Factory tier 1-8 (the IV bracket a set is drawn at). Tiers 1/2/3 are the
+// fixed-IV groups (tierIv 0/4/8); tiers 4-7 are the four Tier 4+ set slots
+// (set 1->tier 4, 2->5, 3->6, 4->7); tier 8 is the round-50+ pool where all four
+// Tier 4+ sets appear (at IV 31). Mirrors the ivByTier map in facilities.ts.
+export function setMatchesPokeTier(s: PokeSet, tier: number): boolean {
+  switch (tier) {
+    case 1:
+      return s.tierIv === 0;
+    case 2:
+      return s.tierIv === 4;
+    case 3:
+      return s.tierIv === 8;
+    case 4:
+    case 5:
+    case 6:
+    case 7:
+      return s.tierIv == null && s.setIndex === tier - 3;
+    case 8:
+      return s.tierIv == null;
+    default:
+      return true;
+  }
+}
+
 let cache: Promise<RawSet[]> | null = null;
 
 function datasetUrl(): string {
@@ -73,6 +97,7 @@ export async function searchLocal(f: Filters): Promise<SearchResponse> {
     results = results.filter((s) => s.types.some((x) => x.toLowerCase() === t));
   }
   if (f.tier) results = results.filter((s) => s.tier === f.tier);
+  if (f.pokeTier != null) results = results.filter((s) => setMatchesPokeTier(s, f.pokeTier as number));
   if (f.setIndex != null) results = results.filter((s) => s.setIndex === f.setIndex);
   if (f.statKey && f.statMin) {
     const min = Number(f.statMin);
