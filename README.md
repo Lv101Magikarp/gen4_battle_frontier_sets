@@ -97,19 +97,6 @@ VITE_BASE=/ npm run build:static
 npm run preview      # serves dist/ (server-less)
 ```
 
-### Deploying to GitHub Pages
-
-1. Push this repo to GitHub with the default branch `main`.
-2. In **Settings → Pages**, set **Source = GitHub Actions**.
-3. The workflow at [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml)
-   runs on every push to `main`: it installs deps, runs `npm run build:static`, and publishes
-   `frontend/dist`. It sets `VITE_BASE=/<repo-name>/` automatically so asset/dataset URLs
-   resolve under `https://<user>.github.io/<repo>/`.
-4. No Python runs in CI — the committed `data/sets.json` is copied into the build.
-
-> For a **user/organization site** (`<user>.github.io`) or a **custom domain**, the site is at
-> the root, so set `VITE_BASE=/` (edit the workflow's `env`).
-
 ## Data source & attribution
 
 Set data is derived from Bulbapedia:
