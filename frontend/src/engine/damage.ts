@@ -10,7 +10,7 @@
 import type { StatKey, StatMap } from "../types";
 import { typeEffect } from "./typechart";
 import {
-  berryMult, expertBeltMult, itemAttackMult, itemDefenseMult, itemMod2Mult, itemPowerMult,
+  berryMult, expertBeltMult, flingPower, itemAttackMult, itemDefenseMult, itemMod2Mult, itemPowerMult,
 } from "./items";
 import {
   abilityAttackMult, abilityStab, attackerBpMult, defenderBpMult, defenderDefMult,
@@ -36,12 +36,14 @@ export interface Combatant {
   species: string;
   types: string[];
   stats: StatMap;              // computed final stats at the battle level
+  weight: number;              // kilograms (Grass Knot / Low Kick)
   item: string;
   ability: string;
   boosts: Record<StatKey, number>; // stat stages -6..+6
   status: boolean;            // non-volatile status present (Guts / Marvel Scale)
   burned: boolean;            // status is burn (halves physical damage)
   pinch: boolean;             // attacker at <=1/3 HP (pinch abilities / Solar Power)
+  currentHpPct: number;       // 1..100, current HP as % of max (Flail, Wring Out…)
 }
 
 export type Weather = "none" | "sun" | "rain" | "sand" | "hail";
@@ -69,6 +71,12 @@ function stageMult(stage: number): number {
   return stage >= 0 ? (2 + stage) / 2 : 2 / (2 - stage);
 }
 
+// Integer current HP implied by the side's currentHpPct (1..100) and its max HP.
+// HP-based moves (Flail/Reversal, Wring Out/Crush Grip) key off the integer ratio.
+function currentHp(c: Combatant): number {
+  return Math.max(1, Math.round((c.stats.hp * c.currentHpPct) / 100));
+}
+
 // Defender types ordered by @smogon's type-effectiveness precedence.
 function orderedTypes(types: string[]): string[] {
   if (types.length < 2 || types[0] === types[1]) return types;
@@ -94,6 +102,26 @@ function specialPower(move: MoveData, attacker: Combatant, defender: Combatant):
       const tgtSpe = Math.floor(defender.stats.spe * stageMult(defender.boosts.spe));
       if (userSpe <= 0) return 1;
       return Math.min(150, Math.floor((25 * tgtSpe) / userSpe));
+    }
+    // Fling: base power comes from the attacker's held item (0 = no item, can't Fling).
+    case "Fling":
+      return flingPower(attacker.item);
+    // Weight-based: base power from the target's weight in kg.
+    case "Grass Knot":
+    case "Low Kick": {
+      const w = defender.weight;
+      return w >= 200 ? 120 : w >= 100 ? 100 : w >= 50 ? 80 : w >= 25 ? 60 : w >= 10 ? 40 : 20;
+    }
+    // Target-HP-based: stronger the more HP the target has (121 at full HP).
+    // The game uses integer current HP / max HP, so derive an integer HP from the %.
+    case "Wring Out":
+    case "Crush Grip":
+      return Math.floor((120 * currentHp(defender)) / defender.stats.hp) + 1;
+    // User-HP-based: stronger the lower the user's HP.
+    case "Flail":
+    case "Reversal": {
+      const p = Math.floor((64 * currentHp(attacker)) / attacker.stats.hp);
+      return p <= 1 ? 200 : p <= 5 ? 150 : p <= 12 ? 100 : p <= 21 ? 80 : p <= 42 ? 40 : 20;
     }
     default:
       return "unsupported";

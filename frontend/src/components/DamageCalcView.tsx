@@ -37,7 +37,7 @@ export interface Side {
   ability: string;
   iv: number;
   status: StatusKind;
-  pinch: boolean;
+  currentHpPct: number; // current HP as % of max; drives Flail/Reversal, Wring Out, pinch abilities
   crit: boolean;
   reflect: boolean;
   lightScreen: boolean;
@@ -49,7 +49,7 @@ export interface Side {
 
 const DEFAULT_COND = {
   status: "none" as StatusKind,
-  pinch: false,
+  currentHpPct: 100,
   crit: false,
   reflect: false,
   lightScreen: false,
@@ -82,12 +82,14 @@ function toCombatant(set: PokeSet, side: Side): Combatant {
     species: set.species,
     types: set.types,
     stats: set.stats,
+    weight: set.weight,
     item: side.item,
     ability: side.ability,
     boosts: { ...NO_BOOST, atk: side.atkStage, spa: side.spaStage, def: side.defStage, spd: side.spdStage },
     status: side.status !== "none",
     burned: side.status === "burn",
-    pinch: side.pinch,
+    pinch: side.currentHpPct <= 100 / 3, // ≤⅓ HP triggers Blaze/Torrent/Solar Power etc.
+    currentHpPct: side.currentHpPct,
   };
 }
 
@@ -261,8 +263,11 @@ export function DamageCalcView({
         Both directions are shown: each Pokémon attacks with its own moves. Status / crit / offensive
         stages apply when a Pokémon attacks; screens and defensive stages apply when it defends. Stats
         are Lv {level} values; each side has its own <strong>IV</strong> selector, so you can set your
-        rental's tier IV independently from the opponent's. Return/Frustration assume 102 BP; a few weight- and HP-based moves
-        (Low Kick, Flail, …) show “—”. KO chance is damage-only (no Leftovers / weather residual).
+        rental's tier IV independently from the opponent's. Return/Frustration assume 102 BP. Weight-based moves
+        (Grass Knot, Low Kick) scale off the target's weight; HP-based moves use the <strong>Current HP</strong> slider —
+        Flail/Reversal off the attacker's HP, Wring Out/Crush Grip off the target's. That slider also drives pinch
+        abilities (Blaze/Overgrow… at ≤⅓ HP). Fling uses the attacker's held item for its base power. OHKO / fixed /
+        counter moves still show “—”. KO chance is damage-only (no Leftovers / weather residual).
       </p>
     </div>
   );
@@ -357,7 +362,7 @@ function SidePanel({
   const [imgOk, setImgOk] = useState(true);
   useEffect(() => setImgOk(true), [set.dexNum]);
 
-  const cond = { status: side.status, pinch: side.pinch, crit: side.crit,
+  const cond = { status: side.status, currentHpPct: side.currentHpPct, crit: side.crit,
     reflect: side.reflect, lightScreen: side.lightScreen,
     atkStage: side.atkStage, spaStage: side.spaStage, defStage: side.defStage, spdStage: side.spdStage };
 
@@ -459,8 +464,12 @@ function SidePanel({
             ))}
           </select>
         </label>
+        <HpInput
+          pct={cond.currentHpPct}
+          maxHp={set.stats.hp}
+          onChange={(pct) => onChange({ ...side, currentHpPct: pct })}
+        />
         <div className="calc-side__toggles">
-          <Toggle label="≤⅓ HP (pinch)" checked={cond.pinch} onChange={(v) => onChange({ ...side, pinch: v })} />
           <Toggle label="Crits" checked={cond.crit} onChange={(v) => onChange({ ...side, crit: v })} />
           <Toggle label="Reflect" checked={cond.reflect} onChange={(v) => onChange({ ...side, reflect: v })} />
           <Toggle label="Light Screen" checked={cond.lightScreen} onChange={(v) => onChange({ ...side, lightScreen: v })} />
@@ -519,6 +528,26 @@ function SpeciesInput({
         ))}
       </datalist>
     </>
+  );
+}
+
+// Current-HP control. Drives the HP-based moves (Flail/Reversal off the attacker,
+// Wring Out/Crush Grip off the defender) and pinch abilities (≤⅓ HP). Shows the
+// absolute HP the % maps to at this Pokémon's max.
+function HpInput({ pct, maxHp, onChange }: { pct: number; maxHp: number; onChange: (pct: number) => void }) {
+  const curHp = Math.max(1, Math.round((maxHp * pct) / 100));
+  const clamp = (v: number) => Math.min(100, Math.max(1, Math.round(v)));
+  return (
+    <label className="calc-field__item calc-field__item--stage calc-hp">
+      Current HP: {pct}% <span className="calc-hp__abs">({curHp}/{maxHp})</span>
+      <input
+        type="range"
+        min={1}
+        max={100}
+        value={pct}
+        onChange={(e) => onChange(clamp(Number(e.target.value)))}
+      />
+    </label>
   );
 }
 

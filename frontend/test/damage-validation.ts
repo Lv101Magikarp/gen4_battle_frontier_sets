@@ -113,18 +113,18 @@ function ourRolls(s: Scenario, level: number): number[] | null {
   if (!aSp || !dSp || !mv || !mv.basePower) return null;
   const toMap = (bs: any): StatMap => ({ hp: bs.hp, atk: bs.atk, def: bs.def, spa: bs.spa, spd: bs.spd, spe: bs.spe });
   const attacker: Combatant = {
-    species: s.aSpec, types: aSp.types,
+    species: s.aSpec, types: aSp.types, weight: Number(aSp.weightkg) || 1,
     stats: computeStats(toMap(aSp.baseStats), s.aEvs, s.aNat, 31, level),
     item: s.aItem.o, ability: s.aAbil || BENIGN,
     boosts: { ...NO_BOOST, atk: s.aAtkB, spa: s.aSpaB },
-    status: s.burn, burned: s.burn, pinch: false,
+    status: s.burn, burned: s.burn, pinch: false, currentHpPct: 100,
   };
   const defender: Combatant = {
-    species: s.dSpec, types: dSp.types,
+    species: s.dSpec, types: dSp.types, weight: Number(dSp.weightkg) || 1,
     stats: computeStats(toMap(dSp.baseStats), s.dEvs, s.dNat, 31, level),
     item: s.dItem.o, ability: s.dAbil || BENIGN,
     boosts: { ...NO_BOOST, def: s.dDefB, spd: s.dSpdB },
-    status: s.dStatus, burned: false, pinch: false,
+    status: s.dStatus, burned: false, pinch: false, currentHpPct: 100,
   };
   const move: MoveData = {
     name: s.move.o, type: mv.type,

@@ -84,6 +84,32 @@ export function itemMod2Mult(item: string): number {
   return item === "Life Orb" ? 1.3 : 1;
 }
 
+// Fling base power by held item (Generation IV values, from PokéAPI's fling_power).
+// Only items whose Gen 4 Fling power exceeds the 10 floor are listed; every other
+// held item in the dataset (berries, incenses, Choice items, herbs, lenses, …)
+// flings for 10, so flingPower() defaults unlisted held items to 10.
+const FLING_POWER: Record<string, number> = {
+  "Iron Ball": 130,
+  "Hard Stone": 100,
+  "Grip Claw": 90, "Thick Club": 90,
+  "Quick Claw": 80, "Razor Claw": 80,
+  "Dragon Fang": 70, "Poison Barb": 70,
+  "Damp Rock": 60, "Heat Rock": 60, Stick: 60,
+  "Sharp Beak": 50,
+  "Icy Rock": 40, "Lucky Punch": 40,
+  "Black Belt": 30, "Black Sludge": 30, BlackGlasses: 30, Charcoal: 30,
+  "King's Rock": 30, "Life Orb": 30, "Light Clay": 30, Magnet: 30,
+  "Metal Coat": 30, Metronome: 30, "Miracle Seed": 30, "Mystic Water": 30,
+  NeverMeltIce: 30, "Razor Fang": 30, "Scope Lens": 30, "Shell Bell": 30,
+  "Spell Tag": 30, "Toxic Orb": 30, "Twisted Spoon": 30, DeepSeaScale: 30,
+};
+
+// Fling's base power comes from the attacker's held item; no item => Fling fails (0).
+export function flingPower(item: string): number {
+  if (!item) return 0;
+  return FLING_POWER[item] ?? 10;
+}
+
 // Expert Belt: ×1.2 on a super-effective hit (its own floored step in the roll).
 export function expertBeltMult(item: string, effectiveness: number): number {
   return item === "Expert Belt" && effectiveness > 1 ? 1.2 : 1;

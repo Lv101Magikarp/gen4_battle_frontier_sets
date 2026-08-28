@@ -187,6 +187,7 @@ def main() -> None:
                         "types": entry["types"],
                         "abilities": entry["abilities"],
                         "baseStats": entry["baseStats"],
+                        "weight": entry["weight"],
                         # Set number 1-4 (None for trainer-exclusive variants not in
                         # sets.json) and the species' total set count.
                         "setIndex": setindex_by_key.get(match_key(r)),

@@ -57,6 +57,7 @@ def main() -> None:
                 "types": entry["types"],
                 "abilities": entry["abilities"],
                 "baseStats": entry["baseStats"],
+                "weight": entry["weight"],
                 "tier": tier.get("tier"),
                 "tierRank": tier.get("tierRank"),
                 "tierGroup": tier.get("tierGroup"),

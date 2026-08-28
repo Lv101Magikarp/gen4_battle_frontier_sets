@@ -19,6 +19,7 @@ export interface PokeSet {
   types: string[];
   abilities: string[];
   baseStats: StatMap;
+  weight: number; // kilograms (Gen IV); used by weight-based moves (Grass Knot…)
   stats: StatMap;
   iv: number;
   tier: string | null;
@@ -82,6 +83,7 @@ export interface RosterSet {
   types: string[];
   abilities: string[];
   baseStats: StatMap;
+  weight: number; // kilograms (Gen IV); used by weight-based moves (Grass Knot…)
   setIndex: number | null; // set number 1-4 (null for trainer-exclusive variants)
   setCount: number; // how many sets the species has
 }

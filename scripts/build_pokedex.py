@@ -148,6 +148,9 @@ def fetch_species(species: str) -> tuple[str, dict | None]:
         "baseStats": base,
         "types": types,
         "abilities": abilities,
+        # PokéAPI reports weight in hectograms; store kilograms for the weight-based
+        # move formulas (Grass Knot, Low Kick). Weight is stable across generations.
+        "weight": data["weight"] / 10,
     }
 
 

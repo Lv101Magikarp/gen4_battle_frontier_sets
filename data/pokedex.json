@@ -15,7 +15,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 6.9
   },
   "Charmander": {
     "dexNum": 4,
@@ -32,7 +33,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 8.5
   },
   "Squirtle": {
     "dexNum": 7,
@@ -49,7 +51,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 9.0
   },
   "Chikorita": {
     "dexNum": 152,
@@ -66,7 +69,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 6.4
   },
   "Cyndaquil": {
     "dexNum": 155,
@@ -83,7 +87,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 7.9
   },
   "Totodile": {
     "dexNum": 158,
@@ -100,7 +105,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 9.5
   },
   "Treecko": {
     "dexNum": 252,
@@ -117,7 +123,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 5.0
   },
   "Torchic": {
     "dexNum": 255,
@@ -134,7 +141,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 2.5
   },
   "Mudkip": {
     "dexNum": 258,
@@ -151,7 +159,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 7.6
   },
   "Turtwig": {
     "dexNum": 387,
@@ -168,7 +177,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 10.2
   },
   "Chimchar": {
     "dexNum": 390,
@@ -185,7 +195,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 6.2
   },
   "Piplup": {
     "dexNum": 393,
@@ -202,7 +213,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 5.2
   },
   "Kricketot": {
     "dexNum": 401,
@@ -219,7 +231,8 @@
     ],
     "abilities": [
       "Shed Skin"
-    ]
+    ],
+    "weight": 2.2
   },
   "Happiny": {
     "dexNum": 440,
@@ -237,7 +250,8 @@
     "abilities": [
       "Natural Cure",
       "Serene Grace"
-    ]
+    ],
+    "weight": 24.4
   },
   "Burmy": {
     "dexNum": 412,
@@ -254,7 +268,8 @@
     ],
     "abilities": [
       "Shed Skin"
-    ]
+    ],
+    "weight": 3.4
   },
   "Shedinja": {
     "dexNum": 292,
@@ -272,7 +287,8 @@
     ],
     "abilities": [
       "Wonder Guard"
-    ]
+    ],
+    "weight": 1.2
   },
   "Starly": {
     "dexNum": 396,
@@ -290,7 +306,8 @@
     ],
     "abilities": [
       "Keen Eye"
-    ]
+    ],
+    "weight": 2.0
   },
   "Combee": {
     "dexNum": 415,
@@ -308,7 +325,8 @@
     ],
     "abilities": [
       "Honey Gather"
-    ]
+    ],
+    "weight": 5.5
   },
   "Bidoof": {
     "dexNum": 399,
@@ -326,7 +344,8 @@
     "abilities": [
       "Simple",
       "Unaware"
-    ]
+    ],
+    "weight": 20.0
   },
   "Shinx": {
     "dexNum": 403,
@@ -344,7 +363,8 @@
     "abilities": [
       "Rivalry",
       "Intimidate"
-    ]
+    ],
+    "weight": 9.5
   },
   "Cherubi": {
     "dexNum": 420,
@@ -361,7 +381,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 3.3
   },
   "Budew": {
     "dexNum": 406,
@@ -380,7 +401,8 @@
     "abilities": [
       "Natural Cure",
       "Poison Point"
-    ]
+    ],
+    "weight": 1.2
   },
   "Chingling": {
     "dexNum": 433,
@@ -397,7 +419,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 0.6
   },
   "Riolu": {
     "dexNum": 447,
@@ -415,7 +438,8 @@
     "abilities": [
       "Steadfast",
       "Inner Focus"
-    ]
+    ],
+    "weight": 20.2
   },
   "Bonsly": {
     "dexNum": 438,
@@ -433,7 +457,8 @@
     "abilities": [
       "Sturdy",
       "Rock Head"
-    ]
+    ],
+    "weight": 15.0
   },
   "Shuppet": {
     "dexNum": 353,
@@ -451,7 +476,8 @@
     "abilities": [
       "Insomnia",
       "Frisk"
-    ]
+    ],
+    "weight": 2.3
   },
   "Duskull": {
     "dexNum": 355,
@@ -468,7 +494,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 15.0
   },
   "Vulpix": {
     "dexNum": 37,
@@ -485,7 +512,8 @@
     ],
     "abilities": [
       "Flash Fire"
-    ]
+    ],
+    "weight": 9.9
   },
   "Pikachu": {
     "dexNum": 25,
@@ -502,7 +530,8 @@
     ],
     "abilities": [
       "Static"
-    ]
+    ],
+    "weight": 6.0
   },
   "Sandshrew": {
     "dexNum": 27,
@@ -519,7 +548,8 @@
     ],
     "abilities": [
       "Sand Veil"
-    ]
+    ],
+    "weight": 12.0
   },
   "Geodude": {
     "dexNum": 74,
@@ -538,7 +568,8 @@
     "abilities": [
       "Rock Head",
       "Sturdy"
-    ]
+    ],
+    "weight": 20.0
   },
   "Dratini": {
     "dexNum": 147,
@@ -555,7 +586,8 @@
     ],
     "abilities": [
       "Shed Skin"
-    ]
+    ],
+    "weight": 3.3
   },
   "Snubbull": {
     "dexNum": 209,
@@ -573,7 +605,8 @@
     "abilities": [
       "Intimidate",
       "Run Away"
-    ]
+    ],
+    "weight": 7.8
   },
   "Remoraid": {
     "dexNum": 223,
@@ -591,7 +624,8 @@
     "abilities": [
       "Hustle",
       "Sniper"
-    ]
+    ],
+    "weight": 12.0
   },
   "Larvitar": {
     "dexNum": 246,
@@ -609,7 +643,8 @@
     ],
     "abilities": [
       "Guts"
-    ]
+    ],
+    "weight": 72.0
   },
   "Baltoy": {
     "dexNum": 343,
@@ -627,7 +662,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 21.5
   },
   "Snorunt": {
     "dexNum": 361,
@@ -645,7 +681,8 @@
     "abilities": [
       "Inner Focus",
       "Ice Body"
-    ]
+    ],
+    "weight": 16.8
   },
   "Bagon": {
     "dexNum": 371,
@@ -662,7 +699,8 @@
     ],
     "abilities": [
       "Rock Head"
-    ]
+    ],
+    "weight": 42.1
   },
   "Bronzor": {
     "dexNum": 436,
@@ -681,7 +719,8 @@
     "abilities": [
       "Levitate",
       "Heatproof"
-    ]
+    ],
+    "weight": 60.5
   },
   "Gible": {
     "dexNum": 443,
@@ -699,7 +738,8 @@
     ],
     "abilities": [
       "Sand Veil"
-    ]
+    ],
+    "weight": 20.5
   },
   "Croagunk": {
     "dexNum": 453,
@@ -718,7 +758,8 @@
     "abilities": [
       "Anticipation",
       "Dry Skin"
-    ]
+    ],
+    "weight": 23.0
   },
   "Venonat": {
     "dexNum": 48,
@@ -737,7 +778,8 @@
     "abilities": [
       "Compound Eyes",
       "Tinted Lens"
-    ]
+    ],
+    "weight": 30.0
   },
   "Machop": {
     "dexNum": 66,
@@ -755,7 +797,8 @@
     "abilities": [
       "Guts",
       "No Guard"
-    ]
+    ],
+    "weight": 19.5
   },
   "Smoochum": {
     "dexNum": 238,
@@ -774,7 +817,8 @@
     "abilities": [
       "Oblivious",
       "Forewarn"
-    ]
+    ],
+    "weight": 6.0
   },
   "Carvanha": {
     "dexNum": 318,
@@ -792,7 +836,8 @@
     ],
     "abilities": [
       "Rough Skin"
-    ]
+    ],
+    "weight": 20.8
   },
   "Numel": {
     "dexNum": 322,
@@ -811,7 +856,8 @@
     "abilities": [
       "Oblivious",
       "Simple"
-    ]
+    ],
+    "weight": 24.0
   },
   "Corphish": {
     "dexNum": 341,
@@ -829,7 +875,8 @@
     "abilities": [
       "Hyper Cutter",
       "Shell Armor"
-    ]
+    ],
+    "weight": 11.5
   },
   "Doduo": {
     "dexNum": 84,
@@ -848,7 +895,8 @@
     "abilities": [
       "Run Away",
       "Early Bird"
-    ]
+    ],
+    "weight": 39.2
   },
   "Swablu": {
     "dexNum": 333,
@@ -866,7 +914,8 @@
     ],
     "abilities": [
       "Natural Cure"
-    ]
+    ],
+    "weight": 1.2
   },
   "Glameow": {
     "dexNum": 431,
@@ -884,7 +933,8 @@
     "abilities": [
       "Limber",
       "Own Tempo"
-    ]
+    ],
+    "weight": 3.9
   },
   "Mime Jr.": {
     "dexNum": 439,
@@ -902,7 +952,8 @@
     "abilities": [
       "Soundproof",
       "Filter"
-    ]
+    ],
+    "weight": 13.0
   },
   "Slowpoke": {
     "dexNum": 79,
@@ -921,7 +972,8 @@
     "abilities": [
       "Oblivious",
       "Own Tempo"
-    ]
+    ],
+    "weight": 36.0
   },
   "Oddish": {
     "dexNum": 43,
@@ -939,7 +991,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 5.4
   },
   "Psyduck": {
     "dexNum": 54,
@@ -957,7 +1010,8 @@
     "abilities": [
       "Damp",
       "Cloud Nine"
-    ]
+    ],
+    "weight": 19.6
   },
   "Cubone": {
     "dexNum": 104,
@@ -975,7 +1029,8 @@
     "abilities": [
       "Rock Head",
       "Lightning Rod"
-    ]
+    ],
+    "weight": 6.5
   },
   "Goldeen": {
     "dexNum": 118,
@@ -993,7 +1048,8 @@
     "abilities": [
       "Swift Swim",
       "Water Veil"
-    ]
+    ],
+    "weight": 15.0
   },
   "Natu": {
     "dexNum": 177,
@@ -1012,7 +1068,8 @@
     "abilities": [
       "Synchronize",
       "Early Bird"
-    ]
+    ],
+    "weight": 2.0
   },
   "Clefairy": {
     "dexNum": 35,
@@ -1030,7 +1087,8 @@
     "abilities": [
       "Cute Charm",
       "Magic Guard"
-    ]
+    ],
+    "weight": 7.5
   },
   "Magnemite": {
     "dexNum": 81,
@@ -1049,7 +1107,8 @@
     "abilities": [
       "Magnet Pull",
       "Sturdy"
-    ]
+    ],
+    "weight": 6.0
   },
   "Seel": {
     "dexNum": 86,
@@ -1067,7 +1126,8 @@
     "abilities": [
       "Thick Fat",
       "Hydration"
-    ]
+    ],
+    "weight": 90.0
   },
   "Grimer": {
     "dexNum": 88,
@@ -1085,7 +1145,8 @@
     "abilities": [
       "Stench",
       "Sticky Hold"
-    ]
+    ],
+    "weight": 30.0
   },
   "Krabby": {
     "dexNum": 98,
@@ -1103,7 +1164,8 @@
     "abilities": [
       "Hyper Cutter",
       "Shell Armor"
-    ]
+    ],
+    "weight": 6.5
   },
   "Exeggcute": {
     "dexNum": 102,
@@ -1121,7 +1183,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 2.5
   },
   "Eevee": {
     "dexNum": 133,
@@ -1139,7 +1202,8 @@
     "abilities": [
       "Run Away",
       "Adaptability"
-    ]
+    ],
+    "weight": 6.5
   },
   "Shellos": {
     "dexNum": 422,
@@ -1157,7 +1221,8 @@
     "abilities": [
       "Sticky Hold",
       "Storm Drain"
-    ]
+    ],
+    "weight": 6.3
   },
   "Drowzee": {
     "dexNum": 96,
@@ -1175,7 +1240,8 @@
     "abilities": [
       "Insomnia",
       "Forewarn"
-    ]
+    ],
+    "weight": 32.4
   },
   "Stunky": {
     "dexNum": 434,
@@ -1194,7 +1260,8 @@
     "abilities": [
       "Stench",
       "Aftermath"
-    ]
+    ],
+    "weight": 19.2
   },
   "Voltorb": {
     "dexNum": 100,
@@ -1212,7 +1279,8 @@
     "abilities": [
       "Soundproof",
       "Static"
-    ]
+    ],
+    "weight": 10.4
   },
   "Chinchou": {
     "dexNum": 170,
@@ -1231,7 +1299,8 @@
     "abilities": [
       "Volt Absorb",
       "Illuminate"
-    ]
+    ],
+    "weight": 12.0
   },
   "Teddiursa": {
     "dexNum": 216,
@@ -1249,7 +1318,8 @@
     "abilities": [
       "Pickup",
       "Quick Feet"
-    ]
+    ],
+    "weight": 8.8
   },
   "Delibird": {
     "dexNum": 225,
@@ -1268,7 +1338,8 @@
     "abilities": [
       "Vital Spirit",
       "Hustle"
-    ]
+    ],
+    "weight": 16.0
   },
   "Houndour": {
     "dexNum": 228,
@@ -1287,7 +1358,8 @@
     "abilities": [
       "Early Bird",
       "Flash Fire"
-    ]
+    ],
+    "weight": 10.8
   },
   "Phanpy": {
     "dexNum": 231,
@@ -1304,7 +1376,8 @@
     ],
     "abilities": [
       "Pickup"
-    ]
+    ],
+    "weight": 33.5
   },
   "Aron": {
     "dexNum": 304,
@@ -1323,7 +1396,8 @@
     "abilities": [
       "Sturdy",
       "Rock Head"
-    ]
+    ],
+    "weight": 60.0
   },
   "Spoink": {
     "dexNum": 325,
@@ -1341,7 +1415,8 @@
     "abilities": [
       "Thick Fat",
       "Own Tempo"
-    ]
+    ],
+    "weight": 30.6
   },
   "Luvdisc": {
     "dexNum": 370,
@@ -1358,7 +1433,8 @@
     ],
     "abilities": [
       "Swift Swim"
-    ]
+    ],
+    "weight": 8.7
   },
   "Buizel": {
     "dexNum": 418,
@@ -1375,7 +1451,8 @@
     ],
     "abilities": [
       "Swift Swim"
-    ]
+    ],
+    "weight": 29.5
   },
   "Hippopotas": {
     "dexNum": 449,
@@ -1392,7 +1469,8 @@
     ],
     "abilities": [
       "Sand Stream"
-    ]
+    ],
+    "weight": 49.5
   },
   "Skorupi": {
     "dexNum": 451,
@@ -1411,7 +1489,8 @@
     "abilities": [
       "Battle Armor",
       "Sniper"
-    ]
+    ],
+    "weight": 12.0
   },
   "Finneon": {
     "dexNum": 456,
@@ -1429,7 +1508,8 @@
     "abilities": [
       "Swift Swim",
       "Storm Drain"
-    ]
+    ],
+    "weight": 7.0
   },
   "Snover": {
     "dexNum": 459,
@@ -1447,7 +1527,8 @@
     ],
     "abilities": [
       "Snow Warning"
-    ]
+    ],
+    "weight": 50.5
   },
   "Tentacool": {
     "dexNum": 72,
@@ -1466,7 +1547,8 @@
     "abilities": [
       "Clear Body",
       "Liquid Ooze"
-    ]
+    ],
+    "weight": 45.5
   },
   "Cacnea": {
     "dexNum": 331,
@@ -1483,7 +1565,8 @@
     ],
     "abilities": [
       "Sand Veil"
-    ]
+    ],
+    "weight": 51.3
   },
   "Koffing": {
     "dexNum": 109,
@@ -1501,7 +1584,8 @@
     "abilities": [
       "Levitate",
       "Neutralizing Gas"
-    ]
+    ],
+    "weight": 1.0
   },
   "Staryu": {
     "dexNum": 120,
@@ -1519,7 +1603,8 @@
     "abilities": [
       "Illuminate",
       "Natural Cure"
-    ]
+    ],
+    "weight": 34.5
   },
   "Skiploom": {
     "dexNum": 188,
@@ -1538,7 +1623,8 @@
     "abilities": [
       "Chlorophyll",
       "Leaf Guard"
-    ]
+    ],
+    "weight": 1.0
   },
   "Lombre": {
     "dexNum": 271,
@@ -1557,7 +1643,8 @@
     "abilities": [
       "Swift Swim",
       "Rain Dish"
-    ]
+    ],
+    "weight": 32.5
   },
   "Nuzleaf": {
     "dexNum": 274,
@@ -1576,7 +1663,8 @@
     "abilities": [
       "Chlorophyll",
       "Early Bird"
-    ]
+    ],
+    "weight": 28.0
   },
   "Vibrava": {
     "dexNum": 329,
@@ -1594,7 +1682,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 15.3
   },
   "Staravia": {
     "dexNum": 397,
@@ -1612,7 +1701,8 @@
     ],
     "abilities": [
       "Intimidate"
-    ]
+    ],
+    "weight": 15.5
   },
   "Rhyhorn": {
     "dexNum": 111,
@@ -1631,7 +1721,8 @@
     "abilities": [
       "Lightning Rod",
       "Rock Head"
-    ]
+    ],
+    "weight": 115.0
   },
   "Clamperl": {
     "dexNum": 366,
@@ -1648,7 +1739,8 @@
     ],
     "abilities": [
       "Shell Armor"
-    ]
+    ],
+    "weight": 52.5
   },
   "Mantyke": {
     "dexNum": 458,
@@ -1667,7 +1759,8 @@
     "abilities": [
       "Swift Swim",
       "Water Absorb"
-    ]
+    ],
+    "weight": 65.0
   },
   "Drifloon": {
     "dexNum": 425,
@@ -1686,7 +1779,8 @@
     "abilities": [
       "Aftermath",
       "Unburden"
-    ]
+    ],
+    "weight": 1.2
   },
   "Pidgeotto": {
     "dexNum": 17,
@@ -1705,7 +1799,8 @@
     "abilities": [
       "Keen Eye",
       "Tangled Feet"
-    ]
+    ],
+    "weight": 30.0
   },
   "Growlithe": {
     "dexNum": 58,
@@ -1723,7 +1818,8 @@
     "abilities": [
       "Intimidate",
       "Flash Fire"
-    ]
+    ],
+    "weight": 19.0
   },
   "Cranidos": {
     "dexNum": 408,
@@ -1740,7 +1836,8 @@
     ],
     "abilities": [
       "Mold Breaker"
-    ]
+    ],
+    "weight": 31.5
   },
   "Shieldon": {
     "dexNum": 410,
@@ -1758,7 +1855,8 @@
     ],
     "abilities": [
       "Sturdy"
-    ]
+    ],
+    "weight": 57.0
   },
   "Buneary": {
     "dexNum": 427,
@@ -1776,7 +1874,8 @@
     "abilities": [
       "Run Away",
       "Klutz"
-    ]
+    ],
+    "weight": 5.5
   },
   "Farfetch'd": {
     "dexNum": 83,
@@ -1795,7 +1894,8 @@
     "abilities": [
       "Keen Eye",
       "Inner Focus"
-    ]
+    ],
+    "weight": 15.0
   },
   "Omanyte": {
     "dexNum": 138,
@@ -1814,7 +1914,8 @@
     "abilities": [
       "Swift Swim",
       "Shell Armor"
-    ]
+    ],
+    "weight": 7.5
   },
   "Kabuto": {
     "dexNum": 140,
@@ -1833,7 +1934,8 @@
     "abilities": [
       "Swift Swim",
       "Battle Armor"
-    ]
+    ],
+    "weight": 11.5
   },
   "Lileep": {
     "dexNum": 345,
@@ -1851,7 +1953,8 @@
     ],
     "abilities": [
       "Suction Cups"
-    ]
+    ],
+    "weight": 23.8
   },
   "Anorith": {
     "dexNum": 347,
@@ -1869,7 +1972,8 @@
     ],
     "abilities": [
       "Battle Armor"
-    ]
+    ],
+    "weight": 12.5
   },
   "Aipom": {
     "dexNum": 190,
@@ -1887,7 +1991,8 @@
     "abilities": [
       "Run Away",
       "Pickup"
-    ]
+    ],
+    "weight": 11.5
   },
   "Elekid": {
     "dexNum": 239,
@@ -1904,7 +2009,8 @@
     ],
     "abilities": [
       "Static"
-    ]
+    ],
+    "weight": 23.5
   },
   "Loudred": {
     "dexNum": 294,
@@ -1921,7 +2027,8 @@
     ],
     "abilities": [
       "Soundproof"
-    ]
+    ],
+    "weight": 40.5
   },
   "Spinda": {
     "dexNum": 327,
@@ -1939,7 +2046,8 @@
     "abilities": [
       "Own Tempo",
       "Tangled Feet"
-    ]
+    ],
+    "weight": 5.0
   },
   "Dunsparce": {
     "dexNum": 206,
@@ -1957,7 +2065,8 @@
     "abilities": [
       "Serene Grace",
       "Run Away"
-    ]
+    ],
+    "weight": 14.0
   },
   "Nidorina": {
     "dexNum": 30,
@@ -1975,7 +2084,8 @@
     "abilities": [
       "Poison Point",
       "Rivalry"
-    ]
+    ],
+    "weight": 20.0
   },
   "Nidorino": {
     "dexNum": 33,
@@ -1993,7 +2103,8 @@
     "abilities": [
       "Poison Point",
       "Rivalry"
-    ]
+    ],
+    "weight": 19.5
   },
   "Flaaffy": {
     "dexNum": 180,
@@ -2010,7 +2121,8 @@
     ],
     "abilities": [
       "Static"
-    ]
+    ],
+    "weight": 13.3
   },
   "Magby": {
     "dexNum": 240,
@@ -2027,7 +2139,8 @@
     ],
     "abilities": [
       "Flame Body"
-    ]
+    ],
+    "weight": 21.4
   },
   "Nosepass": {
     "dexNum": 299,
@@ -2045,7 +2158,8 @@
     "abilities": [
       "Sturdy",
       "Magnet Pull"
-    ]
+    ],
+    "weight": 97.0
   },
   "Corsola": {
     "dexNum": 222,
@@ -2064,7 +2178,8 @@
     "abilities": [
       "Hustle",
       "Natural Cure"
-    ]
+    ],
+    "weight": 5.0
   },
   "Delcatty": {
     "dexNum": 301,
@@ -2082,7 +2197,8 @@
     "abilities": [
       "Cute Charm",
       "Normalize"
-    ]
+    ],
+    "weight": 32.6
   },
   "Sableye": {
     "dexNum": 302,
@@ -2101,7 +2217,8 @@
     "abilities": [
       "Keen Eye",
       "Stall"
-    ]
+    ],
+    "weight": 11.0
   },
   "Mawile": {
     "dexNum": 303,
@@ -2119,7 +2236,8 @@
     "abilities": [
       "Hyper Cutter",
       "Intimidate"
-    ]
+    ],
+    "weight": 11.5
   },
   "Kricketune": {
     "dexNum": 402,
@@ -2136,7 +2254,8 @@
     ],
     "abilities": [
       "Swarm"
-    ]
+    ],
+    "weight": 25.5
   },
   "Butterfree": {
     "dexNum": 12,
@@ -2154,7 +2273,8 @@
     ],
     "abilities": [
       "Compound Eyes"
-    ]
+    ],
+    "weight": 32.0
   },
   "Beedrill": {
     "dexNum": 15,
@@ -2172,7 +2292,8 @@
     ],
     "abilities": [
       "Swarm"
-    ]
+    ],
+    "weight": 29.5
   },
   "Poliwhirl": {
     "dexNum": 61,
@@ -2190,7 +2311,8 @@
     "abilities": [
       "Water Absorb",
       "Damp"
-    ]
+    ],
+    "weight": 20.0
   },
   "Onix": {
     "dexNum": 95,
@@ -2209,7 +2331,8 @@
     "abilities": [
       "Rock Head",
       "Sturdy"
-    ]
+    ],
+    "weight": 210.0
   },
   "Lickitung": {
     "dexNum": 108,
@@ -2227,7 +2350,8 @@
     "abilities": [
       "Own Tempo",
       "Oblivious"
-    ]
+    ],
+    "weight": 65.5
   },
   "Beautifly": {
     "dexNum": 267,
@@ -2245,7 +2369,8 @@
     ],
     "abilities": [
       "Swarm"
-    ]
+    ],
+    "weight": 28.4
   },
   "Dustox": {
     "dexNum": 269,
@@ -2263,7 +2388,8 @@
     ],
     "abilities": [
       "Shield Dust"
-    ]
+    ],
+    "weight": 31.6
   },
   "Weepinbell": {
     "dexNum": 70,
@@ -2281,7 +2407,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 6.4
   },
   "Graveler": {
     "dexNum": 75,
@@ -2300,7 +2427,8 @@
     "abilities": [
       "Rock Head",
       "Sturdy"
-    ]
+    ],
+    "weight": 105.0
   },
   "Ledian": {
     "dexNum": 166,
@@ -2319,7 +2447,8 @@
     "abilities": [
       "Swarm",
       "Early Bird"
-    ]
+    ],
+    "weight": 35.6
   },
   "Ariados": {
     "dexNum": 168,
@@ -2338,7 +2467,8 @@
     "abilities": [
       "Swarm",
       "Insomnia"
-    ]
+    ],
+    "weight": 33.5
   },
   "Yanma": {
     "dexNum": 193,
@@ -2357,7 +2487,8 @@
     "abilities": [
       "Speed Boost",
       "Compound Eyes"
-    ]
+    ],
+    "weight": 38.0
   },
   "Munchlax": {
     "dexNum": 446,
@@ -2375,7 +2506,8 @@
     "abilities": [
       "Pickup",
       "Thick Fat"
-    ]
+    ],
+    "weight": 105.0
   },
   "Gloom": {
     "dexNum": 44,
@@ -2393,7 +2525,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 8.6
   },
   "Porygon": {
     "dexNum": 137,
@@ -2411,7 +2544,8 @@
     "abilities": [
       "Trace",
       "Download"
-    ]
+    ],
+    "weight": 36.5
   },
   "Castform": {
     "dexNum": 351,
@@ -2428,7 +2562,8 @@
     ],
     "abilities": [
       "Forecast"
-    ]
+    ],
+    "weight": 0.8
   },
   "Volbeat": {
     "dexNum": 313,
@@ -2446,7 +2581,8 @@
     "abilities": [
       "Illuminate",
       "Swarm"
-    ]
+    ],
+    "weight": 17.7
   },
   "Illumise": {
     "dexNum": 314,
@@ -2464,7 +2600,8 @@
     "abilities": [
       "Oblivious",
       "Tinted Lens"
-    ]
+    ],
+    "weight": 17.7
   },
   "Roselia": {
     "dexNum": 315,
@@ -2483,7 +2620,8 @@
     "abilities": [
       "Natural Cure",
       "Poison Point"
-    ]
+    ],
+    "weight": 2.0
   },
   "Wailmer": {
     "dexNum": 320,
@@ -2501,7 +2639,8 @@
     "abilities": [
       "Water Veil",
       "Oblivious"
-    ]
+    ],
+    "weight": 130.0
   },
   "Parasect": {
     "dexNum": 47,
@@ -2520,7 +2659,8 @@
     "abilities": [
       "Effect Spore",
       "Dry Skin"
-    ]
+    ],
+    "weight": 29.5
   },
   "Chatot": {
     "dexNum": 441,
@@ -2539,7 +2679,8 @@
     "abilities": [
       "Keen Eye",
       "Tangled Feet"
-    ]
+    ],
+    "weight": 1.9
   },
   "Haunter": {
     "dexNum": 93,
@@ -2557,7 +2698,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 0.1
   },
   "Togetic": {
     "dexNum": 176,
@@ -2576,7 +2718,8 @@
     "abilities": [
       "Hustle",
       "Serene Grace"
-    ]
+    ],
+    "weight": 3.2
   },
   "Murkrow": {
     "dexNum": 198,
@@ -2595,7 +2738,8 @@
     "abilities": [
       "Insomnia",
       "Super Luck"
-    ]
+    ],
+    "weight": 2.1
   },
   "Wobbuffet": {
     "dexNum": 202,
@@ -2612,7 +2756,8 @@
     ],
     "abilities": [
       "Shadow Tag"
-    ]
+    ],
+    "weight": 28.5
   },
   "Plusle": {
     "dexNum": 311,
@@ -2629,7 +2774,8 @@
     ],
     "abilities": [
       "Plus"
-    ]
+    ],
+    "weight": 4.2
   },
   "Minun": {
     "dexNum": 312,
@@ -2646,7 +2792,8 @@
     ],
     "abilities": [
       "Minus"
-    ]
+    ],
+    "weight": 4.2
   },
   "Pachirisu": {
     "dexNum": 417,
@@ -2664,7 +2811,8 @@
     "abilities": [
       "Run Away",
       "Pickup"
-    ]
+    ],
+    "weight": 3.9
   },
   "Ponyta": {
     "dexNum": 77,
@@ -2682,7 +2830,8 @@
     "abilities": [
       "Run Away",
       "Flash Fire"
-    ]
+    ],
+    "weight": 30.0
   },
   "Azumarill": {
     "dexNum": 184,
@@ -2700,7 +2849,8 @@
     "abilities": [
       "Thick Fat",
       "Huge Power"
-    ]
+    ],
+    "weight": 28.5
   },
   "Ivysaur": {
     "dexNum": 2,
@@ -2718,7 +2868,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 13.0
   },
   "Charmeleon": {
     "dexNum": 5,
@@ -2735,7 +2886,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 19.0
   },
   "Wartortle": {
     "dexNum": 8,
@@ -2752,7 +2904,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 22.5
   },
   "Bayleef": {
     "dexNum": 153,
@@ -2769,7 +2922,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 15.8
   },
   "Quilava": {
     "dexNum": 156,
@@ -2786,7 +2940,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 19.0
   },
   "Croconaw": {
     "dexNum": 159,
@@ -2803,7 +2958,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 25.0
   },
   "Grovyle": {
     "dexNum": 253,
@@ -2820,7 +2976,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 21.6
   },
   "Combusken": {
     "dexNum": 256,
@@ -2838,7 +2995,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 19.5
   },
   "Marshtomp": {
     "dexNum": 259,
@@ -2856,7 +3014,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 28.0
   },
   "Grotle": {
     "dexNum": 388,
@@ -2873,7 +3032,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 97.0
   },
   "Monferno": {
     "dexNum": 391,
@@ -2891,7 +3051,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 22.0
   },
   "Prinplup": {
     "dexNum": 394,
@@ -2908,7 +3069,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 23.0
   },
   "Sudowoodo": {
     "dexNum": 185,
@@ -2926,7 +3088,8 @@
     "abilities": [
       "Sturdy",
       "Rock Head"
-    ]
+    ],
+    "weight": 38.0
   },
   "Magcargo": {
     "dexNum": 219,
@@ -2945,7 +3108,8 @@
     "abilities": [
       "Magma Armor",
       "Flame Body"
-    ]
+    ],
+    "weight": 55.0
   },
   "Pupitar": {
     "dexNum": 247,
@@ -2963,7 +3127,8 @@
     ],
     "abilities": [
       "Shed Skin"
-    ]
+    ],
+    "weight": 152.0
   },
   "Sealeo": {
     "dexNum": 364,
@@ -2982,7 +3147,8 @@
     "abilities": [
       "Thick Fat",
       "Ice Body"
-    ]
+    ],
+    "weight": 87.6
   },
   "Bibarel": {
     "dexNum": 400,
@@ -3001,7 +3167,8 @@
     "abilities": [
       "Simple",
       "Unaware"
-    ]
+    ],
+    "weight": 31.5
   },
   "Gabite": {
     "dexNum": 444,
@@ -3019,7 +3186,8 @@
     ],
     "abilities": [
       "Sand Veil"
-    ]
+    ],
+    "weight": 56.0
   },
   "Machoke": {
     "dexNum": 67,
@@ -3037,7 +3205,8 @@
     "abilities": [
       "Guts",
       "No Guard"
-    ]
+    ],
+    "weight": 70.5
   },
   "Raticate": {
     "dexNum": 20,
@@ -3055,7 +3224,8 @@
     "abilities": [
       "Run Away",
       "Guts"
-    ]
+    ],
+    "weight": 18.5
   },
   "Masquerain": {
     "dexNum": 284,
@@ -3073,7 +3243,8 @@
     ],
     "abilities": [
       "Intimidate"
-    ]
+    ],
+    "weight": 3.6
   },
   "Furret": {
     "dexNum": 162,
@@ -3091,7 +3262,8 @@
     "abilities": [
       "Run Away",
       "Keen Eye"
-    ]
+    ],
+    "weight": 32.5
   },
   "Luxio": {
     "dexNum": 404,
@@ -3109,7 +3281,8 @@
     "abilities": [
       "Rivalry",
       "Intimidate"
-    ]
+    ],
+    "weight": 30.5
   },
   "Cherrim": {
     "dexNum": 421,
@@ -3126,7 +3299,8 @@
     ],
     "abilities": [
       "Flower Gift"
-    ]
+    ],
+    "weight": 9.3
   },
   "Dragonair": {
     "dexNum": 148,
@@ -3143,7 +3317,8 @@
     ],
     "abilities": [
       "Shed Skin"
-    ]
+    ],
+    "weight": 16.5
   },
   "Mightyena": {
     "dexNum": 262,
@@ -3161,7 +3336,8 @@
     "abilities": [
       "Intimidate",
       "Quick Feet"
-    ]
+    ],
+    "weight": 37.0
   },
   "Linoone": {
     "dexNum": 264,
@@ -3179,7 +3355,8 @@
     "abilities": [
       "Pickup",
       "Gluttony"
-    ]
+    ],
+    "weight": 32.5
   },
   "Kadabra": {
     "dexNum": 64,
@@ -3197,7 +3374,8 @@
     "abilities": [
       "Synchronize",
       "Inner Focus"
-    ]
+    ],
+    "weight": 56.5
   },
   "Shelgon": {
     "dexNum": 372,
@@ -3214,7 +3392,8 @@
     ],
     "abilities": [
       "Rock Head"
-    ]
+    ],
+    "weight": 110.5
   },
   "Metang": {
     "dexNum": 375,
@@ -3232,7 +3411,8 @@
     ],
     "abilities": [
       "Clear Body"
-    ]
+    ],
+    "weight": 202.5
   },
   "Wormadam": {
     "dexNum": 413,
@@ -3250,7 +3430,8 @@
     ],
     "abilities": [
       "Anticipation"
-    ]
+    ],
+    "weight": 6.5
   },
   "Mothim": {
     "dexNum": 414,
@@ -3268,7 +3449,8 @@
     ],
     "abilities": [
       "Swarm"
-    ]
+    ],
+    "weight": 23.3
   },
   "Wigglytuff": {
     "dexNum": 40,
@@ -3286,7 +3468,8 @@
     "abilities": [
       "Cute Charm",
       "Competitive"
-    ]
+    ],
+    "weight": 12.0
   },
   "Sunflora": {
     "dexNum": 192,
@@ -3304,7 +3487,8 @@
     "abilities": [
       "Chlorophyll",
       "Solar Power"
-    ]
+    ],
+    "weight": 8.5
   },
   "Chimecho": {
     "dexNum": 358,
@@ -3321,7 +3505,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 1.0
   },
   "Gligar": {
     "dexNum": 207,
@@ -3340,7 +3525,8 @@
     "abilities": [
       "Hyper Cutter",
       "Sand Veil"
-    ]
+    ],
+    "weight": 64.8
   },
   "Qwilfish": {
     "dexNum": 211,
@@ -3359,7 +3545,8 @@
     "abilities": [
       "Poison Point",
       "Swift Swim"
-    ]
+    ],
+    "weight": 3.9
   },
   "Sneasel": {
     "dexNum": 215,
@@ -3378,7 +3565,8 @@
     "abilities": [
       "Inner Focus",
       "Keen Eye"
-    ]
+    ],
+    "weight": 28.0
   },
   "Swellow": {
     "dexNum": 277,
@@ -3396,7 +3584,8 @@
     ],
     "abilities": [
       "Guts"
-    ]
+    ],
+    "weight": 19.8
   },
   "Pelipper": {
     "dexNum": 279,
@@ -3415,7 +3604,8 @@
     "abilities": [
       "Keen Eye",
       "Drizzle"
-    ]
+    ],
+    "weight": 28.0
   },
   "Lairon": {
     "dexNum": 305,
@@ -3434,7 +3624,8 @@
     "abilities": [
       "Sturdy",
       "Rock Head"
-    ]
+    ],
+    "weight": 120.0
   },
   "Tangela": {
     "dexNum": 114,
@@ -3452,7 +3643,8 @@
     "abilities": [
       "Chlorophyll",
       "Leaf Guard"
-    ]
+    ],
+    "weight": 35.0
   },
   "Misdreavus": {
     "dexNum": 200,
@@ -3469,7 +3661,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 1.0
   },
   "Arbok": {
     "dexNum": 24,
@@ -3487,7 +3680,8 @@
     "abilities": [
       "Intimidate",
       "Shed Skin"
-    ]
+    ],
+    "weight": 65.0
   },
   "Persian": {
     "dexNum": 53,
@@ -3505,7 +3699,8 @@
     "abilities": [
       "Limber",
       "Technician"
-    ]
+    ],
+    "weight": 32.0
   },
   "Seadra": {
     "dexNum": 117,
@@ -3523,7 +3718,8 @@
     "abilities": [
       "Poison Point",
       "Sniper"
-    ]
+    ],
+    "weight": 25.0
   },
   "Vigoroth": {
     "dexNum": 288,
@@ -3540,7 +3736,8 @@
     ],
     "abilities": [
       "Vital Spirit"
-    ]
+    ],
+    "weight": 46.5
   },
   "Lunatone": {
     "dexNum": 337,
@@ -3558,7 +3755,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 168.0
   },
   "Solrock": {
     "dexNum": 338,
@@ -3576,7 +3774,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 154.0
   },
   "Kecleon": {
     "dexNum": 352,
@@ -3593,7 +3792,8 @@
     ],
     "abilities": [
       "Color Change"
-    ]
+    ],
+    "weight": 22.0
   },
   "Rotom": {
     "dexNum": 479,
@@ -3611,7 +3811,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 0.3
   },
   "Fearow": {
     "dexNum": 22,
@@ -3629,7 +3830,8 @@
     ],
     "abilities": [
       "Keen Eye"
-    ]
+    ],
+    "weight": 38.0
   },
   "Noctowl": {
     "dexNum": 164,
@@ -3648,7 +3850,8 @@
     "abilities": [
       "Insomnia",
       "Keen Eye"
-    ]
+    ],
+    "weight": 40.8
   },
   "Sandslash": {
     "dexNum": 28,
@@ -3665,7 +3868,8 @@
     ],
     "abilities": [
       "Sand Veil"
-    ]
+    ],
+    "weight": 29.5
   },
   "Venomoth": {
     "dexNum": 49,
@@ -3684,7 +3888,8 @@
     "abilities": [
       "Shield Dust",
       "Tinted Lens"
-    ]
+    ],
+    "weight": 12.5
   },
   "Chansey": {
     "dexNum": 113,
@@ -3702,7 +3907,8 @@
     "abilities": [
       "Natural Cure",
       "Serene Grace"
-    ]
+    ],
+    "weight": 34.6
   },
   "Seaking": {
     "dexNum": 119,
@@ -3720,7 +3926,8 @@
     "abilities": [
       "Swift Swim",
       "Water Veil"
-    ]
+    ],
+    "weight": 39.0
   },
   "Jumpluff": {
     "dexNum": 189,
@@ -3739,7 +3946,8 @@
     "abilities": [
       "Chlorophyll",
       "Leaf Guard"
-    ]
+    ],
+    "weight": 3.0
   },
   "Piloswine": {
     "dexNum": 221,
@@ -3758,7 +3966,8 @@
     "abilities": [
       "Oblivious",
       "Snow Cloak"
-    ]
+    ],
+    "weight": 55.8
   },
   "Purugly": {
     "dexNum": 432,
@@ -3776,7 +3985,8 @@
     "abilities": [
       "Thick Fat",
       "Own Tempo"
-    ]
+    ],
+    "weight": 43.8
   },
   "Carnivine": {
     "dexNum": 455,
@@ -3793,7 +4003,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 27.0
   },
   "Golbat": {
     "dexNum": 42,
@@ -3811,7 +4022,8 @@
     ],
     "abilities": [
       "Inner Focus"
-    ]
+    ],
+    "weight": 55.0
   },
   "Primeape": {
     "dexNum": 57,
@@ -3829,7 +4041,8 @@
     "abilities": [
       "Vital Spirit",
       "Anger Point"
-    ]
+    ],
+    "weight": 32.0
   },
   "Hitmonlee": {
     "dexNum": 106,
@@ -3847,7 +4060,8 @@
     "abilities": [
       "Limber",
       "Reckless"
-    ]
+    ],
+    "weight": 49.8
   },
   "Hitmonchan": {
     "dexNum": 107,
@@ -3865,7 +4079,8 @@
     "abilities": [
       "Keen Eye",
       "Iron Fist"
-    ]
+    ],
+    "weight": 50.2
   },
   "Girafarig": {
     "dexNum": 203,
@@ -3884,7 +4099,8 @@
     "abilities": [
       "Inner Focus",
       "Early Bird"
-    ]
+    ],
+    "weight": 41.5
   },
   "Hitmontop": {
     "dexNum": 237,
@@ -3902,7 +4118,8 @@
     "abilities": [
       "Intimidate",
       "Technician"
-    ]
+    ],
+    "weight": 48.0
   },
   "Banette": {
     "dexNum": 354,
@@ -3920,7 +4137,8 @@
     "abilities": [
       "Insomnia",
       "Frisk"
-    ]
+    ],
+    "weight": 12.5
   },
   "Dusclops": {
     "dexNum": 356,
@@ -3937,7 +4155,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 30.6
   },
   "Ninjask": {
     "dexNum": 291,
@@ -3955,7 +4174,8 @@
     ],
     "abilities": [
       "Speed Boost"
-    ]
+    ],
+    "weight": 12.0
   },
   "Zangoose": {
     "dexNum": 335,
@@ -3972,7 +4192,8 @@
     ],
     "abilities": [
       "Immunity"
-    ]
+    ],
+    "weight": 40.3
   },
   "Seviper": {
     "dexNum": 336,
@@ -3989,7 +4210,8 @@
     ],
     "abilities": [
       "Shed Skin"
-    ]
+    ],
+    "weight": 52.5
   },
   "Dodrio": {
     "dexNum": 85,
@@ -4008,7 +4230,8 @@
     "abilities": [
       "Run Away",
       "Early Bird"
-    ]
+    ],
+    "weight": 85.2
   },
   "Sharpedo": {
     "dexNum": 319,
@@ -4026,7 +4249,8 @@
     ],
     "abilities": [
       "Rough Skin"
-    ]
+    ],
+    "weight": 88.8
   },
   "Camerupt": {
     "dexNum": 323,
@@ -4045,7 +4269,8 @@
     "abilities": [
       "Magma Armor",
       "Solid Rock"
-    ]
+    ],
+    "weight": 220.0
   },
   "Tropius": {
     "dexNum": 357,
@@ -4064,7 +4289,8 @@
     "abilities": [
       "Chlorophyll",
       "Solar Power"
-    ]
+    ],
+    "weight": 100.0
   },
   "Lumineon": {
     "dexNum": 457,
@@ -4082,7 +4308,8 @@
     "abilities": [
       "Swift Swim",
       "Storm Drain"
-    ]
+    ],
+    "weight": 24.0
   },
   "Magneton": {
     "dexNum": 82,
@@ -4101,7 +4328,8 @@
     "abilities": [
       "Magnet Pull",
       "Sturdy"
-    ]
+    ],
+    "weight": 60.0
   },
   "Mantine": {
     "dexNum": 226,
@@ -4120,7 +4348,8 @@
     "abilities": [
       "Swift Swim",
       "Water Absorb"
-    ]
+    ],
+    "weight": 220.0
   },
   "Stantler": {
     "dexNum": 234,
@@ -4138,7 +4367,8 @@
     "abilities": [
       "Intimidate",
       "Frisk"
-    ]
+    ],
+    "weight": 71.2
   },
   "Swalot": {
     "dexNum": 317,
@@ -4156,7 +4386,8 @@
     "abilities": [
       "Liquid Ooze",
       "Sticky Hold"
-    ]
+    ],
+    "weight": 80.0
   },
   "Crawdaunt": {
     "dexNum": 342,
@@ -4175,7 +4406,8 @@
     "abilities": [
       "Hyper Cutter",
       "Shell Armor"
-    ]
+    ],
+    "weight": 32.8
   },
   "Pidgeot": {
     "dexNum": 18,
@@ -4194,7 +4426,8 @@
     "abilities": [
       "Keen Eye",
       "Tangled Feet"
-    ]
+    ],
+    "weight": 39.5
   },
   "Xatu": {
     "dexNum": 178,
@@ -4213,7 +4446,8 @@
     "abilities": [
       "Synchronize",
       "Early Bird"
-    ]
+    ],
+    "weight": 15.0
   },
   "Torkoal": {
     "dexNum": 324,
@@ -4231,7 +4465,8 @@
     "abilities": [
       "White Smoke",
       "Drought"
-    ]
+    ],
+    "weight": 80.4
   },
   "Grumpig": {
     "dexNum": 326,
@@ -4249,7 +4484,8 @@
     "abilities": [
       "Thick Fat",
       "Own Tempo"
-    ]
+    ],
+    "weight": 71.5
   },
   "Clefable": {
     "dexNum": 36,
@@ -4267,7 +4503,8 @@
     "abilities": [
       "Cute Charm",
       "Magic Guard"
-    ]
+    ],
+    "weight": 40.0
   },
   "Kingler": {
     "dexNum": 99,
@@ -4285,7 +4522,8 @@
     "abilities": [
       "Hyper Cutter",
       "Shell Armor"
-    ]
+    ],
+    "weight": 60.0
   },
   "Cacturne": {
     "dexNum": 332,
@@ -4303,7 +4541,8 @@
     ],
     "abilities": [
       "Sand Veil"
-    ]
+    ],
+    "weight": 77.4
   },
   "Bellossom": {
     "dexNum": 182,
@@ -4320,7 +4559,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 5.8
   },
   "Octillery": {
     "dexNum": 224,
@@ -4338,7 +4578,8 @@
     "abilities": [
       "Suction Cups",
       "Sniper"
-    ]
+    ],
+    "weight": 28.5
   },
   "Huntail": {
     "dexNum": 367,
@@ -4355,7 +4596,8 @@
     ],
     "abilities": [
       "Swift Swim"
-    ]
+    ],
+    "weight": 27.0
   },
   "Gorebyss": {
     "dexNum": 368,
@@ -4372,7 +4614,8 @@
     ],
     "abilities": [
       "Swift Swim"
-    ]
+    ],
+    "weight": 22.6
   },
   "Relicanth": {
     "dexNum": 369,
@@ -4391,7 +4634,8 @@
     "abilities": [
       "Swift Swim",
       "Rock Head"
-    ]
+    ],
+    "weight": 23.4
   },
   "Electabuzz": {
     "dexNum": 125,
@@ -4408,7 +4652,8 @@
     ],
     "abilities": [
       "Static"
-    ]
+    ],
+    "weight": 30.0
   },
   "Magmar": {
     "dexNum": 126,
@@ -4425,7 +4670,8 @@
     ],
     "abilities": [
       "Flame Body"
-    ]
+    ],
+    "weight": 44.5
   },
   "Omastar": {
     "dexNum": 139,
@@ -4444,7 +4690,8 @@
     "abilities": [
       "Swift Swim",
       "Shell Armor"
-    ]
+    ],
+    "weight": 35.0
   },
   "Kabutops": {
     "dexNum": 141,
@@ -4463,7 +4710,8 @@
     "abilities": [
       "Swift Swim",
       "Battle Armor"
-    ]
+    ],
+    "weight": 40.5
   },
   "Scyther": {
     "dexNum": 123,
@@ -4482,7 +4730,8 @@
     "abilities": [
       "Swarm",
       "Technician"
-    ]
+    ],
+    "weight": 56.0
   },
   "Cloyster": {
     "dexNum": 91,
@@ -4501,7 +4750,8 @@
     "abilities": [
       "Shell Armor",
       "Skill Link"
-    ]
+    ],
+    "weight": 132.5
   },
   "Venusaur": {
     "dexNum": 3,
@@ -4519,7 +4769,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 100.0
   },
   "Charizard": {
     "dexNum": 6,
@@ -4537,7 +4788,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 90.5
   },
   "Blastoise": {
     "dexNum": 9,
@@ -4554,7 +4806,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 85.5
   },
   "Meganium": {
     "dexNum": 154,
@@ -4571,7 +4824,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 100.5
   },
   "Typhlosion": {
     "dexNum": 157,
@@ -4588,7 +4842,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 79.5
   },
   "Feraligatr": {
     "dexNum": 160,
@@ -4605,7 +4860,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 88.8
   },
   "Sceptile": {
     "dexNum": 254,
@@ -4622,7 +4878,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 52.2
   },
   "Blaziken": {
     "dexNum": 257,
@@ -4640,7 +4897,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 52.0
   },
   "Swampert": {
     "dexNum": 260,
@@ -4658,7 +4916,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 81.9
   },
   "Torterra": {
     "dexNum": 389,
@@ -4676,7 +4935,8 @@
     ],
     "abilities": [
       "Overgrow"
-    ]
+    ],
+    "weight": 310.0
   },
   "Infernape": {
     "dexNum": 392,
@@ -4694,7 +4954,8 @@
     ],
     "abilities": [
       "Blaze"
-    ]
+    ],
+    "weight": 55.0
   },
   "Empoleon": {
     "dexNum": 395,
@@ -4712,7 +4973,8 @@
     ],
     "abilities": [
       "Torrent"
-    ]
+    ],
+    "weight": 84.5
   },
   "Dugtrio": {
     "dexNum": 51,
@@ -4730,7 +4992,8 @@
     "abilities": [
       "Sand Veil",
       "Arena Trap"
-    ]
+    ],
+    "weight": 33.3
   },
   "Marowak": {
     "dexNum": 105,
@@ -4748,7 +5011,8 @@
     "abilities": [
       "Rock Head",
       "Lightning Rod"
-    ]
+    ],
+    "weight": 45.0
   },
   "Medicham": {
     "dexNum": 308,
@@ -4766,7 +5030,8 @@
     ],
     "abilities": [
       "Pure Power"
-    ]
+    ],
+    "weight": 31.5
   },
   "Quagsire": {
     "dexNum": 195,
@@ -4785,7 +5050,8 @@
     "abilities": [
       "Damp",
       "Water Absorb"
-    ]
+    ],
+    "weight": 75.0
   },
   "Granbull": {
     "dexNum": 210,
@@ -4803,7 +5069,8 @@
     "abilities": [
       "Intimidate",
       "Quick Feet"
-    ]
+    ],
+    "weight": 48.7
   },
   "Jynx": {
     "dexNum": 124,
@@ -4822,7 +5089,8 @@
     "abilities": [
       "Oblivious",
       "Forewarn"
-    ]
+    ],
+    "weight": 40.6
   },
   "Mr. Mime": {
     "dexNum": 122,
@@ -4840,7 +5108,8 @@
     "abilities": [
       "Soundproof",
       "Filter"
-    ]
+    ],
+    "weight": 54.5
   },
   "Lanturn": {
     "dexNum": 171,
@@ -4859,7 +5128,8 @@
     "abilities": [
       "Volt Absorb",
       "Illuminate"
-    ]
+    ],
+    "weight": 22.5
   },
   "Breloom": {
     "dexNum": 286,
@@ -4878,7 +5148,8 @@
     "abilities": [
       "Effect Spore",
       "Poison Heal"
-    ]
+    ],
+    "weight": 39.2
   },
   "Forretress": {
     "dexNum": 205,
@@ -4896,7 +5167,8 @@
     ],
     "abilities": [
       "Sturdy"
-    ]
+    ],
+    "weight": 125.8
   },
   "Skarmory": {
     "dexNum": 227,
@@ -4915,7 +5187,8 @@
     "abilities": [
       "Keen Eye",
       "Sturdy"
-    ]
+    ],
+    "weight": 50.5
   },
   "Absol": {
     "dexNum": 359,
@@ -4933,7 +5206,8 @@
     "abilities": [
       "Pressure",
       "Super Luck"
-    ]
+    ],
+    "weight": 47.0
   },
   "Whiscash": {
     "dexNum": 340,
@@ -4952,7 +5226,8 @@
     "abilities": [
       "Oblivious",
       "Anticipation"
-    ]
+    ],
+    "weight": 23.6
   },
   "Hariyama": {
     "dexNum": 297,
@@ -4970,7 +5245,8 @@
     "abilities": [
       "Thick Fat",
       "Guts"
-    ]
+    ],
+    "weight": 253.8
   },
   "Vespiquen": {
     "dexNum": 416,
@@ -4988,7 +5264,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 38.5
   },
   "Raichu": {
     "dexNum": 26,
@@ -5005,7 +5282,8 @@
     ],
     "abilities": [
       "Static"
-    ]
+    ],
+    "weight": 30.0
   },
   "Dewgong": {
     "dexNum": 87,
@@ -5024,7 +5302,8 @@
     "abilities": [
       "Thick Fat",
       "Hydration"
-    ]
+    ],
+    "weight": 120.0
   },
   "Manectric": {
     "dexNum": 310,
@@ -5042,7 +5321,8 @@
     "abilities": [
       "Static",
       "Lightning Rod"
-    ]
+    ],
+    "weight": 40.2
   },
   "Staraptor": {
     "dexNum": 398,
@@ -5060,7 +5340,8 @@
     ],
     "abilities": [
       "Intimidate"
-    ]
+    ],
+    "weight": 24.9
   },
   "Gastrodon": {
     "dexNum": 423,
@@ -5079,7 +5360,8 @@
     "abilities": [
       "Sticky Hold",
       "Storm Drain"
-    ]
+    ],
+    "weight": 29.9
   },
   "Skuntank": {
     "dexNum": 435,
@@ -5098,7 +5380,8 @@
     "abilities": [
       "Stench",
       "Aftermath"
-    ]
+    ],
+    "weight": 38.0
   },
   "Vileplume": {
     "dexNum": 45,
@@ -5116,7 +5399,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 18.6
   },
   "Victreebel": {
     "dexNum": 71,
@@ -5134,7 +5418,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 15.5
   },
   "Electrode": {
     "dexNum": 101,
@@ -5152,7 +5437,8 @@
     "abilities": [
       "Soundproof",
       "Static"
-    ]
+    ],
+    "weight": 66.6
   },
   "Ludicolo": {
     "dexNum": 272,
@@ -5171,7 +5457,8 @@
     "abilities": [
       "Swift Swim",
       "Rain Dish"
-    ]
+    ],
+    "weight": 55.0
   },
   "Shiftry": {
     "dexNum": 275,
@@ -5190,7 +5477,8 @@
     "abilities": [
       "Chlorophyll",
       "Wind Rider"
-    ]
+    ],
+    "weight": 59.6
   },
   "Exploud": {
     "dexNum": 295,
@@ -5207,7 +5495,8 @@
     ],
     "abilities": [
       "Soundproof"
-    ]
+    ],
+    "weight": 84.0
   },
   "Glalie": {
     "dexNum": 362,
@@ -5225,7 +5514,8 @@
     "abilities": [
       "Inner Focus",
       "Ice Body"
-    ]
+    ],
+    "weight": 256.5
   },
   "Lopunny": {
     "dexNum": 428,
@@ -5243,7 +5533,8 @@
     "abilities": [
       "Cute Charm",
       "Klutz"
-    ]
+    ],
+    "weight": 33.3
   },
   "Froslass": {
     "dexNum": 478,
@@ -5261,7 +5552,8 @@
     ],
     "abilities": [
       "Snow Cloak"
-    ]
+    ],
+    "weight": 26.6
   },
   "Ambipom": {
     "dexNum": 424,
@@ -5279,7 +5571,8 @@
     "abilities": [
       "Technician",
       "Pickup"
-    ]
+    ],
+    "weight": 20.3
   },
   "Hypno": {
     "dexNum": 97,
@@ -5297,7 +5590,8 @@
     "abilities": [
       "Insomnia",
       "Forewarn"
-    ]
+    ],
+    "weight": 75.6
   },
   "Golem": {
     "dexNum": 76,
@@ -5316,7 +5610,8 @@
     "abilities": [
       "Rock Head",
       "Sturdy"
-    ]
+    ],
+    "weight": 300.0
   },
   "Rhydon": {
     "dexNum": 112,
@@ -5335,7 +5630,8 @@
     "abilities": [
       "Lightning Rod",
       "Rock Head"
-    ]
+    ],
+    "weight": 120.0
   },
   "Slowbro": {
     "dexNum": 80,
@@ -5354,7 +5650,8 @@
     "abilities": [
       "Oblivious",
       "Own Tempo"
-    ]
+    ],
+    "weight": 78.5
   },
   "Weezing": {
     "dexNum": 110,
@@ -5372,7 +5669,8 @@
     "abilities": [
       "Levitate",
       "Neutralizing Gas"
-    ]
+    ],
+    "weight": 9.5
   },
   "Kangaskhan": {
     "dexNum": 115,
@@ -5390,7 +5688,8 @@
     "abilities": [
       "Early Bird",
       "Scrappy"
-    ]
+    ],
+    "weight": 80.0
   },
   "Tauros": {
     "dexNum": 128,
@@ -5408,7 +5707,8 @@
     "abilities": [
       "Intimidate",
       "Anger Point"
-    ]
+    ],
+    "weight": 88.4
   },
   "Alakazam": {
     "dexNum": 65,
@@ -5426,7 +5726,8 @@
     "abilities": [
       "Synchronize",
       "Inner Focus"
-    ]
+    ],
+    "weight": 48.0
   },
   "Slowking": {
     "dexNum": 199,
@@ -5445,7 +5746,8 @@
     "abilities": [
       "Oblivious",
       "Own Tempo"
-    ]
+    ],
+    "weight": 79.5
   },
   "Miltank": {
     "dexNum": 241,
@@ -5463,7 +5765,8 @@
     "abilities": [
       "Thick Fat",
       "Scrappy"
-    ]
+    ],
+    "weight": 75.5
   },
   "Altaria": {
     "dexNum": 334,
@@ -5481,7 +5784,8 @@
     ],
     "abilities": [
       "Natural Cure"
-    ]
+    ],
+    "weight": 20.6
   },
   "Toxicroak": {
     "dexNum": 454,
@@ -5500,7 +5804,8 @@
     "abilities": [
       "Anticipation",
       "Dry Skin"
-    ]
+    ],
+    "weight": 44.4
   },
   "Abomasnow": {
     "dexNum": 460,
@@ -5518,7 +5823,8 @@
     ],
     "abilities": [
       "Snow Warning"
-    ]
+    ],
+    "weight": 135.5
   },
   "Nidoqueen": {
     "dexNum": 31,
@@ -5537,7 +5843,8 @@
     "abilities": [
       "Poison Point",
       "Rivalry"
-    ]
+    ],
+    "weight": 60.0
   },
   "Nidoking": {
     "dexNum": 34,
@@ -5556,7 +5863,8 @@
     "abilities": [
       "Poison Point",
       "Rivalry"
-    ]
+    ],
+    "weight": 62.0
   },
   "Cradily": {
     "dexNum": 346,
@@ -5574,7 +5882,8 @@
     ],
     "abilities": [
       "Suction Cups"
-    ]
+    ],
+    "weight": 60.4
   },
   "Armaldo": {
     "dexNum": 348,
@@ -5592,7 +5901,8 @@
     ],
     "abilities": [
       "Battle Armor"
-    ]
+    ],
+    "weight": 68.2
   },
   "Bastiodon": {
     "dexNum": 411,
@@ -5610,7 +5920,8 @@
     ],
     "abilities": [
       "Sturdy"
-    ]
+    ],
+    "weight": 149.5
   },
   "Floatzel": {
     "dexNum": 419,
@@ -5627,7 +5938,8 @@
     ],
     "abilities": [
       "Swift Swim"
-    ]
+    ],
+    "weight": 33.5
   },
   "Mismagius": {
     "dexNum": 429,
@@ -5644,7 +5956,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 4.4
   },
   "Drifblim": {
     "dexNum": 426,
@@ -5663,7 +5976,8 @@
     "abilities": [
       "Aftermath",
       "Unburden"
-    ]
+    ],
+    "weight": 15.0
   },
   "Golduck": {
     "dexNum": 55,
@@ -5681,7 +5995,8 @@
     "abilities": [
       "Damp",
       "Cloud Nine"
-    ]
+    ],
+    "weight": 76.6
   },
   "Poliwrath": {
     "dexNum": 62,
@@ -5700,7 +6015,8 @@
     "abilities": [
       "Water Absorb",
       "Damp"
-    ]
+    ],
+    "weight": 54.0
   },
   "Rapidash": {
     "dexNum": 78,
@@ -5718,7 +6034,8 @@
     "abilities": [
       "Run Away",
       "Flash Fire"
-    ]
+    ],
+    "weight": 95.0
   },
   "Muk": {
     "dexNum": 89,
@@ -5736,7 +6053,8 @@
     "abilities": [
       "Stench",
       "Sticky Hold"
-    ]
+    ],
+    "weight": 30.0
   },
   "Gengar": {
     "dexNum": 94,
@@ -5754,7 +6072,8 @@
     ],
     "abilities": [
       "Cursed Body"
-    ]
+    ],
+    "weight": 40.5
   },
   "Ampharos": {
     "dexNum": 181,
@@ -5771,7 +6090,8 @@
     ],
     "abilities": [
       "Static"
-    ]
+    ],
+    "weight": 61.5
   },
   "Politoed": {
     "dexNum": 186,
@@ -5789,7 +6109,8 @@
     "abilities": [
       "Water Absorb",
       "Damp"
-    ]
+    ],
+    "weight": 33.9
   },
   "Pinsir": {
     "dexNum": 127,
@@ -5807,7 +6128,8 @@
     "abilities": [
       "Hyper Cutter",
       "Mold Breaker"
-    ]
+    ],
+    "weight": 55.0
   },
   "Scizor": {
     "dexNum": 212,
@@ -5826,7 +6148,8 @@
     "abilities": [
       "Swarm",
       "Technician"
-    ]
+    ],
+    "weight": 118.0
   },
   "Heracross": {
     "dexNum": 214,
@@ -5845,7 +6168,8 @@
     "abilities": [
       "Swarm",
       "Guts"
-    ]
+    ],
+    "weight": 54.0
   },
   "Ursaring": {
     "dexNum": 217,
@@ -5863,7 +6187,8 @@
     "abilities": [
       "Guts",
       "Quick Feet"
-    ]
+    ],
+    "weight": 125.8
   },
   "Houndoom": {
     "dexNum": 229,
@@ -5882,7 +6207,8 @@
     "abilities": [
       "Early Bird",
       "Flash Fire"
-    ]
+    ],
+    "weight": 35.0
   },
   "Donphan": {
     "dexNum": 232,
@@ -5899,7 +6225,8 @@
     ],
     "abilities": [
       "Sturdy"
-    ]
+    ],
+    "weight": 120.0
   },
   "Wailord": {
     "dexNum": 321,
@@ -5917,7 +6244,8 @@
     "abilities": [
       "Water Veil",
       "Oblivious"
-    ]
+    ],
+    "weight": 398.0
   },
   "Claydol": {
     "dexNum": 344,
@@ -5935,7 +6263,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 108.0
   },
   "Rampardos": {
     "dexNum": 409,
@@ -5952,7 +6281,8 @@
     ],
     "abilities": [
       "Mold Breaker"
-    ]
+    ],
+    "weight": 102.5
   },
   "Bronzong": {
     "dexNum": 437,
@@ -5971,7 +6301,8 @@
     "abilities": [
       "Levitate",
       "Heatproof"
-    ]
+    ],
+    "weight": 187.0
   },
   "Drapion": {
     "dexNum": 452,
@@ -5990,7 +6321,8 @@
     "abilities": [
       "Battle Armor",
       "Sniper"
-    ]
+    ],
+    "weight": 61.5
   },
   "Luxray": {
     "dexNum": 405,
@@ -6008,7 +6340,8 @@
     "abilities": [
       "Rivalry",
       "Intimidate"
-    ]
+    ],
+    "weight": 42.0
   },
   "Ninetales": {
     "dexNum": 38,
@@ -6025,7 +6358,8 @@
     ],
     "abilities": [
       "Flash Fire"
-    ]
+    ],
+    "weight": 19.9
   },
   "Machamp": {
     "dexNum": 68,
@@ -6043,7 +6377,8 @@
     "abilities": [
       "Guts",
       "No Guard"
-    ]
+    ],
+    "weight": 130.0
   },
   "Shuckle": {
     "dexNum": 213,
@@ -6062,7 +6397,8 @@
     "abilities": [
       "Sturdy",
       "Gluttony"
-    ]
+    ],
+    "weight": 20.5
   },
   "Roserade": {
     "dexNum": 407,
@@ -6081,7 +6417,8 @@
     "abilities": [
       "Natural Cure",
       "Poison Point"
-    ]
+    ],
+    "weight": 14.5
   },
   "Honchkrow": {
     "dexNum": 430,
@@ -6100,7 +6437,8 @@
     "abilities": [
       "Insomnia",
       "Super Luck"
-    ]
+    ],
+    "weight": 27.3
   },
   "Steelix": {
     "dexNum": 208,
@@ -6119,7 +6457,8 @@
     "abilities": [
       "Rock Head",
       "Sturdy"
-    ]
+    ],
+    "weight": 400.0
   },
   "Weavile": {
     "dexNum": 461,
@@ -6137,7 +6476,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 34.0
   },
   "Gliscor": {
     "dexNum": 472,
@@ -6156,7 +6496,8 @@
     "abilities": [
       "Hyper Cutter",
       "Sand Veil"
-    ]
+    ],
+    "weight": 42.5
   },
   "Tentacruel": {
     "dexNum": 73,
@@ -6175,7 +6516,8 @@
     "abilities": [
       "Clear Body",
       "Liquid Ooze"
-    ]
+    ],
+    "weight": 55.0
   },
   "Aerodactyl": {
     "dexNum": 142,
@@ -6194,7 +6536,8 @@
     "abilities": [
       "Rock Head",
       "Pressure"
-    ]
+    ],
+    "weight": 59.0
   },
   "Porygon2": {
     "dexNum": 233,
@@ -6212,7 +6555,8 @@
     "abilities": [
       "Trace",
       "Download"
-    ]
+    ],
+    "weight": 32.5
   },
   "Lickilicky": {
     "dexNum": 463,
@@ -6230,7 +6574,8 @@
     "abilities": [
       "Own Tempo",
       "Oblivious"
-    ]
+    ],
+    "weight": 140.0
   },
   "Yanmega": {
     "dexNum": 469,
@@ -6249,7 +6594,8 @@
     "abilities": [
       "Speed Boost",
       "Tinted Lens"
-    ]
+    ],
+    "weight": 51.5
   },
   "Gardevoir": {
     "dexNum": 282,
@@ -6267,7 +6613,8 @@
     "abilities": [
       "Synchronize",
       "Trace"
-    ]
+    ],
+    "weight": 48.4
   },
   "Gallade": {
     "dexNum": 475,
@@ -6286,7 +6633,8 @@
     "abilities": [
       "Steadfast",
       "Sharpness"
-    ]
+    ],
+    "weight": 52.0
   },
   "Exeggutor": {
     "dexNum": 103,
@@ -6304,7 +6652,8 @@
     ],
     "abilities": [
       "Chlorophyll"
-    ]
+    ],
+    "weight": 120.0
   },
   "Starmie": {
     "dexNum": 121,
@@ -6323,7 +6672,8 @@
     "abilities": [
       "Illuminate",
       "Natural Cure"
-    ]
+    ],
+    "weight": 80.0
   },
   "Flygon": {
     "dexNum": 330,
@@ -6341,7 +6691,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 82.0
   },
   "Vaporeon": {
     "dexNum": 134,
@@ -6358,7 +6709,8 @@
     ],
     "abilities": [
       "Water Absorb"
-    ]
+    ],
+    "weight": 29.0
   },
   "Jolteon": {
     "dexNum": 135,
@@ -6375,7 +6727,8 @@
     ],
     "abilities": [
       "Volt Absorb"
-    ]
+    ],
+    "weight": 24.5
   },
   "Flareon": {
     "dexNum": 136,
@@ -6392,7 +6745,8 @@
     ],
     "abilities": [
       "Flash Fire"
-    ]
+    ],
+    "weight": 25.0
   },
   "Espeon": {
     "dexNum": 196,
@@ -6409,7 +6763,8 @@
     ],
     "abilities": [
       "Synchronize"
-    ]
+    ],
+    "weight": 26.5
   },
   "Umbreon": {
     "dexNum": 197,
@@ -6426,7 +6781,8 @@
     ],
     "abilities": [
       "Synchronize"
-    ]
+    ],
+    "weight": 27.0
   },
   "Leafeon": {
     "dexNum": 470,
@@ -6443,7 +6799,8 @@
     ],
     "abilities": [
       "Leaf Guard"
-    ]
+    ],
+    "weight": 25.5
   },
   "Glaceon": {
     "dexNum": 471,
@@ -6460,7 +6817,8 @@
     ],
     "abilities": [
       "Snow Cloak"
-    ]
+    ],
+    "weight": 25.9
   },
   "Lucario": {
     "dexNum": 448,
@@ -6479,7 +6837,8 @@
     "abilities": [
       "Steadfast",
       "Inner Focus"
-    ]
+    ],
+    "weight": 54.0
   },
   "Hippowdon": {
     "dexNum": 450,
@@ -6496,7 +6855,8 @@
     ],
     "abilities": [
       "Sand Stream"
-    ]
+    ],
+    "weight": 300.0
   },
   "Probopass": {
     "dexNum": 476,
@@ -6515,7 +6875,8 @@
     "abilities": [
       "Sturdy",
       "Magnet Pull"
-    ]
+    ],
+    "weight": 340.0
   },
   "Dusknoir": {
     "dexNum": 477,
@@ -6532,7 +6893,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 106.6
   },
   "Aggron": {
     "dexNum": 306,
@@ -6551,7 +6913,8 @@
     "abilities": [
       "Sturdy",
       "Rock Head"
-    ]
+    ],
+    "weight": 360.0
   },
   "Walrein": {
     "dexNum": 365,
@@ -6570,7 +6933,8 @@
     "abilities": [
       "Thick Fat",
       "Ice Body"
-    ]
+    ],
+    "weight": 150.6
   },
   "Mamoswine": {
     "dexNum": 473,
@@ -6589,7 +6953,8 @@
     "abilities": [
       "Oblivious",
       "Snow Cloak"
-    ]
+    ],
+    "weight": 291.0
   },
   "Lapras": {
     "dexNum": 131,
@@ -6608,7 +6973,8 @@
     "abilities": [
       "Water Absorb",
       "Shell Armor"
-    ]
+    ],
+    "weight": 220.0
   },
   "Crobat": {
     "dexNum": 169,
@@ -6626,7 +6992,8 @@
     ],
     "abilities": [
       "Inner Focus"
-    ]
+    ],
+    "weight": 75.0
   },
   "Magnezone": {
     "dexNum": 462,
@@ -6645,7 +7012,8 @@
     "abilities": [
       "Magnet Pull",
       "Sturdy"
-    ]
+    ],
+    "weight": 180.0
   },
   "Rhyperior": {
     "dexNum": 464,
@@ -6664,7 +7032,8 @@
     "abilities": [
       "Lightning Rod",
       "Solid Rock"
-    ]
+    ],
+    "weight": 282.8
   },
   "Tangrowth": {
     "dexNum": 465,
@@ -6682,7 +7051,8 @@
     "abilities": [
       "Chlorophyll",
       "Leaf Guard"
-    ]
+    ],
+    "weight": 128.6
   },
   "Porygon-Z": {
     "dexNum": 474,
@@ -6700,7 +7070,8 @@
     "abilities": [
       "Adaptability",
       "Download"
-    ]
+    ],
+    "weight": 34.0
   },
   "Gyarados": {
     "dexNum": 130,
@@ -6718,7 +7089,8 @@
     ],
     "abilities": [
       "Intimidate"
-    ]
+    ],
+    "weight": 235.0
   },
   "Snorlax": {
     "dexNum": 143,
@@ -6736,7 +7108,8 @@
     "abilities": [
       "Immunity",
       "Thick Fat"
-    ]
+    ],
+    "weight": 460.0
   },
   "Kingdra": {
     "dexNum": 230,
@@ -6755,7 +7128,8 @@
     "abilities": [
       "Swift Swim",
       "Sniper"
-    ]
+    ],
+    "weight": 152.0
   },
   "Blissey": {
     "dexNum": 242,
@@ -6773,7 +7147,8 @@
     "abilities": [
       "Natural Cure",
       "Serene Grace"
-    ]
+    ],
+    "weight": 46.8
   },
   "Milotic": {
     "dexNum": 350,
@@ -6791,7 +7166,8 @@
     "abilities": [
       "Marvel Scale",
       "Competitive"
-    ]
+    ],
+    "weight": 162.0
   },
   "Electivire": {
     "dexNum": 466,
@@ -6808,7 +7184,8 @@
     ],
     "abilities": [
       "Motor Drive"
-    ]
+    ],
+    "weight": 138.6
   },
   "Magmortar": {
     "dexNum": 467,
@@ -6825,7 +7202,8 @@
     ],
     "abilities": [
       "Flame Body"
-    ]
+    ],
+    "weight": 68.0
   },
   "Togekiss": {
     "dexNum": 468,
@@ -6844,7 +7222,8 @@
     "abilities": [
       "Hustle",
       "Serene Grace"
-    ]
+    ],
+    "weight": 38.0
   },
   "Arcanine": {
     "dexNum": 59,
@@ -6862,7 +7241,8 @@
     "abilities": [
       "Intimidate",
       "Flash Fire"
-    ]
+    ],
+    "weight": 155.0
   },
   "Dragonite": {
     "dexNum": 149,
@@ -6880,7 +7260,8 @@
     ],
     "abilities": [
       "Inner Focus"
-    ]
+    ],
+    "weight": 210.0
   },
   "Tyranitar": {
     "dexNum": 248,
@@ -6898,7 +7279,8 @@
     ],
     "abilities": [
       "Sand Stream"
-    ]
+    ],
+    "weight": 202.0
   },
   "Salamence": {
     "dexNum": 373,
@@ -6916,7 +7298,8 @@
     ],
     "abilities": [
       "Intimidate"
-    ]
+    ],
+    "weight": 102.6
   },
   "Metagross": {
     "dexNum": 376,
@@ -6934,7 +7317,8 @@
     ],
     "abilities": [
       "Clear Body"
-    ]
+    ],
+    "weight": 550.0
   },
   "Garchomp": {
     "dexNum": 445,
@@ -6952,7 +7336,8 @@
     ],
     "abilities": [
       "Sand Veil"
-    ]
+    ],
+    "weight": 95.0
   },
   "Slaking": {
     "dexNum": 289,
@@ -6969,7 +7354,8 @@
     ],
     "abilities": [
       "Truant"
-    ]
+    ],
+    "weight": 130.5
   },
   "Articuno": {
     "dexNum": 144,
@@ -6987,7 +7373,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 55.4
   },
   "Zapdos": {
     "dexNum": 145,
@@ -7005,7 +7392,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 52.6
   },
   "Moltres": {
     "dexNum": 146,
@@ -7023,7 +7411,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 60.0
   },
   "Raikou": {
     "dexNum": 243,
@@ -7040,7 +7429,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 178.0
   },
   "Entei": {
     "dexNum": 244,
@@ -7057,7 +7447,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 198.0
   },
   "Suicune": {
     "dexNum": 245,
@@ -7074,7 +7465,8 @@
     ],
     "abilities": [
       "Pressure"
-    ]
+    ],
+    "weight": 187.0
   },
   "Regirock": {
     "dexNum": 377,
@@ -7091,7 +7483,8 @@
     ],
     "abilities": [
       "Clear Body"
-    ]
+    ],
+    "weight": 230.0
   },
   "Regice": {
     "dexNum": 378,
@@ -7108,7 +7501,8 @@
     ],
     "abilities": [
       "Clear Body"
-    ]
+    ],
+    "weight": 175.0
   },
   "Registeel": {
     "dexNum": 379,
@@ -7125,7 +7519,8 @@
     ],
     "abilities": [
       "Clear Body"
-    ]
+    ],
+    "weight": 205.0
   },
   "Latias": {
     "dexNum": 380,
@@ -7143,7 +7538,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 40.0
   },
   "Latios": {
     "dexNum": 381,
@@ -7161,7 +7557,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 60.0
   },
   "Heatran": {
     "dexNum": 485,
@@ -7179,7 +7576,8 @@
     ],
     "abilities": [
       "Flash Fire"
-    ]
+    ],
+    "weight": 430.0
   },
   "Cresselia": {
     "dexNum": 488,
@@ -7196,7 +7594,8 @@
     ],
     "abilities": [
       "Levitate"
-    ]
+    ],
+    "weight": 85.6
   },
   "Regigigas": {
     "dexNum": 486,
@@ -7213,6 +7612,7 @@
     ],
     "abilities": [
       "Slow Start"
-    ]
+    ],
+    "weight": 420.0
   }
 }
