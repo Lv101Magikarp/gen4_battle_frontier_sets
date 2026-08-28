@@ -131,12 +131,13 @@ function effLabel(eff: number): { text: string; cls: string } {
 // State for the two sides and the weather is owned by the parent (App) so it
 // survives tab switches — this view unmounts when you leave the Calculator tab.
 export function DamageCalcView({
-  level = 50, a, b, weather, setA, setB, setWeather,
+  level = 50, a, b, weather, pinned = [], setA, setB, setWeather,
 }: {
   level?: number;
   a: Side | null;
   b: Side | null;
   weather: Weather;
+  pinned?: PokeSet[];
   setA: (s: Side | null) => void;
   setB: (s: Side | null) => void;
   setWeather: (w: Weather) => void;
@@ -210,6 +211,13 @@ export function DamageCalcView({
 
   return (
     <div className="calc">
+      {pinned.length > 0 && (
+        <PinnedTray
+          pinned={pinned}
+          onLoad={(set, into) => (into === "a" ? setA : setB)(makeSide(set))}
+        />
+      )}
+
       <div className="calc__grid">
         <SidePanel
           role="Pokémon A"
@@ -270,6 +278,42 @@ export function DamageCalcView({
         counter moves still show “—”. KO chance is damage-only (no Leftovers / weather residual).
       </p>
     </div>
+  );
+}
+
+// Quick-load tray for sets pinned in the Sets tab: each entry loads that set into
+// side A or B (fresh conditions via makeSide). Pinned data comes from App, so it
+// survives here even though this view has its own set list.
+function PinnedTray({
+  pinned, onLoad,
+}: {
+  pinned: PokeSet[];
+  onLoad: (set: PokeSet, into: "a" | "b") => void;
+}) {
+  return (
+    <section className="calc-pins">
+      <span className="calc-pins__label">📌 Pinned</span>
+      <div className="calc-pins__list">
+        {pinned.map((set) => (
+          <div key={set.id} className="calc-pin">
+            <img
+              className="calc-pin__sprite"
+              src={spriteUrl(set.dexNum)}
+              alt=""
+              onError={(e) => ((e.currentTarget.style.visibility = "hidden"))}
+            />
+            <span className="calc-pin__name">
+              {set.species}
+              {set.setCount > 1 ? <span className="calc-pin__set"> · Set {set.setIndex}</span> : null}
+            </span>
+            <span className="calc-pin__btns">
+              <button className="calc-pin__btn" title={`Load ${set.species} into Pokémon A`} onClick={() => onLoad(set, "a")}>A</button>
+              <button className="calc-pin__btn" title={`Load ${set.species} into Pokémon B`} onClick={() => onLoad(set, "b")}>B</button>
+            </span>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
 

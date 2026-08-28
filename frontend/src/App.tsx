@@ -324,6 +324,7 @@ export default function App() {
           a={calcA}
           b={calcB}
           weather={calcWeather}
+          pinned={pinned}
           setA={setCalcA}
           setB={setCalcB}
           setWeather={setCalcWeather}
