@@ -1,5 +1,7 @@
 # Gen 4 Battle Frontier Sets
 
+# [Github Page](https://lv101magikarp.github.io/gen4_battle_frontier_sets/)
+
 A vibecoded webapp to search the **Generation IV (Diamond/Pearl/Platinum + HeartGold/SoulSilver)
 Battle Frontier** Pokémon sets — the movesets used by NPC opponents at the Frontier facilities.
 
