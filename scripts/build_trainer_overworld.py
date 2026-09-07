@@ -59,6 +59,15 @@ SHEET_CELLS: dict[str, tuple[int, int]] = {
     # e.g. "PI": (4, 7),
 }
 
+# Classes that reuse another class's overworld sprite in-game (no unique art).
+# Explicit Bulbagarden image URLs, keyed like SHEET_CELLS. Highest priority.
+URL_OVERRIDE: dict[str, str] = {
+    "Bird Keeper": "https://archives.bulbagarden.net/media/upload/4/47/Ace_Trainer_f_IV_OD.png",
+    "Dragon Tamer": "https://archives.bulbagarden.net/media/upload/f/f4/Ace_Trainer_m_IV_OD.png",
+    "PI": "https://archives.bulbagarden.net/media/upload/3/31/Rich_Boy_IV_OD.png",
+    "Poké Kid": "https://archives.bulbagarden.net/media/upload/8/8c/025OD_DP.png",
+}
+
 GEN4 = {"HGSS", "IV", "DPPt", "Pt", "DP"}
 NON_G4 = {"I", "II", "III", "RSE", "FRLG", "XY", "ORAS", "SM", "USUM", "BDSP",
           "LGPE", "GO", "V", "VI", "VII", "VIII", "IX", "Masters", "SwSh", "SV", "Beta"}
@@ -221,7 +230,16 @@ def main() -> int:
         val = None
         src = "MISS"
         cellkey = c if g is None else f"{c}|{g}"
-        if (c, g) in chosen and urls.get(chosen[(c, g)]):
+        if cellkey in URL_OVERRIDE:
+            raw = fetch(URL_OVERRIDE[cellkey])
+            if raw:
+                k = key_for(c, g)
+                Image.open(io.BytesIO(raw)).convert("RGBA").save(OUT_DIR / f"{k}.png")
+                val = f"{WEB_PREFIX}/{k}.png"
+                src = "reuse-override"
+            else:
+                src = "DOWNLOAD-FAILED"
+        elif (c, g) in chosen and urls.get(chosen[(c, g)]):
             f = chosen[(c, g)]
             if f in file_to_key:
                 val = f"{WEB_PREFIX}/{file_to_key[f]}.png"
