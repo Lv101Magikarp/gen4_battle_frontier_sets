@@ -231,7 +231,13 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <div className="topbar__brand">
-          <span className="logo">▲</span>
+          <img
+            className="logo"
+            src={`${import.meta.env.BASE_URL}battle-frontier.png`}
+            alt="Battle Frontier"
+            width={92}
+            height={57}
+          />
           <div>
             <h1>Gen 4 Battle Frontier Sets</h1>
             <p className="subtitle">
