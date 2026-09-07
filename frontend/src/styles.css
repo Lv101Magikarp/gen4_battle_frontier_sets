@@ -1035,10 +1035,22 @@ input, select, button {
   border: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent);
   border-radius: var(--radius);
 }
+.trainer-detail__sprites {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
 .trainer-detail__sprite {
   width: 96px;
   height: 96px;
-  flex: 0 0 auto;
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.trainer-detail__ow {
+  width: 64px;
+  height: 64px;
   background: var(--bg-sunken);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);

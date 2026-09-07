@@ -8,7 +8,7 @@ import {
   setNumberLabel,
   trainerClasses,
 } from "../engine/trainers";
-import { trainerBattleSprite } from "../engine/trainerSprites";
+import { trainerBattleSprite, trainerOverworldSprite } from "../engine/trainerSprites";
 import { SetCard } from "./SetCard";
 
 const ROUNDS = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -211,7 +211,7 @@ function TrainerRow({
   return (
     <button className={`trainer-row ${open ? "trainer-row--open" : ""}`} onClick={onToggle}>
       <span className="trainer-row__idx">#{t.index}</span>
-      <TrainerSprite t={t} className="trainer-row__sprite" />
+      <TrainerSprite t={t} variant="overworld" className="trainer-row__sprite" />
       <span className="trainer-row__name">
         <span className="trainer-row__cls">{t.class}</span> {t.name}
       </span>
@@ -240,10 +240,20 @@ function TrainerRow({
   );
 }
 
-// Battle (VS) sprite for a trainer's class, with a graceful fallback to the class
-// initials when no sprite exists (e.g. the PI class Showdown has no art for).
-function TrainerSprite({ t, className }: { t: Trainer; className?: string }) {
-  const src = trainerBattleSprite(t.class, t.gender);
+// A trainer's class sprite — the overworld (walking) sprite in lists, the battle
+// (VS) sprite in the detail panel — with a graceful fallback to the class initials
+// when no sprite exists (e.g. the PI class Showdown has no art for).
+function TrainerSprite({
+  t, className, variant = "battle",
+}: {
+  t: Trainer;
+  className?: string;
+  variant?: "battle" | "overworld";
+}) {
+  const src =
+    variant === "overworld"
+      ? trainerOverworldSprite(t.class, t.gender)
+      : trainerBattleSprite(t.class, t.gender);
   const [ok, setOk] = useState(true);
   const initials = t.class
     .split(/\s+/)
@@ -267,7 +277,10 @@ function TrainerSprite({ t, className }: { t: Trainer; className?: string }) {
 function TrainerDetail({ t, iv, onClose }: { t: Trainer; iv: number; onClose: () => void }) {
   return (
     <section className="trainer-detail">
-      <TrainerSprite t={t} className="trainer-detail__sprite" />
+      <div className="trainer-detail__sprites">
+        <TrainerSprite t={t} variant="battle" className="trainer-detail__sprite" />
+        <TrainerSprite t={t} variant="overworld" className="trainer-detail__ow" />
+      </div>
       <div className="trainer-detail__body">
         <div className="trainer-detail__head">
           <h3>
