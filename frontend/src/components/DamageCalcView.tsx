@@ -2,8 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import type { PokeSet, StatKey } from "../types";
 import { STAT_LABELS } from "../types";
 import { spriteUrl, typeColor } from "../theme";
-import { loadCalcSets, loadMoveDex, resolveMove, DEFAULT_TIER4_IV, type MoveDex } from "../engine/calcData";
-import { computeStats, LOWER_TIER_IVS } from "../engine/stats";
+import { loadCalcSets, loadMoveDex, resolveMove, type MoveDex } from "../engine/calcData";
+import { computeStats, LOWER_TIER_IVS, RANK_IV_BY_SET_INDEX, type IvMode } from "../engine/stats";
 import {
   calcDamage, koChance, type Combatant, type Field, type Weather,
 } from "../engine/damage";
@@ -59,13 +59,21 @@ const DEFAULT_COND = {
   spdStage: 0,
 };
 
-function makeSide(s: PokeSet): Side {
+// The IV a set defaults to, matching the Sets view's "Default IVs" toggle: Tier 4+
+// sets use a flat 31 in "max" mode or their set-slot's round IV in "rank" (Tier)
+// mode; lower tiers always use their fixed game-accurate tier IV.
+function defaultIvFor(s: PokeSet, ivMode: IvMode): number {
+  const isTier4 = s.tierIv == null;
+  return isTier4 && ivMode === "rank" ? RANK_IV_BY_SET_INDEX[s.setIndex] ?? s.iv : s.iv;
+}
+
+function makeSide(s: PokeSet, ivMode: IvMode = "max"): Side {
   return {
     species: s.species,
     setIndex: s.setIndex,
     item: s.item,
     ability: s.abilities[0] ?? "",
-    iv: DEFAULT_TIER4_IV,
+    iv: defaultIvFor(s, ivMode),
     ...DEFAULT_COND,
   };
 }
@@ -131,7 +139,7 @@ function effLabel(eff: number): { text: string; cls: string } {
 // State for the two sides and the weather is owned by the parent (App) so it
 // survives tab switches — this view unmounts when you leave the Calculator tab.
 export function DamageCalcView({
-  level = 50, a, b, weather, pinned = [], setA, setB, setWeather,
+  level = 50, a, b, weather, pinned = [], setA, setB, setWeather, ivMode = "max",
 }: {
   level?: number;
   a: Side | null;
@@ -141,6 +149,8 @@ export function DamageCalcView({
   setA: (s: Side | null) => void;
   setB: (s: Side | null) => void;
   setWeather: (w: Weather) => void;
+  // Default-IV mode from the Sets view, applied when loading a set into a side.
+  ivMode?: IvMode;
 }) {
   const [sets, setSets] = useState<PokeSet[] | null>(null);
   const [dex, setDex] = useState<MoveDex | null>(null);
@@ -179,11 +189,11 @@ export function DamageCalcView({
   // Initialise the two sides once data is loaded.
   useEffect(() => {
     if (!sets || a) return;
-    const first = sets.find((s) => s.species === "Salamence") ?? sets[0];
-    const second = sets.find((s) => s.species === "Snorlax") ?? sets[1] ?? sets[0];
-    setA(makeSide(first));
-    setB(makeSide(second));
-  }, [sets, a]);
+    const first = sets.find((s) => s.species === "Ninetales") ?? sets[0];
+    const second = sets.find((s) => s.species === "Gallade") ?? sets[1] ?? sets[0];
+    setA(makeSide(first, ivMode));
+    setB(makeSide(second, ivMode));
+  }, [sets, a, ivMode]);
 
   const findSet = (side: Side | null): PokeSet | null => {
     if (!side) return null;
@@ -214,7 +224,7 @@ export function DamageCalcView({
       {pinned.length > 0 && (
         <PinnedTray
           pinned={pinned}
-          onLoad={(set, into) => (into === "a" ? setA : setB)(makeSide(set))}
+          onLoad={(set, into) => (into === "a" ? setA : setB)(makeSide(set, ivMode))}
         />
       )}
 

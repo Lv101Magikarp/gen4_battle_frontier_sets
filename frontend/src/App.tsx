@@ -328,6 +328,7 @@ export default function App() {
           setA={setCalcA}
           setB={setCalcB}
           setWeather={setCalcWeather}
+          ivMode={ivMode}
         />
       ) : (
       <div className="layout">
