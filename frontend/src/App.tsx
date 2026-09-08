@@ -150,12 +150,18 @@ export default function App() {
   const reset = () => setFilters((f) => ({ ...DEFAULT_FILTERS, q: f.q }));
 
   const pinnedIds = useMemo(() => new Set(pinned.map((s) => s.id)), [pinned]);
-  const togglePin = (set: PokeSet) =>
+  const searchRef = useRef<HTMLInputElement>(null);
+  const togglePin = (set: PokeSet) => {
     setPinned((prev) =>
       prev.some((s) => s.id === set.id)
         ? prev.filter((s) => s.id !== set.id)
         : [...prev, set],
     );
+    // Keep the search box focused so you can pin several matches in a row
+    // without reaching back for the input. preventScroll avoids jumping the
+    // page back to the top bar after clicking a card further down.
+    searchRef.current?.focus({ preventScroll: true });
+  };
 
   // Persist pins. Each pinned card computes its own stats (per-set IV).
   useEffect(() => {
@@ -249,6 +255,7 @@ export default function App() {
         <div className="topbar__search">
           {view === "sets" && (
             <input
+              ref={searchRef}
               className="search"
               type="search"
               value={filters.q}
