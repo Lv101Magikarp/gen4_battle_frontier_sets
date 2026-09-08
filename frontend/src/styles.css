@@ -1087,6 +1087,13 @@ input, select, button {
     order: 3;
     width: 100%;
   }
+  /* Give the search box the full width and a bigger touch target on mobile.
+     16px font also stops iOS from zooming in when the field is focused. */
+  .search {
+    max-width: none;
+    padding: 14px 18px;
+    font-size: 16px;
+  }
   .trainer-row {
     grid-template-columns: 32px 40px 1fr auto;
     row-gap: 8px;
