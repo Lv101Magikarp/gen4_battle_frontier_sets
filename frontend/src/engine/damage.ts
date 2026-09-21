@@ -2,7 +2,7 @@
 // (step order and per-step flooring) so results match the reference calculator:
 //   base power:  Technician -> item -> Iron Fist/Reckless/pinch -> Thick Fat…
 //   attack:      stage -> ability (Pure Power / Solar Power / Guts…) -> item
-//   defense:     stage -> Marvel Scale -> item -> sand+Rock SpD
+//   defense:     stage -> Marvel Scale -> item -> sand+Rock SpD -> Explosion halving
 //   base dmg:    floor(floor(LF*power*A / 50) / D)
 //   then:        burn -> screen -> weather -> +2 -> crit -> Life Orb
 //   per roll:    random -> STAB -> type1 -> type2 -> Filter -> Expert Belt
@@ -216,6 +216,10 @@ export function calcDamage(
   D = Math.floor(D * itemDefenseMult(defender.item, defKey, defender.species));
   if (field.weather === "sand" && !isPhysical && defender.types.includes("Rock")) {
     D = Math.floor(D * 1.5);
+  }
+  // Explosion / Self-Destruct halve the target's defense in Gen 1-4 (removed in Gen 5).
+  if (move.name === "Explosion" || move.name === "Selfdestruct") {
+    D = Math.floor(D * 0.5);
   }
   D = Math.max(1, D);
 
