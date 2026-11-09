@@ -142,6 +142,15 @@ export default function App() {
     setView(v);
     window.location.hash = v === "sets" ? "" : v;
   };
+
+  // Keep the view in sync with the URL so browser Back/Forward (and any external
+  // #trainers/#calc link followed while the app is already open) switch tabs
+  // instead of leaving the address bar and the rendered view out of sync.
+  useEffect(() => {
+    const onHashChange = () => setView(parseHash().view);
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
   const abortRef = useRef<AbortController | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
