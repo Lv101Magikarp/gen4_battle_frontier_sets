@@ -177,6 +177,21 @@ export default function App() {
     localStorage.setItem(PIN_KEY, JSON.stringify(pinned));
   }, [pinned]);
 
+  // Drag-to-reorder the pinned tray. We reorder live as the dragged card enters
+  // another card's slot (dragIndex tracks the moving card's current position).
+  const [dragIndex, setDragIndex] = useState<number | null>(null);
+  const reorderPinned = (from: number, to: number) => {
+    setPinned((prev) => {
+      if (from === to || from < 0 || to < 0 || from >= prev.length || to >= prev.length) {
+        return prev;
+      }
+      const next = [...prev];
+      const [moved] = next.splice(from, 1);
+      next.splice(to, 0, moved);
+      return next;
+    });
+  };
+
   useEffect(() => {
     fetchFacets().then(setFacets).catch((e) => setError(String(e)));
   }, []);
@@ -412,14 +427,34 @@ export default function App() {
           {pinned.length > 0 && (
             <section className="pinned">
               <div className="pinned__head">
-                <h2>📌 Pinned · {pinned.length}</h2>
+                <h2>
+                  📌 Pinned · {pinned.length}
+                  {pinned.length > 1 && <span className="pinned__hint"> · drag to reorder</span>}
+                </h2>
                 <button className="btn-link" onClick={() => setPinned([])}>
                   Clear all
                 </button>
               </div>
               <div className="grid">
-                {pinned.map((set) => (
-                  <SetCard key={set.id} set={set} pinned level={level} ivMode={ivMode} onTogglePin={() => togglePin(set)} />
+                {pinned.map((set, i) => (
+                  <SetCard
+                    key={set.id}
+                    set={set}
+                    pinned
+                    level={level}
+                    ivMode={ivMode}
+                    onTogglePin={() => togglePin(set)}
+                    reorderable={pinned.length > 1}
+                    dragging={dragIndex === i}
+                    onReorderStart={() => setDragIndex(i)}
+                    onReorderEnter={() => {
+                      if (dragIndex !== null && dragIndex !== i) {
+                        reorderPinned(dragIndex, i);
+                        setDragIndex(i);
+                      }
+                    }}
+                    onReorderEnd={() => setDragIndex(null)}
+                  />
                 ))}
               </div>
             </section>

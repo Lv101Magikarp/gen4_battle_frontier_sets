@@ -425,6 +425,12 @@ input, select, button {
   letter-spacing: 0.05em;
   color: var(--text-muted);
 }
+.pinned__hint {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
 
 .sentinel {
   padding: 22px;
@@ -469,6 +475,45 @@ input, select, button {
 .card--pinned {
   border-color: var(--accent-2);
   box-shadow: 0 0 0 1px var(--accent-2), var(--shadow);
+}
+.card--reorderable {
+  cursor: grab;
+}
+.card--reorderable:active {
+  cursor: grabbing;
+}
+/* The card being dragged dims in place; its live-reordered slot shows where it lands. */
+.card--dragging {
+  opacity: 0.4;
+  box-shadow: 0 0 0 2px var(--accent-2), var(--shadow);
+}
+
+.drag-grip {
+  position: absolute;
+  top: -9px;
+  right: 14px;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: var(--bg-sunken);
+  border: 2px solid var(--bg-elev);
+  font-size: 14px;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: grab;
+  opacity: 0;
+  transform: scale(0.85);
+  transition: opacity 0.14s ease, transform 0.14s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22);
+}
+.card--reorderable:hover .drag-grip {
+  opacity: 0.8;
+  transform: scale(1);
+}
+.drag-grip:active {
+  cursor: grabbing;
 }
 
 .pin-badge {

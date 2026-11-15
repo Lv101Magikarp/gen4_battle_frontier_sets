@@ -21,9 +21,28 @@ interface SetCardProps {
   level?: number;
   // Default-IV mode for Tier 4+ sets: "max" -> 31, "rank" -> per set-slot round IV.
   ivMode?: IvMode;
+  // Drag-to-reorder (pinned tray only). When reorderable, the whole card is a drag
+  // source; a native drag never emits a click, so it won't trip click-to-unpin.
+  reorderable?: boolean;
+  dragging?: boolean; // this card is the one currently being dragged
+  onReorderStart?: () => void;
+  onReorderEnter?: () => void;
+  onReorderEnd?: () => void;
 }
 
-export function SetCard({ set, pinned = false, onTogglePin, fixedIv, level = 50, ivMode = "max" }: SetCardProps) {
+export function SetCard({
+  set,
+  pinned = false,
+  onTogglePin,
+  fixedIv,
+  level = 50,
+  ivMode = "max",
+  reorderable = false,
+  dragging = false,
+  onReorderStart,
+  onReorderEnter,
+  onReorderEnd,
+}: SetCardProps) {
   const [imgOk, setImgOk] = useState(true);
   const effect = NATURE_EFFECT[set.nature];
 
@@ -49,12 +68,33 @@ export function SetCard({ set, pinned = false, onTogglePin, fixedIv, level = 50,
 
   return (
     <article
-      className={`card ${pinned ? "card--pinned" : ""} ${onTogglePin ? "card--clickable" : ""}`}
+      className={`card ${pinned ? "card--pinned" : ""} ${onTogglePin ? "card--clickable" : ""} ${
+        reorderable ? "card--reorderable" : ""
+      } ${dragging ? "card--dragging" : ""}`}
       onClick={onTogglePin}
       role={onTogglePin ? "button" : undefined}
       aria-pressed={onTogglePin ? pinned : undefined}
       title={onTogglePin ? (pinned ? "Click to unpin" : "Click to pin") : undefined}
+      draggable={reorderable || undefined}
+      onDragStart={
+        reorderable
+          ? (e) => {
+              // Required for Firefox to initiate the drag; value itself is unused.
+              e.dataTransfer.effectAllowed = "move";
+              e.dataTransfer.setData("text/plain", set.id);
+              onReorderStart?.();
+            }
+          : undefined
+      }
+      onDragEnter={reorderable ? () => onReorderEnter?.() : undefined}
+      onDragOver={reorderable ? (e) => e.preventDefault() : undefined}
+      onDragEnd={reorderable ? () => onReorderEnd?.() : undefined}
     >
+      {reorderable && (
+        <span className="drag-grip" aria-hidden="true" title="Drag to reorder" onClick={stop}>
+          ⠿
+        </span>
+      )}
       {onTogglePin && (
         <span className={`pin-badge ${pinned ? "pin-badge--on" : ""}`} aria-hidden="true">
           📌
