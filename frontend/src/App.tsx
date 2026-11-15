@@ -9,13 +9,14 @@ import { DamageCalcView, type Side as CalcSide } from "./components/DamageCalcVi
 import { FACILITIES, getFacility } from "./facilities";
 import type { Facility, FacilityId } from "./facilities";
 import type { IvMode } from "./engine/stats";
-import type { Weather } from "./engine/damage";
+import type { RollMode, Weather } from "./engine/damage";
 
 type View = "sets" | "trainers" | "calc";
 
 const FACILITY_KEY = "facility";
 const LEVEL_KEY = "level";
 const IV_MODE_KEY = "ivMode";
+const ROLL_MODE_KEY = "calcRollMode";
 
 // Deep links: "#trainers" opens the Trainers tab, "#trainers/150" also opens that
 // trainer's roster (index read by TrainersView); "#calc" opens the calculator.
@@ -108,6 +109,19 @@ function useIvMode(): [IvMode, (m: IvMode) => void] {
   return [mode, setMode];
 }
 
+// Which roll's % the calculator shows next to each move (max/mean/min). A persisted
+// global display preference like the level/IV mode.
+function useRollMode(): [RollMode, (m: RollMode) => void] {
+  const [mode, setMode] = useState<RollMode>(() => {
+    const stored = localStorage.getItem(ROLL_MODE_KEY);
+    return stored === "mean" || stored === "min" ? stored : "max";
+  });
+  useEffect(() => {
+    localStorage.setItem(ROLL_MODE_KEY, mode);
+  }, [mode]);
+  return [mode, setMode];
+}
+
 export default function App() {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [facets, setFacets] = useState<Facets | null>(null);
@@ -124,6 +138,7 @@ export default function App() {
   const [theme, toggleTheme] = useTheme();
   const [level, setLevel] = useLevel();
   const [ivMode, setIvMode] = useIvMode();
+  const [rollMode, setRollMode] = useRollMode();
   // Calculator state lives here (not inside DamageCalcView) so the two sides and
   // weather survive switching away from and back to the Calculator tab.
   const [calcA, setCalcA] = useState<CalcSide | null>(null);
@@ -366,6 +381,8 @@ export default function App() {
           setB={setCalcB}
           setWeather={setCalcWeather}
           ivMode={ivMode}
+          rollMode={rollMode}
+          setRollMode={setRollMode}
         />
       ) : (
       <div className="layout">

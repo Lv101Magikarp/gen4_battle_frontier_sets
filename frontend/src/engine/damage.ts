@@ -56,12 +56,17 @@ export interface Field {
   level: number; // battle level (50 or 100)
 }
 
+// Which roll's % is shown next to each move in the calculator (max/mean/min of
+// the 16-roll spread). A user-configurable display preference.
+export type RollMode = "max" | "mean" | "min";
+
 export interface DamageResult {
   rolls: number[];            // per-roll damage, ascending (empty if unsupported)
   min: number;
   max: number;
   percentMin: number;         // % of defender max HP
   percentMax: number;
+  percentMean: number;        // % of defender max HP for the average roll
   effectiveness: number;      // total type multiplier (0 / .25 / .5 / 1 / 2 / 4)
   note?: string;              // "immune", "variable — not supported", "fixed damage"
   unsupported?: boolean;      // true => rolls can't be computed (HP/weight-based)
@@ -142,7 +147,7 @@ export function calcDamage(
   field: Field,
 ): DamageResult {
   const hp = defender.stats.hp;
-  const empty = { rolls: [], min: 0, max: 0, percentMin: 0, percentMax: 0 };
+  const empty = { rolls: [], min: 0, max: 0, percentMin: 0, percentMax: 0, percentMean: 0 };
 
   // Effectiveness, applied per type in @smogon's precedence order.
   const dTypes = orderedTypes(defender.types);
@@ -171,7 +176,7 @@ export function calcDamage(
     const dmg = fixedFn(field.level);
     return {
       rolls: [dmg], min: dmg, max: dmg,
-      percentMin: (dmg / hp) * 100, percentMax: (dmg / hp) * 100,
+      percentMin: (dmg / hp) * 100, percentMax: (dmg / hp) * 100, percentMean: (dmg / hp) * 100,
       effectiveness: eff, note: "fixed damage",
     };
   }
@@ -259,12 +264,14 @@ export function calcDamage(
 
   const min = rolls[0];
   const max = rolls[rolls.length - 1];
+  const mean = rolls.reduce((s, r) => s + r, 0) / rolls.length;
   return {
     rolls,
     min,
     max,
     percentMin: (min / hp) * 100,
     percentMax: (max / hp) * 100,
+    percentMean: (mean / hp) * 100,
     effectiveness: eff,
   };
 }

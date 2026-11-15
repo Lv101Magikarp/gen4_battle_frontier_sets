@@ -5,8 +5,21 @@ import { spriteUrl, typeColor } from "../theme";
 import { loadCalcSets, loadMoveDex, resolveMove, type MoveDex } from "../engine/calcData";
 import { computeStats, LOWER_TIER_IVS, RANK_IV_BY_SET_INDEX, type IvMode } from "../engine/stats";
 import {
-  calcDamage, koChance, type Combatant, type Field, type Weather,
+  calcDamage, koChance, type Combatant, type DamageResult, type Field, type RollMode, type Weather,
 } from "../engine/damage";
+
+const ROLL_MODES: { id: RollMode; label: string }[] = [
+  { id: "max", label: "Max" },
+  { id: "mean", label: "Mean" },
+  { id: "min", label: "Min" },
+];
+
+// The % shown next to each move, per the user's roll-mode preference.
+function rollPercent(dmg: DamageResult, mode: RollMode): number {
+  if (mode === "min") return dmg.percentMin;
+  if (mode === "mean") return dmg.percentMean;
+  return dmg.percentMax;
+}
 
 const NO_BOOST: Record<StatKey, number> = { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 };
 const STAGES = [-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6];
@@ -140,6 +153,7 @@ function effLabel(eff: number): { text: string; cls: string } {
 // survives tab switches — this view unmounts when you leave the Calculator tab.
 export function DamageCalcView({
   level = 50, a, b, weather, pinned = [], setA, setB, setWeather, ivMode = "max",
+  rollMode = "max", setRollMode,
 }: {
   level?: number;
   a: Side | null;
@@ -151,6 +165,9 @@ export function DamageCalcView({
   setWeather: (w: Weather) => void;
   // Default-IV mode from the Sets view, applied when loading a set into a side.
   ivMode?: IvMode;
+  // Which roll's % to show next to each move (max/mean/min), and its setter.
+  rollMode?: RollMode;
+  setRollMode?: (m: RollMode) => void;
 }) {
   const [sets, setSets] = useState<PokeSet[] | null>(null);
   const [dex, setDex] = useState<MoveDex | null>(null);
@@ -260,6 +277,22 @@ export function DamageCalcView({
             ))}
           </select>
         </label>
+        <div className="calc-field__item">
+          Damage roll
+          <div className="calc-rollmode" role="group" aria-label="Damage roll shown next to each move">
+            {ROLL_MODES.map((m) => (
+              <button
+                key={m.id}
+                type="button"
+                className={`calc-rollmode__btn ${rollMode === m.id ? "calc-rollmode__btn--on" : ""}`}
+                onClick={() => setRollMode?.(m.id)}
+                aria-pressed={rollMode === m.id}
+              >
+                {m.label}
+              </button>
+            ))}
+          </div>
+        </div>
       </section>
 
       <div className="calc-matchups">
@@ -268,12 +301,14 @@ export function DamageCalcView({
           label={`${aSet.species} → ${bSet.species}`}
           results={aToB}
           defenderSet={bSet}
+          rollMode={rollMode}
         />
         <DirectionBlock
           key={`${b.species}:${b.setIndex}`}
           label={`${bSet.species} → ${aSet.species}`}
           results={bToA}
           defenderSet={aSet}
+          rollMode={rollMode}
         />
       </div>
 
@@ -328,11 +363,12 @@ function PinnedTray({
 }
 
 function DirectionBlock({
-  label, results, defenderSet,
+  label, results, defenderSet, rollMode,
 }: {
   label: string;
   results: MoveResult[];
   defenderSet: PokeSet;
+  rollMode: RollMode;
 }) {
   const [moveIdx, setMoveIdx] = useState(0);
   const idx = moveIdx < results.length ? moveIdx : 0;
@@ -352,7 +388,7 @@ function DirectionBlock({
           >
             <span className="calc-move__name">{r.move.name}</span>
             <span className="calc-move__pct">
-              {r.dmg.unsupported ? "—" : `${r.dmg.percentMax.toFixed(0)}%`}
+              {r.dmg.unsupported ? "—" : `${rollPercent(r.dmg, rollMode).toFixed(0)}%`}
             </span>
           </button>
         ))}

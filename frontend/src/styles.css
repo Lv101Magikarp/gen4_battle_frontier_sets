@@ -1300,6 +1300,32 @@ input, select, button {
   border-color: var(--accent-2);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 16%, transparent);
 }
+
+/* Segmented max/mean/min toggle, sized to sit inline with the calc selects. */
+.calc-rollmode {
+  display: inline-flex;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--bg-sunken);
+}
+.calc-rollmode__btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  transition: background 0.14s ease, color 0.14s ease;
+}
+.calc-rollmode__btn + .calc-rollmode__btn {
+  border-left: 1px solid var(--border-strong);
+}
+.calc-rollmode__btn--on {
+  background: var(--accent-2);
+  color: #fff;
+}
 .calc-side__stats {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
