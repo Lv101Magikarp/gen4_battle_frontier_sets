@@ -295,6 +295,7 @@ function weatherMod(move: MoveData, weather: Weather): number {
 export interface KoResult {
   summary: string;       // "Guaranteed 3HKO", "Possible OHKO", …
   chanceText?: string;   // "43.8% chance to 2HKO"
+  hits: number;          // guaranteed hits-to-KO (1 = OHKO); drives threat emphasis
 }
 
 // Probability that the sum of `hits` independent rolls (each equally likely from
@@ -328,19 +329,23 @@ export function koChance(result: DamageResult, hp: number): KoResult | null {
   if (rolls.length === 1) {
     // fixed-damage move
     const hits = Math.ceil(hp / min);
-    return { summary: `Guaranteed ${ordinalKO(hits)}` };
+    return { summary: `Guaranteed ${ordinalKO(hits)}`, hits };
   }
 
   const guaranteed = Math.max(1, Math.ceil(hp / min)); // worst-case every roll = min
-  if (guaranteed === 1) return { summary: "Guaranteed OHKO" };
+  if (guaranteed === 1) return { summary: "Guaranteed OHKO", hits: 1 };
 
   // Chance to KO one hit sooner than the guaranteed count.
   const pFaster = koProbability(rolls, hp, guaranteed - 1);
   const summary = `Guaranteed ${ordinalKO(guaranteed)}`;
   if (pFaster > 0) {
-    return { summary, chanceText: `${(pFaster * 100).toFixed(1)}% chance to ${ordinalKO(guaranteed - 1)}` };
+    return {
+      summary,
+      chanceText: `${(pFaster * 100).toFixed(1)}% chance to ${ordinalKO(guaranteed - 1)}`,
+      hits: guaranteed,
+    };
   }
-  return { summary };
+  return { summary, hits: guaranteed };
 }
 
 function ordinalKO(hits: number): string {

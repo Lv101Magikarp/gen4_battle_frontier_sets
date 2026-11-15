@@ -414,15 +414,15 @@ function DirectionBlock({
               </span>
             </div>
             <div className="calc-readout__row">
-              <span className={`calc-eff ${effLabel(selected.dmg.effectiveness).cls}`}>
-                {effLabel(selected.dmg.effectiveness).text}
-              </span>
               {selected.ko && (
-                <span className="calc-ko">
+                <span className={`calc-ko calc-ko--hits-${Math.min(selected.ko.hits, 4)}`}>
                   {selected.ko.summary}
                   {selected.ko.chanceText && <span className="calc-ko__chance"> · {selected.ko.chanceText}</span>}
                 </span>
               )}
+              <span className={`calc-eff ${effLabel(selected.dmg.effectiveness).cls}`}>
+                {effLabel(selected.dmg.effectiveness).text}
+              </span>
               {selected.dmg.note && <span className="calc-readout__note">{selected.dmg.note}</span>}
             </div>
             <div className="calc-readout__vs">

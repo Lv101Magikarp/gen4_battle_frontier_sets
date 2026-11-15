@@ -1525,23 +1525,39 @@ input, select, button {
   color: var(--text-muted);
   font-style: italic;
 }
+/* Effectiveness is now secondary context: a small, quiet outline chip. */
 .calc-eff {
-  font-size: 12px;
-  font-weight: 700;
-  padding: 3px 9px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
   border-radius: 999px;
-  color: #fff;
+  border: 1px solid currentColor;
+  background: none;
+  opacity: 0.85;
 }
-.calc-eff--super { background: var(--up); }
-.calc-eff--resist { background: var(--accent-2); }
-.calc-eff--immune { background: var(--text-muted); }
-.calc-eff--neutral { background: var(--border-strong); color: var(--text); }
+.calc-eff--super { color: var(--up); }
+.calc-eff--resist { color: var(--accent-2); }
+.calc-eff--immune { color: var(--text-muted); }
+.calc-eff--neutral { color: var(--text-muted); }
+
+/* KO count is the headline of the readout row: large, bold, threat-colored. */
 .calc-ko {
-  font-size: 13px;
-  font-weight: 700;
+  order: -1; /* keep KO first even if markup order shifts */
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  padding: 3px 11px;
+  border-radius: var(--radius-sm);
+  color: var(--ko-color, var(--text));
+  background: color-mix(in srgb, var(--ko-color, var(--text)) 14%, transparent);
 }
+.calc-ko--hits-1 { --ko-color: var(--down); }
+.calc-ko--hits-2 { --ko-color: #e08a2f; }
+.calc-ko--hits-3 { --ko-color: var(--up); }
+.calc-ko--hits-4 { --ko-color: var(--text-muted); }
 .calc-ko__chance {
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
   color: var(--text-muted);
 }
 .calc-note {
