@@ -194,6 +194,11 @@ export function calcDamage(
     return { ...empty, effectiveness: eff, note: "variable — not supported", unsupported: true };
   }
 
+  // Facade doubles base power when the user has a non-volatile status. Gen 4 does
+  // NOT negate the burn attack drop (that's a Gen 6 change), so a burned user's
+  // Facade is 140 BP and still eats the physical burn halving below.
+  if (move.name === "Facade" && attacker.status) basePower *= 2;
+
   const isPhysical = move.category === "Physical";
 
   // --- Base power mods (order per @smogon calculateBPModsDPP) ---
