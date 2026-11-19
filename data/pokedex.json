@@ -1582,8 +1582,7 @@
       "Poison"
     ],
     "abilities": [
-      "Levitate",
-      "Neutralizing Gas"
+      "Levitate"
     ],
     "weight": 1.0
   },
@@ -3466,8 +3465,7 @@
       "Normal"
     ],
     "abilities": [
-      "Cute Charm",
-      "Competitive"
+      "Cute Charm"
     ],
     "weight": 12.0
   },
@@ -5476,7 +5474,7 @@
     ],
     "abilities": [
       "Chlorophyll",
-      "Wind Rider"
+      "Early Bird"
     ],
     "weight": 59.6
   },
@@ -5667,8 +5665,7 @@
       "Poison"
     ],
     "abilities": [
-      "Levitate",
-      "Neutralizing Gas"
+      "Levitate"
     ],
     "weight": 9.5
   },
@@ -6071,7 +6068,7 @@
       "Poison"
     ],
     "abilities": [
-      "Cursed Body"
+      "Levitate"
     ],
     "weight": 40.5
   },
@@ -6631,8 +6628,7 @@
       "Fighting"
     ],
     "abilities": [
-      "Steadfast",
-      "Sharpness"
+      "Steadfast"
     ],
     "weight": 52.0
   },
@@ -7164,8 +7160,7 @@
       "Water"
     ],
     "abilities": [
-      "Marvel Scale",
-      "Competitive"
+      "Marvel Scale"
     ],
     "weight": 162.0
   },
