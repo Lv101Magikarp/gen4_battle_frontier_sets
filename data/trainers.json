@@ -57,7 +57,7 @@
         "Poison"
       ],
       "abilities": [
-        "Cursed Body"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 60,
@@ -1545,8 +1545,7 @@
         "Fighting"
       ],
       "abilities": [
-        "Steadfast",
-        "Sharpness"
+        "Steadfast"
       ],
       "baseStats": {
         "hp": 68,
@@ -2974,8 +2973,7 @@
         "Water"
       ],
       "abilities": [
-        "Marvel Scale",
-        "Competitive"
+        "Marvel Scale"
       ],
       "baseStats": {
         "hp": 95,
@@ -7637,7 +7635,7 @@
         "Poison"
       ],
       "abilities": [
-        "Cursed Body"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 60,
@@ -9125,8 +9123,7 @@
         "Fighting"
       ],
       "abilities": [
-        "Steadfast",
-        "Sharpness"
+        "Steadfast"
       ],
       "baseStats": {
         "hp": 68,
@@ -10554,8 +10551,7 @@
         "Water"
       ],
       "abilities": [
-        "Marvel Scale",
-        "Competitive"
+        "Marvel Scale"
       ],
       "baseStats": {
         "hp": 95,
@@ -14903,7 +14899,7 @@
       ],
       "abilities": [
         "Chlorophyll",
-        "Wind Rider"
+        "Early Bird"
       ],
       "baseStats": {
         "hp": 90,
@@ -15618,7 +15614,7 @@
       ],
       "abilities": [
         "Chlorophyll",
-        "Wind Rider"
+        "Early Bird"
       ],
       "baseStats": {
         "hp": 90,
@@ -16333,7 +16329,7 @@
       ],
       "abilities": [
         "Chlorophyll",
-        "Wind Rider"
+        "Early Bird"
       ],
       "baseStats": {
         "hp": 90,
@@ -19753,8 +19749,7 @@
         "Fighting"
       ],
       "abilities": [
-        "Steadfast",
-        "Sharpness"
+        "Steadfast"
       ],
       "baseStats": {
         "hp": 68,
@@ -20673,8 +20668,7 @@
         "Fighting"
       ],
       "abilities": [
-        "Steadfast",
-        "Sharpness"
+        "Steadfast"
       ],
       "baseStats": {
         "hp": 68,
@@ -24850,8 +24844,7 @@
         "Normal"
       ],
       "abilities": [
-        "Cute Charm",
-        "Competitive"
+        "Cute Charm"
       ],
       "baseStats": {
         "hp": 140,
@@ -29607,8 +29600,7 @@
         "Poison"
       ],
       "abilities": [
-        "Levitate",
-        "Neutralizing Gas"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 65,
@@ -35896,8 +35888,7 @@
         "Poison"
       ],
       "abilities": [
-        "Levitate",
-        "Neutralizing Gas"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 40,
@@ -38904,7 +38895,7 @@
         "Poison"
       ],
       "abilities": [
-        "Cursed Body"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 60,
@@ -39005,7 +38996,7 @@
         "Poison"
       ],
       "abilities": [
-        "Cursed Body"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 60,
@@ -40230,8 +40221,7 @@
         "Water"
       ],
       "abilities": [
-        "Marvel Scale",
-        "Competitive"
+        "Marvel Scale"
       ],
       "baseStats": {
         "hp": 95,
@@ -41302,7 +41292,7 @@
       ],
       "abilities": [
         "Chlorophyll",
-        "Wind Rider"
+        "Early Bird"
       ],
       "baseStats": {
         "hp": 90,
@@ -41456,8 +41446,7 @@
         "Poison"
       ],
       "abilities": [
-        "Levitate",
-        "Neutralizing Gas"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 65,
@@ -42839,8 +42828,7 @@
         "Poison"
       ],
       "abilities": [
-        "Levitate",
-        "Neutralizing Gas"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 65,
@@ -44059,8 +44047,7 @@
         "Normal"
       ],
       "abilities": [
-        "Cute Charm",
-        "Competitive"
+        "Cute Charm"
       ],
       "baseStats": {
         "hp": 140,
@@ -45134,8 +45121,7 @@
         "Water"
       ],
       "abilities": [
-        "Marvel Scale",
-        "Competitive"
+        "Marvel Scale"
       ],
       "baseStats": {
         "hp": 95,
@@ -47227,8 +47213,7 @@
         "Poison"
       ],
       "abilities": [
-        "Levitate",
-        "Neutralizing Gas"
+        "Levitate"
       ],
       "baseStats": {
         "hp": 65,
