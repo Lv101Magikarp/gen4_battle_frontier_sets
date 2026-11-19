@@ -7,6 +7,7 @@ import { computeStats, LOWER_TIER_IVS, RANK_IV_BY_SET_INDEX, type IvMode } from 
 import {
   calcDamage, koChance, type Combatant, type DamageResult, type Field, type RollMode, type Weather,
 } from "../engine/damage";
+import { MoveInfoTip } from "./MoveInfoTip";
 
 const ROLL_MODES: { id: RollMode; label: string }[] = [
   { id: "max", label: "Max" },
@@ -382,7 +383,7 @@ function DirectionBlock({
         {results.map((r, i) => (
           <button
             key={i}
-            className={`calc-move ${i === idx ? "calc-move--on" : ""}`}
+            className={`calc-move has-movetip ${i === idx ? "calc-move--on" : ""}`}
             style={{ borderLeftColor: typeColor(r.move.type) }}
             onClick={() => setMoveIdx(i)}
           >
@@ -390,6 +391,7 @@ function DirectionBlock({
             <span className="calc-move__pct">
               {r.dmg.unsupported ? "—" : `${rollPercent(r.dmg, rollMode).toFixed(0)}%`}
             </span>
+            <MoveInfoTip move={r.move} />
           </button>
         ))}
       </div>

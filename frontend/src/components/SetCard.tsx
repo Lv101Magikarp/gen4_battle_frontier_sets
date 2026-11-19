@@ -6,6 +6,8 @@ import { spriteUrl, tierColor, TIER_LABELS, typeColor } from "../theme";
 import { NATURE_EFFECT } from "../natures";
 import { computeStats, TIER4_IVS, LOWER_TIER_IVS, RANK_IV_BY_SET_INDEX } from "../engine/stats";
 import type { IvMode } from "../engine/stats";
+import { loadMoveDex, resolveMove, type MoveDex } from "../engine/calcData";
+import { MoveInfoTip } from "./MoveInfoTip";
 
 const STAT_ORDER: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
 const MAX_STAT = 255; // for bar scaling
@@ -45,6 +47,19 @@ export function SetCard({
 }: SetCardProps) {
   const [imgOk, setImgOk] = useState(true);
   const effect = NATURE_EFFECT[set.nature];
+
+  // The move dex (power/accuracy/side-effect) powers the per-move hover card. It's
+  // a globally-cached fetch, so every card shares one request; null until loaded.
+  const [moveDex, setMoveDex] = useState<MoveDex | null>(null);
+  useEffect(() => {
+    let live = true;
+    loadMoveDex()
+      .then((d) => live && setMoveDex(d))
+      .catch(() => {});
+    return () => {
+      live = false;
+    };
+  }, []);
 
   // Every set can be previewed per-set across a round IV progression. Tier 1/2/3
   // default to their fixed game-accurate IV (tierIv 0/4/8); Tier 4+ default to 31.
@@ -173,14 +188,23 @@ export function SetCard({
       </div>
 
       <ul className="moves">
-        {set.moves.map((m, i) => (
-          <li key={i} className="move" style={{ borderLeftColor: typeColor(m.type) }}>
-            <span className="move__name">{m.name}</span>
-            <span className="move__type" style={{ color: typeColor(m.type) }}>
-              {m.type}
-            </span>
-          </li>
-        ))}
+        {set.moves.map((m, i) => {
+          const data = moveDex ? resolveMove(moveDex, m.name, m.type) : null;
+          return (
+            <li
+              key={i}
+              className={`move ${data ? "has-movetip" : ""}`}
+              style={{ borderLeftColor: typeColor(m.type) }}
+              tabIndex={data ? 0 : undefined}
+            >
+              <span className="move__name">{m.name}</span>
+              <span className="move__type" style={{ color: typeColor(m.type) }}>
+                {m.type}
+              </span>
+              {data && <MoveInfoTip move={data} />}
+            </li>
+          );
+        })}
       </ul>
 
       <div className="stats">

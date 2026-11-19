@@ -39,6 +39,70 @@ VG_GEN = {
 
 CATEGORY = {"physical": "Physical", "special": "Special", "status": "Status"}
 
+# Short verbs for the status a move can inflict, for the one-line `effect` summary.
+AILMENT_VERB = {
+    "paralysis": "paralyze", "burn": "burn", "freeze": "freeze",
+    "poison": "poison", "toxic": "badly poison", "sleep": "sleep",
+    "confusion": "confuse", "infatuation": "infatuate",
+}
+STAT_ABBR = {
+    "attack": "Atk", "defense": "Def", "special-attack": "SpA",
+    "special-defense": "SpD", "speed": "Spe", "accuracy": "Acc", "evasion": "Eva",
+}
+
+
+def build_effect(data: dict, category: str) -> str | None:
+    """A short human string for a move's side effect, e.g. "10% paralyze",
+    "30% flinch", "20% lower Def", "high crit, 2-5 hits".
+
+    Built from PokéAPI's `meta` + `stat_changes`. These reflect the move's CURRENT
+    values; secondary-effect chances are stable from Gen IV onward for every move in
+    this dataset, so this matches Gen IV (same tolerance the script already accepts
+    for `damage_class`). A chance of 0 in `meta` means the effect is guaranteed
+    (status moves), so it's shown without a percentage.
+    """
+    meta = data.get("meta") or {}
+    frags: list[str] = []
+
+    ailment = (meta.get("ailment") or {}).get("name")
+    ac = meta.get("ailment_chance") or 0
+    if ailment and ailment not in ("none", "unknown"):
+        verb = AILMENT_VERB.get(ailment, ailment)
+        frags.append(f"{ac}% {verb}" if ac else verb)
+
+    fc = meta.get("flinch_chance") or 0
+    if fc:
+        frags.append(f"{fc}% flinch")
+
+    sc = meta.get("stat_chance") or 0
+    changes = data.get("stat_changes") or []
+    if changes:
+        prefix = f"{sc}% " if sc else ""
+        raises = [STAT_ABBR.get(c["stat"]["name"], c["stat"]["name"]) for c in changes if c["change"] > 0]
+        drops = [STAT_ABBR.get(c["stat"]["name"], c["stat"]["name"]) for c in changes if c["change"] < 0]
+        if len(raises) >= 5:
+            frags.append(f"{prefix}raise all stats")
+        elif raises:
+            frags.append(f"{prefix}raise {'/'.join(raises)}")
+        if drops:
+            frags.append(f"{prefix}lower {'/'.join(drops)}")
+
+    if (meta.get("crit_rate") or 0) > 0:
+        frags.append("high crit")
+
+    mn, mx = meta.get("min_hits"), meta.get("max_hits")
+    if mn and mx:
+        frags.append(f"{mn} hits" if mn == mx else f"{mn}-{mx} hits")
+
+    drain = meta.get("drain") or 0
+    if category != "Status":
+        if drain > 0:
+            frags.append("drains HP")
+        elif drain < 0:
+            frags.append("recoil")
+
+    return ", ".join(frags) or None
+
 # Move names in the datasets whose PokéAPI slug is not a plain lowercase-hyphen
 # slug of the name (mostly Gen IV "SolarBeam"-style typography, plus renames).
 SLUG_OVERRIDES = {
@@ -117,12 +181,17 @@ def fetch_move(name: str) -> tuple[str, dict | None]:
     accuracy = gen4_value("accuracy", data["accuracy"], past)
     move_type = gen4_value("type", data["type"]["name"], past)
 
-    return name, {
+    category = CATEGORY[data["damage_class"]["name"]]
+    entry = {
         "type": move_type.capitalize(),
-        "category": CATEGORY[data["damage_class"]["name"]],
+        "category": category,
         "basePower": power,      # null for status / OHKO / fixed / variable moves
         "accuracy": accuracy,    # null for always-hit moves
     }
+    effect = build_effect(data, category)
+    if effect:                   # omit when there's no notable side effect
+        entry["effect"] = effect
+    return name, entry
 
 
 def move_names() -> list[str]:

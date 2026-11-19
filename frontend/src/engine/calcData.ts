@@ -10,7 +10,13 @@ import type { MoveData } from "./damage";
 
 export type MoveDex = Record<
   string,
-  { type: string; category: "Physical" | "Special" | "Status"; basePower: number | null; accuracy: number | null }
+  {
+    type: string;
+    category: "Physical" | "Special" | "Status";
+    basePower: number | null;
+    accuracy: number | null;
+    effect?: string;
+  }
 >;
 
 function url(file: string): string {
@@ -59,5 +65,5 @@ export function loadMoveDex(): Promise<MoveDex> {
 export function resolveMove(dex: MoveDex, name: string, fallbackType: string): MoveData {
   const m = dex[name];
   if (!m) return { name, type: fallbackType, category: "Status", basePower: null, accuracy: null };
-  return { name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy };
+  return { name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy, effect: m.effect };
 }
