@@ -171,6 +171,9 @@ export default function App() {
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
+  // Changing any left-panel filter clears the Pokémon search box (the two are
+  // alternate ways to narrow results, so a filter change starts a fresh query).
+  const updateFilter = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch, q: "" }));
   // Reset clears the filter panel but keeps the Pokémon search box intact.
   const reset = () => setFilters((f) => ({ ...DEFAULT_FILTERS, q: f.q }));
 
@@ -388,7 +391,7 @@ export default function App() {
         />
       ) : (
       <div className="layout">
-        <FilterPanel filters={filters} facets={facets} update={update} reset={reset} />
+        <FilterPanel filters={filters} facets={facets} update={updateFilter} reset={reset} />
 
         <main className="results">
           <div className="results__bar">
