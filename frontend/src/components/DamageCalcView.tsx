@@ -298,14 +298,14 @@ export function DamageCalcView({
 
       <div className="calc-matchups">
         <DirectionBlock
-          key={`${a.species}:${a.setIndex}`}
+          key={`aToB:${a.species}:${a.setIndex}`}
           label={`${aSet.species} → ${bSet.species}`}
           results={aToB}
           defenderSet={bSet}
           rollMode={rollMode}
         />
         <DirectionBlock
-          key={`${b.species}:${b.setIndex}`}
+          key={`bToA:${b.species}:${b.setIndex}`}
           label={`${bSet.species} → ${aSet.species}`}
           results={bToA}
           defenderSet={aSet}
