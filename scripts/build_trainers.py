@@ -24,6 +24,7 @@ import re
 import sys
 from pathlib import Path
 
+from legendaries import is_legendary
 from parse_sets import fetch_raw, parse_rows, _slug
 
 DATA = Path(__file__).resolve().parent.parent / "data"
@@ -188,6 +189,7 @@ def main() -> None:
                         "abilities": entry["abilities"],
                         "baseStats": entry["baseStats"],
                         "weight": entry["weight"],
+                        "legendary": is_legendary(r["dexNum"]),
                         # Set number 1-4 (None for trainer-exclusive variants not in
                         # sets.json) and the species' total set count.
                         "setIndex": setindex_by_key.get(match_key(r)),
@@ -199,12 +201,21 @@ def main() -> None:
                 anchor_to_group[(cls, a)] = gid
 
     # Attach each trainer to its roster group; drop the transient anchor field.
+    # `alwaysLegendary` marks trainers whose entire roster is Legendary — the
+    # tier-8 "boss" opponents (e.g. Ranger Geoff/Alma, Gentleman Joachim) that in
+    # the Battle Tower/Castle/Arcade are tied to an all-legendary set list. NOT
+    # surfaced in the UI yet: the Battle Factory does NOT tie trainers to set lists
+    # (opponents rent random Pokémon), so this only applies once Tower mode ships.
     missing = []
     for t in trainers:
         gid = anchor_to_group.get((t["class"], t["anchor"]))
         if gid is None:
             missing.append((t["index"], t["class"], t["anchor"]))
         t["groupId"] = gid
+        roster = [set_table[i] for i in groups.get(gid, [])]
+        t["alwaysLegendary"] = bool(roster) and all(
+            is_legendary(s["dexNum"]) for s in roster
+        )
         del t["anchor"]
 
     if unmatched_species:

@@ -10,6 +10,7 @@ export function buildQuery(f: Filters): string {
   if (f.type) p.set("type", f.type);
   if (f.tier) p.set("tier", f.tier);
   if (f.pokeTier != null) p.set("pokeTier", String(f.pokeTier));
+  if (f.legendaryOnly) p.set("legendaryOnly", "true");
   if (f.setIndex != null) p.set("setIndex", String(f.setIndex));
   if (f.statKey && f.statMin) p.set(`${f.statKey}Min`, f.statMin);
   p.set("tier4Iv", String(f.tier4Iv));

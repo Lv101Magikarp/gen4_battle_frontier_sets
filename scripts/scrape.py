@@ -11,6 +11,7 @@ import json
 import sys
 from pathlib import Path
 
+from legendaries import is_legendary
 from parse_sets import load_all_rows
 
 DATA = Path(__file__).resolve().parent.parent / "data"
@@ -58,6 +59,7 @@ def main() -> None:
                 "abilities": entry["abilities"],
                 "baseStats": entry["baseStats"],
                 "weight": entry["weight"],
+                "legendary": is_legendary(row["dexNum"]),
                 "tier": tier.get("tier"),
                 "tierRank": tier.get("tierRank"),
                 "tierGroup": tier.get("tierGroup"),

@@ -50,6 +50,7 @@ const DEFAULT_FILTERS: Filters = {
   type: "",
   tier: "",
   pokeTier: null,
+  legendaryOnly: false,
   setIndex: null,
   statKey: "",
   statMin: "",
@@ -267,6 +268,7 @@ export default function App() {
     if (filters.type) n++;
     if (filters.tier) n++;
     if (filters.pokeTier != null) n++;
+    if (filters.legendaryOnly) n++;
     if (filters.setIndex != null) n++;
     if (filters.statKey && filters.statMin) n++;
     return n;

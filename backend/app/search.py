@@ -83,6 +83,7 @@ def search(
     type: str | None = None,
     tier: str | None = None,
     poke_tier: int | None = None,
+    legendary_only: bool = False,
     set_index: int | None = None,
     ev_min: dict[str, int] | None = None,
     stat_min: dict[str, int] | None = None,
@@ -116,6 +117,8 @@ def search(
         results = [s for s in results if s.get("tier") == tier]
     if poke_tier is not None:
         results = [s for s in results if set_matches_poke_tier(s, poke_tier)]
+    if legendary_only:
+        results = [s for s in results if s.get("legendary")]
     if set_index is not None:
         results = [s for s in results if s["setIndex"] == set_index]
 

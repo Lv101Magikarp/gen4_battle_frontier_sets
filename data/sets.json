@@ -49,6 +49,7 @@
       "spe": 45
     },
     "weight": 6.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -103,6 +104,7 @@
       "spe": 65
     },
     "weight": 8.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -157,6 +159,7 @@
       "spe": 43
     },
     "weight": 9.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -211,6 +214,7 @@
       "spe": 45
     },
     "weight": 6.4,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -265,6 +269,7 @@
       "spe": 65
     },
     "weight": 7.9,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -319,6 +324,7 @@
       "spe": 43
     },
     "weight": 9.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -373,6 +379,7 @@
       "spe": 70
     },
     "weight": 5.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -427,6 +434,7 @@
       "spe": 45
     },
     "weight": 2.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -481,6 +489,7 @@
       "spe": 40
     },
     "weight": 7.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -535,6 +544,7 @@
       "spe": 31
     },
     "weight": 10.2,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -589,6 +599,7 @@
       "spe": 61
     },
     "weight": 6.2,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -643,6 +654,7 @@
       "spe": 40
     },
     "weight": 5.2,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -697,6 +709,7 @@
       "spe": 25
     },
     "weight": 2.2,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -752,6 +765,7 @@
       "spe": 30
     },
     "weight": 24.4,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -806,6 +820,7 @@
       "spe": 36
     },
     "weight": 3.4,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -861,6 +876,7 @@
       "spe": 40
     },
     "weight": 1.2,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -916,6 +932,7 @@
       "spe": 60
     },
     "weight": 2.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -971,6 +988,7 @@
       "spe": 70
     },
     "weight": 5.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1026,6 +1044,7 @@
       "spe": 31
     },
     "weight": 20.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1081,6 +1100,7 @@
       "spe": 45
     },
     "weight": 9.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1135,6 +1155,7 @@
       "spe": 35
     },
     "weight": 3.3,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1191,6 +1212,7 @@
       "spe": 55
     },
     "weight": 1.2,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1245,6 +1267,7 @@
       "spe": 45
     },
     "weight": 0.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1300,6 +1323,7 @@
       "spe": 60
     },
     "weight": 20.2,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1355,6 +1379,7 @@
       "spe": 10
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1410,6 +1435,7 @@
       "spe": 45
     },
     "weight": 2.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1464,6 +1490,7 @@
       "spe": 25
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1518,6 +1545,7 @@
       "spe": 65
     },
     "weight": 9.9,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1572,6 +1600,7 @@
       "spe": 90
     },
     "weight": 6.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1626,6 +1655,7 @@
       "spe": 40
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1682,6 +1712,7 @@
       "spe": 20
     },
     "weight": 20.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1736,6 +1767,7 @@
       "spe": 50
     },
     "weight": 3.3,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1791,6 +1823,7 @@
       "spe": 30
     },
     "weight": 7.8,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1846,6 +1879,7 @@
       "spe": 65
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1901,6 +1935,7 @@
       "spe": 41
     },
     "weight": 72.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -1956,6 +1991,7 @@
       "spe": 55
     },
     "weight": 21.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2011,6 +2047,7 @@
       "spe": 50
     },
     "weight": 16.8,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2065,6 +2102,7 @@
       "spe": 50
     },
     "weight": 42.1,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2121,6 +2159,7 @@
       "spe": 23
     },
     "weight": 60.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2176,6 +2215,7 @@
       "spe": 42
     },
     "weight": 20.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2232,6 +2272,7 @@
       "spe": 50
     },
     "weight": 23.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2288,6 +2329,7 @@
       "spe": 45
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2343,6 +2385,7 @@
       "spe": 35
     },
     "weight": 19.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2399,6 +2442,7 @@
       "spe": 65
     },
     "weight": 6.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2454,6 +2498,7 @@
       "spe": 65
     },
     "weight": 20.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2510,6 +2555,7 @@
       "spe": 35
     },
     "weight": 24.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2565,6 +2611,7 @@
       "spe": 35
     },
     "weight": 11.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2621,6 +2668,7 @@
       "spe": 75
     },
     "weight": 39.2,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2676,6 +2724,7 @@
       "spe": 50
     },
     "weight": 1.2,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2731,6 +2780,7 @@
       "spe": 85
     },
     "weight": 3.9,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2786,6 +2836,7 @@
       "spe": 60
     },
     "weight": 13.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2842,6 +2893,7 @@
       "spe": 15
     },
     "weight": 36.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2897,6 +2949,7 @@
       "spe": 30
     },
     "weight": 5.4,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -2952,6 +3005,7 @@
       "spe": 55
     },
     "weight": 19.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3007,6 +3061,7 @@
       "spe": 35
     },
     "weight": 6.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3062,6 +3117,7 @@
       "spe": 63
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3118,6 +3174,7 @@
       "spe": 70
     },
     "weight": 2.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3173,6 +3230,7 @@
       "spe": 35
     },
     "weight": 7.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3229,6 +3287,7 @@
       "spe": 45
     },
     "weight": 6.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3284,6 +3343,7 @@
       "spe": 45
     },
     "weight": 90.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3339,6 +3399,7 @@
       "spe": 25
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3394,6 +3455,7 @@
       "spe": 50
     },
     "weight": 6.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3449,6 +3511,7 @@
       "spe": 40
     },
     "weight": 2.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3504,6 +3567,7 @@
       "spe": 55
     },
     "weight": 6.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3559,6 +3623,7 @@
       "spe": 34
     },
     "weight": 6.3,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3614,6 +3679,7 @@
       "spe": 42
     },
     "weight": 32.4,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3670,6 +3736,7 @@
       "spe": 74
     },
     "weight": 19.2,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3725,6 +3792,7 @@
       "spe": 100
     },
     "weight": 10.4,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3781,6 +3849,7 @@
       "spe": 67
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3836,6 +3905,7 @@
       "spe": 40
     },
     "weight": 8.8,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3892,6 +3962,7 @@
       "spe": 75
     },
     "weight": 16.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -3948,6 +4019,7 @@
       "spe": 65
     },
     "weight": 10.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4002,6 +4074,7 @@
       "spe": 40
     },
     "weight": 33.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4058,6 +4131,7 @@
       "spe": 30
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4113,6 +4187,7 @@
       "spe": 60
     },
     "weight": 30.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4167,6 +4242,7 @@
       "spe": 97
     },
     "weight": 8.7,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4221,6 +4297,7 @@
       "spe": 85
     },
     "weight": 29.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4275,6 +4352,7 @@
       "spe": 32
     },
     "weight": 49.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4331,6 +4409,7 @@
       "spe": 65
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4386,6 +4465,7 @@
       "spe": 66
     },
     "weight": 7.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4441,6 +4521,7 @@
       "spe": 40
     },
     "weight": 50.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4497,6 +4578,7 @@
       "spe": 70
     },
     "weight": 45.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4551,6 +4633,7 @@
       "spe": 35
     },
     "weight": 51.3,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4605,6 +4688,7 @@
       "spe": 35
     },
     "weight": 1.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4660,6 +4744,7 @@
       "spe": 85
     },
     "weight": 34.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4716,6 +4801,7 @@
       "spe": 80
     },
     "weight": 1.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4772,6 +4858,7 @@
       "spe": 50
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4828,6 +4915,7 @@
       "spe": 60
     },
     "weight": 28.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4883,6 +4971,7 @@
       "spe": 70
     },
     "weight": 15.3,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4938,6 +5027,7 @@
       "spe": 80
     },
     "weight": 15.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -4994,6 +5084,7 @@
       "spe": 25
     },
     "weight": 115.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5048,6 +5139,7 @@
       "spe": 32
     },
     "weight": 52.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5104,6 +5196,7 @@
       "spe": 50
     },
     "weight": 65.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5160,6 +5253,7 @@
       "spe": 70
     },
     "weight": 1.2,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5216,6 +5310,7 @@
       "spe": 71
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5271,6 +5366,7 @@
       "spe": 60
     },
     "weight": 19.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5325,6 +5421,7 @@
       "spe": 58
     },
     "weight": 31.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5380,6 +5477,7 @@
       "spe": 30
     },
     "weight": 57.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5435,6 +5533,7 @@
       "spe": 85
     },
     "weight": 5.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5491,6 +5590,7 @@
       "spe": 60
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5547,6 +5647,7 @@
       "spe": 35
     },
     "weight": 7.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5603,6 +5704,7 @@
       "spe": 55
     },
     "weight": 11.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5658,6 +5760,7 @@
       "spe": 23
     },
     "weight": 23.8,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5713,6 +5816,7 @@
       "spe": 75
     },
     "weight": 12.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5768,6 +5872,7 @@
       "spe": 85
     },
     "weight": 11.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5822,6 +5927,7 @@
       "spe": 95
     },
     "weight": 23.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5876,6 +5982,7 @@
       "spe": 48
     },
     "weight": 40.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5931,6 +6038,7 @@
       "spe": 60
     },
     "weight": 5.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -5986,6 +6094,7 @@
       "spe": 45
     },
     "weight": 14.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6041,6 +6150,7 @@
       "spe": 56
     },
     "weight": 20.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6096,6 +6206,7 @@
       "spe": 65
     },
     "weight": 19.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6150,6 +6261,7 @@
       "spe": 45
     },
     "weight": 13.3,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6204,6 +6316,7 @@
       "spe": 83
     },
     "weight": 21.4,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6259,6 +6372,7 @@
       "spe": 30
     },
     "weight": 97.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6315,6 +6429,7 @@
       "spe": 35
     },
     "weight": 5.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6370,6 +6485,7 @@
       "spe": 70
     },
     "weight": 32.6,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6426,6 +6542,7 @@
       "spe": 50
     },
     "weight": 11.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6481,6 +6598,7 @@
       "spe": 50
     },
     "weight": 11.5,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6535,6 +6653,7 @@
       "spe": 65
     },
     "weight": 25.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6590,6 +6709,7 @@
       "spe": 70
     },
     "weight": 32.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6645,6 +6765,7 @@
       "spe": 75
     },
     "weight": 29.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6700,6 +6821,7 @@
       "spe": 90
     },
     "weight": 20.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6756,6 +6878,7 @@
       "spe": 70
     },
     "weight": 210.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6811,6 +6934,7 @@
       "spe": 30
     },
     "weight": 65.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6866,6 +6990,7 @@
       "spe": 65
     },
     "weight": 28.4,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6921,6 +7046,7 @@
       "spe": 65
     },
     "weight": 31.6,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -6976,6 +7102,7 @@
       "spe": 55
     },
     "weight": 6.4,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7032,6 +7159,7 @@
       "spe": 35
     },
     "weight": 105.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7088,6 +7216,7 @@
       "spe": 85
     },
     "weight": 35.6,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7144,6 +7273,7 @@
       "spe": 40
     },
     "weight": 33.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7200,6 +7330,7 @@
       "spe": 95
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7255,6 +7386,7 @@
       "spe": 5
     },
     "weight": 105.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7310,6 +7442,7 @@
       "spe": 40
     },
     "weight": 8.6,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7365,6 +7498,7 @@
       "spe": 40
     },
     "weight": 36.5,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7419,6 +7553,7 @@
       "spe": 70
     },
     "weight": 0.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7474,6 +7609,7 @@
       "spe": 85
     },
     "weight": 17.7,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7529,6 +7665,7 @@
       "spe": 85
     },
     "weight": 17.7,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7585,6 +7722,7 @@
       "spe": 65
     },
     "weight": 2.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7640,6 +7778,7 @@
       "spe": 60
     },
     "weight": 130.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7696,6 +7835,7 @@
       "spe": 30
     },
     "weight": 29.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7752,6 +7892,7 @@
       "spe": 91
     },
     "weight": 1.9,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7807,6 +7948,7 @@
       "spe": 95
     },
     "weight": 0.1,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7863,6 +8005,7 @@
       "spe": 40
     },
     "weight": 3.2,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7919,6 +8062,7 @@
       "spe": 91
     },
     "weight": 2.1,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -7973,6 +8117,7 @@
       "spe": 33
     },
     "weight": 28.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -8027,6 +8172,7 @@
       "spe": 95
     },
     "weight": 4.2,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -8081,6 +8227,7 @@
       "spe": 95
     },
     "weight": 4.2,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -8136,6 +8283,7 @@
       "spe": 95
     },
     "weight": 3.9,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -8191,6 +8339,7 @@
       "spe": 90
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -8246,6 +8395,7 @@
       "spe": 50
     },
     "weight": 28.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 1/ IV0/ \"Very Weak\" Pokemon",
@@ -8301,6 +8451,7 @@
       "spe": 60
     },
     "weight": 13.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8355,6 +8506,7 @@
       "spe": 80
     },
     "weight": 19.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8409,6 +8561,7 @@
       "spe": 58
     },
     "weight": 22.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8463,6 +8616,7 @@
       "spe": 60
     },
     "weight": 15.8,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8517,6 +8671,7 @@
       "spe": 80
     },
     "weight": 19.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8571,6 +8726,7 @@
       "spe": 58
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8625,6 +8781,7 @@
       "spe": 95
     },
     "weight": 21.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8680,6 +8837,7 @@
       "spe": 55
     },
     "weight": 19.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8735,6 +8893,7 @@
       "spe": 50
     },
     "weight": 28.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8789,6 +8948,7 @@
       "spe": 36
     },
     "weight": 97.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8844,6 +9004,7 @@
       "spe": 81
     },
     "weight": 22.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8898,6 +9059,7 @@
       "spe": 50
     },
     "weight": 23.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -8953,6 +9115,7 @@
       "spe": 30
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9009,6 +9172,7 @@
       "spe": 30
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9064,6 +9228,7 @@
       "spe": 51
     },
     "weight": 152.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9120,6 +9285,7 @@
       "spe": 45
     },
     "weight": 87.6,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9176,6 +9342,7 @@
       "spe": 71
     },
     "weight": 31.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9231,6 +9398,7 @@
       "spe": 82
     },
     "weight": 56.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9286,6 +9454,7 @@
       "spe": 45
     },
     "weight": 70.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9341,6 +9510,7 @@
       "spe": 97
     },
     "weight": 18.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9396,6 +9566,7 @@
       "spe": 60
     },
     "weight": 3.6,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9451,6 +9622,7 @@
       "spe": 90
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9506,6 +9678,7 @@
       "spe": 60
     },
     "weight": 30.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9560,6 +9733,7 @@
       "spe": 85
     },
     "weight": 9.3,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9614,6 +9788,7 @@
       "spe": 70
     },
     "weight": 16.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9669,6 +9844,7 @@
       "spe": 70
     },
     "weight": 37.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9724,6 +9900,7 @@
       "spe": 100
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9779,6 +9956,7 @@
       "spe": 105
     },
     "weight": 56.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9833,6 +10011,7 @@
       "spe": 50
     },
     "weight": 110.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9888,6 +10067,7 @@
       "spe": 50
     },
     "weight": 202.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9943,6 +10123,7 @@
       "spe": 36
     },
     "weight": 6.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -9998,6 +10179,7 @@
       "spe": 66
     },
     "weight": 23.3,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10052,6 +10234,7 @@
       "spe": 45
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10107,6 +10290,7 @@
       "spe": 30
     },
     "weight": 8.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10161,6 +10345,7 @@
       "spe": 65
     },
     "weight": 1.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10217,6 +10402,7 @@
       "spe": 85
     },
     "weight": 64.8,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10273,6 +10459,7 @@
       "spe": 85
     },
     "weight": 3.9,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10329,6 +10516,7 @@
       "spe": 115
     },
     "weight": 28.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10384,6 +10572,7 @@
       "spe": 125
     },
     "weight": 19.8,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10440,6 +10629,7 @@
       "spe": 65
     },
     "weight": 28.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10496,6 +10686,7 @@
       "spe": 40
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10551,6 +10742,7 @@
       "spe": 60
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10605,6 +10797,7 @@
       "spe": 85
     },
     "weight": 1.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10660,6 +10853,7 @@
       "spe": 80
     },
     "weight": 65.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10715,6 +10909,7 @@
       "spe": 115
     },
     "weight": 32.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10770,6 +10965,7 @@
       "spe": 85
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10824,6 +11020,7 @@
       "spe": 90
     },
     "weight": 46.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10879,6 +11076,7 @@
       "spe": 70
     },
     "weight": 168.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10934,6 +11132,7 @@
       "spe": 70
     },
     "weight": 154.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -10988,6 +11187,7 @@
       "spe": 40
     },
     "weight": 22.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11043,6 +11243,7 @@
       "spe": 91
     },
     "weight": 0.3,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11098,6 +11299,7 @@
       "spe": 100
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11154,6 +11356,7 @@
       "spe": 70
     },
     "weight": 40.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11208,6 +11411,7 @@
       "spe": 65
     },
     "weight": 29.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11264,6 +11468,7 @@
       "spe": 90
     },
     "weight": 12.5,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11319,6 +11524,7 @@
       "spe": 50
     },
     "weight": 34.6,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11374,6 +11580,7 @@
       "spe": 68
     },
     "weight": 39.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11430,6 +11637,7 @@
       "spe": 110
     },
     "weight": 3.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11486,6 +11694,7 @@
       "spe": 50
     },
     "weight": 55.8,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11541,6 +11750,7 @@
       "spe": 112
     },
     "weight": 43.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11595,6 +11805,7 @@
       "spe": 46
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11650,6 +11861,7 @@
       "spe": 90
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11705,6 +11917,7 @@
       "spe": 95
     },
     "weight": 32.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11760,6 +11973,7 @@
       "spe": 87
     },
     "weight": 49.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11815,6 +12029,7 @@
       "spe": 76
     },
     "weight": 50.2,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11871,6 +12086,7 @@
       "spe": 85
     },
     "weight": 41.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11926,6 +12142,7 @@
       "spe": 70
     },
     "weight": 48.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -11981,6 +12198,7 @@
       "spe": 65
     },
     "weight": 12.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12035,6 +12253,7 @@
       "spe": 25
     },
     "weight": 30.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12090,6 +12309,7 @@
       "spe": 160
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12144,6 +12364,7 @@
       "spe": 90
     },
     "weight": 40.3,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12198,6 +12419,7 @@
       "spe": 65
     },
     "weight": 52.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12254,6 +12476,7 @@
       "spe": 100
     },
     "weight": 85.2,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12309,6 +12532,7 @@
       "spe": 95
     },
     "weight": 88.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12365,6 +12589,7 @@
       "spe": 40
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12421,6 +12646,7 @@
       "spe": 51
     },
     "weight": 100.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12476,6 +12702,7 @@
       "spe": 91
     },
     "weight": 24.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12532,6 +12759,7 @@
       "spe": 70
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12588,6 +12816,7 @@
       "spe": 70
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12643,6 +12872,7 @@
       "spe": 85
     },
     "weight": 71.2,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12698,6 +12928,7 @@
       "spe": 55
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12754,6 +12985,7 @@
       "spe": 55
     },
     "weight": 32.8,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12810,6 +13042,7 @@
       "spe": 91
     },
     "weight": 39.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12866,6 +13099,7 @@
       "spe": 95
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12921,6 +13155,7 @@
       "spe": 20
     },
     "weight": 80.4,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -12976,6 +13211,7 @@
       "spe": 80
     },
     "weight": 71.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13031,6 +13267,7 @@
       "spe": 60
     },
     "weight": 40.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13086,6 +13323,7 @@
       "spe": 75
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13141,6 +13379,7 @@
       "spe": 55
     },
     "weight": 77.4,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13195,6 +13434,7 @@
       "spe": 50
     },
     "weight": 5.8,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13250,6 +13490,7 @@
       "spe": 45
     },
     "weight": 28.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13304,6 +13545,7 @@
       "spe": 52
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13358,6 +13600,7 @@
       "spe": 52
     },
     "weight": 22.6,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13414,6 +13657,7 @@
       "spe": 55
     },
     "weight": 23.4,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13468,6 +13712,7 @@
       "spe": 105
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13522,6 +13767,7 @@
       "spe": 93
     },
     "weight": 44.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13578,6 +13824,7 @@
       "spe": 55
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13634,6 +13881,7 @@
       "spe": 80
     },
     "weight": 40.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13690,6 +13938,7 @@
       "spe": 105
     },
     "weight": 56.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13746,6 +13995,7 @@
       "spe": 70
     },
     "weight": 132.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 2/ IV4/ NFE Set 1",
@@ -13801,6 +14051,7 @@
       "spe": 60
     },
     "weight": 13.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -13855,6 +14106,7 @@
       "spe": 80
     },
     "weight": 19.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -13909,6 +14161,7 @@
       "spe": 58
     },
     "weight": 22.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -13963,6 +14216,7 @@
       "spe": 60
     },
     "weight": 15.8,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14017,6 +14271,7 @@
       "spe": 80
     },
     "weight": 19.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14071,6 +14326,7 @@
       "spe": 58
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14125,6 +14381,7 @@
       "spe": 95
     },
     "weight": 21.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14180,6 +14437,7 @@
       "spe": 55
     },
     "weight": 19.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14235,6 +14493,7 @@
       "spe": 50
     },
     "weight": 28.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14289,6 +14548,7 @@
       "spe": 36
     },
     "weight": 97.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14344,6 +14604,7 @@
       "spe": 81
     },
     "weight": 22.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14398,6 +14659,7 @@
       "spe": 50
     },
     "weight": 23.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14453,6 +14715,7 @@
       "spe": 30
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14509,6 +14772,7 @@
       "spe": 30
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14564,6 +14828,7 @@
       "spe": 51
     },
     "weight": 152.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14620,6 +14885,7 @@
       "spe": 45
     },
     "weight": 87.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14676,6 +14942,7 @@
       "spe": 71
     },
     "weight": 31.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14731,6 +14998,7 @@
       "spe": 82
     },
     "weight": 56.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14786,6 +15054,7 @@
       "spe": 45
     },
     "weight": 70.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14841,6 +15110,7 @@
       "spe": 97
     },
     "weight": 18.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14896,6 +15166,7 @@
       "spe": 60
     },
     "weight": 3.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -14951,6 +15222,7 @@
       "spe": 90
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15006,6 +15278,7 @@
       "spe": 60
     },
     "weight": 30.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15060,6 +15333,7 @@
       "spe": 85
     },
     "weight": 9.3,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15114,6 +15388,7 @@
       "spe": 70
     },
     "weight": 16.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15169,6 +15444,7 @@
       "spe": 70
     },
     "weight": 37.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15224,6 +15500,7 @@
       "spe": 100
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15279,6 +15556,7 @@
       "spe": 105
     },
     "weight": 56.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15333,6 +15611,7 @@
       "spe": 50
     },
     "weight": 110.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15388,6 +15667,7 @@
       "spe": 50
     },
     "weight": 202.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15443,6 +15723,7 @@
       "spe": 36
     },
     "weight": 6.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15498,6 +15779,7 @@
       "spe": 66
     },
     "weight": 23.3,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15552,6 +15834,7 @@
       "spe": 45
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15607,6 +15890,7 @@
       "spe": 30
     },
     "weight": 8.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15661,6 +15945,7 @@
       "spe": 65
     },
     "weight": 1.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15717,6 +16002,7 @@
       "spe": 85
     },
     "weight": 64.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15773,6 +16059,7 @@
       "spe": 85
     },
     "weight": 3.9,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15829,6 +16116,7 @@
       "spe": 115
     },
     "weight": 28.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15884,6 +16172,7 @@
       "spe": 125
     },
     "weight": 19.8,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15940,6 +16229,7 @@
       "spe": 65
     },
     "weight": 28.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -15996,6 +16286,7 @@
       "spe": 40
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16051,6 +16342,7 @@
       "spe": 60
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16105,6 +16397,7 @@
       "spe": 85
     },
     "weight": 1.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16160,6 +16453,7 @@
       "spe": 80
     },
     "weight": 65.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16215,6 +16509,7 @@
       "spe": 115
     },
     "weight": 32.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16270,6 +16565,7 @@
       "spe": 85
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16324,6 +16620,7 @@
       "spe": 90
     },
     "weight": 46.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16379,6 +16676,7 @@
       "spe": 70
     },
     "weight": 168.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16434,6 +16732,7 @@
       "spe": 70
     },
     "weight": 154.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16488,6 +16787,7 @@
       "spe": 40
     },
     "weight": 22.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16543,6 +16843,7 @@
       "spe": 91
     },
     "weight": 0.3,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16598,6 +16899,7 @@
       "spe": 100
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16654,6 +16956,7 @@
       "spe": 70
     },
     "weight": 40.8,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16708,6 +17011,7 @@
       "spe": 65
     },
     "weight": 29.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16764,6 +17068,7 @@
       "spe": 90
     },
     "weight": 12.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16819,6 +17124,7 @@
       "spe": 50
     },
     "weight": 34.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16874,6 +17180,7 @@
       "spe": 68
     },
     "weight": 39.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16930,6 +17237,7 @@
       "spe": 110
     },
     "weight": 3.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -16986,6 +17294,7 @@
       "spe": 50
     },
     "weight": 55.8,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17041,6 +17350,7 @@
       "spe": 112
     },
     "weight": 43.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17095,6 +17405,7 @@
       "spe": 46
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17150,6 +17461,7 @@
       "spe": 90
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17205,6 +17517,7 @@
       "spe": 95
     },
     "weight": 32.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17260,6 +17573,7 @@
       "spe": 87
     },
     "weight": 49.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17315,6 +17629,7 @@
       "spe": 76
     },
     "weight": 50.2,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17371,6 +17686,7 @@
       "spe": 85
     },
     "weight": 41.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17426,6 +17742,7 @@
       "spe": 70
     },
     "weight": 48.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17481,6 +17798,7 @@
       "spe": 65
     },
     "weight": 12.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17535,6 +17853,7 @@
       "spe": 25
     },
     "weight": 30.6,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17590,6 +17909,7 @@
       "spe": 160
     },
     "weight": 12.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17644,6 +17964,7 @@
       "spe": 90
     },
     "weight": 40.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17698,6 +18019,7 @@
       "spe": 65
     },
     "weight": 52.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17754,6 +18076,7 @@
       "spe": 100
     },
     "weight": 85.2,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17809,6 +18132,7 @@
       "spe": 95
     },
     "weight": 88.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17865,6 +18189,7 @@
       "spe": 40
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17921,6 +18246,7 @@
       "spe": 51
     },
     "weight": 100.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -17976,6 +18302,7 @@
       "spe": 91
     },
     "weight": 24.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18032,6 +18359,7 @@
       "spe": 70
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18088,6 +18416,7 @@
       "spe": 70
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18143,6 +18472,7 @@
       "spe": 85
     },
     "weight": 71.2,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18198,6 +18528,7 @@
       "spe": 55
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18254,6 +18585,7 @@
       "spe": 55
     },
     "weight": 32.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18310,6 +18642,7 @@
       "spe": 91
     },
     "weight": 39.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18366,6 +18699,7 @@
       "spe": 95
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18421,6 +18755,7 @@
       "spe": 20
     },
     "weight": 80.4,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18476,6 +18811,7 @@
       "spe": 80
     },
     "weight": 71.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18531,6 +18867,7 @@
       "spe": 60
     },
     "weight": 40.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18586,6 +18923,7 @@
       "spe": 75
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18641,6 +18979,7 @@
       "spe": 55
     },
     "weight": 77.4,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18695,6 +19034,7 @@
       "spe": 50
     },
     "weight": 5.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18750,6 +19090,7 @@
       "spe": 45
     },
     "weight": 28.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18804,6 +19145,7 @@
       "spe": 52
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18858,6 +19200,7 @@
       "spe": 52
     },
     "weight": 22.6,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18914,6 +19257,7 @@
       "spe": 55
     },
     "weight": 23.4,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -18968,6 +19312,7 @@
       "spe": 105
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -19022,6 +19367,7 @@
       "spe": 93
     },
     "weight": 44.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -19078,6 +19424,7 @@
       "spe": 55
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -19134,6 +19481,7 @@
       "spe": 80
     },
     "weight": 40.5,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -19190,6 +19538,7 @@
       "spe": 105
     },
     "weight": 56.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -19246,6 +19595,7 @@
       "spe": 70
     },
     "weight": 132.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 3/ IV8/ NFE Set 1",
@@ -19301,6 +19651,7 @@
       "spe": 80
     },
     "weight": 100.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -19356,6 +19707,7 @@
       "spe": 100
     },
     "weight": 90.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -19410,6 +19762,7 @@
       "spe": 78
     },
     "weight": 85.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -19464,6 +19817,7 @@
       "spe": 80
     },
     "weight": 100.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -19518,6 +19872,7 @@
       "spe": 100
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -19572,6 +19927,7 @@
       "spe": 78
     },
     "weight": 88.8,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -19626,6 +19982,7 @@
       "spe": 120
     },
     "weight": 52.2,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -19681,6 +20038,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -19736,6 +20094,7 @@
       "spe": 60
     },
     "weight": 81.9,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -19791,6 +20150,7 @@
       "spe": 56
     },
     "weight": 310.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -19846,6 +20206,7 @@
       "spe": 108
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -19901,6 +20262,7 @@
       "spe": 60
     },
     "weight": 84.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -19956,6 +20318,7 @@
       "spe": 120
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -20011,6 +20374,7 @@
       "spe": 45
     },
     "weight": 45.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -20066,6 +20430,7 @@
       "spe": 80
     },
     "weight": 31.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -20122,6 +20487,7 @@
       "spe": 35
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -20177,6 +20543,7 @@
       "spe": 45
     },
     "weight": 48.7,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -20233,6 +20600,7 @@
       "spe": 95
     },
     "weight": 40.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -20288,6 +20656,7 @@
       "spe": 90
     },
     "weight": 54.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -20344,6 +20713,7 @@
       "spe": 67
     },
     "weight": 22.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -20400,6 +20770,7 @@
       "spe": 70
     },
     "weight": 39.2,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -20455,6 +20826,7 @@
       "spe": 40
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -20511,6 +20883,7 @@
       "spe": 70
     },
     "weight": 50.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -20566,6 +20939,7 @@
       "spe": 75
     },
     "weight": 47.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -20622,6 +20996,7 @@
       "spe": 60
     },
     "weight": 23.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -20677,6 +21052,7 @@
       "spe": 50
     },
     "weight": 253.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -20732,6 +21108,7 @@
       "spe": 40
     },
     "weight": 38.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -20786,6 +21163,7 @@
       "spe": 100
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -20842,6 +21220,7 @@
       "spe": 70
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -20897,6 +21276,7 @@
       "spe": 105
     },
     "weight": 40.2,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -20952,6 +21332,7 @@
       "spe": 100
     },
     "weight": 24.9,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21008,6 +21389,7 @@
       "spe": 39
     },
     "weight": 29.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -21064,6 +21446,7 @@
       "spe": 84
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -21119,6 +21502,7 @@
       "spe": 50
     },
     "weight": 18.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -21174,6 +21558,7 @@
       "spe": 70
     },
     "weight": 15.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21229,6 +21614,7 @@
       "spe": 140
     },
     "weight": 66.6,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -21285,6 +21671,7 @@
       "spe": 70
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21341,6 +21728,7 @@
       "spe": 80
     },
     "weight": 59.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21395,6 +21783,7 @@
       "spe": 68
     },
     "weight": 84.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -21450,6 +21839,7 @@
       "spe": 80
     },
     "weight": 256.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -21505,6 +21895,7 @@
       "spe": 105
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21560,6 +21951,7 @@
       "spe": 110
     },
     "weight": 26.6,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -21615,6 +22007,7 @@
       "spe": 115
     },
     "weight": 20.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21670,6 +22063,7 @@
       "spe": 67
     },
     "weight": 75.6,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -21726,6 +22120,7 @@
       "spe": 45
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -21782,6 +22177,7 @@
       "spe": 40
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21838,6 +22234,7 @@
       "spe": 30
     },
     "weight": 78.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21892,6 +22289,7 @@
       "spe": 60
     },
     "weight": 9.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -21947,6 +22345,7 @@
       "spe": 90
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -22002,6 +22401,7 @@
       "spe": 110
     },
     "weight": 88.4,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -22057,6 +22457,7 @@
       "spe": 120
     },
     "weight": 48.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -22113,6 +22514,7 @@
       "spe": 30
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -22168,6 +22570,7 @@
       "spe": 100
     },
     "weight": 75.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -22223,6 +22626,7 @@
       "spe": 80
     },
     "weight": 20.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -22279,6 +22683,7 @@
       "spe": 85
     },
     "weight": 44.4,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -22334,6 +22739,7 @@
       "spe": 60
     },
     "weight": 135.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -22390,6 +22796,7 @@
       "spe": 76
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -22446,6 +22853,7 @@
       "spe": 85
     },
     "weight": 62.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -22501,6 +22909,7 @@
       "spe": 43
     },
     "weight": 60.4,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -22556,6 +22965,7 @@
       "spe": 45
     },
     "weight": 68.2,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -22611,6 +23021,7 @@
       "spe": 30
     },
     "weight": 149.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -22665,6 +23076,7 @@
       "spe": 115
     },
     "weight": 33.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -22719,6 +23131,7 @@
       "spe": 105
     },
     "weight": 4.4,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -22775,6 +23188,7 @@
       "spe": 80
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -22830,6 +23244,7 @@
       "spe": 85
     },
     "weight": 76.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -22886,6 +23301,7 @@
       "spe": 70
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -22941,6 +23357,7 @@
       "spe": 105
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -22996,6 +23413,7 @@
       "spe": 50
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -23051,6 +23469,7 @@
       "spe": 110
     },
     "weight": 40.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -23105,6 +23524,7 @@
       "spe": 55
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -23160,6 +23580,7 @@
       "spe": 70
     },
     "weight": 33.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -23215,6 +23636,7 @@
       "spe": 85
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -23271,6 +23693,7 @@
       "spe": 65
     },
     "weight": 118.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -23327,6 +23750,7 @@
       "spe": 85
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -23382,6 +23806,7 @@
       "spe": 55
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -23438,6 +23863,7 @@
       "spe": 95
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -23492,6 +23918,7 @@
       "spe": 50
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -23547,6 +23974,7 @@
       "spe": 60
     },
     "weight": 398.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -23602,6 +24030,7 @@
       "spe": 75
     },
     "weight": 108.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -23656,6 +24085,7 @@
       "spe": 58
     },
     "weight": 102.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -23712,6 +24142,7 @@
       "spe": 33
     },
     "weight": 187.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -23768,6 +24199,7 @@
       "spe": 95
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -23823,6 +24255,7 @@
       "spe": 70
     },
     "weight": 42.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -23877,6 +24310,7 @@
       "spe": 100
     },
     "weight": 19.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -23932,6 +24366,7 @@
       "spe": 55
     },
     "weight": 130.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -23988,6 +24423,7 @@
       "spe": 5
     },
     "weight": 20.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -24044,6 +24480,7 @@
       "spe": 90
     },
     "weight": 14.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -24100,6 +24537,7 @@
       "spe": 71
     },
     "weight": 27.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -24156,6 +24594,7 @@
       "spe": 30
     },
     "weight": 400.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -24211,6 +24650,7 @@
       "spe": 125
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -24267,6 +24707,7 @@
       "spe": 95
     },
     "weight": 42.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -24323,6 +24764,7 @@
       "spe": 100
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -24379,6 +24821,7 @@
       "spe": 130
     },
     "weight": 59.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -24434,6 +24877,7 @@
       "spe": 60
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -24489,6 +24933,7 @@
       "spe": 50
     },
     "weight": 140.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -24545,6 +24990,7 @@
       "spe": 95
     },
     "weight": 51.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -24600,6 +25046,7 @@
       "spe": 80
     },
     "weight": 48.4,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -24655,6 +25102,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -24710,6 +25158,7 @@
       "spe": 55
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -24766,6 +25215,7 @@
       "spe": 115
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -24821,6 +25271,7 @@
       "spe": 100
     },
     "weight": 82.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -24875,6 +25326,7 @@
       "spe": 65
     },
     "weight": 29.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -24929,6 +25381,7 @@
       "spe": 130
     },
     "weight": 24.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -24983,6 +25436,7 @@
       "spe": 65
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -25037,6 +25491,7 @@
       "spe": 110
     },
     "weight": 26.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -25091,6 +25546,7 @@
       "spe": 65
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -25145,6 +25601,7 @@
       "spe": 95
     },
     "weight": 25.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -25199,6 +25656,7 @@
       "spe": 65
     },
     "weight": 25.9,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -25255,6 +25713,7 @@
       "spe": 90
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -25309,6 +25768,7 @@
       "spe": 47
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -25365,6 +25825,7 @@
       "spe": 40
     },
     "weight": 340.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -25419,6 +25880,7 @@
       "spe": 45
     },
     "weight": 106.6,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -25475,6 +25937,7 @@
       "spe": 50
     },
     "weight": 360.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -25531,6 +25994,7 @@
       "spe": 65
     },
     "weight": 150.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -25587,6 +26051,7 @@
       "spe": 80
     },
     "weight": 291.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -25643,6 +26108,7 @@
       "spe": 60
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -25698,6 +26164,7 @@
       "spe": 130
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -25754,6 +26221,7 @@
       "spe": 60
     },
     "weight": 180.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -25810,6 +26278,7 @@
       "spe": 40
     },
     "weight": 282.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -25865,6 +26334,7 @@
       "spe": 50
     },
     "weight": 128.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -25920,6 +26390,7 @@
       "spe": 90
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -25975,6 +26446,7 @@
       "spe": 81
     },
     "weight": 235.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -26030,6 +26502,7 @@
       "spe": 30
     },
     "weight": 460.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -26086,6 +26559,7 @@
       "spe": 85
     },
     "weight": 152.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -26141,6 +26615,7 @@
       "spe": 55
     },
     "weight": 46.8,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -26195,6 +26670,7 @@
       "spe": 81
     },
     "weight": 162.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -26249,6 +26725,7 @@
       "spe": 95
     },
     "weight": 138.6,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -26303,6 +26780,7 @@
       "spe": 83
     },
     "weight": 68.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -26359,6 +26837,7 @@
       "spe": 80
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -26414,6 +26893,7 @@
       "spe": 95
     },
     "weight": 155.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -26469,6 +26949,7 @@
       "spe": 80
     },
     "weight": 210.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -26524,6 +27005,7 @@
       "spe": 61
     },
     "weight": 202.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -26579,6 +27061,7 @@
       "spe": 100
     },
     "weight": 102.6,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -26634,6 +27117,7 @@
       "spe": 70
     },
     "weight": 550.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -26689,6 +27173,7 @@
       "spe": 102
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -26743,6 +27228,7 @@
       "spe": 100
     },
     "weight": 130.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -26798,6 +27284,7 @@
       "spe": 80
     },
     "weight": 100.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -26853,6 +27340,7 @@
       "spe": 100
     },
     "weight": 90.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -26907,6 +27395,7 @@
       "spe": 78
     },
     "weight": 85.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -26961,6 +27450,7 @@
       "spe": 80
     },
     "weight": 100.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -27015,6 +27505,7 @@
       "spe": 100
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -27069,6 +27560,7 @@
       "spe": 78
     },
     "weight": 88.8,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -27123,6 +27615,7 @@
       "spe": 120
     },
     "weight": 52.2,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -27178,6 +27671,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -27233,6 +27727,7 @@
       "spe": 60
     },
     "weight": 81.9,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -27288,6 +27783,7 @@
       "spe": 56
     },
     "weight": 310.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -27343,6 +27839,7 @@
       "spe": 108
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -27398,6 +27895,7 @@
       "spe": 60
     },
     "weight": 84.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -27453,6 +27951,7 @@
       "spe": 120
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -27508,6 +28007,7 @@
       "spe": 45
     },
     "weight": 45.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -27563,6 +28063,7 @@
       "spe": 80
     },
     "weight": 31.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -27619,6 +28120,7 @@
       "spe": 35
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -27674,6 +28176,7 @@
       "spe": 45
     },
     "weight": 48.7,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -27730,6 +28233,7 @@
       "spe": 95
     },
     "weight": 40.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -27785,6 +28289,7 @@
       "spe": 90
     },
     "weight": 54.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -27841,6 +28346,7 @@
       "spe": 67
     },
     "weight": 22.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -27897,6 +28403,7 @@
       "spe": 70
     },
     "weight": 39.2,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -27952,6 +28459,7 @@
       "spe": 40
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -28008,6 +28516,7 @@
       "spe": 70
     },
     "weight": 50.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -28063,6 +28572,7 @@
       "spe": 75
     },
     "weight": 47.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -28119,6 +28629,7 @@
       "spe": 60
     },
     "weight": 23.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -28174,6 +28685,7 @@
       "spe": 50
     },
     "weight": 253.8,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -28229,6 +28741,7 @@
       "spe": 40
     },
     "weight": 38.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -28283,6 +28796,7 @@
       "spe": 100
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -28339,6 +28853,7 @@
       "spe": 70
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -28394,6 +28909,7 @@
       "spe": 105
     },
     "weight": 40.2,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -28449,6 +28965,7 @@
       "spe": 100
     },
     "weight": 24.9,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -28505,6 +29022,7 @@
       "spe": 39
     },
     "weight": 29.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -28561,6 +29079,7 @@
       "spe": 84
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -28616,6 +29135,7 @@
       "spe": 50
     },
     "weight": 18.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -28671,6 +29191,7 @@
       "spe": 70
     },
     "weight": 15.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -28726,6 +29247,7 @@
       "spe": 140
     },
     "weight": 66.6,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -28782,6 +29304,7 @@
       "spe": 70
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -28838,6 +29361,7 @@
       "spe": 80
     },
     "weight": 59.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -28892,6 +29416,7 @@
       "spe": 68
     },
     "weight": 84.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -28947,6 +29472,7 @@
       "spe": 80
     },
     "weight": 256.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -29002,6 +29528,7 @@
       "spe": 105
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -29057,6 +29584,7 @@
       "spe": 110
     },
     "weight": 26.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -29112,6 +29640,7 @@
       "spe": 115
     },
     "weight": 20.3,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -29167,6 +29696,7 @@
       "spe": 67
     },
     "weight": 75.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -29223,6 +29753,7 @@
       "spe": 45
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -29279,6 +29810,7 @@
       "spe": 40
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -29335,6 +29867,7 @@
       "spe": 30
     },
     "weight": 78.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -29389,6 +29922,7 @@
       "spe": 60
     },
     "weight": 9.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -29444,6 +29978,7 @@
       "spe": 90
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -29499,6 +30034,7 @@
       "spe": 110
     },
     "weight": 88.4,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -29554,6 +30090,7 @@
       "spe": 120
     },
     "weight": 48.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -29610,6 +30147,7 @@
       "spe": 30
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -29665,6 +30203,7 @@
       "spe": 100
     },
     "weight": 75.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -29720,6 +30259,7 @@
       "spe": 80
     },
     "weight": 20.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -29776,6 +30316,7 @@
       "spe": 85
     },
     "weight": 44.4,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -29831,6 +30372,7 @@
       "spe": 60
     },
     "weight": 135.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -29887,6 +30429,7 @@
       "spe": 76
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -29943,6 +30486,7 @@
       "spe": 85
     },
     "weight": 62.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -29998,6 +30542,7 @@
       "spe": 43
     },
     "weight": 60.4,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -30053,6 +30598,7 @@
       "spe": 45
     },
     "weight": 68.2,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -30108,6 +30654,7 @@
       "spe": 30
     },
     "weight": 149.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -30162,6 +30709,7 @@
       "spe": 115
     },
     "weight": 33.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -30216,6 +30764,7 @@
       "spe": 105
     },
     "weight": 4.4,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -30272,6 +30821,7 @@
       "spe": 80
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -30327,6 +30877,7 @@
       "spe": 85
     },
     "weight": 76.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -30383,6 +30934,7 @@
       "spe": 70
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -30438,6 +30990,7 @@
       "spe": 105
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -30493,6 +31046,7 @@
       "spe": 50
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -30548,6 +31102,7 @@
       "spe": 110
     },
     "weight": 40.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -30602,6 +31157,7 @@
       "spe": 55
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -30657,6 +31213,7 @@
       "spe": 70
     },
     "weight": 33.9,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -30712,6 +31269,7 @@
       "spe": 85
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -30768,6 +31326,7 @@
       "spe": 65
     },
     "weight": 118.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -30824,6 +31383,7 @@
       "spe": 85
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -30879,6 +31439,7 @@
       "spe": 55
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -30935,6 +31496,7 @@
       "spe": 95
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -30989,6 +31551,7 @@
       "spe": 50
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -31044,6 +31607,7 @@
       "spe": 60
     },
     "weight": 398.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -31099,6 +31663,7 @@
       "spe": 75
     },
     "weight": 108.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -31153,6 +31718,7 @@
       "spe": 58
     },
     "weight": 102.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -31209,6 +31775,7 @@
       "spe": 33
     },
     "weight": 187.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -31265,6 +31832,7 @@
       "spe": 95
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -31320,6 +31888,7 @@
       "spe": 70
     },
     "weight": 42.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -31374,6 +31943,7 @@
       "spe": 100
     },
     "weight": 19.9,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -31429,6 +31999,7 @@
       "spe": 55
     },
     "weight": 130.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -31485,6 +32056,7 @@
       "spe": 5
     },
     "weight": 20.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -31541,6 +32113,7 @@
       "spe": 90
     },
     "weight": 14.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -31597,6 +32170,7 @@
       "spe": 71
     },
     "weight": 27.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -31653,6 +32227,7 @@
       "spe": 30
     },
     "weight": 400.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -31708,6 +32283,7 @@
       "spe": 125
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -31764,6 +32340,7 @@
       "spe": 95
     },
     "weight": 42.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -31820,6 +32397,7 @@
       "spe": 100
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -31876,6 +32454,7 @@
       "spe": 130
     },
     "weight": 59.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -31931,6 +32510,7 @@
       "spe": 60
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -31986,6 +32566,7 @@
       "spe": 50
     },
     "weight": 140.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -32042,6 +32623,7 @@
       "spe": 95
     },
     "weight": 51.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -32097,6 +32679,7 @@
       "spe": 80
     },
     "weight": 48.4,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -32152,6 +32735,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -32207,6 +32791,7 @@
       "spe": 55
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -32263,6 +32848,7 @@
       "spe": 115
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -32318,6 +32904,7 @@
       "spe": 100
     },
     "weight": 82.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -32372,6 +32959,7 @@
       "spe": 65
     },
     "weight": 29.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -32426,6 +33014,7 @@
       "spe": 130
     },
     "weight": 24.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -32480,6 +33069,7 @@
       "spe": 65
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -32534,6 +33124,7 @@
       "spe": 110
     },
     "weight": 26.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -32588,6 +33179,7 @@
       "spe": 65
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -32642,6 +33234,7 @@
       "spe": 95
     },
     "weight": 25.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -32696,6 +33289,7 @@
       "spe": 65
     },
     "weight": 25.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -32752,6 +33346,7 @@
       "spe": 90
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -32806,6 +33401,7 @@
       "spe": 47
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -32862,6 +33458,7 @@
       "spe": 40
     },
     "weight": 340.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -32916,6 +33513,7 @@
       "spe": 45
     },
     "weight": 106.6,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -32972,6 +33570,7 @@
       "spe": 50
     },
     "weight": 360.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -33028,6 +33627,7 @@
       "spe": 65
     },
     "weight": 150.6,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -33084,6 +33684,7 @@
       "spe": 80
     },
     "weight": 291.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -33140,6 +33741,7 @@
       "spe": 60
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -33195,6 +33797,7 @@
       "spe": 130
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -33251,6 +33854,7 @@
       "spe": 60
     },
     "weight": 180.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -33307,6 +33911,7 @@
       "spe": 40
     },
     "weight": 282.8,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -33362,6 +33967,7 @@
       "spe": 50
     },
     "weight": 128.6,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -33417,6 +34023,7 @@
       "spe": 90
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -33472,6 +34079,7 @@
       "spe": 81
     },
     "weight": 235.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -33527,6 +34135,7 @@
       "spe": 30
     },
     "weight": 460.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -33583,6 +34192,7 @@
       "spe": 85
     },
     "weight": 152.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -33638,6 +34248,7 @@
       "spe": 55
     },
     "weight": 46.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -33692,6 +34303,7 @@
       "spe": 81
     },
     "weight": 162.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -33746,6 +34358,7 @@
       "spe": 95
     },
     "weight": 138.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -33800,6 +34413,7 @@
       "spe": 83
     },
     "weight": 68.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -33856,6 +34470,7 @@
       "spe": 80
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -33911,6 +34526,7 @@
       "spe": 95
     },
     "weight": 155.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -33966,6 +34582,7 @@
       "spe": 80
     },
     "weight": 210.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -34021,6 +34638,7 @@
       "spe": 61
     },
     "weight": 202.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -34076,6 +34694,7 @@
       "spe": 100
     },
     "weight": 102.6,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -34131,6 +34750,7 @@
       "spe": 70
     },
     "weight": 550.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -34186,6 +34806,7 @@
       "spe": 102
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -34240,6 +34861,7 @@
       "spe": 100
     },
     "weight": 130.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -34295,6 +34917,7 @@
       "spe": 80
     },
     "weight": 100.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -34350,6 +34973,7 @@
       "spe": 100
     },
     "weight": 90.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -34404,6 +35028,7 @@
       "spe": 78
     },
     "weight": 85.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -34458,6 +35083,7 @@
       "spe": 80
     },
     "weight": 100.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -34512,6 +35138,7 @@
       "spe": 100
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -34566,6 +35193,7 @@
       "spe": 78
     },
     "weight": 88.8,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -34620,6 +35248,7 @@
       "spe": 120
     },
     "weight": 52.2,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -34675,6 +35304,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -34730,6 +35360,7 @@
       "spe": 60
     },
     "weight": 81.9,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -34785,6 +35416,7 @@
       "spe": 56
     },
     "weight": 310.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -34840,6 +35472,7 @@
       "spe": 108
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -34895,6 +35528,7 @@
       "spe": 60
     },
     "weight": 84.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -34950,6 +35584,7 @@
       "spe": 120
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -35005,6 +35640,7 @@
       "spe": 45
     },
     "weight": 45.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -35060,6 +35696,7 @@
       "spe": 80
     },
     "weight": 31.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -35116,6 +35753,7 @@
       "spe": 35
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -35171,6 +35809,7 @@
       "spe": 45
     },
     "weight": 48.7,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -35227,6 +35866,7 @@
       "spe": 95
     },
     "weight": 40.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -35282,6 +35922,7 @@
       "spe": 90
     },
     "weight": 54.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -35338,6 +35979,7 @@
       "spe": 67
     },
     "weight": 22.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -35394,6 +36036,7 @@
       "spe": 70
     },
     "weight": 39.2,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -35449,6 +36092,7 @@
       "spe": 40
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -35505,6 +36149,7 @@
       "spe": 70
     },
     "weight": 50.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -35560,6 +36205,7 @@
       "spe": 75
     },
     "weight": 47.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -35616,6 +36262,7 @@
       "spe": 60
     },
     "weight": 23.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -35671,6 +36318,7 @@
       "spe": 50
     },
     "weight": 253.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -35726,6 +36374,7 @@
       "spe": 40
     },
     "weight": 38.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -35780,6 +36429,7 @@
       "spe": 100
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -35836,6 +36486,7 @@
       "spe": 70
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -35891,6 +36542,7 @@
       "spe": 105
     },
     "weight": 40.2,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -35946,6 +36598,7 @@
       "spe": 100
     },
     "weight": 24.9,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -36002,6 +36655,7 @@
       "spe": 39
     },
     "weight": 29.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -36058,6 +36712,7 @@
       "spe": 84
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -36113,6 +36768,7 @@
       "spe": 50
     },
     "weight": 18.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -36168,6 +36824,7 @@
       "spe": 70
     },
     "weight": 15.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -36223,6 +36880,7 @@
       "spe": 140
     },
     "weight": 66.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -36279,6 +36937,7 @@
       "spe": 70
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -36335,6 +36994,7 @@
       "spe": 80
     },
     "weight": 59.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -36389,6 +37049,7 @@
       "spe": 68
     },
     "weight": 84.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -36444,6 +37105,7 @@
       "spe": 80
     },
     "weight": 256.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -36499,6 +37161,7 @@
       "spe": 105
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -36554,6 +37217,7 @@
       "spe": 110
     },
     "weight": 26.6,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -36609,6 +37273,7 @@
       "spe": 115
     },
     "weight": 20.3,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -36664,6 +37329,7 @@
       "spe": 67
     },
     "weight": 75.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -36720,6 +37386,7 @@
       "spe": 45
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -36776,6 +37443,7 @@
       "spe": 40
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -36832,6 +37500,7 @@
       "spe": 30
     },
     "weight": 78.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -36886,6 +37555,7 @@
       "spe": 60
     },
     "weight": 9.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -36941,6 +37611,7 @@
       "spe": 90
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -36996,6 +37667,7 @@
       "spe": 110
     },
     "weight": 88.4,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -37051,6 +37723,7 @@
       "spe": 120
     },
     "weight": 48.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -37107,6 +37780,7 @@
       "spe": 30
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -37162,6 +37836,7 @@
       "spe": 100
     },
     "weight": 75.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -37217,6 +37892,7 @@
       "spe": 80
     },
     "weight": 20.6,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -37273,6 +37949,7 @@
       "spe": 85
     },
     "weight": 44.4,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -37328,6 +38005,7 @@
       "spe": 60
     },
     "weight": 135.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -37384,6 +38062,7 @@
       "spe": 76
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -37440,6 +38119,7 @@
       "spe": 85
     },
     "weight": 62.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -37495,6 +38175,7 @@
       "spe": 43
     },
     "weight": 60.4,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -37550,6 +38231,7 @@
       "spe": 45
     },
     "weight": 68.2,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -37605,6 +38287,7 @@
       "spe": 30
     },
     "weight": 149.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -37659,6 +38342,7 @@
       "spe": 115
     },
     "weight": 33.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -37713,6 +38397,7 @@
       "spe": 105
     },
     "weight": 4.4,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -37769,6 +38454,7 @@
       "spe": 80
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -37824,6 +38510,7 @@
       "spe": 85
     },
     "weight": 76.6,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -37880,6 +38567,7 @@
       "spe": 70
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -37935,6 +38623,7 @@
       "spe": 105
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -37990,6 +38679,7 @@
       "spe": 50
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -38045,6 +38735,7 @@
       "spe": 110
     },
     "weight": 40.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -38099,6 +38790,7 @@
       "spe": 55
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -38154,6 +38846,7 @@
       "spe": 70
     },
     "weight": 33.9,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -38209,6 +38902,7 @@
       "spe": 85
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -38265,6 +38959,7 @@
       "spe": 65
     },
     "weight": 118.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -38321,6 +39016,7 @@
       "spe": 85
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -38376,6 +39072,7 @@
       "spe": 55
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -38432,6 +39129,7 @@
       "spe": 95
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -38486,6 +39184,7 @@
       "spe": 50
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -38541,6 +39240,7 @@
       "spe": 60
     },
     "weight": 398.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -38596,6 +39296,7 @@
       "spe": 75
     },
     "weight": 108.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -38650,6 +39351,7 @@
       "spe": 58
     },
     "weight": 102.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -38706,6 +39408,7 @@
       "spe": 33
     },
     "weight": 187.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -38762,6 +39465,7 @@
       "spe": 95
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -38817,6 +39521,7 @@
       "spe": 70
     },
     "weight": 42.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -38871,6 +39576,7 @@
       "spe": 100
     },
     "weight": 19.9,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -38926,6 +39632,7 @@
       "spe": 55
     },
     "weight": 130.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -38982,6 +39689,7 @@
       "spe": 5
     },
     "weight": 20.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -39038,6 +39746,7 @@
       "spe": 90
     },
     "weight": 14.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -39094,6 +39803,7 @@
       "spe": 71
     },
     "weight": 27.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -39150,6 +39860,7 @@
       "spe": 30
     },
     "weight": 400.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -39205,6 +39916,7 @@
       "spe": 125
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -39261,6 +39973,7 @@
       "spe": 95
     },
     "weight": 42.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -39317,6 +40030,7 @@
       "spe": 100
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -39373,6 +40087,7 @@
       "spe": 130
     },
     "weight": 59.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -39428,6 +40143,7 @@
       "spe": 60
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -39483,6 +40199,7 @@
       "spe": 50
     },
     "weight": 140.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -39539,6 +40256,7 @@
       "spe": 95
     },
     "weight": 51.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -39594,6 +40312,7 @@
       "spe": 80
     },
     "weight": 48.4,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -39649,6 +40368,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -39704,6 +40424,7 @@
       "spe": 55
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -39760,6 +40481,7 @@
       "spe": 115
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -39815,6 +40537,7 @@
       "spe": 100
     },
     "weight": 82.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -39869,6 +40592,7 @@
       "spe": 65
     },
     "weight": 29.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -39923,6 +40647,7 @@
       "spe": 130
     },
     "weight": 24.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -39977,6 +40702,7 @@
       "spe": 65
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -40031,6 +40757,7 @@
       "spe": 110
     },
     "weight": 26.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -40085,6 +40812,7 @@
       "spe": 65
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -40139,6 +40867,7 @@
       "spe": 95
     },
     "weight": 25.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -40193,6 +40922,7 @@
       "spe": 65
     },
     "weight": 25.9,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -40249,6 +40979,7 @@
       "spe": 90
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -40303,6 +41034,7 @@
       "spe": 47
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -40359,6 +41091,7 @@
       "spe": 40
     },
     "weight": 340.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -40413,6 +41146,7 @@
       "spe": 45
     },
     "weight": 106.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -40469,6 +41203,7 @@
       "spe": 50
     },
     "weight": 360.0,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -40525,6 +41260,7 @@
       "spe": 65
     },
     "weight": 150.6,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -40581,6 +41317,7 @@
       "spe": 80
     },
     "weight": 291.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -40637,6 +41374,7 @@
       "spe": 60
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -40692,6 +41430,7 @@
       "spe": 130
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -40748,6 +41487,7 @@
       "spe": 60
     },
     "weight": 180.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -40804,6 +41544,7 @@
       "spe": 40
     },
     "weight": 282.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -40859,6 +41600,7 @@
       "spe": 50
     },
     "weight": 128.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -40914,6 +41656,7 @@
       "spe": 90
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -40969,6 +41712,7 @@
       "spe": 81
     },
     "weight": 235.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -41024,6 +41768,7 @@
       "spe": 30
     },
     "weight": 460.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -41080,6 +41825,7 @@
       "spe": 85
     },
     "weight": 152.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -41135,6 +41881,7 @@
       "spe": 55
     },
     "weight": 46.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -41189,6 +41936,7 @@
       "spe": 81
     },
     "weight": 162.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -41243,6 +41991,7 @@
       "spe": 95
     },
     "weight": 138.6,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -41297,6 +42046,7 @@
       "spe": 83
     },
     "weight": 68.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -41353,6 +42103,7 @@
       "spe": 80
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -41408,6 +42159,7 @@
       "spe": 95
     },
     "weight": 155.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -41463,6 +42215,7 @@
       "spe": 80
     },
     "weight": 210.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -41518,6 +42271,7 @@
       "spe": 61
     },
     "weight": 202.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -41573,6 +42327,7 @@
       "spe": 100
     },
     "weight": 102.6,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -41628,6 +42383,7 @@
       "spe": 70
     },
     "weight": 550.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -41683,6 +42439,7 @@
       "spe": 102
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -41737,6 +42494,7 @@
       "spe": 100
     },
     "weight": 130.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -41792,6 +42550,7 @@
       "spe": 80
     },
     "weight": 100.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -41847,6 +42606,7 @@
       "spe": 100
     },
     "weight": 90.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -41901,6 +42661,7 @@
       "spe": 78
     },
     "weight": 85.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -41955,6 +42716,7 @@
       "spe": 80
     },
     "weight": 100.5,
+    "legendary": false,
     "tier": "E",
     "tierRank": 8,
     "tierGroup": "Tier 4+",
@@ -42009,6 +42771,7 @@
       "spe": 100
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -42063,6 +42826,7 @@
       "spe": 78
     },
     "weight": 88.8,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -42117,6 +42881,7 @@
       "spe": 120
     },
     "weight": 52.2,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -42172,6 +42937,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -42227,6 +42993,7 @@
       "spe": 60
     },
     "weight": 81.9,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -42282,6 +43049,7 @@
       "spe": 56
     },
     "weight": 310.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -42337,6 +43105,7 @@
       "spe": 108
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -42392,6 +43161,7 @@
       "spe": 60
     },
     "weight": 84.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -42447,6 +43217,7 @@
       "spe": 120
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -42502,6 +43273,7 @@
       "spe": 45
     },
     "weight": 45.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -42557,6 +43329,7 @@
       "spe": 80
     },
     "weight": 31.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -42613,6 +43386,7 @@
       "spe": 35
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -42668,6 +43442,7 @@
       "spe": 45
     },
     "weight": 48.7,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -42724,6 +43499,7 @@
       "spe": 95
     },
     "weight": 40.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -42779,6 +43555,7 @@
       "spe": 90
     },
     "weight": 54.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -42835,6 +43612,7 @@
       "spe": 67
     },
     "weight": 22.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -42891,6 +43669,7 @@
       "spe": 70
     },
     "weight": 39.2,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -42946,6 +43725,7 @@
       "spe": 40
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -43002,6 +43782,7 @@
       "spe": 70
     },
     "weight": 50.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -43057,6 +43838,7 @@
       "spe": 75
     },
     "weight": 47.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -43113,6 +43895,7 @@
       "spe": 60
     },
     "weight": 23.6,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -43168,6 +43951,7 @@
       "spe": 50
     },
     "weight": 253.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -43223,6 +44007,7 @@
       "spe": 40
     },
     "weight": 38.5,
+    "legendary": false,
     "tier": "F",
     "tierRank": 9,
     "tierGroup": "Tier 4+",
@@ -43277,6 +44062,7 @@
       "spe": 100
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -43333,6 +44119,7 @@
       "spe": 70
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -43388,6 +44175,7 @@
       "spe": 105
     },
     "weight": 40.2,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -43443,6 +44231,7 @@
       "spe": 100
     },
     "weight": 24.9,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -43499,6 +44288,7 @@
       "spe": 39
     },
     "weight": 29.9,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -43555,6 +44345,7 @@
       "spe": 84
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -43610,6 +44401,7 @@
       "spe": 50
     },
     "weight": 18.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -43665,6 +44457,7 @@
       "spe": 70
     },
     "weight": 15.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -43720,6 +44513,7 @@
       "spe": 140
     },
     "weight": 66.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -43776,6 +44570,7 @@
       "spe": 70
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -43832,6 +44627,7 @@
       "spe": 80
     },
     "weight": 59.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -43886,6 +44682,7 @@
       "spe": 68
     },
     "weight": 84.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -43941,6 +44738,7 @@
       "spe": 80
     },
     "weight": 256.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -43996,6 +44794,7 @@
       "spe": 105
     },
     "weight": 33.3,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -44051,6 +44850,7 @@
       "spe": 110
     },
     "weight": 26.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -44106,6 +44906,7 @@
       "spe": 115
     },
     "weight": 20.3,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -44161,6 +44962,7 @@
       "spe": 67
     },
     "weight": 75.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -44217,6 +45019,7 @@
       "spe": 45
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -44273,6 +45076,7 @@
       "spe": 40
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -44329,6 +45133,7 @@
       "spe": 30
     },
     "weight": 78.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -44383,6 +45188,7 @@
       "spe": 60
     },
     "weight": 9.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -44438,6 +45244,7 @@
       "spe": 90
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -44493,6 +45300,7 @@
       "spe": 110
     },
     "weight": 88.4,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -44548,6 +45356,7 @@
       "spe": 120
     },
     "weight": 48.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -44604,6 +45413,7 @@
       "spe": 30
     },
     "weight": 79.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -44659,6 +45469,7 @@
       "spe": 100
     },
     "weight": 75.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -44714,6 +45525,7 @@
       "spe": 80
     },
     "weight": 20.6,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -44770,6 +45582,7 @@
       "spe": 85
     },
     "weight": 44.4,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -44825,6 +45638,7 @@
       "spe": 60
     },
     "weight": 135.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -44881,6 +45695,7 @@
       "spe": 76
     },
     "weight": 60.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -44937,6 +45752,7 @@
       "spe": 85
     },
     "weight": 62.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -44992,6 +45808,7 @@
       "spe": 43
     },
     "weight": 60.4,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -45047,6 +45864,7 @@
       "spe": 45
     },
     "weight": 68.2,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -45102,6 +45920,7 @@
       "spe": 30
     },
     "weight": 149.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -45156,6 +45975,7 @@
       "spe": 115
     },
     "weight": 33.5,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -45210,6 +46030,7 @@
       "spe": 105
     },
     "weight": 4.4,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -45266,6 +46087,7 @@
       "spe": 80
     },
     "weight": 15.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -45321,6 +46143,7 @@
       "spe": 85
     },
     "weight": 76.6,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -45377,6 +46200,7 @@
       "spe": 70
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -45432,6 +46256,7 @@
       "spe": 105
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -45487,6 +46312,7 @@
       "spe": 50
     },
     "weight": 30.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -45542,6 +46368,7 @@
       "spe": 110
     },
     "weight": 40.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -45596,6 +46423,7 @@
       "spe": 55
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -45651,6 +46479,7 @@
       "spe": 70
     },
     "weight": 33.9,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -45706,6 +46535,7 @@
       "spe": 85
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -45762,6 +46592,7 @@
       "spe": 65
     },
     "weight": 118.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -45818,6 +46649,7 @@
       "spe": 85
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -45873,6 +46705,7 @@
       "spe": 55
     },
     "weight": 125.8,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -45929,6 +46762,7 @@
       "spe": 95
     },
     "weight": 35.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -45983,6 +46817,7 @@
       "spe": 50
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -46038,6 +46873,7 @@
       "spe": 60
     },
     "weight": 398.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -46093,6 +46929,7 @@
       "spe": 75
     },
     "weight": 108.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -46147,6 +46984,7 @@
       "spe": 58
     },
     "weight": 102.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -46203,6 +47041,7 @@
       "spe": 33
     },
     "weight": 187.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -46259,6 +47098,7 @@
       "spe": 95
     },
     "weight": 61.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -46314,6 +47154,7 @@
       "spe": 70
     },
     "weight": 42.0,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -46368,6 +47209,7 @@
       "spe": 100
     },
     "weight": 19.9,
+    "legendary": false,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -46423,6 +47265,7 @@
       "spe": 55
     },
     "weight": 130.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -46479,6 +47322,7 @@
       "spe": 5
     },
     "weight": 20.5,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -46535,6 +47379,7 @@
       "spe": 90
     },
     "weight": 14.5,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -46591,6 +47436,7 @@
       "spe": 71
     },
     "weight": 27.3,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -46647,6 +47493,7 @@
       "spe": 30
     },
     "weight": 400.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -46702,6 +47549,7 @@
       "spe": 125
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -46758,6 +47606,7 @@
       "spe": 95
     },
     "weight": 42.5,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -46814,6 +47663,7 @@
       "spe": 100
     },
     "weight": 55.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -46870,6 +47720,7 @@
       "spe": 130
     },
     "weight": 59.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -46925,6 +47776,7 @@
       "spe": 60
     },
     "weight": 32.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -46980,6 +47832,7 @@
       "spe": 50
     },
     "weight": 140.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -47036,6 +47889,7 @@
       "spe": 95
     },
     "weight": 51.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -47091,6 +47945,7 @@
       "spe": 80
     },
     "weight": 48.4,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -47146,6 +48001,7 @@
       "spe": 80
     },
     "weight": 52.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -47201,6 +48057,7 @@
       "spe": 55
     },
     "weight": 120.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -47257,6 +48114,7 @@
       "spe": 115
     },
     "weight": 80.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -47312,6 +48170,7 @@
       "spe": 100
     },
     "weight": 82.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -47366,6 +48225,7 @@
       "spe": 65
     },
     "weight": 29.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -47420,6 +48280,7 @@
       "spe": 130
     },
     "weight": 24.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -47474,6 +48335,7 @@
       "spe": 65
     },
     "weight": 25.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -47528,6 +48390,7 @@
       "spe": 110
     },
     "weight": 26.5,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -47582,6 +48445,7 @@
       "spe": 65
     },
     "weight": 27.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -47636,6 +48500,7 @@
       "spe": 95
     },
     "weight": 25.5,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -47690,6 +48555,7 @@
       "spe": 65
     },
     "weight": 25.9,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -47746,6 +48612,7 @@
       "spe": 90
     },
     "weight": 54.0,
+    "legendary": false,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -47800,6 +48667,7 @@
       "spe": 47
     },
     "weight": 300.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -47856,6 +48724,7 @@
       "spe": 40
     },
     "weight": 340.0,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -47910,6 +48779,7 @@
       "spe": 45
     },
     "weight": 106.6,
+    "legendary": false,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -47966,6 +48836,7 @@
       "spe": 50
     },
     "weight": 360.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -48022,6 +48893,7 @@
       "spe": 65
     },
     "weight": 150.6,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -48078,6 +48950,7 @@
       "spe": 80
     },
     "weight": 291.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48134,6 +49007,7 @@
       "spe": 60
     },
     "weight": 220.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -48189,6 +49063,7 @@
       "spe": 130
     },
     "weight": 75.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -48245,6 +49120,7 @@
       "spe": 60
     },
     "weight": 180.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48301,6 +49177,7 @@
       "spe": 40
     },
     "weight": 282.8,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -48356,6 +49233,7 @@
       "spe": 50
     },
     "weight": 128.6,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -48411,6 +49289,7 @@
       "spe": 90
     },
     "weight": 34.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48466,6 +49345,7 @@
       "spe": 81
     },
     "weight": 235.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48521,6 +49401,7 @@
       "spe": 30
     },
     "weight": 460.0,
+    "legendary": false,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -48577,6 +49458,7 @@
       "spe": 85
     },
     "weight": 152.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48632,6 +49514,7 @@
       "spe": 55
     },
     "weight": 46.8,
+    "legendary": false,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -48686,6 +49569,7 @@
       "spe": 81
     },
     "weight": 162.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48740,6 +49624,7 @@
       "spe": 95
     },
     "weight": 138.6,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48794,6 +49679,7 @@
       "spe": 83
     },
     "weight": 68.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -48850,6 +49736,7 @@
       "spe": 80
     },
     "weight": 38.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -48905,6 +49792,7 @@
       "spe": 95
     },
     "weight": 155.0,
+    "legendary": false,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -48960,6 +49848,7 @@
       "spe": 80
     },
     "weight": 210.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -49015,6 +49904,7 @@
       "spe": 61
     },
     "weight": 202.0,
+    "legendary": false,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -49070,6 +49960,7 @@
       "spe": 100
     },
     "weight": 102.6,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -49125,6 +50016,7 @@
       "spe": 70
     },
     "weight": 550.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -49180,6 +50072,7 @@
       "spe": 102
     },
     "weight": 95.0,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -49234,6 +50127,7 @@
       "spe": 100
     },
     "weight": 130.5,
+    "legendary": false,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -49289,6 +50183,7 @@
       "spe": 85
     },
     "weight": 55.4,
+    "legendary": true,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -49344,6 +50239,7 @@
       "spe": 100
     },
     "weight": 52.6,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -49399,6 +50295,7 @@
       "spe": 90
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -49453,6 +50350,7 @@
       "spe": 115
     },
     "weight": 178.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -49507,6 +50405,7 @@
       "spe": 100
     },
     "weight": 198.0,
+    "legendary": true,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -49561,6 +50460,7 @@
       "spe": 85
     },
     "weight": 187.0,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -49615,6 +50515,7 @@
       "spe": 50
     },
     "weight": 230.0,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -49669,6 +50570,7 @@
       "spe": 50
     },
     "weight": 175.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -49723,6 +50625,7 @@
       "spe": 50
     },
     "weight": 205.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -49778,6 +50681,7 @@
       "spe": 110
     },
     "weight": 40.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -49833,6 +50737,7 @@
       "spe": 110
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -49888,6 +50793,7 @@
       "spe": 77
     },
     "weight": 430.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -49942,6 +50848,7 @@
       "spe": 85
     },
     "weight": 85.6,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -49996,6 +50903,7 @@
       "spe": 100
     },
     "weight": 420.0,
+    "legendary": true,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -50051,6 +50959,7 @@
       "spe": 85
     },
     "weight": 55.4,
+    "legendary": true,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -50106,6 +51015,7 @@
       "spe": 100
     },
     "weight": 52.6,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -50161,6 +51071,7 @@
       "spe": 90
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -50215,6 +51126,7 @@
       "spe": 115
     },
     "weight": 178.0,
+    "legendary": true,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -50269,6 +51181,7 @@
       "spe": 100
     },
     "weight": 198.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -50323,6 +51236,7 @@
       "spe": 85
     },
     "weight": 187.0,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -50377,6 +51291,7 @@
       "spe": 50
     },
     "weight": 230.0,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -50431,6 +51346,7 @@
       "spe": 50
     },
     "weight": 175.0,
+    "legendary": true,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -50485,6 +51401,7 @@
       "spe": 50
     },
     "weight": 205.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -50540,6 +51457,7 @@
       "spe": 110
     },
     "weight": 40.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -50595,6 +51513,7 @@
       "spe": 110
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -50650,6 +51569,7 @@
       "spe": 77
     },
     "weight": 430.0,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -50704,6 +51624,7 @@
       "spe": 85
     },
     "weight": 85.6,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -50758,6 +51679,7 @@
       "spe": 100
     },
     "weight": 420.0,
+    "legendary": true,
     "tier": "D+",
     "tierRank": 6,
     "tierGroup": "Tier 4+",
@@ -50813,6 +51735,7 @@
       "spe": 85
     },
     "weight": 55.4,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -50868,6 +51791,7 @@
       "spe": 100
     },
     "weight": 52.6,
+    "legendary": true,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -50923,6 +51847,7 @@
       "spe": 90
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "D-",
     "tierRank": 7,
     "tierGroup": "Tier 4+",
@@ -50977,6 +51902,7 @@
       "spe": 115
     },
     "weight": 178.0,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -51031,6 +51957,7 @@
       "spe": 100
     },
     "weight": 198.0,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -51085,6 +52012,7 @@
       "spe": 85
     },
     "weight": 187.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -51139,6 +52067,7 @@
       "spe": 50
     },
     "weight": 230.0,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -51193,6 +52122,7 @@
       "spe": 50
     },
     "weight": 175.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -51247,6 +52177,7 @@
       "spe": 50
     },
     "weight": 205.0,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",
@@ -51302,6 +52233,7 @@
       "spe": 110
     },
     "weight": 40.0,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -51357,6 +52289,7 @@
       "spe": 110
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -51412,6 +52345,7 @@
       "spe": 77
     },
     "weight": 430.0,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -51466,6 +52400,7 @@
       "spe": 85
     },
     "weight": 85.6,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -51520,6 +52455,7 @@
       "spe": 100
     },
     "weight": 420.0,
+    "legendary": true,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -51575,6 +52511,7 @@
       "spe": 85
     },
     "weight": 55.4,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -51630,6 +52567,7 @@
       "spe": 100
     },
     "weight": 52.6,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -51685,6 +52623,7 @@
       "spe": 90
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -51739,6 +52678,7 @@
       "spe": 115
     },
     "weight": 178.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -51793,6 +52733,7 @@
       "spe": 100
     },
     "weight": 198.0,
+    "legendary": true,
     "tier": "C",
     "tierRank": 5,
     "tierGroup": "Tier 4+",
@@ -51847,6 +52788,7 @@
       "spe": 85
     },
     "weight": 187.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -51901,6 +52843,7 @@
       "spe": 50
     },
     "weight": 230.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -51955,6 +52898,7 @@
       "spe": 50
     },
     "weight": 175.0,
+    "legendary": true,
     "tier": "A+",
     "tierRank": 2,
     "tierGroup": "Tier 4+",
@@ -52009,6 +52953,7 @@
       "spe": 50
     },
     "weight": 205.0,
+    "legendary": true,
     "tier": "A-",
     "tierRank": 3,
     "tierGroup": "Tier 4+",
@@ -52064,6 +53009,7 @@
       "spe": 110
     },
     "weight": 40.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -52119,6 +53065,7 @@
       "spe": 110
     },
     "weight": 60.0,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -52174,6 +53121,7 @@
       "spe": 77
     },
     "weight": 430.0,
+    "legendary": true,
     "tier": "S",
     "tierRank": 1,
     "tierGroup": "Tier 4+",
@@ -52228,6 +53176,7 @@
       "spe": 85
     },
     "weight": 85.6,
+    "legendary": true,
     "tier": "X",
     "tierRank": 0,
     "tierGroup": "Tier 4+",
@@ -52282,6 +53231,7 @@
       "spe": 100
     },
     "weight": 420.0,
+    "legendary": true,
     "tier": "B",
     "tierRank": 4,
     "tierGroup": "Tier 4+",

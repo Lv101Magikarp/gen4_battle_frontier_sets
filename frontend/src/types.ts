@@ -20,6 +20,7 @@ export interface PokeSet {
   abilities: string[];
   baseStats: StatMap;
   weight: number; // kilograms (Gen IV); used by weight-based moves (Grass Knot…)
+  legendary: boolean; // species is a Legendary/Mythical (excludes pseudo-legendaries)
   stats: StatMap;
   iv: number;
   tier: string | null;
@@ -56,6 +57,7 @@ export interface Filters {
   type: string;
   tier: string;
   pokeTier: number | null; // Battle Factory tier 1-8 (IV bracket); tier 8 = all Tier 4+ sets
+  legendaryOnly: boolean; // show only Legendary/Mythical species
   setIndex: number | null;
   statKey: StatKey | "";
   statMin: string;
@@ -84,6 +86,7 @@ export interface RosterSet {
   abilities: string[];
   baseStats: StatMap;
   weight: number; // kilograms (Gen IV); used by weight-based moves (Grass Knot…)
+  legendary: boolean; // species is a Legendary/Mythical (excludes pseudo-legendaries)
   setIndex: number | null; // set number 1-4 (null for trainer-exclusive variants)
   setCount: number; // how many sets the species has
 }
@@ -99,6 +102,11 @@ export interface Trainer {
   iv: number;
   rounds: RoundState[]; // length 8, one per round
   groupId: string;
+  // True for tier-8 "boss" trainers whose entire roster is Legendary. Stored for
+  // Battle Tower/Castle/Arcade (where trainers ARE tied to set lists); not shown in
+  // the current Battle Factory UI, where opponents rent random Pokémon not tied to
+  // their class. Wire into TrainersView once Tower mode is implemented.
+  alwaysLegendary?: boolean;
 }
 
 export interface TrainerData {

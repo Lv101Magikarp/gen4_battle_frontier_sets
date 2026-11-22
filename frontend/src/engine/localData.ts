@@ -98,6 +98,7 @@ export async function searchLocal(f: Filters): Promise<SearchResponse> {
   }
   if (f.tier) results = results.filter((s) => s.tier === f.tier);
   if (f.pokeTier != null) results = results.filter((s) => setMatchesPokeTier(s, f.pokeTier as number));
+  if (f.legendaryOnly) results = results.filter((s) => s.legendary);
   if (f.setIndex != null) results = results.filter((s) => s.setIndex === f.setIndex);
   if (f.statKey && f.statMin) {
     const min = Number(f.statMin);

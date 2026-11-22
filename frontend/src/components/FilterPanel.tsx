@@ -143,6 +143,19 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
       </div>
 
       <div className="field">
+        <span>Legendary</span>
+        <div className="chips-row">
+          <button
+            className={`pill ${filters.legendaryOnly ? "pill--on" : ""}`}
+            title="Show only Legendary/Mythical Pokémon (excludes pseudo-legendaries)"
+            onClick={() => update({ legendaryOnly: !filters.legendaryOnly })}
+          >
+            Legendary only
+          </button>
+        </div>
+      </div>
+
+      <div className="field">
         <span>Set index</span>
         <div className="chips-row">
           <button

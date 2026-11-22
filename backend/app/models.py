@@ -31,6 +31,7 @@ class SetOut(BaseModel):
     types: list[str]
     abilities: list[str]
     baseStats: dict[str, int]
+    legendary: bool = False
     stats: dict[str, int]
     iv: int
     tier: str | None = None
