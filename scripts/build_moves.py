@@ -1,6 +1,6 @@
-"""Build data/moves.json: Generation IV base power, damage class, type, and
-accuracy for every move that appears in the Battle Frontier set list, fetched
-from PokéAPI.
+"""Build data/moves.json: Generation IV base power, damage class, type,
+accuracy, and PP for every move that appears in the Battle Frontier set list,
+fetched from PokéAPI.
 
 Run once; the output is committed so the app has no runtime dependency on PokéAPI
 (mirrors scripts/build_pokedex.py). The move list is read from the already-built
@@ -180,6 +180,7 @@ def fetch_move(name: str) -> tuple[str, dict | None]:
     power = gen4_value("power", data["power"], past)
     accuracy = gen4_value("accuracy", data["accuracy"], past)
     move_type = gen4_value("type", data["type"]["name"], past)
+    pp = gen4_value("pp", data["pp"], past)
 
     category = CATEGORY[data["damage_class"]["name"]]
     entry = {
@@ -187,6 +188,7 @@ def fetch_move(name: str) -> tuple[str, dict | None]:
         "category": category,
         "basePower": power,      # null for status / OHKO / fixed / variable moves
         "accuracy": accuracy,    # null for always-hit moves
+        "pp": pp,                # base PP (before PP Ups)
     }
     effect = build_effect(data, category)
     if effect:                   # omit when there's no notable side effect

@@ -30,6 +30,7 @@ export interface MoveData {
   category: "Physical" | "Special" | "Status";
   basePower: number | null;
   accuracy: number | null;
+  pp?: number; // base PP (before PP Ups)
   effect?: string; // short side-effect summary, e.g. "10% paralyze" (absent if none)
 }
 

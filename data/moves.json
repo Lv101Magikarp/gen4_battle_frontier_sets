@@ -4,6 +4,7 @@
     "category": "Special",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 30,
     "effect": "10% lower SpD"
   },
   "Acid Armor": {
@@ -11,25 +12,29 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 40,
     "effect": "raise Def"
   },
   "Acupressure": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 30
   },
   "Aerial Ace": {
     "type": "Flying",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Agility": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 30,
     "effect": "raise Spe"
   },
   "Air Cutter": {
@@ -37,6 +42,7 @@
     "category": "Special",
     "basePower": 55,
     "accuracy": 95,
+    "pp": 25,
     "effect": "high crit"
   },
   "Air Slash": {
@@ -44,6 +50,7 @@
     "category": "Special",
     "basePower": 75,
     "accuracy": 95,
+    "pp": 20,
     "effect": "30% flinch"
   },
   "Amnesia": {
@@ -51,6 +58,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise SpD"
   },
   "AncientPower": {
@@ -58,50 +66,58 @@
     "category": "Special",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 5,
     "effect": "10% raise all stats"
   },
   "Aqua Jet": {
     "type": "Water",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Aqua Ring": {
     "type": "Water",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Aqua Tail": {
     "type": "Water",
     "category": "Physical",
     "basePower": 90,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 10
   },
   "Arm Thrust": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 15,
     "accuracy": 100,
+    "pp": 20,
     "effect": "2-5 hits"
   },
   "Assist": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Assurance": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 50,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Astonish": {
     "type": "Ghost",
     "category": "Physical",
     "basePower": 30,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% flinch"
   },
   "Attack Order": {
@@ -109,6 +125,7 @@
     "category": "Physical",
     "basePower": 90,
     "accuracy": 100,
+    "pp": 15,
     "effect": "high crit"
   },
   "Attract": {
@@ -116,57 +133,66 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 15,
     "effect": "infatuate"
   },
   "Aura Sphere": {
     "type": "Fighting",
     "category": "Special",
     "basePower": 90,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Aurora Beam": {
     "type": "Ice",
     "category": "Special",
     "basePower": 65,
     "accuracy": 100,
+    "pp": 20,
     "effect": "10% lower Atk"
   },
   "Avalanche": {
     "type": "Ice",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Barrier": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 30,
     "effect": "raise Def"
   },
   "Baton Pass": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 40
   },
   "Belly Drum": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Bide": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Bind": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 15,
     "accuracy": 75,
+    "pp": 20,
     "effect": "100% trap"
   },
   "Bite": {
@@ -174,19 +200,22 @@
     "category": "Physical",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 25,
     "effect": "30% flinch"
   },
   "Blast Burn": {
     "type": "Fire",
     "category": "Special",
     "basePower": 150,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 5
   },
   "Blaze Kick": {
     "type": "Fire",
     "category": "Physical",
     "basePower": 85,
     "accuracy": 90,
+    "pp": 10,
     "effect": "10% burn, high crit"
   },
   "Blizzard": {
@@ -194,19 +223,22 @@
     "category": "Special",
     "basePower": 120,
     "accuracy": 70,
+    "pp": 5,
     "effect": "10% freeze"
   },
   "Block": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Body Slam": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 85,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% paralyze"
   },
   "Bone Club": {
@@ -214,6 +246,7 @@
     "category": "Physical",
     "basePower": 65,
     "accuracy": 85,
+    "pp": 20,
     "effect": "10% flinch"
   },
   "Bone Rush": {
@@ -221,6 +254,7 @@
     "category": "Physical",
     "basePower": 25,
     "accuracy": 80,
+    "pp": 10,
     "effect": "2-5 hits"
   },
   "Bounce": {
@@ -228,6 +262,7 @@
     "category": "Physical",
     "basePower": 85,
     "accuracy": 85,
+    "pp": 5,
     "effect": "30% paralyze"
   },
   "Brave Bird": {
@@ -235,38 +270,44 @@
     "category": "Physical",
     "basePower": 120,
     "accuracy": 100,
+    "pp": 15,
     "effect": "recoil"
   },
   "Brick Break": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 75,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Brine": {
     "type": "Water",
     "category": "Special",
     "basePower": 65,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "BubbleBeam": {
     "type": "Water",
     "category": "Special",
     "basePower": 65,
     "accuracy": 100,
+    "pp": 20,
     "effect": "10% lower Spe"
   },
   "Bug Bite": {
     "type": "Bug",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Bug Buzz": {
     "type": "Bug",
     "category": "Special",
     "basePower": 90,
     "accuracy": 100,
+    "pp": 10,
     "effect": "10% lower SpD"
   },
   "Bulk Up": {
@@ -274,19 +315,22 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise Atk/Def"
   },
   "Bullet Punch": {
     "type": "Steel",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "Bullet Seed": {
     "type": "Grass",
     "category": "Physical",
     "basePower": 10,
     "accuracy": 100,
+    "pp": 30,
     "effect": "2-5 hits"
   },
   "Calm Mind": {
@@ -294,6 +338,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise SpA/SpD"
   },
   "Captivate": {
@@ -301,6 +346,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "lower SpA"
   },
   "Charge": {
@@ -308,6 +354,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise SpD"
   },
   "Charge Beam": {
@@ -315,6 +362,7 @@
     "category": "Special",
     "basePower": 50,
     "accuracy": 90,
+    "pp": 10,
     "effect": "70% raise SpA"
   },
   "Charm": {
@@ -322,6 +370,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "lower Atk"
   },
   "Chatter": {
@@ -329,6 +378,7 @@
     "category": "Special",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 20,
     "effect": "100% confuse"
   },
   "Close Combat": {
@@ -336,6 +386,7 @@
     "category": "Physical",
     "basePower": 120,
     "accuracy": 100,
+    "pp": 5,
     "effect": "100% lower Def/SpD"
   },
   "Confuse Ray": {
@@ -343,6 +394,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 10,
     "effect": "confuse"
   },
   "Confusion": {
@@ -350,25 +402,29 @@
     "category": "Special",
     "basePower": 50,
     "accuracy": 100,
+    "pp": 25,
     "effect": "10% confuse"
   },
   "Conversion 2": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 30
   },
   "Copycat": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Cosmic Power": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise Def/SpD"
   },
   "Cotton Spore": {
@@ -376,25 +432,29 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 85,
+    "pp": 40,
     "effect": "lower Spe"
   },
   "Counter": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Covet": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 40
   },
   "Crabhammer": {
     "type": "Water",
     "category": "Physical",
     "basePower": 90,
     "accuracy": 85,
+    "pp": 10,
     "effect": "high crit"
   },
   "Cross Chop": {
@@ -402,6 +462,7 @@
     "category": "Physical",
     "basePower": 100,
     "accuracy": 80,
+    "pp": 5,
     "effect": "high crit"
   },
   "Cross Poison": {
@@ -409,6 +470,7 @@
     "category": "Physical",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 20,
     "effect": "10% poison, high crit"
   },
   "Crunch": {
@@ -416,6 +478,7 @@
     "category": "Physical",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 15,
     "effect": "20% lower Def"
   },
   "Crush Claw": {
@@ -423,25 +486,29 @@
     "category": "Physical",
     "basePower": 75,
     "accuracy": 95,
+    "pp": 10,
     "effect": "50% lower Def"
   },
   "Crush Grip": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Curse": {
     "type": "Unknown",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Dark Pulse": {
     "type": "Dark",
     "category": "Special",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 15,
     "effect": "20% flinch"
   },
   "Defend Order": {
@@ -449,6 +516,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 10,
     "effect": "raise Def/SpD"
   },
   "Defense Curl": {
@@ -456,32 +524,37 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 40,
     "effect": "raise Def"
   },
   "Destiny Bond": {
     "type": "Ghost",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Detect": {
     "type": "Fighting",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 5,
     "effect": "protect"
   },
   "Dig": {
     "type": "Ground",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Disable": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 80,
+    "pp": 20,
     "effect": "disable"
   },
   "Discharge": {
@@ -489,19 +562,22 @@
     "category": "Special",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% paralyze"
   },
   "Dive": {
     "type": "Water",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Dizzy Punch": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 10,
     "effect": "20% confuse"
   },
   "Double Hit": {
@@ -509,6 +585,7 @@
     "category": "Physical",
     "basePower": 35,
     "accuracy": 90,
+    "pp": 10,
     "effect": "2 hits"
   },
   "Double Kick": {
@@ -516,6 +593,7 @@
     "category": "Physical",
     "basePower": 30,
     "accuracy": 100,
+    "pp": 30,
     "effect": "2 hits"
   },
   "Double Team": {
@@ -523,6 +601,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 15,
     "effect": "raise Eva"
   },
   "Double-Edge": {
@@ -530,6 +609,7 @@
     "category": "Physical",
     "basePower": 120,
     "accuracy": 100,
+    "pp": 15,
     "effect": "recoil"
   },
   "DoubleSlap": {
@@ -537,6 +617,7 @@
     "category": "Physical",
     "basePower": 15,
     "accuracy": 85,
+    "pp": 10,
     "effect": "2-5 hits"
   },
   "Draco Meteor": {
@@ -544,38 +625,44 @@
     "category": "Special",
     "basePower": 140,
     "accuracy": 90,
+    "pp": 5,
     "effect": "100% lower SpA"
   },
   "Dragon Claw": {
     "type": "Dragon",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Dragon Dance": {
     "type": "Dragon",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise Atk/Spe"
   },
   "Dragon Pulse": {
     "type": "Dragon",
     "category": "Special",
     "basePower": 90,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Dragon Rage": {
     "type": "Dragon",
     "category": "Special",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Dragon Rush": {
     "type": "Dragon",
     "category": "Physical",
     "basePower": 100,
     "accuracy": 75,
+    "pp": 10,
     "effect": "20% flinch"
   },
   "DragonBreath": {
@@ -583,6 +670,7 @@
     "category": "Special",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 20,
     "effect": "30% paralyze"
   },
   "Drain Punch": {
@@ -590,6 +678,7 @@
     "category": "Physical",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 5,
     "effect": "drains HP"
   },
   "Dream Eater": {
@@ -597,19 +686,22 @@
     "category": "Special",
     "basePower": 100,
     "accuracy": 100,
+    "pp": 15,
     "effect": "drains HP"
   },
   "Drill Peck": {
     "type": "Flying",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "DynamicPunch": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 100,
     "accuracy": 50,
+    "pp": 5,
     "effect": "100% confuse"
   },
   "Earth Power": {
@@ -617,94 +709,109 @@
     "category": "Special",
     "basePower": 90,
     "accuracy": 100,
+    "pp": 10,
     "effect": "10% lower SpD"
   },
   "Earthquake": {
     "type": "Ground",
     "category": "Physical",
     "basePower": 100,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Egg Bomb": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 100,
-    "accuracy": 75
+    "accuracy": 75,
+    "pp": 10
   },
   "Ember": {
     "type": "Fire",
     "category": "Special",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 25,
     "effect": "10% burn"
   },
   "Encore": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Endeavor": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Endure": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Energy Ball": {
     "type": "Grass",
     "category": "Special",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 10,
     "effect": "10% lower SpD"
   },
   "Eruption": {
     "type": "Fire",
     "category": "Special",
     "basePower": 150,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Explosion": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 250,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Extrasensory": {
     "type": "Psychic",
     "category": "Special",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 30,
     "effect": "10% flinch"
   },
   "ExtremeSpeed": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Facade": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 70,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Faint Attack": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Fake Out": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 10,
     "effect": "100% flinch"
   },
   "Fake Tears": {
@@ -712,6 +819,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "lower SpD"
   },
   "FeatherDance": {
@@ -719,6 +827,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 15,
     "effect": "lower Atk"
   },
   "Fire Blast": {
@@ -726,6 +835,7 @@
     "category": "Special",
     "basePower": 120,
     "accuracy": 85,
+    "pp": 5,
     "effect": "10% burn"
   },
   "Fire Fang": {
@@ -733,6 +843,7 @@
     "category": "Physical",
     "basePower": 65,
     "accuracy": 95,
+    "pp": 15,
     "effect": "10% burn, 10% flinch"
   },
   "Fire Punch": {
@@ -740,25 +851,29 @@
     "category": "Physical",
     "basePower": 75,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% burn"
   },
   "Fissure": {
     "type": "Ground",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 30
+    "accuracy": 30,
+    "pp": 5
   },
   "Flail": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Flame Wheel": {
     "type": "Fire",
     "category": "Physical",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 25,
     "effect": "10% burn"
   },
   "Flamethrower": {
@@ -766,6 +881,7 @@
     "category": "Special",
     "basePower": 95,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% burn"
   },
   "Flare Blitz": {
@@ -773,6 +889,7 @@
     "category": "Physical",
     "basePower": 120,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% burn, recoil"
   },
   "Flash": {
@@ -780,6 +897,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "lower Acc"
   },
   "Flash Cannon": {
@@ -787,6 +905,7 @@
     "category": "Special",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 10,
     "effect": "10% lower SpD"
   },
   "Flatter": {
@@ -794,127 +913,147 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 15,
     "effect": "confuse, raise SpA"
   },
   "Fling": {
     "type": "Dark",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Fly": {
     "type": "Flying",
     "category": "Physical",
     "basePower": 90,
-    "accuracy": 95
+    "accuracy": 95,
+    "pp": 15
   },
   "Focus Blast": {
     "type": "Fighting",
     "category": "Special",
     "basePower": 120,
     "accuracy": 70,
+    "pp": 5,
     "effect": "10% lower SpD"
   },
   "Focus Energy": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 30
   },
   "Focus Punch": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 150,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Follow Me": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Foresight": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 40,
     "effect": "no-type-immunity"
   },
   "Frenzy Plant": {
     "type": "Grass",
     "category": "Special",
     "basePower": 150,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 5
   },
   "Frustration": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Fury Attack": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 15,
     "accuracy": 85,
+    "pp": 20,
     "effect": "2-5 hits"
   },
   "Fury Cutter": {
     "type": "Bug",
     "category": "Physical",
     "basePower": 10,
-    "accuracy": 95
+    "accuracy": 95,
+    "pp": 20
   },
   "Fury Swipes": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 18,
     "accuracy": 80,
+    "pp": 15,
     "effect": "2-5 hits"
   },
   "Future Sight": {
     "type": "Psychic",
     "category": "Special",
     "basePower": 80,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 15
   },
   "Gastro Acid": {
     "type": "Poison",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Giga Drain": {
     "type": "Grass",
     "category": "Special",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 10,
     "effect": "drains HP"
   },
   "Giga Impact": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 150,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 5
   },
   "Glare": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 75,
+    "pp": 30,
     "effect": "paralyze"
   },
   "Grass Knot": {
     "type": "Grass",
     "category": "Special",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "GrassWhistle": {
     "type": "Grass",
     "category": "Status",
     "basePower": null,
     "accuracy": 55,
+    "pp": 15,
     "effect": "sleep"
   },
   "Growl": {
@@ -922,6 +1061,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 40,
     "effect": "lower Atk"
   },
   "Growth": {
@@ -929,50 +1069,58 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 40,
     "effect": "raise Atk/SpA"
   },
   "Grudge": {
     "type": "Ghost",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Guillotine": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 30
+    "accuracy": 30,
+    "pp": 5
   },
   "Gunk Shot": {
     "type": "Poison",
     "category": "Physical",
     "basePower": 120,
     "accuracy": 70,
+    "pp": 5,
     "effect": "30% poison"
   },
   "Gust": {
     "type": "Flying",
     "category": "Special",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 35
   },
   "Gyro Ball": {
     "type": "Steel",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Hail": {
     "type": "Ice",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Hammer Arm": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 100,
     "accuracy": 90,
+    "pp": 10,
     "effect": "100% lower Spe"
   },
   "Harden": {
@@ -980,6 +1128,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 30,
     "effect": "raise Def"
   },
   "Head Smash": {
@@ -987,6 +1136,7 @@
     "category": "Physical",
     "basePower": 150,
     "accuracy": 80,
+    "pp": 5,
     "effect": "recoil"
   },
   "Headbutt": {
@@ -994,101 +1144,117 @@
     "category": "Physical",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% flinch"
   },
   "Heal Bell": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Heal Order": {
     "type": "Bug",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Heat Wave": {
     "type": "Fire",
     "category": "Special",
     "basePower": 100,
     "accuracy": 90,
+    "pp": 10,
     "effect": "10% burn"
   },
   "Helping Hand": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Hi Jump Kick": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 100,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 20
   },
   "Horn Drill": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 30
+    "accuracy": 30,
+    "pp": 5
   },
   "Howl": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 40,
     "effect": "raise Atk"
   },
   "Hydro Cannon": {
     "type": "Water",
     "category": "Special",
     "basePower": 150,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 5
   },
   "Hydro Pump": {
     "type": "Water",
     "category": "Special",
     "basePower": 120,
-    "accuracy": 80
+    "accuracy": 80,
+    "pp": 5
   },
   "Hyper Beam": {
     "type": "Normal",
     "category": "Special",
     "basePower": 150,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 5
   },
   "Hyper Fang": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 80,
     "accuracy": 90,
+    "pp": 15,
     "effect": "10% flinch"
   },
   "Hyper Voice": {
     "type": "Normal",
     "category": "Special",
     "basePower": 90,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Hypnosis": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
     "accuracy": 60,
+    "pp": 20,
     "effect": "sleep"
   },
   "Ice Ball": {
     "type": "Ice",
     "category": "Physical",
     "basePower": 30,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 20
   },
   "Ice Beam": {
     "type": "Ice",
     "category": "Special",
     "basePower": 95,
     "accuracy": 100,
+    "pp": 10,
     "effect": "10% freeze"
   },
   "Ice Fang": {
@@ -1096,6 +1262,7 @@
     "category": "Physical",
     "basePower": 65,
     "accuracy": 95,
+    "pp": 15,
     "effect": "10% freeze, 10% flinch"
   },
   "Ice Punch": {
@@ -1103,32 +1270,37 @@
     "category": "Physical",
     "basePower": 75,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% freeze"
   },
   "Ice Shard": {
     "type": "Ice",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "Icy Wind": {
     "type": "Ice",
     "category": "Special",
     "basePower": 55,
     "accuracy": 95,
+    "pp": 15,
     "effect": "100% lower Spe"
   },
   "Imprison": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Ingrain": {
     "type": "Grass",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "ingrain"
   },
   "Iron Defense": {
@@ -1136,6 +1308,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 15,
     "effect": "raise Def"
   },
   "Iron Head": {
@@ -1143,6 +1316,7 @@
     "category": "Physical",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% flinch"
   },
   "Iron Tail": {
@@ -1150,6 +1324,7 @@
     "category": "Physical",
     "basePower": 100,
     "accuracy": 75,
+    "pp": 15,
     "effect": "30% lower Def"
   },
   "Karate Chop": {
@@ -1157,25 +1332,29 @@
     "category": "Physical",
     "basePower": 50,
     "accuracy": 100,
+    "pp": 25,
     "effect": "high crit"
   },
   "Knock Off": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 20,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Last Resort": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 130,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Lava Plume": {
     "type": "Fire",
     "category": "Special",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% burn"
   },
   "Leaf Blade": {
@@ -1183,6 +1362,7 @@
     "category": "Physical",
     "basePower": 90,
     "accuracy": 100,
+    "pp": 15,
     "effect": "high crit"
   },
   "Leaf Storm": {
@@ -1190,6 +1370,7 @@
     "category": "Special",
     "basePower": 140,
     "accuracy": 90,
+    "pp": 5,
     "effect": "100% lower SpA"
   },
   "Leech Seed": {
@@ -1197,6 +1378,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 90,
+    "pp": 10,
     "effect": "leech-seed"
   },
   "Leer": {
@@ -1204,6 +1386,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 30,
     "effect": "100% lower Def"
   },
   "Lick": {
@@ -1211,126 +1394,146 @@
     "category": "Physical",
     "basePower": 20,
     "accuracy": 100,
+    "pp": 30,
     "effect": "30% paralyze"
   },
   "Light Screen": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 30
   },
   "Lovely Kiss": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 75,
+    "pp": 10,
     "effect": "sleep"
   },
   "Low Kick": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Luster Purge": {
     "type": "Psychic",
     "category": "Special",
     "basePower": 95,
     "accuracy": 100,
+    "pp": 5,
     "effect": "50% lower SpD"
   },
   "Mach Punch": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "Magic Coat": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 15
   },
   "Magical Leaf": {
     "type": "Grass",
     "category": "Special",
     "basePower": 60,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Magma Storm": {
     "type": "Fire",
     "category": "Special",
     "basePower": 120,
     "accuracy": 70,
+    "pp": 5,
     "effect": "100% trap"
   },
   "Magnet Bomb": {
     "type": "Steel",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Magnet Rise": {
     "type": "Electric",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Magnitude": {
     "type": "Ground",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "Mean Look": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Mega Drain": {
     "type": "Grass",
     "category": "Special",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 15,
     "effect": "drains HP"
   },
   "Mega Kick": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 120,
-    "accuracy": 75
+    "accuracy": 75,
+    "pp": 5
   },
   "Mega Punch": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 85
+    "accuracy": 85,
+    "pp": 20
   },
   "Megahorn": {
     "type": "Bug",
     "category": "Physical",
     "basePower": 120,
-    "accuracy": 85
+    "accuracy": 85,
+    "pp": 10
   },
   "Memento": {
     "type": "Dark",
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 10,
     "effect": "lower Atk/SpA"
   },
   "Metal Burst": {
     "type": "Steel",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Metal Claw": {
     "type": "Steel",
     "category": "Physical",
     "basePower": 50,
     "accuracy": 95,
+    "pp": 35,
     "effect": "10% raise Atk"
   },
   "Metal Sound": {
@@ -1338,6 +1541,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 85,
+    "pp": 40,
     "effect": "lower SpD"
   },
   "Meteor Mash": {
@@ -1345,88 +1549,102 @@
     "category": "Physical",
     "basePower": 100,
     "accuracy": 85,
+    "pp": 10,
     "effect": "20% raise Atk"
   },
   "Metronome": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Milk Drink": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Mimic": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Mind Reader": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 40
   },
   "Minimize": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise Eva"
   },
   "Mirror Coat": {
     "type": "Psychic",
     "category": "Special",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Mirror Move": {
     "type": "Flying",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Mirror Shot": {
     "type": "Steel",
     "category": "Special",
     "basePower": 65,
     "accuracy": 85,
+    "pp": 10,
     "effect": "30% lower Acc"
   },
   "Mist": {
     "type": "Ice",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 30
   },
   "Mist Ball": {
     "type": "Psychic",
     "category": "Special",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 5,
     "effect": "50% lower SpA"
   },
   "Moonlight": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Morning Sun": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Mud Bomb": {
     "type": "Ground",
     "category": "Special",
     "basePower": 65,
     "accuracy": 85,
+    "pp": 10,
     "effect": "30% lower Acc"
   },
   "Mud Shot": {
@@ -1434,19 +1652,22 @@
     "category": "Special",
     "basePower": 55,
     "accuracy": 95,
+    "pp": 15,
     "effect": "100% lower Spe"
   },
   "Mud Sport": {
     "type": "Ground",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 15
   },
   "Mud-Slap": {
     "type": "Ground",
     "category": "Special",
     "basePower": 20,
     "accuracy": 100,
+    "pp": 10,
     "effect": "100% lower Acc"
   },
   "Muddy Water": {
@@ -1454,6 +1675,7 @@
     "category": "Special",
     "basePower": 95,
     "accuracy": 85,
+    "pp": 10,
     "effect": "30% lower Acc"
   },
   "Nasty Plot": {
@@ -1461,6 +1683,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise SpA"
   },
   "Needle Arm": {
@@ -1468,19 +1691,22 @@
     "category": "Physical",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% flinch"
   },
   "Night Shade": {
     "type": "Ghost",
     "category": "Special",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Night Slash": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 15,
     "effect": "high crit"
   },
   "Nightmare": {
@@ -1488,6 +1714,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 15,
     "effect": "nightmare"
   },
   "Octazooka": {
@@ -1495,6 +1722,7 @@
     "category": "Special",
     "basePower": 65,
     "accuracy": 85,
+    "pp": 10,
     "effect": "50% lower Acc"
   },
   "Ominous Wind": {
@@ -1502,44 +1730,51 @@
     "category": "Special",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 5,
     "effect": "10% raise all stats"
   },
   "Outrage": {
     "type": "Dragon",
     "category": "Physical",
     "basePower": 120,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Overheat": {
     "type": "Fire",
     "category": "Special",
     "basePower": 140,
     "accuracy": 90,
+    "pp": 5,
     "effect": "100% lower SpA"
   },
   "Pain Split": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Payback": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 50,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Peck": {
     "type": "Flying",
     "category": "Physical",
     "basePower": 35,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 35
   },
   "Perish Song": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 5,
     "effect": "perish-song"
   },
   "Pin Missile": {
@@ -1547,19 +1782,22 @@
     "category": "Physical",
     "basePower": 14,
     "accuracy": 85,
+    "pp": 20,
     "effect": "2-5 hits"
   },
   "Pluck": {
     "type": "Flying",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Poison Fang": {
     "type": "Poison",
     "category": "Physical",
     "basePower": 50,
     "accuracy": 100,
+    "pp": 15,
     "effect": "50% poison"
   },
   "Poison Jab": {
@@ -1567,6 +1805,7 @@
     "category": "Physical",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 20,
     "effect": "30% poison"
   },
   "Poison Tail": {
@@ -1574,6 +1813,7 @@
     "category": "Physical",
     "basePower": 50,
     "accuracy": 100,
+    "pp": 25,
     "effect": "10% poison, high crit"
   },
   "PoisonPowder": {
@@ -1581,37 +1821,43 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 75,
+    "pp": 35,
     "effect": "poison"
   },
   "Power Gem": {
     "type": "Rock",
     "category": "Special",
     "basePower": 70,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Power Trick": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Power Whip": {
     "type": "Grass",
     "category": "Physical",
     "basePower": 120,
-    "accuracy": 85
+    "accuracy": 85,
+    "pp": 10
   },
   "Present": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 15
   },
   "Protect": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 10,
     "effect": "protect"
   },
   "Psybeam": {
@@ -1619,19 +1865,22 @@
     "category": "Special",
     "basePower": 65,
     "accuracy": 100,
+    "pp": 20,
     "effect": "10% confuse"
   },
   "Psych Up": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Psychic": {
     "type": "Psychic",
     "category": "Special",
     "basePower": 90,
     "accuracy": 100,
+    "pp": 10,
     "effect": "10% lower SpD"
   },
   "Psycho Cut": {
@@ -1639,43 +1888,50 @@
     "category": "Physical",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 20,
     "effect": "high crit"
   },
   "Psywave": {
     "type": "Psychic",
     "category": "Special",
     "basePower": null,
-    "accuracy": 80
+    "accuracy": 80,
+    "pp": 15
   },
   "Punishment": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Pursuit": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Quick Attack": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "Rain Dance": {
     "type": "Water",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Rapid Spin": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 20,
     "accuracy": 100,
+    "pp": 40,
     "effect": "100% raise Spe"
   },
   "Razor Leaf": {
@@ -1683,67 +1939,78 @@
     "category": "Physical",
     "basePower": 55,
     "accuracy": 95,
+    "pp": 25,
     "effect": "high crit"
   },
   "Recover": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Recycle": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Reflect": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Refresh": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Rest": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Return": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Revenge": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Reversal": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Roar": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Rock Blast": {
     "type": "Rock",
     "category": "Physical",
     "basePower": 25,
     "accuracy": 80,
+    "pp": 10,
     "effect": "2-5 hits"
   },
   "Rock Slide": {
@@ -1751,6 +2018,7 @@
     "category": "Physical",
     "basePower": 75,
     "accuracy": 90,
+    "pp": 10,
     "effect": "30% flinch"
   },
   "Rock Smash": {
@@ -1758,6 +2026,7 @@
     "category": "Physical",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 15,
     "effect": "50% lower Def"
   },
   "Rock Tomb": {
@@ -1765,50 +2034,58 @@
     "category": "Physical",
     "basePower": 50,
     "accuracy": 80,
+    "pp": 10,
     "effect": "100% lower Spe"
   },
   "Rock Wrecker": {
     "type": "Rock",
     "category": "Physical",
     "basePower": 150,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 5
   },
   "Role Play": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Rolling Kick": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 60,
     "accuracy": 85,
+    "pp": 15,
     "effect": "30% flinch"
   },
   "Rollout": {
     "type": "Rock",
     "category": "Physical",
     "basePower": 30,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 20
   },
   "Roost": {
     "type": "Flying",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Safeguard": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 25
   },
   "Sand Tomb": {
     "type": "Ground",
     "category": "Physical",
     "basePower": 15,
     "accuracy": 70,
+    "pp": 15,
     "effect": "100% trap"
   },
   "Sand-Attack": {
@@ -1816,57 +2093,66 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 15,
     "effect": "lower Acc"
   },
   "Sandstorm": {
     "type": "Rock",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Scary Face": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 90,
+    "pp": 10,
     "effect": "lower Spe"
   },
   "Scratch": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 35
   },
   "Screech": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 85,
+    "pp": 40,
     "effect": "lower Def"
   },
   "Secret Power": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 70,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Seed Bomb": {
     "type": "Grass",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Selfdestruct": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 200,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Shadow Ball": {
     "type": "Ghost",
     "category": "Special",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 15,
     "effect": "20% lower SpD"
   },
   "Shadow Claw": {
@@ -1874,37 +2160,43 @@
     "category": "Physical",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 15,
     "effect": "high crit"
   },
   "Shadow Punch": {
     "type": "Ghost",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Shadow Sneak": {
     "type": "Ghost",
     "category": "Physical",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "Sheer Cold": {
     "type": "Ice",
     "category": "Special",
     "basePower": null,
-    "accuracy": 30
+    "accuracy": 30,
+    "pp": 5
   },
   "Shock Wave": {
     "type": "Electric",
     "category": "Special",
     "basePower": 60,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Signal Beam": {
     "type": "Bug",
     "category": "Special",
     "basePower": 75,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% confuse"
   },
   "Silver Wind": {
@@ -1912,6 +2204,7 @@
     "category": "Special",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 5,
     "effect": "10% raise all stats"
   },
   "Sing": {
@@ -1919,6 +2212,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 55,
+    "pp": 15,
     "effect": "sleep"
   },
   "Sky Attack": {
@@ -1926,31 +2220,36 @@
     "category": "Physical",
     "basePower": 140,
     "accuracy": 90,
+    "pp": 5,
     "effect": "30% flinch, high crit"
   },
   "Sky Uppercut": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 85,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 15
   },
   "Slack Off": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Slam": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 75
+    "accuracy": 75,
+    "pp": 20
   },
   "Slash": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 70,
     "accuracy": 100,
+    "pp": 20,
     "effect": "high crit"
   },
   "Sleep Powder": {
@@ -1958,19 +2257,22 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 75,
+    "pp": 15,
     "effect": "sleep"
   },
   "Sleep Talk": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Sludge": {
     "type": "Poison",
     "category": "Special",
     "basePower": 65,
     "accuracy": 100,
+    "pp": 20,
     "effect": "30% poison"
   },
   "Sludge Bomb": {
@@ -1978,6 +2280,7 @@
     "category": "Special",
     "basePower": 90,
     "accuracy": 100,
+    "pp": 10,
     "effect": "30% poison"
   },
   "Smog": {
@@ -1985,6 +2288,7 @@
     "category": "Special",
     "basePower": 20,
     "accuracy": 70,
+    "pp": 20,
     "effect": "40% poison"
   },
   "SmokeScreen": {
@@ -1992,6 +2296,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "lower Acc"
   },
   "Snore": {
@@ -1999,75 +2304,87 @@
     "category": "Special",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 15,
     "effect": "30% flinch"
   },
   "Softboiled": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "SolarBeam": {
     "type": "Grass",
     "category": "Special",
     "basePower": 120,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Spark": {
     "type": "Electric",
     "category": "Physical",
     "basePower": 65,
     "accuracy": 100,
+    "pp": 20,
     "effect": "30% paralyze"
   },
   "Spider Web": {
     "type": "Bug",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Spikes": {
     "type": "Ground",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Spit Up": {
     "type": "Normal",
     "category": "Special",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Spite": {
     "type": "Ghost",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Splash": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 40
   },
   "Spore": {
     "type": "Grass",
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 15,
     "effect": "sleep"
   },
   "Stealth Rock": {
     "type": "Rock",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Steel Wing": {
     "type": "Steel",
     "category": "Physical",
     "basePower": 70,
     "accuracy": 90,
+    "pp": 25,
     "effect": "10% raise Def"
   },
   "Stockpile": {
@@ -2075,6 +2392,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 20,
     "effect": "raise Def/SpD"
   },
   "Stomp": {
@@ -2082,6 +2400,7 @@
     "category": "Physical",
     "basePower": 65,
     "accuracy": 100,
+    "pp": 20,
     "effect": "30% flinch"
   },
   "Stone Edge": {
@@ -2089,50 +2408,58 @@
     "category": "Physical",
     "basePower": 100,
     "accuracy": 80,
+    "pp": 5,
     "effect": "high crit"
   },
   "Strength": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Stun Spore": {
     "type": "Grass",
     "category": "Status",
     "basePower": null,
     "accuracy": 75,
+    "pp": 30,
     "effect": "paralyze"
   },
   "Substitute": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Sucker Punch": {
     "type": "Dark",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "Sunny Day": {
     "type": "Fire",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Super Fang": {
     "type": "Normal",
     "category": "Physical",
     "basePower": null,
-    "accuracy": 90
+    "accuracy": 90,
+    "pp": 10
   },
   "Superpower": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 120,
     "accuracy": 100,
+    "pp": 5,
     "effect": "100% lower Atk/Def"
   },
   "Supersonic": {
@@ -2140,32 +2467,37 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 55,
+    "pp": 20,
     "effect": "confuse"
   },
   "Surf": {
     "type": "Water",
     "category": "Special",
     "basePower": 95,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Swagger": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 90,
+    "pp": 15,
     "effect": "confuse, raise Atk"
   },
   "Swallow": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Sweet Kiss": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 75,
+    "pp": 10,
     "effect": "confuse"
   },
   "Sweet Scent": {
@@ -2173,83 +2505,96 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "lower Eva"
   },
   "Swift": {
     "type": "Normal",
     "category": "Special",
     "basePower": 60,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Switcheroo": {
     "type": "Dark",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Swords Dance": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 30,
     "effect": "raise Atk"
   },
   "Synthesis": {
     "type": "Grass",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Tackle": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 35,
-    "accuracy": 95
+    "accuracy": 95,
+    "pp": 35
   },
   "Tail Whip": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 30,
     "effect": "lower Def"
   },
   "Tailwind": {
     "type": "Flying",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 30
   },
   "Take Down": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 90,
     "accuracy": 85,
+    "pp": 20,
     "effect": "recoil"
   },
   "Taunt": {
     "type": "Dark",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Teeter Dance": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "confuse"
   },
   "Thrash": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 90,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Thunder": {
     "type": "Electric",
     "category": "Special",
     "basePower": 120,
     "accuracy": 70,
+    "pp": 10,
     "effect": "30% paralyze"
   },
   "Thunder Fang": {
@@ -2257,6 +2602,7 @@
     "category": "Physical",
     "basePower": 65,
     "accuracy": 95,
+    "pp": 15,
     "effect": "10% paralyze, 10% flinch"
   },
   "Thunder Wave": {
@@ -2264,6 +2610,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "paralyze"
   },
   "ThunderPunch": {
@@ -2271,6 +2618,7 @@
     "category": "Physical",
     "basePower": 75,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% paralyze"
   },
   "ThunderShock": {
@@ -2278,6 +2626,7 @@
     "category": "Special",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 30,
     "effect": "10% paralyze"
   },
   "Thunderbolt": {
@@ -2285,6 +2634,7 @@
     "category": "Special",
     "basePower": 95,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% paralyze"
   },
   "Tickle": {
@@ -2292,6 +2642,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 20,
     "effect": "lower Atk/Def"
   },
   "Torment": {
@@ -2299,6 +2650,7 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 100,
+    "pp": 15,
     "effect": "torment"
   },
   "Toxic": {
@@ -2306,50 +2658,58 @@
     "category": "Status",
     "basePower": null,
     "accuracy": 85,
+    "pp": 10,
     "effect": "poison"
   },
   "Toxic Spikes": {
     "type": "Poison",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 20
   },
   "Tri Attack": {
     "type": "Normal",
     "category": "Special",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Trick": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Trick Room": {
     "type": "Psychic",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Triple Kick": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 10,
     "accuracy": 90,
+    "pp": 10,
     "effect": "3 hits"
   },
   "Trump Card": {
     "type": "Normal",
     "category": "Special",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 5
   },
   "Twineedle": {
     "type": "Bug",
     "category": "Physical",
     "basePower": 25,
     "accuracy": 100,
+    "pp": 20,
     "effect": "20% poison, 2 hits"
   },
   "Twister": {
@@ -2357,108 +2717,125 @@
     "category": "Special",
     "basePower": 40,
     "accuracy": 100,
+    "pp": 20,
     "effect": "20% flinch"
   },
   "U-turn": {
     "type": "Bug",
     "category": "Physical",
     "basePower": 70,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Vacuum Wave": {
     "type": "Fighting",
     "category": "Special",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "ViceGrip": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 55,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 30
   },
   "Volt Tackle": {
     "type": "Electric",
     "category": "Physical",
     "basePower": 120,
     "accuracy": 100,
+    "pp": 15,
     "effect": "10% paralyze, recoil"
   },
   "Wake-Up Slap": {
     "type": "Fighting",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Water Gun": {
     "type": "Water",
     "category": "Special",
     "basePower": 40,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 25
   },
   "Water Pulse": {
     "type": "Water",
     "category": "Special",
     "basePower": 60,
     "accuracy": 100,
+    "pp": 20,
     "effect": "20% confuse"
   },
   "Water Sport": {
     "type": "Water",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 15
   },
   "Waterfall": {
     "type": "Water",
     "category": "Physical",
     "basePower": 80,
     "accuracy": 100,
+    "pp": 15,
     "effect": "20% flinch"
   },
   "Weather Ball": {
     "type": "Normal",
     "category": "Special",
     "basePower": 50,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Whirlpool": {
     "type": "Water",
     "category": "Special",
     "basePower": 15,
     "accuracy": 70,
+    "pp": 15,
     "effect": "100% trap"
   },
   "Whirlwind": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 20
   },
   "Will-O-Wisp": {
     "type": "Fire",
     "category": "Status",
     "basePower": null,
     "accuracy": 75,
+    "pp": 15,
     "effect": "burn"
   },
   "Wing Attack": {
     "type": "Flying",
     "category": "Physical",
     "basePower": 60,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 35
   },
   "Wish": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
-    "accuracy": null
+    "accuracy": null,
+    "pp": 10
   },
   "Withdraw": {
     "type": "Water",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 40,
     "effect": "raise Def"
   },
   "Wood Hammer": {
@@ -2466,38 +2843,44 @@
     "category": "Physical",
     "basePower": 120,
     "accuracy": 100,
+    "pp": 15,
     "effect": "recoil"
   },
   "Worry Seed": {
     "type": "Grass",
     "category": "Status",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 10
   },
   "Wrap": {
     "type": "Normal",
     "category": "Physical",
     "basePower": 15,
     "accuracy": 85,
+    "pp": 20,
     "effect": "100% trap"
   },
   "Wring Out": {
     "type": "Normal",
     "category": "Special",
     "basePower": null,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 5
   },
   "X-Scissor": {
     "type": "Bug",
     "category": "Physical",
     "basePower": 80,
-    "accuracy": 100
+    "accuracy": 100,
+    "pp": 15
   },
   "Yawn": {
     "type": "Normal",
     "category": "Status",
     "basePower": null,
     "accuracy": null,
+    "pp": 10,
     "effect": "yawn"
   },
   "Zen Headbutt": {
@@ -2505,6 +2888,7 @@
     "category": "Physical",
     "basePower": 80,
     "accuracy": 90,
+    "pp": 15,
     "effect": "20% flinch"
   }
 }

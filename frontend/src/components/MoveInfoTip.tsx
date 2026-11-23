@@ -7,6 +7,7 @@ import type { MoveData } from "../engine/damage";
 export function MoveInfoTip({ move }: { move: MoveData }) {
   const power = move.basePower ?? "—";
   const accuracy = move.accuracy == null ? "—" : `${move.accuracy}%`;
+  const pp = move.pp ?? "—";
   return (
     <span className="movetip" role="tooltip">
       <span className="movetip__head" style={{ color: typeColor(move.type) }}>
@@ -21,6 +22,8 @@ export function MoveInfoTip({ move }: { move: MoveData }) {
         <span className="movetip__v">{power}</span>
         <span className="movetip__k">Acc</span>
         <span className="movetip__v">{accuracy}</span>
+        <span className="movetip__k">PP</span>
+        <span className="movetip__v">{pp}</span>
       </span>
       {move.effect && <span className="movetip__effect">{move.effect}</span>}
     </span>

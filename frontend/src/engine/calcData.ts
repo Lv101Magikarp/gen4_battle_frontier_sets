@@ -15,6 +15,7 @@ export type MoveDex = Record<
     category: "Physical" | "Special" | "Status";
     basePower: number | null;
     accuracy: number | null;
+    pp?: number;
     effect?: string;
   }
 >;
@@ -65,5 +66,5 @@ export function loadMoveDex(): Promise<MoveDex> {
 export function resolveMove(dex: MoveDex, name: string, fallbackType: string): MoveData {
   const m = dex[name];
   if (!m) return { name, type: fallbackType, category: "Status", basePower: null, accuracy: null };
-  return { name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy, effect: m.effect };
+  return { name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy, pp: m.pp, effect: m.effect };
 }
