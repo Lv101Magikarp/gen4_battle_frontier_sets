@@ -1145,6 +1145,71 @@ input, select, button {
   color: var(--text-muted);
 }
 
+/* Roster category chips: "picks from: Water / Legendaries / Varied …" */
+.roster__cats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.roster__cats-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.roster__cat {
+  text-transform: capitalize;
+}
+.roster__cat--legendary {
+  background: linear-gradient(135deg, #b8860b, #ffcf33);
+  color: #221a00;
+  text-shadow: none;
+}
+.roster__cat--starter {
+  background: var(--accent-2);
+}
+.roster__cat--eevee {
+  background: #a9744f;
+}
+.roster__cat--varied {
+  background: var(--text-muted);
+}
+.roster__cat--gimmick {
+  background: #d9480f;
+}
+.roster__cat--setindex {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  text-shadow: none;
+}
+.roster__mostly {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+.roster__expand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.roster__expand:hover {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+
 /* Factory trainer detail (shown instead of a roster, which is meaningless there). */
 .trainer-detail {
   display: flex;

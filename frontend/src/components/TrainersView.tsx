@@ -6,10 +6,15 @@ import {
   filterTrainers,
   loadTrainerData,
   rosterAsSets,
-  setNumberLabel,
+  rosterRawSets,
+  rosterTheme,
+  fixedSetIndex,
+  setIndexLabel,
   trainerClasses,
 } from "../engine/trainers";
+import type { RosterCategory } from "../engine/trainers";
 import { trainerBattleSprite, trainerOverworldSprite } from "../engine/trainerSprites";
+import { typeColor } from "../theme";
 import { SetCard } from "./SetCard";
 
 const ROUNDS = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -70,6 +75,15 @@ export function TrainersView({
 
   const classes = useMemo(() => (data ? trainerClasses(data) : []), [data]);
   const matches = useMemo(() => (data ? filterTrainers(data, filters) : []), [data, filters]);
+  // Each trainer's locked set number (null = draws from all four), derived once
+  // per roster group so the list rows and the opened roster agree.
+  const setIdxByGroup = useMemo(() => {
+    const m = new Map<string, number | null>();
+    if (data)
+      for (const t of data.trainers)
+        if (!m.has(t.groupId)) m.set(t.groupId, fixedSetIndex(data, t));
+    return m;
+  }, [data]);
 
   const selectedTrainer = useMemo(
     () => (data && selected != null ? data.trainers.find((t) => t.index === selected) ?? null : null),
@@ -80,6 +94,16 @@ export function TrainersView({
     () => (data && selectedTrainer ? rosterAsSets(data, selectedTrainer, selectedIv, level) : []),
     [data, selectedTrainer, selectedIv, level],
   );
+  // Category chips summarise the pool; the full ~50-card grid is collapsed until
+  // the user expands it. Opening a different trainer re-collapses it. The theme is
+  // derived from the raw set rows (toPokeSet drops the real set numbers).
+  const rawRoster = useMemo(
+    () => (data && selectedTrainer ? rosterRawSets(data, selectedTrainer) : []),
+    [data, selectedTrainer],
+  );
+  const theme = useMemo(() => rosterTheme(rawRoster), [rawRoster]);
+  const [rosterOpen, setRosterOpen] = useState(false);
+  useEffect(() => setRosterOpen(false), [selected]);
 
   if (error) return <div className="layout"><div className="error">{error}</div></div>;
 
@@ -189,6 +213,7 @@ export function TrainersView({
               <TrainerRow
                 t={t}
                 iv={ivFor(facility, t)}
+                setIndex={setIdxByGroup.get(t.groupId) ?? null}
                 roundLabels={data!.roundLabels}
                 open={selected === t.index}
                 onToggle={() => setSelected(selected === t.index ? null : t.index)}
@@ -199,15 +224,40 @@ export function TrainersView({
                     <div className="roster__head">
                       <h3>
                         {selectedTrainer.class} {selectedTrainer.name}
-                        <span className="roster__meta"> · roster ({roster.length}) · {selectedIv} IVs · {setNumberLabel(selectedTrainer.tier).toLowerCase()} · picks 3</span>
+                        <span className="roster__meta"> · {selectedIv} IVs · picks 3 of {roster.length}</span>
                       </h3>
                       <button className="btn-link" onClick={() => setSelected(null)}>Close</button>
                     </div>
-                    <div className="grid">
-                      {roster.map((s) => (
-                        <SetCard key={s.id} set={s} fixedIv={selectedIv} level={level} />
+                    <div className="roster__cats">
+                      <span className="roster__cats-label">Picks from</span>
+                      {theme.categories.map((c) => (
+                        <CategoryChip key={c.label} cat={c} />
                       ))}
+                      {theme.mostly.length > 0 && (
+                        <span className="roster__mostly">mostly {theme.mostly.join(", ")}</span>
+                      )}
+                      {theme.setIndex != null ? (
+                        <span className="chip roster__cat roster__cat--setindex">
+                          Set {theme.setIndex} only
+                        </span>
+                      ) : (
+                        <span className="roster__mostly">· sets 1–4</span>
+                      )}
                     </div>
+                    <button
+                      className="roster__expand"
+                      onClick={() => setRosterOpen((o) => !o)}
+                      aria-expanded={rosterOpen}
+                    >
+                      {rosterOpen ? "Hide" : "Show"} full roster ({roster.length}) {rosterOpen ? "▲" : "▼"}
+                    </button>
+                    {rosterOpen && (
+                      <div className="grid">
+                        {roster.map((s) => (
+                          <SetCard key={s.id} set={s} fixedIv={selectedIv} level={level} />
+                        ))}
+                      </div>
+                    )}
                   </section>
                 ) : (
                   <TrainerDetail t={selectedTrainer} iv={selectedIv} onClose={() => setSelected(null)} />
@@ -248,11 +298,26 @@ function FacilityPlaceholder({ facility }: { facility: Facility }) {
   );
 }
 
+// A single roster-category chip. Type categories are coloured by their Pokémon
+// type; the non-type categories (Legendaries/Starters/Eeveelutions/Varied) use
+// neutral accent styling.
+function CategoryChip({ cat }: { cat: RosterCategory }) {
+  if (cat.kind === "type") {
+    return (
+      <span className="chip roster__cat" style={{ background: typeColor(cat.type!) }}>
+        {cat.label}
+      </span>
+    );
+  }
+  return <span className={`chip roster__cat roster__cat--${cat.kind}`}>{cat.label}</span>;
+}
+
 function TrainerRow({
-  t, iv, roundLabels, open, onToggle,
+  t, iv, setIndex, roundLabels, open, onToggle,
 }: {
   t: Trainer;
   iv: number;
+  setIndex: number | null;
   roundLabels: string[];
   open: boolean;
   onToggle: () => void;
@@ -269,9 +334,9 @@ function TrainerRow({
       </span>
       <span
         className="trainer-row__setnum"
-        title="Set number(s) this trainer's Pokémon use (fully-evolved species have 4 sets)"
+        title="Set number this trainer's Pokémon use, derived from its pool (locked to one set, or all four)"
       >
-        {setNumberLabel(t.tier)}
+        {setIndexLabel(setIndex)}
       </span>
       <span className="trainer-row__iv">{iv} IV</span>
       <span className="round-chips">
