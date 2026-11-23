@@ -6,8 +6,8 @@ import { FilterPanel } from "./components/FilterPanel";
 import { SetCard } from "./components/SetCard";
 import { TrainersView } from "./components/TrainersView";
 import { DamageCalcView, type Side as CalcSide } from "./components/DamageCalcView";
-import { FACILITIES, getFacility } from "./facilities";
-import type { Facility, FacilityId } from "./facilities";
+import { getFacility } from "./facilities";
+import type { FacilityId } from "./facilities";
 import type { IvMode } from "./engine/stats";
 import type { RollMode, Weather } from "./engine/damage";
 
@@ -148,8 +148,10 @@ export default function App() {
   const [calcWeather, setCalcWeather] = useState<Weather>("none");
 
   const facility = getFacility(facilityId);
-  const levelOptions = facility.levels ?? [];
-  const showLevelToggle = levelOptions.length > 1;
+  // Lv 50 vs Open Level (100) is a battle-level division every facility offers, so
+  // the toggle is global (and drives the Sets list + calculator) rather than being
+  // sourced from the selected facility.
+  const levelOptions = [50, 100];
   useEffect(() => {
     localStorage.setItem(FACILITY_KEY, facilityId);
   }, [facilityId]);
@@ -292,7 +294,10 @@ export default function App() {
           <div>
             <h1>Gen 4 Battle Frontier Sets</h1>
             <p className="subtitle">
-              Platinum · HG / SS · <span className="subtitle__facility">{facility.name}</span>
+              Platinum · HG / SS
+              {view === "trainers" && (
+                <> · <span className="subtitle__facility">{facility.name}</span></>
+              )}
             </p>
           </div>
         </div>
@@ -312,34 +317,19 @@ export default function App() {
         </div>
 
         <div className="topbar__controls">
-          <label className="facility-select" title="Battle Frontier facility">
-            <select
-              value={facilityId}
-              onChange={(e) => setFacilityId(e.target.value as FacilityId)}
-            >
-              {FACILITIES.map((f) => (
-                <option key={f.id} value={f.id}>
-                  {f.name}
-                  {f.implemented ? "" : " · soon"}
-                </option>
-              ))}
-            </select>
-          </label>
-          {showLevelToggle && (
-            <div className="viewnav level-toggle" role="group" aria-label="Battle level">
-              {levelOptions.map((lv) => (
-                <button
-                  key={lv}
-                  className={`viewnav__btn ${level === lv ? "viewnav__btn--on" : ""}`}
-                  onClick={() => setLevel(lv)}
-                  aria-pressed={level === lv}
-                  title={lv === 100 ? "Open Level (Lv 100)" : "Lv 50"}
-                >
-                  Lv {lv}
-                </button>
-              ))}
-            </div>
-          )}
+          <div className="viewnav level-toggle" role="group" aria-label="Battle level">
+            {levelOptions.map((lv) => (
+              <button
+                key={lv}
+                className={`viewnav__btn ${level === lv ? "viewnav__btn--on" : ""}`}
+                onClick={() => setLevel(lv)}
+                aria-pressed={level === lv}
+                title={lv === 100 ? "Open Level (Lv 100)" : "Lv 50"}
+              >
+                Lv {lv}
+              </button>
+            ))}
+          </div>
           <div className="viewnav" role="tablist">
             <button
               className={`viewnav__btn ${view === "sets" ? "viewnav__btn--on" : ""}`}
@@ -372,10 +362,13 @@ export default function App() {
         </div>
       </header>
 
-      {!facility.implemented ? (
-        <FacilityPlaceholder facility={facility} />
-      ) : view === "trainers" ? (
-        <TrainersView initialTrainer={initialTrainer} facility={facility} level={level} />
+      {view === "trainers" ? (
+        <TrainersView
+          initialTrainer={initialTrainer}
+          facility={facility}
+          onFacilityChange={setFacilityId}
+          level={level}
+        />
       ) : view === "calc" ? (
         <DamageCalcView
           level={level}
@@ -514,35 +507,11 @@ export default function App() {
         <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Battle_Frontier_Pok%C3%A9mon_in_Generation_IV/Group_1" target="_blank" rel="noreferrer">
           Bulbapedia
         </a>{" "}
-        & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Currently
-        showing <strong>Battle Factory</strong> data — abilities are possible options; final stats
-        are computed at <strong>Lv {level}</strong> with the facility's tier-based IVs. Other Frontier
-        facilities are planned.
+        & <a href="https://pokeapi.co" target="_blank" rel="noreferrer">PokéAPI</a>. Abilities are
+        possible options; set stats are computed at <strong>Lv {level}</strong> using each set's
+        Battle Factory tier IVs. The <strong>Trainers</strong> tab covers the Battle Factory and
+        Battle Tower; the other Frontier facilities are planned.
       </footer>
-    </div>
-  );
-}
-
-// Shown when a not-yet-implemented facility is selected: keeps the mode toggle
-// honest about what has data behind it.
-function FacilityPlaceholder({ facility }: { facility: Facility }) {
-  return (
-    <div className="facility-stub">
-      <div className="facility-stub__card">
-        <h2>{facility.name}</h2>
-        <p className="facility-stub__soon">Not implemented yet</p>
-        <p>{facility.blurb}</p>
-        {facility.ivByTier ? (
-          <p className="facility-stub__ivs">
-            Planned IVs by tier: {[1, 2, 3, 4, 5, 6, 7, 8].map((t) => facility.ivByTier![t]).join(" / ")}
-          </p>
-        ) : (
-          <p className="facility-stub__ivs">IVs scale with Rank (rank-based), not the battle round.</p>
-        )}
-        <p className="facility-stub__hint">
-          Switch back to <strong>Battle Factory</strong> for the implemented Sets &amp; Trainers views.
-        </p>
-      </div>
     </div>
   );
 }

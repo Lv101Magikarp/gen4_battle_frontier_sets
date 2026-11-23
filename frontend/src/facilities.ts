@@ -1,7 +1,8 @@
-// The Battle Frontier is five facilities. This app currently has data for the
-// Battle Factory; the others are modelled here so the mode toggle + facility-aware
+// The Battle Frontier is five facilities. The Battle Factory and Battle Tower are
+// implemented; the rest are modelled here so the facility picker + facility-aware
 // IV logic are in place, and enabling one later is mostly a matter of flipping
-// `implemented` and supplying its data.
+// `implemented` and supplying its data. Facility only affects the Trainers view
+// (roster + IVs) — the Sets list and calculator are facility-independent.
 //
 // IVs are uniform across stats and set by the facility:
 //   * Factory:              0 / 4 / 8 / 12 / 16 / 20 / 24 / 31   (by tier band 1-8)
@@ -19,9 +20,6 @@ export interface Facility {
   blurb: string;
   // IV per tier band (1-8). Null for rank-based facilities (Hall).
   ivByTier: Record<number, number> | null;
-  // Selectable battle levels. The Factory offers Lv 50 and Open Level (100); the
-  // other facilities are open-level only, so they omit this and get no toggle.
-  levels?: number[];
 }
 
 const TOWER_IVS = { 1: 3, 2: 6, 3: 9, 4: 12, 5: 15, 6: 18, 7: 21, 8: 31 };
@@ -34,14 +32,13 @@ export const FACILITIES: Facility[] = [
     implemented: true,
     blurb: "Rent Pokémon and swap for a defeated opponent's. Uniform IVs rise each round.",
     ivByTier: { 1: 0, 2: 4, 3: 8, 4: 12, 5: 16, 6: 20, 7: 24, 8: 31 },
-    levels: [50, 100],
   },
   {
     id: "tower",
     name: "Battle Tower",
     short: "Tower",
-    implemented: false,
-    blurb: "Classic 3-on-3 streak battles with your own team.",
+    implemented: true,
+    blurb: "Classic single-/double-battle streaks; each trainer draws from a fixed set list.",
     ivByTier: TOWER_IVS,
   },
   {

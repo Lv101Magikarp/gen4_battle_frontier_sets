@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Trainer, TrainerData, TrainerFilters } from "../types";
-import type { Facility } from "../facilities";
+import { FACILITIES } from "../facilities";
+import type { Facility, FacilityId } from "../facilities";
 import {
   filterTrainers,
   loadTrainerData,
@@ -25,10 +26,12 @@ function ivFor(facility: Facility, t: Trainer): number {
 export function TrainersView({
   initialTrainer = null,
   facility,
+  onFacilityChange,
   level = 50,
 }: {
   initialTrainer?: number | null;
   facility: Facility;
+  onFacilityChange: (id: FacilityId) => void;
   level?: number;
 }) {
   const [data, setData] = useState<TrainerData | null>(null);
@@ -89,6 +92,22 @@ export function TrainersView({
         </div>
 
         <label className="field">
+          <span>Facility</span>
+          <select
+            value={facility.id}
+            onChange={(e) => onFacilityChange(e.target.value as FacilityId)}
+            title="Battle Frontier facility — sets the IV distribution and roster behaviour"
+          >
+            {FACILITIES.map((f) => (
+              <option key={f.id} value={f.id}>
+                {f.name}
+                {f.implemented ? "" : " · soon"}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="field">
           <span>Trainer / class</span>
           <input
             type="search"
@@ -141,8 +160,8 @@ export function TrainersView({
         </label>
 
         <p className="filters__note">
-          Round X lists every trainer that can appear in that streak block. IVs use the Battle
-          Factory distribution, fixed per trainer by index.{" "}
+          Round X lists every trainer that can appear in that streak block. IVs use the{" "}
+          {facility.name} distribution, fixed per trainer by index.{" "}
           {showRoster
             ? "A trainer randomly draws 3 Pokémon (4 in Doubles) from the roster shown when selected."
             : "In the Factory these opponents field random rental Pokémon, so no fixed team is shown — only their sprite, rounds and IV band."}
@@ -150,6 +169,10 @@ export function TrainersView({
       </aside>
 
       <main className="results">
+        {!facility.implemented ? (
+          <FacilityPlaceholder facility={facility} />
+        ) : (
+        <>
         <div className="results__bar">
           <span className="results__count">
             {data ? `${matches.length} trainer${matches.length === 1 ? "" : "s"}` : "Loading…"}
@@ -194,7 +217,33 @@ export function TrainersView({
           ))}
           {data && matches.length === 0 && <div className="empty">No trainers match these filters.</div>}
         </div>
+        </>
+        )}
       </main>
+    </div>
+  );
+}
+
+// Shown in the Trainers tab when a not-yet-implemented facility is selected: keeps
+// the facility picker usable so you can switch back to Factory/Tower.
+function FacilityPlaceholder({ facility }: { facility: Facility }) {
+  return (
+    <div className="facility-stub">
+      <div className="facility-stub__card">
+        <h2>{facility.name}</h2>
+        <p className="facility-stub__soon">Not implemented yet</p>
+        <p>{facility.blurb}</p>
+        {facility.ivByTier ? (
+          <p className="facility-stub__ivs">
+            Planned IVs by tier: {[1, 2, 3, 4, 5, 6, 7, 8].map((t) => facility.ivByTier![t]).join(" / ")}
+          </p>
+        ) : (
+          <p className="facility-stub__ivs">IVs scale with Rank (rank-based), not the battle round.</p>
+        )}
+        <p className="facility-stub__hint">
+          Pick <strong>Battle Factory</strong> or <strong>Battle Tower</strong> above for a working roster.
+        </p>
+      </div>
     </div>
   );
 }
