@@ -92,9 +92,14 @@ export function setIndexLabel(setIndex: number | null): string {
 // Each Battle Tower trainer picks from a fixed, themed set list (e.g. Fishermen =
 // Water-types, the tier-8 bosses = Legendaries). The theme isn't stored in the
 // source; it's summarised here from the pool's actual contents so the UI can show
-// "picks from: Water" instead of dumping the whole roster. A type counts as a
-// theme when it covers at least this fraction of the pool.
-const TYPE_THEME_THRESHOLD = 0.45;
+// "picks from: Water" instead of dumping the whole roster. A pool is type-themed
+// when its most common type covers at least PRIMARY of it; once it qualifies, any
+// further type down to SECONDARY is listed too, so dual themes read in full (e.g.
+// Cameramen are Psychic/Electric — Electric covers ~38%, below the primary bar but
+// clearly part of the theme). The gap between the two keeps incidental types out
+// (bug-catcher Poison ~31%, clown Ghost ~25%).
+const TYPE_PRIMARY_THRESHOLD = 0.45;
+const TYPE_SECONDARY_THRESHOLD = 0.35;
 
 // Some pools are built around a move gimmick rather than a type. The PI class
 // draws from sets packing one-hit-KO moves (Fissure/Horn Drill/Guillotine/Sheer
@@ -166,9 +171,10 @@ function speciesCategories(roster: ThemeMon[]): Pick<RosterTheme, "categories" |
     for (const t of m.types) counts.set(t, (counts.get(t) ?? 0) + 1);
   const ranked = [...counts.entries()].sort((a, b) => b[1] - a[1]);
 
-  const themes = ranked.filter(([, c]) => c / n >= TYPE_THEME_THRESHOLD).slice(0, 3);
-  if (themes.length > 0)
+  if (ranked.length > 0 && ranked[0][1] / n >= TYPE_PRIMARY_THRESHOLD) {
+    const themes = ranked.filter(([, c]) => c / n >= TYPE_SECONDARY_THRESHOLD).slice(0, 3);
     return { categories: themes.map(([t]) => ({ kind: "type", label: t, type: t })), mostly: [] };
+  }
   return {
     categories: [{ kind: "varied", label: "Varied" }],
     mostly: ranked.slice(0, 2).map(([t]) => t),

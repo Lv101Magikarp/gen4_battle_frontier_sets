@@ -233,7 +233,10 @@ export function TrainersView({
                       {theme.categories.map((c) => (
                         <CategoryChip key={c.label} cat={c} />
                       ))}
-                      {theme.mostly.length > 0 && (
+                      {/* A set-locked trainer draws from the whole species dictionary at
+                          that set number, so its type spread is just dex demographics — only
+                          show the "mostly" lean for pools that aren't set-locked. */}
+                      {theme.mostly.length > 0 && theme.setIndex == null && (
                         <span className="roster__mostly">mostly {theme.mostly.join(", ")}</span>
                       )}
                       {theme.setIndex != null ? (
