@@ -53,6 +53,7 @@ const DEFAULT_FILTERS: Filters = {
   legendaryOnly: false,
   setIndex: null,
   statKey: "",
+  statCmp: ">=",
   statMin: "",
   sort: "dexNum",
   order: "asc",

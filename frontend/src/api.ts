@@ -12,7 +12,11 @@ export function buildQuery(f: Filters): string {
   if (f.pokeTier != null) p.set("pokeTier", String(f.pokeTier));
   if (f.legendaryOnly) p.set("legendaryOnly", "true");
   if (f.setIndex != null) p.set("setIndex", String(f.setIndex));
-  if (f.statKey && f.statMin) p.set(`${f.statKey}Min`, f.statMin);
+  if (f.statKey && f.statMin) {
+    // Backend exposes <stat>Min / <stat>Max; "=" is the degenerate range [v, v].
+    if (f.statCmp !== "<=") p.set(`${f.statKey}Min`, f.statMin);
+    if (f.statCmp !== ">=") p.set(`${f.statKey}Max`, f.statMin);
+  }
   p.set("tier4Iv", String(f.tier4Iv));
   p.set("level", String(f.level));
   p.set("sort", f.sort);

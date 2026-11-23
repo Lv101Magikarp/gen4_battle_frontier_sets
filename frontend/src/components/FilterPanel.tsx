@@ -1,4 +1,4 @@
-import type { Facets, Filters, StatKey } from "../types";
+import type { Facets, Filters, StatCmp, StatKey } from "../types";
 import { STAT_LABELS } from "../types";
 import { tierColor, TIER_LABELS, typeColor } from "../theme";
 
@@ -10,6 +10,10 @@ interface Props {
 }
 
 const STAT_KEYS: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
+
+// Clicking the comparison symbol cycles ≥ → ≤ → = → ≥.
+const STAT_CMP_CYCLE: Record<StatCmp, StatCmp> = { ">=": "<=", "<=": "=", "=": ">=" };
+const STAT_CMP_SYMBOL: Record<StatCmp, string> = { ">=": "≥", "<=": "≤", "=": "=" };
 
 // Battle Factory tier 1-8 = the IV bracket a set is drawn at (see setMatchesPokeTier).
 const POKE_TIERS = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -177,7 +181,7 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
       </div>
 
       <div className="field">
-        <span>Minimum final stat</span>
+        <span>Final stat</span>
         <div className="stat-filter">
           <select
             value={filters.statKey}
@@ -190,7 +194,16 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
               </option>
             ))}
           </select>
-          <span className="gte">≥</span>
+          <button
+            type="button"
+            className="gte"
+            disabled={!filters.statKey}
+            title="Toggle comparison (≥ / ≤ / =)"
+            aria-label={`Comparison: ${filters.statCmp}`}
+            onClick={() => update({ statCmp: STAT_CMP_CYCLE[filters.statCmp] })}
+          >
+            {STAT_CMP_SYMBOL[filters.statCmp]}
+          </button>
           <input
             type="number"
             min={0}

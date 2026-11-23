@@ -5,6 +5,7 @@ export interface Move {
 
 export type StatKey = "hp" | "atk" | "def" | "spa" | "spd" | "spe";
 export type StatMap = Record<StatKey, number>;
+export type StatCmp = ">=" | "<=" | "=";
 
 export interface PokeSet {
   id: string;
@@ -60,6 +61,7 @@ export interface Filters {
   legendaryOnly: boolean; // show only Legendary/Mythical species
   setIndex: number | null;
   statKey: StatKey | "";
+  statCmp: StatCmp; // how statMin is compared against the computed stat
   statMin: string;
   sort: string;
   order: "asc" | "desc";
