@@ -124,10 +124,24 @@ const STARTER_DEX = new Set<number>([
 const EEVEE_DEX = new Set<number>([133, 134, 135, 136, 196, 197, 470, 471]);
 
 export interface RosterCategory {
-  kind: "legendary" | "starter" | "eevee" | "gimmick" | "type" | "varied";
+  kind: "legendary" | "starter" | "eevee" | "gimmick" | "type" | "varied" | "curated";
   label: string; // display text, e.g. "Water", "Legendaries", "Varied"
   type?: string; // the Pokémon type (for colouring) when kind === "type"
 }
+
+// Some trainer pools are thematically coherent in a way no type-coverage test can
+// catch (dragons + "pseudo-dragons", a "cool"/powerhouse pool, a "gangsta" rogues'
+// gallery…), so they'd fall back to "Varied". These curated labels are keyed by
+// groupId — NOT class — because several classes own both a generic tier-1 beginner
+// pool (genuinely Varied) and a separate themed pool; only the latter is listed.
+// Applied only when the pool would otherwise read as "Varied" (see rosterTheme).
+const CURATED_GROUP_THEME: Record<string, string> = {
+  "dragon-tamer-0": "dragons/pseudo dragons",
+  "dragon-tamer-1": "dragons/pseudo dragons",
+  "ninja-boy-1": "cool pkmn",
+  "pok-kid-1": "cool pkmn",
+  "roughneck-0": "gangsta pkmn",
+};
 
 export interface RosterTheme {
   categories: RosterCategory[];
@@ -195,12 +209,18 @@ function speciesCategories(roster: ThemeMon[]): Pick<RosterTheme, "categories" |
 // Summarise the pool a trainer draws from: its species categories plus the fixed
 // set number (if any). Derived from the pool itself, so it stays correct if the
 // data is regenerated.
-export function rosterTheme(roster: ThemeMon[]): RosterTheme {
+export function rosterTheme(roster: ThemeMon[], groupId?: string): RosterTheme {
   if (roster.length === 0) return { categories: [], mostly: [], setIndex: null };
   // Fixed to a set number when every member with a known set number shares it
   // (trainer-exclusive variants carry no set number and are ignored).
   const nums = new Set<number>();
   for (const m of roster) if (m.setIndex != null) nums.add(m.setIndex);
   const setIndex = nums.size === 1 ? [...nums][0] : null;
-  return { ...speciesCategories(roster), setIndex };
+  const base = speciesCategories(roster);
+  // A curated theme overrides only the "Varied" fallback — a pool that resolves to
+  // a real type/Legendary/etc. theme keeps it.
+  const curated = groupId ? CURATED_GROUP_THEME[groupId] : undefined;
+  if (curated && base.categories.length === 1 && base.categories[0].kind === "varied")
+    return { categories: [{ kind: "curated", label: curated }], mostly: [], setIndex };
+  return { ...base, setIndex };
 }

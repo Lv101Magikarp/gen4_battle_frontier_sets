@@ -101,7 +101,10 @@ export function TrainersView({
     () => (data && selectedTrainer ? rosterRawSets(data, selectedTrainer) : []),
     [data, selectedTrainer],
   );
-  const theme = useMemo(() => rosterTheme(rawRoster), [rawRoster]);
+  const theme = useMemo(
+    () => rosterTheme(rawRoster, selectedTrainer?.groupId),
+    [rawRoster, selectedTrainer],
+  );
   const [rosterOpen, setRosterOpen] = useState(false);
   useEffect(() => setRosterOpen(false), [selected]);
 
@@ -302,8 +305,8 @@ function FacilityPlaceholder({ facility }: { facility: Facility }) {
 }
 
 // A single roster-category chip. Type categories are coloured by their Pokémon
-// type; the non-type categories (Legendaries/Starters/Eeveelutions/Varied) use
-// neutral accent styling.
+// type; the non-type categories (Legendaries/Starters/Eeveelutions/Varied/curated)
+// use neutral accent styling.
 function CategoryChip({ cat }: { cat: RosterCategory }) {
   if (cat.kind === "type") {
     return (

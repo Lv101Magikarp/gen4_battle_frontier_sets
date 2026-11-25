@@ -1201,6 +1201,10 @@ input, select, button {
 .roster__cat--gimmick {
   background: #d9480f;
 }
+.roster__cat--curated {
+  background: #7048e8; /* violet accent for hand-curated, non-type pool themes */
+  text-transform: none; /* keep curated labels (e.g. "cool pkmn") verbatim */
+}
 .roster__cat--setindex {
   background: transparent;
   color: var(--accent);
