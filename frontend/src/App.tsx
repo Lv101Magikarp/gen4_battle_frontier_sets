@@ -52,9 +52,7 @@ const DEFAULT_FILTERS: Filters = {
   pokeTier: null,
   legendaryOnly: false,
   setIndex: null,
-  statKey: "",
-  statCmp: ">=",
-  statMin: "",
+  statFilters: [],
   sort: "dexNum",
   order: "asc",
   tier4Iv: 31,
@@ -276,7 +274,7 @@ export default function App() {
     if (filters.pokeTier != null) n++;
     if (filters.legendaryOnly) n++;
     if (filters.setIndex != null) n++;
-    if (filters.statKey && filters.statMin) n++;
+    n += filters.statFilters.filter((sf) => sf.key && sf.value).length;
     return n;
   }, [filters]);
 

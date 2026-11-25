@@ -1,4 +1,4 @@
-import type { Facets, Filters, StatCmp, StatKey } from "../types";
+import type { Facets, Filters, StatCmp, StatFilter, StatKey } from "../types";
 import { STAT_LABELS } from "../types";
 import { tierColor, TIER_LABELS, typeColor } from "../theme";
 
@@ -29,6 +29,17 @@ const POKE_TIER_TITLES: Record<number, string> = {
 };
 
 export function FilterPanel({ filters, facets, update, reset }: Props) {
+  const statFilters = filters.statFilters;
+
+  const addStatFilter = () =>
+    update({ statFilters: [...statFilters, { key: "hp", cmp: ">=", value: "" }] });
+
+  const updateStatFilter = (i: number, patch: Partial<StatFilter>) =>
+    update({ statFilters: statFilters.map((sf, idx) => (idx === i ? { ...sf, ...patch } : sf)) });
+
+  const removeStatFilter = (i: number) =>
+    update({ statFilters: statFilters.filter((_, idx) => idx !== i) });
+
   return (
     <aside className="filters">
       <div className="filters__head">
@@ -181,38 +192,51 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
       </div>
 
       <div className="field">
-        <span>Final stat</span>
-        <div className="stat-filter">
-          <select
-            value={filters.statKey}
-            onChange={(e) => update({ statKey: e.target.value as StatKey | "" })}
-          >
-            <option value="">—</option>
-            {STAT_KEYS.map((k) => (
-              <option key={k} value={k}>
-                {STAT_LABELS[k]}
-              </option>
-            ))}
-          </select>
-          <button
-            type="button"
-            className="gte"
-            disabled={!filters.statKey}
-            title="Toggle comparison (≥ / ≤ / =)"
-            aria-label={`Comparison: ${filters.statCmp}`}
-            onClick={() => update({ statCmp: STAT_CMP_CYCLE[filters.statCmp] })}
-          >
-            {STAT_CMP_SYMBOL[filters.statCmp]}
+        <span>Final stats</span>
+        <div className="stat-filters">
+          {statFilters.map((sf, i) => (
+            <div className="stat-filter" key={i}>
+              <select
+                value={sf.key}
+                onChange={(e) => updateStatFilter(i, { key: e.target.value as StatKey })}
+              >
+                {STAT_KEYS.map((k) => (
+                  <option key={k} value={k}>
+                    {STAT_LABELS[k]}
+                  </option>
+                ))}
+              </select>
+              <button
+                type="button"
+                className="gte"
+                title="Toggle comparison (≥ / ≤ / =)"
+                aria-label={`Comparison: ${sf.cmp}`}
+                onClick={() => updateStatFilter(i, { cmp: STAT_CMP_CYCLE[sf.cmp] })}
+              >
+                {STAT_CMP_SYMBOL[sf.cmp]}
+              </button>
+              <input
+                type="number"
+                min={0}
+                max={999}
+                placeholder="100"
+                value={sf.value}
+                onChange={(e) => updateStatFilter(i, { value: e.target.value })}
+              />
+              <button
+                type="button"
+                className="stat-filter__remove"
+                title="Remove this condition"
+                aria-label="Remove stat condition"
+                onClick={() => removeStatFilter(i)}
+              >
+                ×
+              </button>
+            </div>
+          ))}
+          <button type="button" className="btn-link stat-filter__add" onClick={addStatFilter}>
+            + Add stat condition
           </button>
-          <input
-            type="number"
-            min={0}
-            max={999}
-            placeholder="100"
-            value={filters.statMin}
-            disabled={!filters.statKey}
-            onChange={(e) => update({ statMin: e.target.value })}
-          />
         </div>
       </div>
 

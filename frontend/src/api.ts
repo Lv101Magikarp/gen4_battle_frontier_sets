@@ -12,11 +12,20 @@ export function buildQuery(f: Filters): string {
   if (f.pokeTier != null) p.set("pokeTier", String(f.pokeTier));
   if (f.legendaryOnly) p.set("legendaryOnly", "true");
   if (f.setIndex != null) p.set("setIndex", String(f.setIndex));
-  if (f.statKey && f.statMin) {
-    // Backend exposes <stat>Min / <stat>Max; "=" is the degenerate range [v, v].
-    if (f.statCmp !== "<=") p.set(`${f.statKey}Min`, f.statMin);
-    if (f.statCmp !== ">=") p.set(`${f.statKey}Max`, f.statMin);
+  // Collapse the stat conditions into the backend's one-Min/one-Max-per-stat
+  // shape: ≥ raises the min, ≤ lowers the max, = pins both. Multiple rows on the
+  // same stat merge to the tightest bound (so ≥100 AND ≤150 becomes a range).
+  const statMin: Partial<Record<string, number>> = {};
+  const statMax: Partial<Record<string, number>> = {};
+  for (const sf of f.statFilters) {
+    if (!sf.key || sf.value === "") continue;
+    const v = Number(sf.value);
+    if (Number.isNaN(v)) continue;
+    if (sf.cmp !== "<=") statMin[sf.key] = Math.max(statMin[sf.key] ?? v, v);
+    if (sf.cmp !== ">=") statMax[sf.key] = Math.min(statMax[sf.key] ?? v, v);
   }
+  for (const [k, v] of Object.entries(statMin)) p.set(`${k}Min`, String(v));
+  for (const [k, v] of Object.entries(statMax)) p.set(`${k}Max`, String(v));
   p.set("tier4Iv", String(f.tier4Iv));
   p.set("level", String(f.level));
   p.set("sort", f.sort);

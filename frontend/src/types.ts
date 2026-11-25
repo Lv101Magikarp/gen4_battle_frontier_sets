@@ -7,6 +7,15 @@ export type StatKey = "hp" | "atk" | "def" | "spa" | "spd" | "spe";
 export type StatMap = Record<StatKey, number>;
 export type StatCmp = ">=" | "<=" | "=";
 
+// One computed-stat condition. Several can be combined (AND) — e.g. two rows on
+// the same stat with ≥ and ≤ form a range; rows on different stats narrow across
+// stats. `value` is kept as a string so the number input can be cleared.
+export interface StatFilter {
+  key: StatKey;
+  cmp: StatCmp;
+  value: string;
+}
+
 export interface PokeSet {
   id: string;
   dexNum: number;
@@ -60,9 +69,7 @@ export interface Filters {
   pokeTier: number | null; // Battle Factory tier 1-8 (IV bracket); tier 8 = all Tier 4+ sets
   legendaryOnly: boolean; // show only Legendary/Mythical species
   setIndex: number | null;
-  statKey: StatKey | "";
-  statCmp: StatCmp; // how statMin is compared against the computed stat
-  statMin: string;
+  statFilters: StatFilter[]; // computed-stat conditions, AND-combined
   sort: string;
   order: "asc" | "desc";
   tier4Iv: number;

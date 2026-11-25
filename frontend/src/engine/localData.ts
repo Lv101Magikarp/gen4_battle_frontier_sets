@@ -100,18 +100,18 @@ export async function searchLocal(f: Filters): Promise<SearchResponse> {
   if (f.pokeTier != null) results = results.filter((s) => setMatchesPokeTier(s, f.pokeTier as number));
   if (f.legendaryOnly) results = results.filter((s) => s.legendary);
   if (f.setIndex != null) results = results.filter((s) => s.setIndex === f.setIndex);
-  if (f.statKey && f.statMin) {
-    const n = Number(f.statMin);
-    if (!Number.isNaN(n)) {
-      const key = f.statKey as StatKey;
-      const cmp =
-        f.statCmp === "<="
-          ? (v: number) => v <= n
-          : f.statCmp === "="
-            ? (v: number) => v === n
-            : (v: number) => v >= n;
-      results = results.filter((s) => cmp(s.stats[key]));
-    }
+  for (const sf of f.statFilters) {
+    if (!sf.key || sf.value === "") continue;
+    const n = Number(sf.value);
+    if (Number.isNaN(n)) continue;
+    const key = sf.key;
+    const cmp =
+      sf.cmp === "<="
+        ? (v: number) => v <= n
+        : sf.cmp === "="
+          ? (v: number) => v === n
+          : (v: number) => v >= n;
+    results = results.filter((s) => cmp(s.stats[key]));
   }
 
   results = sortResults(results, f.sort, f.order);

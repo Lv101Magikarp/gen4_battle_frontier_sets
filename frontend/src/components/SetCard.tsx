@@ -4,7 +4,7 @@ import type { PokeSet, StatKey } from "../types";
 import { STAT_LABELS } from "../types";
 import { spriteUrl, tierColor, TIER_LABELS, typeColor } from "../theme";
 import { NATURE_EFFECT } from "../natures";
-import { computeStats, TIER4_IVS, LOWER_TIER_IVS, RANK_IV_BY_SET_INDEX } from "../engine/stats";
+import { computeStats, TIER4_PREVIEW_IVS, LOWER_TIER_IVS, RANK_IV_BY_SET_INDEX } from "../engine/stats";
 import type { IvMode } from "../engine/stats";
 import { loadMoveDex, resolveMove, type MoveDex } from "../engine/calcData";
 import { MoveInfoTip } from "./MoveInfoTip";
@@ -65,7 +65,7 @@ export function SetCard({
   // default to their fixed game-accurate IV (tierIv 0/4/8); Tier 4+ default to 31.
   // Stats are computed client-side from the selected IV.
   const isTier4 = set.tierIv == null;
-  const ivOptions = isTier4 ? TIER4_IVS : LOWER_TIER_IVS;
+  const ivOptions = isTier4 ? TIER4_PREVIEW_IVS : LOWER_TIER_IVS;
   // Card default IV: the set's own default (31 for Tier 4+ / tierIv for lower),
   // except a Tier 4+ set in "rank" mode defaults to its set-slot's round IV.
   const defaultIv =
