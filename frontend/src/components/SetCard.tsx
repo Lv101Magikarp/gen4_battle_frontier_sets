@@ -156,7 +156,6 @@ export function SetCard({
                 {t}
               </span>
             ))}
-            <span className="dex">#{String(set.dexNum).padStart(3, "0")}</span>
           </div>
         </div>
       </header>
