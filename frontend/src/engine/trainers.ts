@@ -140,7 +140,6 @@ const CURATED_GROUP_THEME: Record<string, string> = {
   "dragon-tamer-1": "dragons/pseudo dragons",
   "ninja-boy-1": "cool pkmn",
   "pok-kid-1": "cool pkmn",
-  "roughneck-0": "gangsta pkmn",
 };
 
 export interface RosterTheme {
