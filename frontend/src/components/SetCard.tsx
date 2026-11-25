@@ -166,19 +166,6 @@ export function SetCard({
           <span className="meta__value">{set.item || "—"}</span>
         </div>
         <div className="meta">
-          <span className="meta__label">Nature</span>
-          <span className="meta__value">
-            {set.nature}
-            {effect && (
-              <span className="nature-fx">
-                {" "}
-                <span className="up">+{STAT_LABELS[effect.up]}</span>{" "}
-                <span className="down">−{STAT_LABELS[effect.down]}</span>
-              </span>
-            )}
-          </span>
-        </div>
-        <div className="meta">
           <span className="meta__label">Ability</span>
           <span className="meta__value meta__value--muted" title="Possible abilities (source does not specify the exact one)">
             {set.abilities.join(" / ") || "—"}
@@ -231,6 +218,15 @@ export function SetCard({
                 ))}
               </select>
             </label>
+          )}
+        </div>
+        <div className="stats__nature">
+          <span className="stats__nature-name">{set.nature}</span>
+          {effect && (
+            <span className="nature-fx">
+              <span className="up">+{STAT_LABELS[effect.up]}</span>{" "}
+              <span className="down">−{STAT_LABELS[effect.down]}</span>
+            </span>
           )}
         </div>
         {STAT_ORDER.map((k) => {
