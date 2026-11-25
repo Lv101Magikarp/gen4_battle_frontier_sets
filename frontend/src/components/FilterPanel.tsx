@@ -7,6 +7,9 @@ interface Props {
   facets: Facets | null;
   update: (patch: Partial<Filters>) => void;
   reset: () => void;
+  // Mobile-only: hide the panel (it's toggled open from the Filters button).
+  // Ignored on desktop, where the panel is always shown.
+  collapsed?: boolean;
 }
 
 const STAT_KEYS: StatKey[] = ["hp", "atk", "def", "spa", "spd", "spe"];
@@ -28,7 +31,7 @@ const POKE_TIER_TITLES: Record<number, string> = {
   8: "Tier 8 · IV 31 · Tier 4+, all sets 1-4",
 };
 
-export function FilterPanel({ filters, facets, update, reset }: Props) {
+export function FilterPanel({ filters, facets, update, reset, collapsed }: Props) {
   const statFilters = filters.statFilters;
 
   const addStatFilter = () =>
@@ -41,7 +44,7 @@ export function FilterPanel({ filters, facets, update, reset }: Props) {
     update({ statFilters: statFilters.filter((_, idx) => idx !== i) });
 
   return (
-    <aside className="filters">
+    <aside className={`filters ${collapsed ? "filters--collapsed" : ""}`}>
       <div className="filters__head">
         <h2>Filters</h2>
         <button className="btn-link" onClick={reset}>

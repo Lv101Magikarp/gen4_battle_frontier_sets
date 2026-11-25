@@ -17,6 +17,7 @@ const FACILITY_KEY = "facility";
 const LEVEL_KEY = "level";
 const IV_MODE_KEY = "ivMode";
 const ROLL_MODE_KEY = "calcRollMode";
+const COLS_KEY = "mobileCols";
 
 // Deep links: "#trainers" opens the Trainers tab, "#trainers/150" also opens that
 // trainer's roster (index read by TrainersView); "#calc" opens the calculator.
@@ -109,6 +110,18 @@ function useIvMode(): [IvMode, (m: IvMode) => void] {
   return [mode, setMode];
 }
 
+// Cards per row on phones (1 or 2). Only takes effect at the mobile breakpoint
+// (the desktop grid stays auto-fill); persisted like the other display settings.
+function useMobileCols(): [1 | 2, (n: 1 | 2) => void] {
+  const [cols, setCols] = useState<1 | 2>(() =>
+    localStorage.getItem(COLS_KEY) === "2" ? 2 : 1,
+  );
+  useEffect(() => {
+    localStorage.setItem(COLS_KEY, String(cols));
+  }, [cols]);
+  return [cols, setCols];
+}
+
 // Which roll's % the calculator shows next to each move (max/mean/min). A persisted
 // global display preference like the level/IV mode.
 function useRollMode(): [RollMode, (m: RollMode) => void] {
@@ -139,6 +152,16 @@ export default function App() {
   const [level, setLevel] = useLevel();
   const [ivMode, setIvMode] = useIvMode();
   const [rollMode, setRollMode] = useRollMode();
+  const [mobileCols, setMobileCols] = useMobileCols();
+  // Mobile-only: the filter panel collapses to a toggle (closed on load) so it
+  // doesn't push the sets down; `isMobile` is a one-time check used to skip the
+  // search autofocus on phones (which otherwise pops the keyboard and scrolls).
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [isMobile] = useState(
+    () =>
+      typeof window !== "undefined" &&
+      window.matchMedia("(max-width: 860px)").matches,
+  );
   // Calculator state lives here (not inside DamageCalcView) so the two sides and
   // weather survive switching away from and back to the Calculator tab.
   const [calcA, setCalcA] = useState<CalcSide | null>(null);
@@ -309,7 +332,7 @@ export default function App() {
               value={filters.q}
               placeholder="Search a Pokémon…"
               onChange={(e) => update({ q: e.target.value })}
-              autoFocus
+              autoFocus={!isMobile}
             />
           )}
         </div>
@@ -383,9 +406,26 @@ export default function App() {
         />
       ) : (
       <div className="layout">
-        <FilterPanel filters={filters} facets={facets} update={updateFilter} reset={reset} />
+        <FilterPanel
+          filters={filters}
+          facets={facets}
+          update={updateFilter}
+          reset={reset}
+          collapsed={!filtersOpen}
+        />
 
         <main className="results">
+          <button
+            className="filters-toggle"
+            onClick={() => setFiltersOpen((o) => !o)}
+            aria-expanded={filtersOpen}
+          >
+            <span>⚙ Filters</span>
+            {activeFilterCount > 0 && (
+              <span className="filters-toggle__badge">{activeFilterCount}</span>
+            )}
+            <span className="filters-toggle__caret">{filtersOpen ? "▾" : "▸"}</span>
+          </button>
           <div className="results__bar">
             <span className="results__count">
               {loading ? "Searching…" : `${count} set${count === 1 ? "" : "s"}`}
@@ -414,6 +454,29 @@ export default function App() {
                   aria-pressed={ivMode === "rank"}
                 >
                   Tier
+                </button>
+              </div>
+              <div
+                className="viewnav cols-toggle"
+                role="group"
+                aria-label="Cards per row"
+                title="Cards per row (phone only)"
+              >
+                <button
+                  className={`viewnav__btn ${mobileCols === 1 ? "viewnav__btn--on" : ""}`}
+                  onClick={() => setMobileCols(1)}
+                  aria-pressed={mobileCols === 1}
+                  aria-label="One column"
+                >
+                  ▯
+                </button>
+                <button
+                  className={`viewnav__btn ${mobileCols === 2 ? "viewnav__btn--on" : ""}`}
+                  onClick={() => setMobileCols(2)}
+                  aria-pressed={mobileCols === 2}
+                  aria-label="Two columns"
+                >
+                  ▯▯
                 </button>
               </div>
               <label className="sort">
@@ -449,7 +512,7 @@ export default function App() {
                   Clear all
                 </button>
               </div>
-              <div className="grid">
+              <div className={`grid grid--m${mobileCols}`}>
                 {pinned.map((set, i) => (
                   <SetCard
                     key={set.id}
@@ -478,7 +541,7 @@ export default function App() {
             <div className="empty">No sets match these filters.</div>
           )}
 
-          <div className={`grid ${loading ? "grid--loading" : ""}`}>
+          <div className={`grid grid--m${mobileCols} ${loading ? "grid--loading" : ""}`}>
             {visible.map((set) => (
               <SetCard
                 key={set.id}
